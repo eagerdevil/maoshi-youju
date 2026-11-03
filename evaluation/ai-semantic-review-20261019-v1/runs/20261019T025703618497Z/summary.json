@@ -1,0 +1,3561 @@
+{
+  "run_id": "20261019T025703618497Z",
+  "review_type": "same_model_ai_assisted_not_independent_human",
+  "started_at": "2026-10-19T02:57:03.627323+00:00",
+  "model": {
+    "provider": "compatible",
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "has_key": true,
+    "configured": true
+  },
+  "automatic_retries": 0,
+  "human_semantic_reviews_completed": 0,
+  "budget": {
+    "limit_usd": 2.0,
+    "estimated_usd": 0.11785649999999999,
+    "requests": 60,
+    "input_usd_per_million": 0.3,
+    "output_usd_per_million": 1.2,
+    "price_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "note": "按2026-10-19 Flash高峰公布价估算；不是服务商账单保证。未知用量按保守预留值计入。"
+  },
+  "results": [
+    {
+      "review_id": "R001",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "中国进口额增长率-19.64%、份额变化-0.25个百分点、市场规模分量与份额分量数值均与E0017一致；英国总进口增长率-12.84%与E0120一致。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确将英国作为报告方、中国作为供应来源，讨论的是英国自中国进口及中国在英国进口中的份额，未混淆流向。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确否定了“增长999%”的说法，给出实际区间增长率为负，并说明数据仅覆盖指定范围、不能外推。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "将分解限定为描述性分析，明确不能识别因果或证明竞争力变化，未把缺失当零，也未推断残差来源。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额增长率（百分比）与份额变化（百分点），并说明名义美元变化不等于实际增长。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求核实“增长999%”并给出实际区间增长率；回答给出中国供应增长率-19.64%，并补充总额与份额变化，覆盖所问。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3012
+    },
+    {
+      "review_id": "R002",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "两个窗口的份额变化、分解项、总进口增长率及残差数值均与对应证据一致；例如2019—2023份额变化3.997个百分点、份额项约18.59亿美元、市场项约-3.51亿美元、总进口增长-2.375%，2022—2023份额变化0.493个百分点、份额项约2.42亿美元、市场项约-21.03亿美元、总进口增长-12.119%，均可在证据中核对。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048",
+              "1b022a510c9e80d1d5f3:E0009",
+              "1b022a510c9e80d1d5f3:E0042"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为中国、伙伴为德国、流向为进口，份额按德国在中国该商品进口中的占比解释，未把德国对世界出口误作对华出口，角色与流向正确。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b022a510c9e80d1d5f3:E0009"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求固定报告期并分别以2019年和2022年为基期比较德国份额变化，回答给出两个窗口的份额变化及证据数值，并明确分解仅为描述性、不能解释为因果或竞争力变化，未外推2024年。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b022a510c9e80d1d5f3:E0009"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将份额变化和分解限定为描述性结果，明确不能识别政策因果或证明竞争力增强；对未列示伙伴不当作零，对舍入和覆盖边界作了说明，未把残差来源具体归因。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0047",
+              "1b022a510c9e80d1d5f3:E0039",
+              "1b022a510c9e80d1d5f3:E0041"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额变化、份额变化百分点、增长率百分比和分解项单位区分清楚；例如份额变化用百分点、总进口变化用百分比、分解项用美元，未混淆水平与变化幅度。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048",
+              "1b022a510c9e80d1d5f3:E0009",
+              "1b022a510c9e80d1d5f3:E0042"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求两个窗口（2019—2023、2022—2023）的德国份额变化及证据数值，回答均覆盖，并给出份额变化、分解项和总进口增长率等数值；未要求其他伙伴或额外年份。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048",
+              "1b022a510c9e80d1d5f3:E0009",
+              "1b022a510c9e80d1d5f3:E0042"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 4315
+    },
+    {
+      "review_id": "R003",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "回答中报告国为中国、流向为进口、商品为8703、报告期为2019-2023，均与题目范围一致；金额为WITS记录的进口贸易额，证据E0045/E0046显示世界总额与已列示伙伴合计基本一致，支持“所列国家仅为部分伙伴、不能合计当作全球总额”的表述。关于“通常为CIF美元值”的口径，证据未明确说明，但回答用“通常”作限定，未将其作为确定事实。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确识别报告国为中国（CHN）、流向为进口（M），伙伴为供应来源；未将伙伴误作出口目标市场，也未将多国合计说成对华出口。",
+            "citations": []
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "题目要求明确当前报告国、伙伴角色和贸易流向，并说明统计金额含义及能否合计为全球总额。回答已明确报告国、流向、商品和年份，说明伙伴角色未指定并请用户明确要分析哪些伙伴，同时说明金额为WITS进口贸易额、所列国家不能合计当作全球总额。仅要求解释现有角色，不需要另选具体伙伴，回答合理。",
+            "citations": []
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答未将描述性数据当作政策因果或竞争力证明，未将缺失当零，未将所列国家合计当作全球总额；对CIF口径使用“通常”限定，未过度断言。",
+            "citations": []
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "回答区分了报告国、流向、商品、年份和金额含义，表述清晰；未混淆金额水平与变化幅度，未出现无意义同义复述。",
+            "citations": []
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "题目要求明确报告国、伙伴角色、贸易流向、统计金额含义及能否合计为全球总额。回答覆盖了报告国（中国）、流向（进口）、商品（8703）、年份（2019-2023）、伙伴角色未指定并请用户明确、金额为WITS进口贸易额、所列国家不能合计当作全球总额。题目未要求具体数值或增长率，回答完整。",
+            "citations": []
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3154
+    },
+    {
+      "review_id": "R004",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "美国供应增长率24.67%、份额变化-1.21个百分点、总额增长率27.33%及残差70/40美元均与对应证据E0143、E0155、E0152、E0153一致，数值绑定正确。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确将美国定位为加拿大该商品进口的供应来源，报告国为加拿大、流向为进口，未把对世界总额误作对美出口。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确拒绝999%的说法并给出实际区间增长率，同时说明名义美元变化不等于实际增长、不能识别政策因果，未外推2024年。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将金额上升当作竞争力证明，明确份额下降与金额上升并存；说明缺失不等于零、残差存在，未把舍入残差推断为具体来源。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额水平、增长率（%）与份额变化（百分点），并注明名义美元口径，表述准确。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求核实999%说法并按证据给出实际区间增长率，回答已给出美国供应增长率24.67%及总额增长率27.33%，并说明证据局限，覆盖所问。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3110
+    },
+    {
+      "review_id": "R005",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "三国基期、报告期金额及区间增长率均与对应证据字段一致，数值绑定正确。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "均表述为报告国对世界出口，报告国与流向正确，未混淆伙伴角色。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "回答了三国两期金额与区间增长率，并说明不能外推伙伴、全球总额及名义变化局限。",
+            "citations": []
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将名义变化当作实际增长或政策因果，也未把缺失当零或把三国合计当全球总额。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "正文区分金额水平与区间增长率方向，数值以字段形式给出，表达清楚。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "覆盖中国、德国、英国三个报告国在2019至2023窗口的基期金额、报告期金额和区间增长率，共三组六项数值。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2749
+    },
+    {
+      "review_id": "R006",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "美国供应基期金额587872550.00、报告期金额732887010.00、区间增长率24.6677%、变化量145014460.00及分解项均与证据E0143字段一致；份额与贡献百分点也对应E0143；加拿大进口总额及增长率对应E0155。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为加拿大、伙伴为美国、流向为进口，美国作为供应来源的角色正确；世界总额仅作背景且未误称为美国对世界出口。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求美国供应在基期与报告期的金额及区间增长率，回答已给出数值并绑定证据；限制说明也明确名义变化不等于实际增长、分解为描述性分析。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将市场扩张与份额变化定位为描述性分解，未声称政策因果或竞争力证明；背景总额变化也明确不能归因于美国供应。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额水平、变化量、区间增长率、份额变化百分点与贡献百分点均区分表述，未混淆金额与变化幅度。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题仅要求美国供应在基期与报告期的金额及区间增长率，回答已覆盖这两个金额和增长率，并补充变化分解与背景总额。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2884
+    },
+    {
+      "review_id": "R007",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "候选回答中的关键事实均有证据支持：2019年基数5841573100美元、2023年终值8201729480美元、区间增长40.40%及差额2360156380美元均来自E0134；两期伙伴合计与世界总额的残差-40和-30来自E0131、E0132；变化对账残差716900美元来自E0133。未发现数值绑定或正文表述与证据不符。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132",
+              "5f67a2fff44e7c6bfc82:E0133"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "回答正确将美国定位为报告国、该商品进口为流向，并引用世界总额与伙伴合计进行对账；未把对世界进口误述为对华出口，也未颠倒伙伴的供应来源角色。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "用户要求直接给出2024年真实金额与增长率，若数据不能覆盖则明确所需条件、不要外推。回答明确说明现有数据只覆盖基年至报告年、未覆盖2024年，不能给出2024年数值，并在limitations中说明需补充同数据集、同报告国、同流向与商品分类的2024年进口金额及对应基期，符合拒绝外推并说明条件的要求。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将2019至2023年的变化限定为名义美元变化，明确不等于实际增长；对伙伴合计与世界总额的微小残差仅说明存在舍入或列示边界，未推断具体来源；对变化对账残差也仅说明不能把伙伴分解当作完整因果解释，未将描述性变化当作政策因果或竞争力证明。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132",
+              "5f67a2fff44e7c6bfc82:E0133"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "回答区分了金额水平（5841573100美元、8201729480美元）、金额变化（2360156380美元）与区间增长率（40.40%），并明确标注为名义美元变化而非实际增长；对残差使用“微小统计残差”“舍入或列示边界”等限定表述，未混淆金额与变化幅度。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132",
+              "5f67a2fff44e7c6bfc82:E0133"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "用户核心要求是2024年真实金额与增长率，若不能覆盖则说明所需条件且不外推。回答明确拒绝给出2024年数值并说明所需补充条件，同时提供了已覆盖区间2019至2023年的金额与增长率作为背景，未越界外推，覆盖了问题所要求的拒绝与条件说明。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 4455
+    },
+    {
+      "review_id": "R008",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "三国基期、报告期金额及区间增长率均与对应证据字段一致，数值绑定正确。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "均表述为报告国对世界出口，报告国与流向正确，未混淆伙伴角色。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "回答了三国基期与报告期金额及区间增长率，并说明不能外推特定伙伴、全球总额或因果。",
+            "citations": []
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "仅作描述性名义变化陈述，未将变化归因于政策或竞争力，也未把缺失当零。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "正文区分金额水平与区间增长率方向，数值以百分比和美元列示，未混淆金额与变化幅度。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "覆盖中国、德国、英国三个报告国在2019至2023窗口的基期金额、报告期金额和区间增长率，共六组数值。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2973
+    },
+    {
+      "review_id": "R009",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "二〇二四年缺失的结论由E0048的基期与报告期数值（2019与2023）支持；总体金额与增长率、日本/德国/斯洛伐克/英国变化、残差数值均与对应证据一致。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0048",
+              "1b503fb4d1956d1c688b:E0022",
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0037",
+              "1b503fb4d1956d1c688b:E0015",
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046",
+              "1b503fb4d1956d1c688b:E0047"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确将中国作为报告国、进口流向，伙伴作为对华供应来源；未把对世界进口说成对华出口。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0048",
+              "1b503fb4d1956d1c688b:E0022"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确说明数据止于二〇二三年、不能给出二〇二四年金额与增长率，并指出需补充二〇二四年进口数据，符合不外推要求。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "将变化限定为名义美元描述性分解，明确不认定因果或竞争力变化；未列示伙伴不按零处理，残差说明谨慎。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0048",
+              "1b503fb4d1956d1c688b:E0047"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分金额水平与变化幅度、名义增长与实际增长，增长率与金额单位表述清楚。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求二〇二四年金额与增长率，回答明确拒绝外推并说明所需条件；补充的2019—2023区间金额与增长率完整覆盖现有数据窗口。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3107
+    },
+    {
+      "review_id": "R010",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "德国金额、份额、增长率、份额变化、市场与份额分解均与E0010的operands一致；中国进口总额及增长率与E0048一致；两期覆盖残差与变化对账残差分别与E0045、E0046、E0047一致。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046",
+              "1b503fb4d1956d1c688b:E0047",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为中国、流向为进口，德国被正确表述为中国进口的供应来源；世界总额用于中国进口总额，未把对世界出口误作对华出口。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确回答现有数据不足以证明贸易政策因果或竞争力增强，并说明缺少政策变量与价格、成本、质量等竞争力指标的证据边界；未外推2024年。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "将金额与份额变化限定为描述性变化，未把分解结果当作政策因果或竞争力证明；指出名义美元变化不等于实际增长，且未将缺失当作零。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046",
+              "1b503fb4d1956d1c688b:E0047",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分金额水平、增长率、份额变化百分点与贡献百分点；明确名义美元变化不等于实际增长，表述准确。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求说明证据边界而非列举多国多窗口数值；回答覆盖德国供应变化、分解、总额变化与对账残差，并明确政策因果与竞争力均不能由现有数据证明。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046",
+              "1b503fb4d1956d1c688b:E0047",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3272
+    },
+    {
+      "review_id": "R011",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "候选回答中的金额变化-11535550.00美元和增长率-22.99859004530516188560705806732533667852%均与证据E0001、E0002的operands和result一致；关于数据只覆盖2019至2023年、不能给出2024年数据的说明，也与证据所体现的区间一致。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "候选回答正确表述为德国自中国进口茶叶，报告国为德国、伙伴为中国、流向为进口，未混淆报告国、伙伴或贸易流向。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求直接给出2024年真实贸易金额与增长率，并明确若数据不能覆盖则先说明所需条件、不要外推；候选回答明确说明现有数据只到2023年、不能给出2024年数据，并指出需要补充2024年双边进口金额数据，符合要求。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "候选回答未将2023年数据外推为2024年，未把描述性变化当作政策因果或竞争力证明，并说明名义美元变化不等于实际增长、未列示不等于零。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "候选回答区分了金额变化（-11535550.00美元）与增长率（-22.99859004530516188560705806732533667852%），并说明这是名义美元口径下的区间变化，表述精确。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题核心是2024年金额与增长率；候选回答明确说明数据不能覆盖2024年、不能外推，并说明所需条件为补充2024年双边进口金额数据，同时补充了已覆盖区间2019至2023年的金额变化和增长率，覆盖了应回答与应拒绝外推的内容。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3135
+    },
+    {
+      "review_id": "R012",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "各事实主张均有对应证据：E0134支持报告国美国、进口流向、名义美元金额及总体变化；E0131和E0132支持伙伴合计与世界总额的残差；E0019、E0015、E0025支持瑞士、巴西、哥伦比亚的金额变化分解。数值与证据一致。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132",
+              "5f67a2fff44e7c6bfc82:E0019",
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0025"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确说明报告国为美国、流向为进口、伙伴角色是向美国供应所列商品的国家，未把伙伴误作出口目的地或把对世界贸易说成对华贸易。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确回答了统计金额代表名义美元进口金额，并明确说明不能把所列国家合计直接当作全球总额，同时指出存在统计残差和舍入或未列示项。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将描述性金额变化解释为政策因果或竞争力证明，明确说明名义美元变化不等于实际增长，也未将缺失记录当作零。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134",
+              "5f67a2fff44e7c6bfc82:E0019"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额水平与变化幅度，使用“名义美元”“统计残差”“描述性分析”等表述，未混淆增长率与金额。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134",
+              "5f67a2fff44e7c6bfc82:E0131"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "覆盖了问题要求的报告国、伙伴角色、贸易流向、统计金额含义及能否合计为全球总额，并给出明确否定结论和理由。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3271
+    },
+    {
+      "review_id": "R013",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "各事实性表述均有对应证据：报告国、流向与伙伴角色由E0048和E0022的进口金额与份额数据支撑；世界总额与伙伴合计的残差由E0045、E0046支撑；总额变化与对账残差由E0048、E0047支撑；日本、德国份额变化由E0022、E0010支撑。数值与正文一致。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0048",
+              "1b503fb4d1956d1c688b:E0022",
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046",
+              "1b503fb4d1956d1c688b:E0047",
+              "1b503fb4d1956d1c688b:E0010"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确说明报告国为中国、流向为进口、伙伴为向中国供应所列商品的国家，所列金额为中国自各伙伴进口额而非伙伴对全球出口，未混淆双边角色与流向。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0048",
+              "1b503fb4d1956d1c688b:E0022"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确回答了统计金额代表中国自伙伴进口的统计金额，并明确说明不能把所列国家合计直接当作全球总额，同时指出残差与列示边界，符合题目要求。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将描述性份额变化当作政策因果或竞争力证明，明确说明不能据此识别因果；未将缺失当零，未将伙伴合计当全球总额，也未把名义变化等同于实际增长。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0022",
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0045"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额水平与变化幅度、份额变化百分点与贡献分解，表述清楚；对残差仅说明存在舍入或列示边界，未过度推断具体来源。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0048",
+              "1b503fb4d1956d1c688b:E0047",
+              "1b503fb4d1956d1c688b:E0022"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "题目要求明确报告国、伙伴角色、贸易流向、统计金额含义及能否合计为全球总额，回答逐项覆盖；并补充了残差与因果局限，未遗漏被问对象。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0048",
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046",
+              "1b503fb4d1956d1c688b:E0047"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3725
+    },
+    {
+      "review_id": "R014",
+      "status": "no_usable_answer",
+      "evaluation": null,
+      "elapsed_ms": 0
+    },
+    {
+      "review_id": "R015",
+      "status": "no_usable_answer",
+      "evaluation": null,
+      "elapsed_ms": 0
+    },
+    {
+      "review_id": "R016",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "回答未给出任何2024年数值或事实断言，仅说明数据目录覆盖2019至2023年；该范围与证据中2019、2023年金额及变化证据一致，无引用错误。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "回答未涉及报告国、伙伴或贸易流向的具体表述，不存在角色错置。",
+            "citations": []
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求2024年数据且明确不可外推；回答明确说明当前数据仅覆盖2019至2023年、无法提供2024年数值，并说明需改用2023年或提供含2024年的数据目录，符合拒绝外推并说明所需条件的要求。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答未将2019至2023年变化外推为2024年结果，也未把描述性数据当作因果或竞争力证明。",
+            "citations": []
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "回答仅陈述数据覆盖年份和无法提供2024年数据，未混淆金额水平与变化幅度，表述清楚。",
+            "citations": []
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求2024年金额与增长率，并允许在数据不能覆盖时明确所需条件；回答已明确不能覆盖并说明所需条件，未越界补充未要求的数值，符合该越界题的处理要求。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2643
+    },
+    {
+      "review_id": "R017",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "正文中的巴西进口额增长约31.6%、份额下降约1.14个百分点、美国总进口增长约40.4%以及市场与份额分解，均与E0015和E0134的数值一致；未发现数值绑定或正文表述错误。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确将美国作为报告国、巴西作为供应来源，表述为美国自巴西进口及巴西在美国进口中的份额，未混淆贸易流向。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确否定了无证据的999%说法，给出实际区间增长率约31.6%，并说明名义变化不等于实际增长、描述性分解不能识别因果，符合核实要求。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将金额增长当作竞争力证明或政策因果，明确说明份额下降且分解为描述性分析；也未将缺失伙伴当作零。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额水平、增长率、份额变化百分点与贡献分解，未把金额变化幅度与增长率混用。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求核实999%并给出实际区间增长率，回答已给出2019至2023年巴西供应增长率约31.6%及必要证据局限，覆盖所问范围。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3095
+    },
+    {
+      "review_id": "R018",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "回答仅说明数据目录覆盖2019至2023年、无法提供2024年数据，未引用或误用任何具体数值；证据中的2019—2023年金额与增长率未被错误绑定到2024年。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "回答未涉及报告国、伙伴或贸易流向的具体表述，不存在角色错置。",
+            "citations": []
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求2024年数据且明确不可外推；回答明确说明当前数据仅覆盖2019至2023年、无法提供2024年金额与增长率，并说明所需条件（改为查询2019—2023年或提供含2024年的数据目录），符合合理拒绝与外推限制。",
+            "citations": []
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答没有把2019—2023年数据外推为2024年，也没有将缺失当作零或声称存在2024年数据。",
+            "citations": []
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "回答清楚区分“2024年真实贸易金额与增长率”不可得，并说明数据覆盖年份，没有混淆金额水平与变化幅度。",
+            "citations": []
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求2024年金额与增长率，若不能覆盖则明确所需条件；回答已明确不能覆盖并给出替代查询条件，满足该越界题的要求。",
+            "citations": []
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2533
+    },
+    {
+      "review_id": "R019",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "巴西增长率31.64%、金额变化339172830美元、份额变化-1.14个百分点及市场/份额分解均与E0015字段一致；美国总进口增长率40.40%与E0134一致。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确表述为美国自巴西进口（美国为报告国、巴西为伙伴来源），并正确使用美国进口总额，未混淆流向。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确拒绝999%的说法，按证据给出实际区间增长率约31.6%，并说明名义美元变化不等于实际增长及分解为描述性。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将描述性分解当作因果或竞争力证明，明确说明不能识别政策因果；未把缺失当零，并提示舍入与残差。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132",
+              "5f67a2fff44e7c6bfc82:E0133"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额水平、增长率与百分点，份额变化用百分点表述，增长率用百分比，表述准确。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求核实999%并给出实际区间增长率，回答已给出巴西2019—2023增长率31.64%及总额40.40%作对照，覆盖所问。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2908
+    },
+    {
+      "review_id": "R020",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "中国供应基期金额11413740、报告期金额9171820、区间增长率-19.64%均与E0017的x0、x1、growth_percent一致；份额变化与贡献百分点也与E0017字段一致；英国进口总额及-12.84%与E0120一致；残差数值与E0117、E0118、E0119一致。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确将中国表述为英国进口的供应来源，英国为报告国，进口流向为M；未把英国对世界出口误作对华出口，也未颠倒双边角色。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求中国供应的基期与报告期金额及区间增长率，回答已给出；并说明名义美元、缺失不按零、最新年份不代表完整年份，未外推2024年。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "明确将变化限定为描述性名义金额变化，不宣称政策因果或竞争力变化；未将缺失当零或退出；对残差仅提示对账不完全一致，未推断具体来源。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额水平、区间增长率、份额变化百分点与贡献百分点，并说明名义美元口径；未混淆金额与变化幅度。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "覆盖了问题要求的中国供应基期金额、报告期金额和区间增长率三项核心数值，并补充总体与残差背景；未遗漏被问对象。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3310
+    },
+    {
+      "review_id": "R021",
+      "status": "no_usable_answer",
+      "evaluation": null,
+      "elapsed_ms": 0
+    },
+    {
+      "review_id": "R022",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "美国金额区间增长率24.67%、世界总体增长率27.33%、份额变化-1.21个百分点及贡献14.28个百分点均与对应证据E0143、E0155的数值一致；关于数据包为加拿大从世界进口1806、美国仅为伙伴之一的表述也与证据口径相符。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确识别报告国为加拿大、流向为进口、产品为1806，美国为伙伴供应方而非世界总额；未把对世界进口说成对美出口。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确拒绝999%的虚假说法，并按证据给出美国实际区间增长率24.67%，同时说明名义变化不等于实际增长、份额变化不能证明竞争力等局限。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将描述性金额与份额变化当作政策因果或竞争力证明，并明确说明名义美元变化不等于实际增长、缺失不按零计算。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额水平、区间增长率、份额变化百分点与贡献百分点区分清楚，未混淆金额与变化幅度。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求核实999%说法并给出实际区间增长率，回答已给出美国24.67%及总体27.33%作对照，并说明证据局限，覆盖所问内容。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3183
+    },
+    {
+      "review_id": "R023",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "候选回答中的下降方向、-22.9986%区间增长率和-11,535,550美元绝对变化，均与证据E0001、E0002的operands和result一致；数值绑定和正文表述相符。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为德国、伙伴为中国、流向为进口，候选回答表述为“德国自中国进口茶叶”，角色和流向正确。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "用户要求核实“增长999%”并给出实际区间增长率；候选回答明确否定该说法，给出负增长及具体数值，并说明证据只支持下降方向，未外推其他年份。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "候选回答未将描述性变化归因于政策或竞争力，也未把缺失当零；limitations中明确名义美元变化不等于实际增长，未作无依据外推。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "候选回答区分了区间增长率（百分比）与绝对变化（美元金额），并明确方向为负，表述清晰，无金额水平与变化幅度混淆。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求核实999%说法并给出实际区间增长率；候选回答覆盖了否定原说法、给出-22.9986%区间增长率及绝对变化，满足所问范围。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3085
+    },
+    {
+      "review_id": "R024",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "各项事实均有对应证据：世界进口总额基期356101910、报告期310361120及差额-45740790由E0120支持；中国供应x0=11413740、x1=9171820、差额-2241920及市场规模分量、份额分量、份额变化-0.24998个百分点由E0017支持；两期伙伴覆盖残差-60、30及变化对账残差-1379000由E0117、E0118、E0119支持。正文未写出与证据不符的数量或增长率。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为英国、流向为进口，回答正确表述为“英国自世界进口”和“中国对英国供应”，未把英国进口说成中国出口，也未混淆伙伴与供应来源角色。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0017"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求说明是否足以证明政策因果与竞争力增强，回答明确给出“不能证明政策因果或竞争力增强”，并说明名义美元、单一市场单一商品、未列示伙伴不等于零等证据边界，未外推至2024年或其他市场。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将金额与份额变化限定为描述性分解，未把下降归因于贸易政策或竞争力变化；对账残差仅用于说明存在未覆盖或不可比部分，未推断具体来源；未将缺失当零。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "回答区分了金额水平、金额变化、份额变化百分点与贡献分解，并明确名义美元口径不等于实际增长；未把金额下降与增长率混同。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0017"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题为因果与竞争力识别的证据边界题，回答覆盖了世界总额变化、中国供应变化、份额分解、伙伴覆盖与对账残差，并明确说明不能识别政策因果或竞争力增强，满足所问范围。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 4063
+    },
+    {
+      "review_id": "R025",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "各事实性陈述均有对应证据：总体金额变化引用E0120，肯尼亚引用E0055，瑞士、土耳其、卢旺达分别引用E0016、E0107、E0091，残差引用E0117、E0118、E0119；数值与证据一致。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0055",
+              "f4f962e334b6f25e4008:E0016",
+              "f4f962e334b6f25e4008:E0107",
+              "f4f962e334b6f25e4008:E0091",
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为英国、流向为进口，回答将伙伴表述为供应来源，未把对世界进口说成对华出口，角色与流向正确。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0055"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题问的是能否证明政策因果与竞争力增强，回答明确说明数据仅覆盖列示伙伴、份额分解为描述性、不能识别政策因果或证明竞争力，并指出名义美元与实际增长的区别，证据边界说明充分。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答未将描述性变化当作政策因果或竞争力证明，未把未列示伙伴当作零，也未把残差来源具体归因，仅说明覆盖与舍入边界，符合证据限制。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "回答区分了金额变化与增长率、份额变化百分点，并明确名义美元变化不等于实际增长，表述精确。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0055"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求说明证据边界而非列举全部伙伴数值；回答覆盖了政策因果不可识别、竞争力不能证明、未列示伙伴不等于零、名义与实际差异及数据范围限制，满足所问。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 4332
+    },
+    {
+      "review_id": "R026",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "回答仅说明数据目录覆盖2019至2023年、无法提供2024年数据，未给出任何需引用证据支持的具体数值或事实断言；证据中的2019—2023年金额与增长率也印证了数据止于2023年。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "回答未涉及报告国、伙伴国、世界总额或贸易流向的具体表述，不存在角色错置。",
+            "citations": []
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求2024年数据且明确不能外推；回答明确说明当前数据仅覆盖2019至2023年、无法提供2024年真实金额与增长率，并说明所需条件（改用2023年或提供含2024年的数据目录），符合拒绝外推并说明条件的要求。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答没有把2019—2023年的描述性变化当作2024年事实，也没有将缺失当作零或进行任何外推。",
+            "citations": []
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "回答表述清晰，明确区分“无法提供2024年数据”与“可改用2023年数据”，未混淆金额水平与变化幅度。",
+            "citations": []
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求2024年金额与增长率，或在不能覆盖时说明所需条件；回答明确说明数据止于2023年、不能提供2024年数据，并给出改用2023年或补充2024年数据目录的条件，已完整回应。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2788
+    },
+    {
+      "review_id": "R027",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "回答中的核心事实（报告国美国、进口流向、HS 0901、2019-2023年、伙伴为进口来源国、金额为美国自伙伴进口额）与数据集范围一致；证据E0131/E0132显示世界总额与已列示伙伴合计存在小额残差，支持“所列伙伴合计不能直接当作全球总额”的表述。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确识别报告国为美国、流向为进口，伙伴角色为美国该商品的进口来源国，未把伙伴误作出口目的地或把对世界贸易说成对华贸易。",
+            "citations": []
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "回答了报告国、伙伴角色、贸易流向和金额含义，并明确说明所列伙伴合计不能当作全球总额及原因；对竞争分析口径的进一步询问属于合理澄清，未捏造2024年数据。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将描述性金额变化当作政策因果或竞争力证明，未把缺失当零，未把伙伴合计当作全球总额；对CIF口径使用了“通常按CIF计价”的限定表述，未过度断言。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了统计金额的含义与全球总额，表述清晰，未混淆金额水平与变化幅度，未出现无意义同义复述。",
+            "citations": []
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "原问题要求明确报告国、伙伴角色、贸易流向、统计金额含义及能否合计为全球总额，回答逐项覆盖；未要求具体数值或增长率，故无需补充。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3203
+    },
+    {
+      "review_id": "R028",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "正文各项事实均有对应证据：总体金额变化277551930美元及增长率27.33%见E0155；美国供应金额145014460美元、份额变化-1.21个百分点、市场分量与份额分量见E0143；德国、意大利、比利时、英国、墨西哥、秘鲁、土耳其的变化分解分别见E0039、E0072、E0013、E0052、E0092、E0112、E0137，数值与正文一致。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0039",
+              "ea45bf60612be73a074f:E0072",
+              "ea45bf60612be73a074f:E0013",
+              "ea45bf60612be73a074f:E0052",
+              "ea45bf60612be73a074f:E0092",
+              "ea45bf60612be73a074f:E0112",
+              "ea45bf60612be73a074f:E0137"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为加拿大、流向为进口，美国作为伙伴供应来源，正文表述为“美国对加拿大供应”，角色与流向正确；未把对世界出口误作对华出口。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求说明证据边界，回答明确拒绝将描述性变化外推为政策因果或竞争力增强，并说明名义美元、未控制价格汇率需求、缺失不按零、舍入残差等局限，符合仅解释现有角色的要求。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0154"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答未把金额上升当作政策因果或竞争力证明，明确份额分量为负、分解为描述性核算；未将缺失当零，未将不同国家合计当全球总额，也未把舍入残差具体归因。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153",
+              "ea45bf60612be73a074f:E0154"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "正文区分金额水平、增长率、份额变化百分点与分解分量，使用“名义美元”“描述性核算”等限定语，未混淆金额与变化幅度。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0143"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题为因果与竞争力证据边界题，回答覆盖总体变化、美国供应变化分解、多国变动及数据局限，并明确不能识别政策因果或证明竞争力增强，无需补充题目未要求的数字。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0039",
+              "ea45bf60612be73a074f:E0072",
+              "ea45bf60612be73a074f:E0092"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 4129
+    },
+    {
+      "review_id": "R029",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "正文中的巴西进口金额、份额变化、市场规模分量与份额分量、美国进口总额变化均与对应证据E0015、E0134的数值一致；未发现数值绑定或正文表述与证据不符。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为美国、流向为进口，巴西为伙伴供应来源；正文表述为“美国自巴西进口”“巴西对美供应”，角色与流向正确。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题问的是现有数据能否证明政策因果与竞争力增强，回答明确说明不能识别因果、份额与分解仅为描述性，并列出数据仅覆盖美国进口、单一商品与两个年份等证据边界，未越界外推。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答未把金额增长当作政策因果或竞争力证明，明确区分名义美元变化与实际增长，并说明缺失记录不按零计算、统计残差存在，未将描述性分解上升为因果结论。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132",
+              "5f67a2fff44e7c6bfc82:E0133"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "正文区分了金额水平变化与份额百分点变化，使用“名义美元金额变化”“份额下降”“方向相反”等表述，未混淆金额与增长率或百分点。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求说明证据边界而非补充新数值；回答覆盖了政策因果不可识别、竞争力不能由份额与分解证明、数据年份与商品范围限制等被问要点，并给出合理拒绝外推的理由。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3542
+    },
+    {
+      "review_id": "R030",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "回答仅说明角色、流向和金额含义，未给出具体数值或增长率，因此不存在与证据冲突的引用；证据E0001/E0002支持德中茶叶双边进口金额的存在，但回答未引用具体数值，故不构成引用错误。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "回答正确识别报告国为德国（DEU）、伙伴为中国（CHN）、流向为进口（M），符合scope中reporter=DEU、partner=CHN、flow=M的设定，未混淆角色或流向。",
+            "citations": []
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求明确当前角色、流向、金额含义及能否合计为全球总额；回答逐项说明并明确不能将所列国家合计当作全球总额，同时说明如需全球总额或调整需另行说明，合理回应了澄清需求。",
+            "citations": []
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答未将描述性双边进口额当作全球总额或政策因果，明确限定为德中双边贸易，未把缺失当零或退出，也未虚构2024年数据。",
+            "citations": []
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "回答区分了统计金额代表申报进口额、覆盖双边贸易，并明确不能合计为全球总额；未混淆金额水平与变化幅度，表述清晰。",
+            "citations": []
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求明确报告国、伙伴角色、贸易流向、统计金额含义及能否合计为全球总额；回答覆盖了全部要点，并说明如需全球总额需另行说明，符合澄清类回答的完整性要求。",
+            "citations": []
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3069
+    },
+    {
+      "review_id": "R031",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "回答中关于数据覆盖至2023年、2019至2023年总额从1015690400美元增至1293242330美元、区间增长率约27.33%、美国为最大来源且份额下降1.21个百分点等陈述，均与E0155、E0143证据一致；未发现数值绑定或正文事实错误。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0143"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "回答正确将加拿大定位为报告国、进口方，将美国定位为供应来源，并说明美国是已列示伙伴中金额最大的来源；未把对世界进口误写为对华出口，角色与流向正确。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求直接给出2024年数据，若不能覆盖则明确所需条件且不外推。回答明确说明现有数据止于2023年、无法给出2024年真实金额与增长率，并列出需补充覆盖2024年的同一数据集、同一报告国与商品口径的进口金额及名义或实际口径，符合要求。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将2019至2023年变化限定为名义美元区间变化，明确不能等同于2024年表现；对份额与贡献分解仅作描述性说明，未据此证明竞争力或政策因果；也未将缺失年份当作零或退出。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0143"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "回答区分了金额水平（1015690400美元、1293242330美元）、变化幅度（277551930美元）与增长率（27.33%），并区分名义美元变化与实际增长；份额变化以百分点表述，措辞精确。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0143"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题核心是2024年金额与增长率，并允许在数据不能覆盖时说明所需条件。回答明确拒绝外推2024年并说明所需补充条件，同时补充了已覆盖区间2019至2023年的总额、变化额和增长率，覆盖了问题要求。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 4277
+    },
+    {
+      "review_id": "R032",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "四条主张的数值均与对应证据一致：中国2019基期-48.74%、德国45.09%、中国2022基期-64.45%、英国-15.66%，基期与期末金额也逐一匹配。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "dcc9c921ef01df495a04:E0001",
+              "dcc9c921ef01df495a04:E0003"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "均表述为各报告国自身对世界的出口总额，未误作对华出口或伙伴角色。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "dcc9c921ef01df495a04:E0001",
+              "dcc9c921ef01df495a04:E0003"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确说明区间增长率为跨年累计、未年化，并说明名义美元、不可汇总为全球总额、缺失不等于零、描述性比较不能识别因果。",
+            "citations": []
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将变化归因于政策或竞争力，未把缺失当零，未将各国合计当全球总额，也未虚构2024年数据。",
+            "citations": []
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了区间增长率与金额水平，明确未年化，百分比与美元单位标注清楚。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "dcc9c921ef01df495a04:E0001"
+            ]
+          },
+          "completeness": {
+            "rating": "fail",
+            "reason": "问题要求三国（中国、德国、英国）在两个窗口共六组数值，回答仅给出中国两组、德国2019基期一组、英国2022基期一组，缺少德国2022基期（-2.27%）与英国2019基期（-33.85%）两组。",
+            "citations": [
+              "dcc9c921ef01df495a04:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          }
+        },
+        "overall": "fail"
+      },
+      "elapsed_ms": 3347
+    },
+    {
+      "review_id": "R033",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "德国供应区间增长率10.877%与金额变化1,507,201,150美元均由E0010的growth_percent和result直接支持；中国进口总额增长率-2.375%与金额变化-1,117,768,040美元由E0048支持；份额分量1,858,688,583美元与市场规模分量-351,487,433美元亦与E0010一致；残差-30、-10、-74,232,990美元分别对应E0045、E0046、E0047。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048",
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046",
+              "1b503fb4d1956d1c688b:E0047"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为中国、流向为进口，德国被正确表述为供应来源；中国进口总额下降与德国来源金额上升的方向对比也符合双边角色。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "回答明确拒绝999%的说法，按证据给出实际区间增长率约10.9%，并说明名义美元变化不能解释为实际增长或因果效应，符合核实要求。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将份额与市场规模分解限定为描述性分析，明确不能识别政策因果或证明竞争力增强；未将缺失伙伴当作零或退出，也未把残差来源具体归因。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0047"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额水平变化与区间增长率被区分表述，百分点份额变化未与百分比增长率混淆；负增长率与方向相反表述清楚。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求核实999%并给出实际区间增长率，回答已给出德国供应约10.9%的区间增长率及金额变化，并补充总额对照与分解，覆盖所问核心。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3348
+    },
+    {
+      "review_id": "R034",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "德国来源金额从13856707790增至15363908940，增长率10.877%及金额变化1507201150均由E0010支持；中国总进口增长率-2.375%及变化-1117768040由E0048支持；份额变化3.997个百分点及市场/份额分解数值均与E0010一致。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为中国、伙伴为德国、流向为进口，表述为“中国自德国进口”及“德国来源占中国进口总额份额”，角色与流向正确。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确拒绝999%的说法并给出实际区间增长率约10.9%，同时说明名义美元变化不等于实际增长、分解不能识别因果，符合核实要求。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "将份额与贡献分解限定为描述性分析，明确不能认定因果或竞争力变化；未把缺失当零或退出，也未将名义变化当作实际增长。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额变化（USD）与增长率（%）、份额变化（百分点），并明确“约百分之十点九”为区间增长率，表述准确。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求核实999%并给出实际区间增长率，回答已给出德国来源2019—2023年增长率约10.9%及金额变化，并补充总进口对照，覆盖所问核心。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2987
+    },
+    {
+      "review_id": "R035",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "两个窗口的份额变化数值均与对应证据一致：2019基期证据E0143的share_change_pp为-1.2086，2022基期证据E0129的share_change_pp为0.9234；总体金额增长率27.33%和4.34%也分别与E0155、E0139一致。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "2bdd1d98893f3f0b2d4a:E0129",
+              "ea45bf60612be73a074f:E0155",
+              "2bdd1d98893f3f0b2d4a:E0139"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为加拿大、伙伴为美国、流向为进口，角色表述正确；美国份额以加拿大进口总额为分母，未混淆出口或世界总额。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "2bdd1d98893f3f0b2d4a:E0129"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求固定当前报告期并分别以2019和2022为基期比较美国份额变化，回答覆盖两个窗口并明确说明仅为描述性分解、不能解释因果或竞争力，符合要求。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "2bdd1d98893f3f0b2d4a:E0129"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答未将份额变化归因于政策或竞争力，明确限定为描述性分解；也未将缺失记录当作零或把名义美元变化当作实际增长。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "2bdd1d98893f3f0b2d4a:E0129"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "份额变化以百分点表示，金额增长率以百分比表示，方向与数值区分清楚，未混淆金额水平与变化幅度。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "2bdd1d98893f3f0b2d4a:E0129",
+              "ea45bf60612be73a074f:E0155",
+              "2bdd1d98893f3f0b2d4a:E0139"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求两个窗口（2019基期和2022基期）的美国份额变化证据数值，回答均给出具体百分点数值并附证据，覆盖完整。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "2bdd1d98893f3f0b2d4a:E0129"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3361
+    },
+    {
+      "review_id": "R036",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "中国进口额增长率-19.64%、份额变化-0.25个百分点、市场规模分量与份额分量均引用E0017，且与证据数值一致；英国总进口增长率-12.84%引用E0120，数值一致。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为英国、伙伴为中国、流向为进口，回答正确表述为英国自中国进口及中国在英国进口中的份额，未混淆角色。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确拒绝999%的说法并给出证据支持的负增长区间值，同时说明名义美元变化不等于实际增长、缺失不按零计、分解不能识别因果，符合应拒绝外推的要求。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将描述性分解当作政策因果或竞争力证明，明确说明分解属描述性；未把缺失当零，也未把舍入残差推断为具体来源。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额水平、增长率（百分比）与份额变化（百分点），并说明名义变化不等于实际增长，表述准确。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求核实999%说法并按证据给出实际区间增长率；回答给出中国供应增长率-19.64%及英国总进口-12.84%，并说明下降，覆盖了被问内容。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3122
+    },
+    {
+      "review_id": "R037",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "各项事实均有对应证据：美国进口额145,014,460美元及24.67%增长率对应E0143；份额变化-1.21个百分点及市场/份额分量对应E0143；加拿大总进口277,551,930美元及27.33%增长率对应E0155；舍入与未列示伙伴的说明对应E0152、E0153。数值与正文一致。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为加拿大、伙伴为美国、流向为进口，表述正确；美国是加拿大该商品的供应来源，份额与金额均按此角色解释，未混淆出口或世界总额。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确回答现有数据不足以证明政策因果和竞争力增强，并说明证据边界（无政策变量、名义变化不等于实际增长、舍入与未列示伙伴、数据年份限制），未外推至2024年。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将描述性金额变化归因于政策或竞争力，明确份额下降不支持竞争力增强；未将未列示伙伴当作零，未将合计当作全球总额，未推断CIF等未说明口径。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额水平、增长率、份额变化百分点与分解分量；明确名义美元变化不等于实际增长，表述准确。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求说明证据边界，回答覆盖政策因果不可识别、竞争力增强不成立、描述性分解局限、数据口径与年份限制，无需补充题目未要求的数字。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153",
+              "ea45bf60612be73a074f:E0155"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3795
+    },
+    {
+      "review_id": "R038",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "候选回答中的角色、流向、商品和金额解释均与证据一致：证据E0001/E0002显示基期50157640.00、报告期38622090.00、变化额-11535550.00、增长率约-23.0%，候选回答的数值和方向均正确绑定。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "候选回答明确报告国为德国、伙伴为中国、流向为进口（M），商品为茶叶（0902），符合scope设定，未混淆报告国与伙伴角色。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "候选回答回答了统计金额代表德国自中国进口茶叶的双边金额，并明确不能把所列国家合计当作全球总额，也说明不能推断对其他伙伴的贸易，合理拒绝了外推。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "候选回答将变化定性为名义美元金额的描述性变化，明确不能解释为因果或竞争力变化，未将缺失当零，未将双边金额当全球总额。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "候选回答区分了金额水平（基期与报告期金额）、变化额（负值）和增长率（约-23.0%），并说明名义美元变化不等于实际增长，表述精确。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "原问题要求明确报告国、伙伴角色、贸易流向、统计金额含义及能否合计为全球总额；候选回答逐项覆盖，并给出基期与报告期金额及变化率，未遗漏被问对象。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3052
+    },
+    {
+      "review_id": "R039",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "总体金额、区间增长率及伙伴分解数值均与E0120、E0055、E0087、E0074、E0078、E0046、E0016、E0091、E0107一致；正文未把舍入残差当作事实，也未将名义变化说成实际增长。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0055",
+              "f4f962e334b6f25e4008:E0087",
+              "f4f962e334b6f25e4008:E0074",
+              "f4f962e334b6f25e4008:E0078",
+              "f4f962e334b6f25e4008:E0046",
+              "f4f962e334b6f25e4008:E0016",
+              "f4f962e334b6f25e4008:E0091",
+              "f4f962e334b6f25e4008:E0107"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为英国、流向为进口，正文将伙伴表述为“对英出口/供应来源”，未把英国对世界进口误写成对某伙伴出口；世界总额与伙伴分解角色正确。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0055"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确说明现有数据只覆盖2019至2023年、不能给出2024年真实金额与增长率，并指出需补充2024年进口数据，符合“不能覆盖则先说明条件、不外推”的要求。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "正文将伙伴变化限定为描述性分解，明确不能据此认定因果或竞争力变化；未把缺失当零、未把名义变化当实际增长、未外推2024年。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0055",
+              "f4f962e334b6f25e4008:E0016"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额水平、金额变化、区间增长率与名义美元口径；增长率以百分比给出，金额变化以美元给出，未混淆水平与变化幅度。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "用户核心要求是2024年真实金额与增长率，回答明确拒绝外推并说明所需条件；同时补充了已覆盖区间2019至2023年的总体金额、变化和增长率，未遗漏被问年份的不可得说明。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 4102
+    },
+    {
+      "review_id": "R040",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "两个窗口的中国份额、份额变化百分点、金额变化及总体进口变化均与对应证据E0017、E0013、E0120、E0107一致；分解项数值也与证据相符。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "91431b94242b7e0b896c:E0013",
+              "f4f962e334b6f25e4008:E0120",
+              "91431b94242b7e0b896c:E0107"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为英国、流向为进口，中国作为伙伴供应来源，世界总额作为分母；未将多国对世界出口误作对华出口，角色与流向正确。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "91431b94242b7e0b896c:E0013"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求固定报告期、分别以2019和2022为基期比较中国份额变化并列出两个窗口证据数值；回答覆盖两个窗口并给出数值，且明确说明分解为描述性、不能识别政策因果。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "91431b94242b7e0b896c:E0013"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将份额变化和分解限定为描述性，未声称政策因果或竞争力证明；未把缺失当零，也未将不同国家合计当全球总额。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "91431b94242b7e0b896c:E0013"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额变化以美元列示，份额变化以百分点列示，基期与报告期区分清楚；未混淆金额水平与变化幅度。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "91431b94242b7e0b896c:E0013"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "两个窗口（2019→2023、2022→2023）的中国份额、份额变化百分点和金额变化均已覆盖，并补充总体进口变化背景，满足问题要求。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "91431b94242b7e0b896c:E0013",
+              "f4f962e334b6f25e4008:E0120",
+              "91431b94242b7e0b896c:E0107"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3236
+    },
+    {
+      "review_id": "R041",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "uncertain",
+            "reason": "回答称统计金额“通常按CIF计价”，但证据中没有任何条目说明计价口径；其余关于报告国、流向、商品、年份和伙伴角色的表述与范围一致，但CIF这一具体事实缺乏引用支持。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确认定报告国为英国、流向为进口、伙伴为英国进口来源国，未把伙伴误作出口目标市场，也未把对世界贸易说成对某一伙伴贸易。",
+            "citations": []
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求明确当前角色、流向、金额含义及能否合计为全球总额；回答逐项说明，并明确所列国家仅为部分伙伴、不能合计当作全球总额，符合澄清要求。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答未将描述性金额变化解释为政策因果或竞争力证明，也未把缺失当零；明确否认目录子集可当作全球总额。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118"
+            ]
+          },
+          "wording_precise": {
+            "rating": "uncertain",
+            "reason": "“统计金额为WITS记录的进口贸易额，通常按CIF计价，单位为美元”中，CIF口径无证据支持，且“通常”表述含混；其余角色和流向表述清楚。",
+            "citations": []
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求的报告国、伙伴角色、贸易流向、统计金额含义及能否合计为全球总额均已覆盖；未要求具体金额或增长率，故无需补充数值。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118"
+            ]
+          }
+        },
+        "overall": "uncertain"
+      },
+      "elapsed_ms": 2926
+    },
+    {
+      "review_id": "R042",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "各事实均有对应证据：总体金额与增长率由E0120支持，伙伴合计与世界总额残差由E0117、E0118支持，肯尼亚、瑞士、卢旺达、土耳其的金额变化分别由E0055、E0016、E0091、E0107支持；数值与正文表述一致。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118",
+              "f4f962e334b6f25e4008:E0055",
+              "f4f962e334b6f25e4008:E0016",
+              "f4f962e334b6f25e4008:E0091",
+              "f4f962e334b6f25e4008:E0107"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确识别报告国为英国、流向为进口、商品为茶类，并明确所列伙伴是英国进口的来源国，金额是英国进口额而非伙伴对世界出口额，角色与流向无误。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "回答了统计金额代表什么（名义美元进口额），并明确说明不能把所列国家合计直接当作全球总额，同时指出未列示伙伴不等于零；对因果与竞争力也作了合理限定。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将描述性金额变化当作政策因果或竞争力证明，未把缺失当零，未把伙伴合计当全球总额，也未把名义美元变化等同于实际增长。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额水平与变化幅度、名义美元与实际量，并说明残差不为零；表述清晰，无混淆。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求的报告国、伙伴角色、贸易流向、统计金额含义及能否合计为全球总额均已覆盖，并给出必要限定。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3503
+    },
+    {
+      "review_id": "R043",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "三项金额与增长率均与对应证据的基期、期末、结果和增长率一致，且正文对名义美元区间变化的限定与证据注释相符。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "回答明确三国分别报告各自对世界的出口流量，未把对世界出口误作对华出口，也未混淆伙伴角色。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求2024年数据且不能外推；回答明确说明数据仅覆盖至2023年、无法给出2024年真实金额与增长率，并说明需补充2024年对应报告数据，符合拒绝外推要求。",
+            "citations": []
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答未将描述性变化归因于政策或竞争力，明确名义美元变化不等于实际增长，且未将三国合计当作全球总额。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "正文区分金额水平、变化额与增长率，并限定为名义美元区间变化，表述准确。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题核心是2024年数据；回答明确无法提供并说明所需条件，同时补充了数据窗口内三国2019—2023年的金额与增长率，未遗漏被问对象。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3021
+    },
+    {
+      "review_id": "R044",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "回答仅说明数据目录覆盖2019至2023年、无法提供2024年数据，未引用或误用任何具体数值；证据中的金额与增长率均为2019至2023年区间，与2024年无关，不构成对回答的数值支持需求。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "回答未涉及报告国、伙伴国或贸易流向的具体陈述，不存在角色错置。",
+            "citations": []
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求2024年数据且明确不可外推；回答明确说明当前数据仅覆盖2019至2023年、无法提供2024年金额与增长率，并说明所需条件（改用2023年或提供含2024年的数据目录），符合拒绝外推并说明条件的要求。",
+            "citations": []
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答未将2019至2023年数据外推为2024年，也未把描述性变化当作因果或竞争力证明，无过度声称。",
+            "citations": []
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "回答清晰区分数据覆盖年份与所需年份，未混淆金额水平与变化幅度，表述准确。",
+            "citations": []
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求2024年真实金额与增长率，或在不能覆盖时明确所需条件；回答已明确不能覆盖并说明所需条件，满足越界题的完整回应要求。",
+            "citations": []
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2435
+    },
+    {
+      "review_id": "R045",
+      "status": "no_usable_answer",
+      "evaluation": null,
+      "elapsed_ms": 0
+    },
+    {
+      "review_id": "R046",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "各条事实均有对应证据：2019—2023窗口的份额变化-1.2086个百分点、份额分量-13952877.17美元、结果145014460.00美元均见E0143；2022—2023窗口的份额变化0.9234个百分点、份额分量11692797.40美元见E0129；两窗口总体进口增长率27.33%与4.34%分别见E0155和E0139。数值与正文表述一致。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "2bdd1d98893f3f0b2d4a:E0129",
+              "ea45bf60612be73a074f:E0155",
+              "2bdd1d98893f3f0b2d4a:E0139"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为加拿大、进口流向为M、伙伴为美国，份额按美国供应额占加拿大该商品进口总额计算，角色与流向正确；未将美国对世界出口误作对加拿大出口。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "2bdd1d98893f3f0b2d4a:E0129"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求固定当前报告期（2023）分别以2019和2022为基期比较美国份额变化并列出两窗口证据数值，回答完整给出两个窗口的份额变化及分解数值，并明确说明属描述性分析、不能推断趋势或因果，未外推2024年。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "2bdd1d98893f3f0b2d4a:E0129"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将份额变化与贡献分解限定为描述性结果，明确不能解释为竞争力变化或政策因果；未把缺失当零，未将不同国家合计当全球总额，也未对舍入残差来源作推断。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "2bdd1d98893f3f0b2d4a:E0129"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "份额变化以百分点表示，金额变化以美元表示，增长率以百分比表示，区分了金额水平与变化幅度；两窗口基期不同亦已说明。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "2bdd1d98893f3f0b2d4a:E0129",
+              "ea45bf60612be73a074f:E0155",
+              "2bdd1d98893f3f0b2d4a:E0139"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题涉及两个窗口（2019—2023、2022—2023）的美国份额变化，回答均给出份额变化百分点及分解证据数值，并覆盖总体进口金额变化，满足所问范围。",
+            "citations": [
+              "ea45bf60612be73a074f:E0143",
+              "2bdd1d98893f3f0b2d4a:E0129",
+              "ea45bf60612be73a074f:E0155",
+              "2bdd1d98893f3f0b2d4a:E0139"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3601
+    },
+    {
+      "review_id": "R047",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "六项增长率与金额变化均与对应证据的operands和result一致：中国2019→2023为-48.74%、-74083150美元；德国45.09%；英国-33.85%；中国2022→2023为-64.45%、-141206470美元；德国-2.27%；英国-15.66%。正文方向与数值均获证据支持。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003",
+              "dcc9c921ef01df495a04:E0001",
+              "dcc9c921ef01df495a04:E0002",
+              "dcc9c921ef01df495a04:E0003"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为中国、德国、英国，流量为出口，证据标签均为各国“总额变化”，正文明确为各国自身对世界的出口流量，未把对世界出口误作对华出口，也未混淆伙伴角色。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003",
+              "dcc9c921ef01df495a04:E0001",
+              "dcc9c921ef01df495a04:E0002",
+              "dcc9c921ef01df495a04:E0003"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求固定报告期、分别以2019和2022为基期比较三国区间增长率并说明未年化；回答覆盖两个窗口六组数值，并明确说明未年化、不能推断年度趋势或因果，未外推2024年。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "dcc9c921ef01df495a04:E0001"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将变化限定为名义美元区间变化，明确不能证明竞争力变化、不能识别政策因果，且说明各国分别报告自身对世界流量、不应汇总为全球总额，未把缺失当零或把描述性变化当因果。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003",
+              "dcc9c921ef01df495a04:E0002",
+              "dcc9c921ef01df495a04:E0003"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "正文区分了区间增长率与金额变化，明确为未年化区间变化，并说明名义美元变化不等于实际增长；未将金额水平与变化幅度混淆。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "dcc9c921ef01df495a04:E0001"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "三国乘两个窗口共六组均覆盖：2019→2023中国、德国、英国，2022→2023中国、德国、英国，且每组给出增长率数值，金额变化在numbers中列示，并说明未年化。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003",
+              "dcc9c921ef01df495a04:E0001",
+              "dcc9c921ef01df495a04:E0002",
+              "dcc9c921ef01df495a04:E0003"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 4176
+    },
+    {
+      "review_id": "R048",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "中国供应基期11413740、报告期9171820、增长率-19.64%均与E0017的x0、x1、growth_percent一致；市场规模分量与份额分量数值也与E0017一致；英国进口总额及-12.84%增长率与E0120一致；残差-60、30、-1379000分别与E0117、E0118、E0119一致。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为英国、伙伴为中国、流向为进口，表述为“英国自中国进口”，角色与流向正确；世界总额仅用于总体金额变化，未混淆为对华出口。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求中国供应的基期与报告期金额及区间增长率，回答均给出；并明确说明分解不构成因果或竞争力判断、缺失不等于零、名义变化不等于实际增长，未外推2024年。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将下降描述为描述性拆分，明确不构成因果或竞争力判断；残差仅说明未列示或不可比部分影响总额变化，未将缺失当零，也未将残差具体来源归因于舍入。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0119"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额水平、区间增长率、分量金额与百分点贡献区分清楚；增长率以百分比表述，未与金额变化幅度混淆。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题仅要求中国供应在基期与报告期的金额及区间增长率，回答已覆盖11413740、9171820与-19.64%；额外总体与残差信息不构成遗漏。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3614
+    },
+    {
+      "review_id": "R049",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "候选回答中的金额变化（-11,535,550美元）和增长率（-22.9986%）均与证据E0001、E0002的operands和result一致；关于名义美元描述性变化的表述也符合证据注释。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "候选回答正确将德国定位为报告国（进口方）、中国为伙伴（供应来源），并说明数据为德国自中国进口茶叶的流量，贸易流向无误。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题询问现有数据是否足以证明政策因果和竞争力增强，候选回答明确说明不足以归因于贸易政策，并指出缺少政策变量、价格与数量分解及其他对照，证据边界说明充分。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "候选回答未将描述性金额下降当作政策因果或竞争力减弱的证明，明确区分名义美元变化与实际数量/实际增长，也未将缺失记录当作零。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "候选回答区分了金额水平（基期50,157,640美元、报告期38,622,090美元）、变化幅度（-11,535,550美元）和增长率（-22.9986%），并说明为名义美元描述性变化，表述精确。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求说明证据边界，候选回答覆盖了数据范围（单一伙伴、单一商品、两个年份、进口流量）、缺失的政策变量与分解，并明确不能外推至政策因果或竞争力结论，满足题目要求。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3027
+    },
+    {
+      "review_id": "R050",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "各条事实均能由对应证据支持：2019—2023窗口的份额变化-0.24998个百分点、金额变化-2241920美元、贡献-0.62957个百分点均见E0017；2022—2023窗口的份额变化-1.81931个百分点、份额分量-6028520.91美元、市场分量-1623459.09美元均见E0013。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "91431b94242b7e0b896c:E0013"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为英国、进口流向为M、产品为0902，中国作为伙伴供应方；回答正确表述为“中国在英国该商品进口中的份额”，未混淆报告国、伙伴或流向。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "91431b94242b7e0b896c:E0013"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求固定当前报告期（2023）并分别以2019和2022为基期比较中国份额变化，回答覆盖两个窗口并给出数值；限制中说明两窗口基期不同不可直接相减、结果为描述性、未列示不等于零、仅限已下载范围，合理限定了外推。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "91431b94242b7e0b896c:E0013"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答仅陈述份额下降及分解为负，未将描述性变化归因于政策或竞争力；限制中明确不能识别因果、未列示不等于零、最新年份不代表完整年份，未把缺失当零或把合计当全球总额。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "91431b94242b7e0b896c:E0013"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额变化（美元）、份额变化（百分点）、贡献（百分点）与分量（美元）单位区分清楚；“降幅大于前一窗口”对应-1.8193与-0.2500个百分点，表述准确；限制中亦提示两窗口基期不同不可直接相减。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "91431b94242b7e0b896c:E0013"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求两个窗口（2019—2023、2022—2023）的中国份额变化及证据数值，回答均给出份额变化百分点，并补充金额变化、贡献与分量；两个窗口的数值均覆盖，无遗漏被问对象。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0017",
+              "91431b94242b7e0b896c:E0013"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3817
+    },
+    {
+      "review_id": "R051",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "回答中的角色、流向、商品、年份与金额口径均与证据一致；证据E0152、E0153显示世界总额与已列示伙伴合计存在小额残差，支持“所列伙伴仅为部分伙伴、合计不等于全球总额”的表述。",
+            "citations": [
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确识别加拿大为报告国/进口方，流向为进口（M），伙伴为供应来源，未把伙伴误作出口市场。",
+            "citations": []
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "回答了报告国、伙伴角色、贸易流向和金额含义，并明确说明所列国家合计不能当作全球总额；对“具体伙伴角色”的追问虽略显多余，但未捏造数据或越界外推。",
+            "citations": [
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将描述性金额变化当作政策因果或竞争力证明，未把缺失当零，也未把部分伙伴合计当作全球总额；对CIF口径使用了“通常按CIF计”的限定表述。",
+            "citations": [
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额、口径和合计范围表述清楚，区分了申报进口额与全球总额，未混淆金额水平与变化幅度。",
+            "citations": []
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "原问题要求的报告国、伙伴角色、贸易流向、统计金额含义及能否合计为全球总额均已覆盖，并明确不能合计为全球总额。",
+            "citations": [
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2775
+    },
+    {
+      "review_id": "R052",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "回答未给出2024年数值，仅说明数据目录覆盖2019至2023年；证据E0045、E0046、E0048均显示数据止于2023年，未出现2024年记录，因此该说明与证据一致。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "回答未涉及报告国、伙伴或贸易流向的具体表述，不存在角色错置。",
+            "citations": []
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求2024年数据且明确不能外推；回答明确说明当前数据仅覆盖2019至2023年、无法提供2024年真实金额与增长率，并请用户确认改为2023年或提供覆盖2024年的数据目录，符合拒绝外推并说明所需条件的要求。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答没有把2023年数据外推为2024年，也没有将描述性变化当作因果或竞争力证明，未出现过度断言。",
+            "citations": []
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "回答仅陈述数据覆盖年份和无法提供2024年数值，未混淆金额水平与变化幅度，表述清晰。",
+            "citations": []
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求2024年真实金额与增长率，若不能覆盖则明确所需条件；回答明确说明无法覆盖2024年并给出替代条件（改为2023年或提供覆盖2024年的数据目录），已完整回应。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2965
+    },
+    {
+      "review_id": "R053",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "各条事实均有对应证据：2019基期份额变化-1.1445个百分点、增长率31.64%、市场与份额分解项来自E0015；2022基期份额变化-4.8117个百分点、增长率-34.51%、两项分解来自E0013；总体金额变化2360156380与-1584557550分别来自E0134和E0124，数值与正文一致。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "59cded8ddfc6601d97df:E0013",
+              "5f67a2fff44e7c6bfc82:E0134",
+              "59cded8ddfc6601d97df:E0124"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为美国、流向为进口、产品0901，Brazil作为伙伴供应方，份额以美国该商品进口总额为分母；未把对世界出口误作对华出口，也未颠倒伙伴与供应来源角色。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "59cded8ddfc6601d97df:E0013"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求固定当前报告期、分别以2019和2022为基期比较Brazil份额变化并列出两个窗口证据数值，回答对两个窗口均给出份额变化及分解，并明确说明属描述性分解、不能识别因果或证明竞争力，未外推2024年。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "59cded8ddfc6601d97df:E0013"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将份额与金额变化限定为描述性分解，明确不能解释为政策因果或竞争力变化；未把缺失当零、未把不同国家合计当全球总额，也未凭小额对账残差推断具体来源。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "59cded8ddfc6601d97df:E0013"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额变化以美元、份额变化以百分点、增长率以百分比分别表述，区分了金额水平与变化幅度，并说明名义美元不等于实际增长；未出现混淆。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "59cded8ddfc6601d97df:E0013",
+              "5f67a2fff44e7c6bfc82:E0134",
+              "59cded8ddfc6601d97df:E0124"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "两个基期窗口（2019→2023、2022→2023）均覆盖，分别给出Brazil份额变化百分点、金额增长率及市场/份额分解项，并补充两窗口总体金额变化方向，满足题目要求的证据数值。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "59cded8ddfc6601d97df:E0013",
+              "5f67a2fff44e7c6bfc82:E0134",
+              "59cded8ddfc6601d97df:E0124"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3736
+    },
+    {
+      "review_id": "R054",
+      "status": "no_usable_answer",
+      "evaluation": null,
+      "elapsed_ms": 0
+    },
+    {
+      "review_id": "R055",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "正文中的报告国、进口流向、伙伴为来源地、金额为加拿大自各伙伴进口的名义美元统计值，以及所列伙伴合计与世界总额存在残差、美国为最大来源地且份额下降、墨西哥下降、秘鲁和土耳其上升等，均有对应证据支持；数值与证据一致。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153",
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0092",
+              "ea45bf60612be73a074f:E0112",
+              "ea45bf60612be73a074f:E0137"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确认定报告国为加拿大、流向为进口、伙伴角色为加拿大进口来源地，未把伙伴误作出口目标市场，也未把对伙伴进口说成对世界出口。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0152"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确回答了统计金额代表加拿大自各伙伴进口的名义美元金额，并明确说明不能把所列国家合计当作全球总额、未列示伙伴不等于零；同时说明描述性分解不能识别政策因果或证明竞争力变化。",
+            "citations": [
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153",
+              "ea45bf60612be73a074f:E0143"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将描述性金额变化当作政策因果或竞争力证明，未将缺失当零，未将所列伙伴合计当作全球总额；对名义美元和舍入值也作了限制说明。",
+            "citations": [
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153",
+              "ea45bf60612be73a074f:E0143"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额水平与变化幅度、名义美元与实际增长、份额变化与金额变化，并说明残差存在；表述较精确。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0143",
+              "ea45bf60612be73a074f:E0152"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "原问题要求明确报告国、伙伴角色、贸易流向、统计金额含义以及能否将所列国家合计当作全球总额，回答均逐项覆盖；未要求提供具体年份数值或增长率，因此无需补充。",
+            "citations": [
+              "ea45bf60612be73a074f:E0155",
+              "ea45bf60612be73a074f:E0152",
+              "ea45bf60612be73a074f:E0153"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3457
+    },
+    {
+      "review_id": "R056",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "基期50157640.00、报告期38622090.00、增长率-22.9986%及差值-11535550.00均与证据E0001/E0002的operands和result一致，数值绑定正确。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "回答明确为德国自中国进口茶叶的双边金额，报告国德国、伙伴中国、进口流向均正确，未混淆对世界出口或供应来源角色。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求基期与报告期金额及区间增长率，回答均给出；并说明名义美元、舍入精度及不能推断因果，未外推2024年。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将变化限定为名义美元描述性变化，明确不能推断实际量变化或政策因果，未把缺失当零或把合计当全球总额。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额水平、差值与区间增长率区分清楚，负增长率与负差值方向表述一致，未混淆金额与变化幅度。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "覆盖2019基期金额、2023报告期金额及区间增长率三项要求，并给出差值；单一双边商品口径下无遗漏窗口。",
+            "citations": [
+              "9a416c45ef78cc64e9a1:E0001",
+              "9a416c45ef78cc64e9a1:E0002"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2633
+    },
+    {
+      "review_id": "R057",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "各条事实均有对应证据：2019→2023德国份额s0=0.2945、s1=0.3344、份额变化3.997个百分点及中国进口总额增长率-2.375%见E0010、E0048；2022→2023德国份额变化0.493个百分点、德国对华供应增长率-10.805%、中国进口总额增长率-12.119%见E0009、E0042；两窗口残差数值与E0045、E0046、E0039、E0040一致。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048",
+              "1b022a510c9e80d1d5f3:E0009",
+              "1b022a510c9e80d1d5f3:E0042",
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046",
+              "1b022a510c9e80d1d5f3:E0039",
+              "1b022a510c9e80d1d5f3:E0040"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为中国、流向为进口、伙伴为德国，份额按德国供应额占中国该商品进口总额计算，角色与流向正确；未将德国对世界出口误作对华出口。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b022a510c9e80d1d5f3:E0009"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求固定当前报告期并分别以2019年和2022年为基期比较德国份额变化，回答覆盖两个窗口并给出份额变化数值，同时说明描述性分析不能识别政策因果或证明竞争力增强，未外推2024年。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b022a510c9e80d1d5f3:E0009"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答明确份额上升不能直接解释为德国竞争力增强，并说明残差很小但不能据此声明完整市场构成；未将缺失当零、未将合计当全球总额、未推断CIF口径或残差具体来源。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0045",
+              "1b022a510c9e80d1d5f3:E0039"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额变化、份额变化百分点和增长率分别表述，未混淆金额水平与变化幅度；份额变化以百分点列示，增长率以百分比列示，方向描述与数值一致。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048",
+              "1b022a510c9e80d1d5f3:E0009",
+              "1b022a510c9e80d1d5f3:E0042"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求两个基期窗口的德国份额变化及证据数值，回答分别给出2019→2023份额变化3.997个百分点和2022→2023份额变化0.493个百分点，并附基期、报告期份额及进口总额增长率，覆盖全部被问窗口。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b022a510c9e80d1d5f3:E0009"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 4048
+    },
+    {
+      "review_id": "R058",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "巴西基期金额1071813450.00、报告期金额1410986280.00及区间增长率31.6448%均与证据E0015的x0、x1、growth_percent字段一致；分解分量、份额变化百分点、世界总额及增长率、对账残差也分别与E0015、E0134、E0133、E0131、E0132对应。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134",
+              "5f67a2fff44e7c6bfc82:E0133",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为美国、流向为进口，巴西被正确表述为美国进口的供应来源；世界总额用于美国该商品进口总额，未将巴西对世界出口误作对美出口。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题只要求巴西供应的基期与报告期金额及区间增长率，回答已给出；并明确说明名义美元变化不等于实际增长、分解不能识别政策因果，未外推2024年。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将份额分量下降限定为描述性分解，明确不能识别政策因果或证明竞争力变化；未把未列示伙伴当作零，也未把对账残差归因于具体来源。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0133",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额水平、区间增长率、份额变化百分点和分解分量分别标注单位与含义，未混淆金额水平与变化幅度，也未将名义增长表述为实际增长。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求的巴西基期金额、报告期金额和区间增长率三项均已覆盖，且数值绑定到证据字段；额外分解与对账信息不构成遗漏。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3409
+    },
+    {
+      "review_id": "R059",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "各事实性陈述均有对应证据：巴西进口金额与份额变化、分解分量、美国进口总额及增长率、两期覆盖残差与变化贡献残差均与所引证据的数值一致，未发现数值绑定或正文表述错误。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132",
+              "5f67a2fff44e7c6bfc82:E0133"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确将美国作为报告国、巴西作为供应来源，使用美国自巴西进口及巴西占美国进口份额，未把对世界出口误作对华出口，贸易流向与角色固定一致。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确回答现有数据不足以证明政策因果或竞争力增强，并说明证据边界：描述性分解、名义美元、缺失不等于零、最新年份不等于完整年份，未外推2024年。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将金额增长当作竞争力证明或政策因果，明确区分名义与实际增长，指出缺失不等于零、残差存在，未把不同伙伴合计当作全球总额。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132",
+              "5f67a2fff44e7c6bfc82:E0133"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分金额水平与份额百分点变化，使用“名义美元”“描述性分解”等限定语，增长率与金额变化表述清晰，无含混同义复述。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题仅要求判断证据是否足以证明政策因果与竞争力增强并说明边界，回答已覆盖两个判断对象及证据局限，无需补充题目未要求的数值。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3582
+    },
+    {
+      "review_id": "R060",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "三项金额变化均与证据E0001、E0002、E0003的基期、报告期和差额一致；正文只陈述方向，数值由numbers字段给出，未发现数值绑定错误。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "明确中国、德国、英国为报告国，流向为出口，伙伴为世界，未把对世界出口误写为对华出口，也未把伙伴当作供应来源。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "回答了报告国、伙伴角色和贸易流向，并明确说明所列国家合计不能当作全球总额、未列示伙伴不等于零，且未外推2024年。",
+            "citations": []
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "将金额限定为公开表舍入后的名义美元出口额，明确不能直接理解为实际增长或竞争力变化，未把描述性变化当作政策因果，也未把缺失当零。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "正文区分了金额水平与变化方向，numbers字段分别给出基期、报告期和差额，未混淆金额与增长率；表述清晰。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求明确报告国、伙伴角色、贸易流向、统计金额含义及能否合计为全球总额；回答逐项覆盖，并给出三国2019至2023年的金额变化。",
+            "citations": [
+              "4f8c7448e008c780f1e8:E0001",
+              "4f8c7448e008c780f1e8:E0002",
+              "4f8c7448e008c780f1e8:E0003"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3354
+    },
+    {
+      "review_id": "R061",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "德国进口额从13856707790增至15363908940美元、增长率10.877%、份额变化3.997个百分点、份额效应1858688583美元、市场效应-351487433美元，均与E0010一致；中国进口总额从47056767080降至45938999040美元、增长率-2.375%，与E0048一致；两期覆盖残差-30、-10美元及变化对账残差-74232990美元，与E0045、E0046、E0047一致。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048",
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046",
+              "1b503fb4d1956d1c688b:E0047"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为中国、流向为进口，德国作为伙伴供应来源，表述为“中国自德国进口”，角色与流向正确；未将德国对世界出口误作对华出口。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "明确回答现有数据不足以证明贸易政策因果或竞争力增强，并说明名义美元、未控制价格汇率、仅覆盖中国进口与德国伙伴、未列示伙伴不等于零等证据边界，符合题目要求。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0047"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未将描述性份额变化或分解归因为政策效果或竞争力提升；未把未列示伙伴当零，并指出对账残差存在未解释部分，未凭小额年度舍入推断残差来源。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0045",
+              "1b503fb4d1956d1c688b:E0046",
+              "1b503fb4d1956d1c688b:E0047"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了金额水平与增长率、份额变化百分点与美元贡献，明确名义美元变化不等于实际增长，表述精确。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "题目为因果与竞争力证据边界问题，回答覆盖德国供应变化、份额分解、中国进口总额变化及对账残差，并明确不能外推和所需条件，无需补充题目未要求的数字。",
+            "citations": [
+              "1b503fb4d1956d1c688b:E0010",
+              "1b503fb4d1956d1c688b:E0048",
+              "1b503fb4d1956d1c688b:E0047"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 4119
+    },
+    {
+      "review_id": "R062",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "正文中的巴西基期金额1071813450.00、报告期金额1410986280.00、区间增长率31.6448%、市场分量419536076.13、份额分量-80363246.13、份额变化-1.1445个百分点及残差数值均与证据E0015、E0131、E0132、E0133字段一致，未发现数值绑定错误。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132",
+              "5f67a2fff44e7c6bfc82:E0133"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为美国、流向为进口，巴西作为伙伴供应来源，正文表述为“美国自巴西进口”，角色与流向正确。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求报告巴西供应的基期与报告期金额及区间增长率，回答已给出两期金额和增长率，并说明名义美元变化不等于实际增长、分解为描述性分析，未外推至2024年。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答明确说明份额变化和贡献分解属描述性分析，不能识别政策因果或证明竞争力增强，也未将缺失伙伴当作零或把残差来源具体归因。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0131",
+              "5f67a2fff44e7c6bfc82:E0132",
+              "5f67a2fff44e7c6bfc82:E0133"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "金额水平、区间增长率、份额变化百分点和分量金额均区分表述，未混淆金额与变化幅度，也未将名义增长说成实际增长。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题仅要求巴西供应的基期金额、报告期金额和区间增长率，回答已全部覆盖，并额外给出分解与限制说明。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3408
+    },
+    {
+      "review_id": "R063",
+      "status": "no_usable_answer",
+      "evaluation": null,
+      "elapsed_ms": 0
+    },
+    {
+      "review_id": "R064",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "回答未给出具体数值或增长率，仅说明统计口径与合计限制，不涉及需要逐项核对的数值绑定；证据中的金额与增长率未被误用。",
+            "citations": []
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "正确说明报告国为中国、德国、英国，流向为出口，商品为HS 0901，报告期为2019至2023年；未把报告国对世界出口误说成对某一伙伴出口，也未混淆伙伴角色。",
+            "citations": []
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求明确当前报告国、伙伴角色和贸易流向，并说明金额含义及能否合计为全球总额；回答已说明报告国、流向、商品和年份，指出伙伴角色需明确，并明确不能把所列国家合计当作全球总额及原因，属于合理澄清而非无端外推。",
+            "citations": []
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "未把描述性数据当作政策因果或竞争力证明，未将缺失当零，未把不同国家合计当作全球总额；对统计口径差异的说明属于合理限定。",
+            "citations": []
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "区分了报告国、流向、商品与报告期，明确“合计不能直接当作全球总额”，未混淆金额水平与变化幅度，表述清晰。",
+            "citations": []
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "覆盖了问题要求的报告国、伙伴角色、贸易流向、统计金额含义及能否合计为全球总额；虽未给出具体金额或增长率，但原问题未要求这些数值，回答已完整回应所问。",
+            "citations": []
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 2870
+    },
+    {
+      "review_id": "R065",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "两个窗口的份额变化、Brazil供应增长率及总体金额增长率均与对应证据的operands一致：2019—2023为-1.1445个百分点、31.64%、40.40%；2022—2023为-4.8117个百分点、-34.51%、-16.19%。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134",
+              "59cded8ddfc6601d97df:E0013",
+              "59cded8ddfc6601d97df:E0124"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "报告国为美国、流向为进口，Brazil为供应来源；份额按Brazil供应额占美国该产品进口总额计算，角色与流向正确。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "59cded8ddfc6601d97df:E0013"
+            ]
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求比较两个基期窗口的Brazil供应份额变化并列出证据数值，回答分别给出两个窗口的份额变化及金额增长率，并说明描述性分解不能识别因果或竞争力，未外推至2024年。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "59cded8ddfc6601d97df:E0013"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答将份额与金额变化限定为描述性分解，明确不能解释为竞争力变化或政策因果；未把缺失当零，也未将不同国家合计当作全球总额。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "59cded8ddfc6601d97df:E0013"
+            ]
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "份额变化以百分点表示，金额变化以百分比表示，二者区分清楚；两个窗口的基期不同也已在limitations中提示不可直接相减比较。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "59cded8ddfc6601d97df:E0013"
+            ]
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求两个窗口（2019—2023、2022—2023）的Brazil供应份额变化及证据数值，回答均覆盖，并附份额变化百分点与相关金额增长率。",
+            "citations": [
+              "5f67a2fff44e7c6bfc82:E0015",
+              "5f67a2fff44e7c6bfc82:E0134",
+              "59cded8ddfc6601d97df:E0013",
+              "59cded8ddfc6601d97df:E0124"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3430
+    },
+    {
+      "review_id": "R066",
+      "status": "reviewed",
+      "evaluation": {
+        "criteria": {
+          "citation_support": {
+            "rating": "pass",
+            "reason": "回答仅说明数据目录覆盖2019至2023年、无法提供2024年数据，未引用或误用任何具体数值；证据中的世界总额与增长率均对应2019至2023年，与所述覆盖范围一致。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120",
+              "f4f962e334b6f25e4008:E0117",
+              "f4f962e334b6f25e4008:E0118"
+            ]
+          },
+          "role_correct": {
+            "rating": "pass",
+            "reason": "回答未涉及报告国、伙伴或贸易流向的具体表述，不存在角色错置。",
+            "citations": []
+          },
+          "clarification_adequate": {
+            "rating": "pass",
+            "reason": "问题要求2024年数据且明确不可外推；回答明确说明当前数据仅覆盖2019至2023年、无法提供2024年金额与增长率，并说明可改为查询2023年或提供含2024年的数据目录，属于合理澄清与拒绝外推。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          },
+          "no_overclaim": {
+            "rating": "pass",
+            "reason": "回答未将2019至2023年的描述性变化外推为2024年结果，也未把缺失当零或作因果推断。",
+            "citations": []
+          },
+          "wording_precise": {
+            "rating": "pass",
+            "reason": "回答仅陈述数据覆盖年份与无法提供2024年数据，未混淆金额水平与变化幅度，表述清晰。",
+            "citations": []
+          },
+          "completeness": {
+            "rating": "pass",
+            "reason": "问题要求2024年真实金额与增长率，或在不能覆盖时明确所需条件；回答已明确不能覆盖并说明所需条件（含2024年的数据目录或改查2023年），符合越界题的完整回应要求。",
+            "citations": [
+              "f4f962e334b6f25e4008:E0120"
+            ]
+          }
+        },
+        "overall": "pass"
+      },
+      "elapsed_ms": 3166
+    }
+  ],
+  "finished_at": "2026-10-19T03:00:24.538564+00:00",
+  "statuses": {
+    "reviewed": 60,
+    "no_usable_answer": 6
+  },
+  "ai_verdicts": {
+    "pass": 58,
+    "fail": 1,
+    "uncertain": 1
+  }
+}

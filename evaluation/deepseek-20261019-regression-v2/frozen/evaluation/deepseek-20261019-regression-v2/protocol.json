@@ -1,0 +1,25 @@
+{
+  "title": "DeepSeek修复后已见题回归-v2",
+  "tasks": 3,
+  "groups": [
+    "pipeline",
+    "fixed_evidence"
+  ],
+  "design": "同一模型、同一数据、相同生成提示与数值引用校验。pipeline自行规划工具；fixed_evidence由预先声明的工具参数直接提供证据，跳过规划。后者是信息检索流程消融，不代表普通AI生态。",
+  "first_response": "每组每题首次结果保留，失败不得删除或覆盖；不自动重试。每次运行单独目录。",
+  "reference_isolation": "参考数值不进入模型请求，自动评分在回答之后。作者已看过参考，不能称为独立专家出题或盲评。",
+  "order": "任务按固定种子打乱，各题两组顺序交替。运行参数和实际token使用写入日志。",
+  "scoring": "字段命中、引用结构和协议状态分别计数；无要求数值的题不计数字项分母。语义支持、角色、澄清质量与因果边界必须由独立人工复核，未复核保持null。",
+  "clarification": "fixed_evidence没有规划澄清分支，越界题只能从自然语言人工评价，不能直接按pipeline的澄清状态比较。",
+  "claim_limits": "这三题已用于发现问题和修改提示，只能评价开发回归；不得称为盲测、独立准确率或泛化表现。独立人工语义评价仍待完成。",
+  "evaluation_type": "exposed_task_regression_not_independent_evaluation",
+  "source_run": "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/summary.json",
+  "task_ids": [
+    "export-coffee-causal",
+    "cn-cars-numeric",
+    "export-coffee-injection"
+  ],
+  "authorization": "仅复测先前已运行的三题，两流程，最多九次请求，不自动重试；剩余三十三题不调用。",
+  "budget_limit_usd": 0.1,
+  "price_note": "沿用2026-10-19原评测留存的Flash价格作估算，不是服务商账单保证。"
+}

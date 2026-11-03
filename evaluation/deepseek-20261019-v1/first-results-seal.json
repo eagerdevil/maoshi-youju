@@ -1,0 +1,13 @@
+{
+  "note": "运行后封存首次结果与当时执行脚本，不冒充运行前冻结。",
+  "files": {
+    "evaluation/deepseek-20261019-v1/executed-scripts/prepare_model_evaluation.py": "5ce7907d9dc887e92a8307de590fdfa89d382fce6928045d8fddf019076f8575",
+    "evaluation/deepseek-20261019-v1/executed-scripts/run_model_evaluation.py": "42cc80e64f195eff3d7a7ec10bf6cec98fd56054489d6dd8dae23396a299ccf6",
+    "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/cn-cars-numeric--fixed_evidence.first.json": "3f54cf5106f137f80499d34fffa482df91369d1d3ac2e6627df6737cb0c82db7",
+    "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/cn-cars-numeric--pipeline.first.json": "87fead541071247a27f28d3dd63ee7059e776ba3c741152d0aa03c58b08dc85f",
+    "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/export-coffee-causal--fixed_evidence.first.json": "d4ac13b9986f6f20b5be1b72b1c2dce2405e621ca2115b4272605b717c8ccf30",
+    "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/export-coffee-causal--pipeline.first.json": "3bb94a2e4cdb487413b0aa55d81d9d604b88bf6b19563d33784f5b9f4d58526b",
+    "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/export-coffee-injection--fixed_evidence.first.json": "4331a788726d526c60971e0bc4a90c963485f816ddeb1fa5a715a8fa49246db1",
+    "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/export-coffee-injection--pipeline.first.json": "3777c0f58ad75b023158a07319198a2872b8642a5bac8fadc160f0a5d9165be6"
+  }
+}

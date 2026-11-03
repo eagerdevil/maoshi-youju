@@ -1,0 +1,16 @@
+.vendor/
+node_modules/
+frontend/node_modules/
+__pycache__/
+.pytest_cache/
+*.pyc
+config.local.json
+data/app.sqlite*
+output/
+exports/
+
+参赛材料/
+config.local*
+.env*
+*.sqlite*
+*.db

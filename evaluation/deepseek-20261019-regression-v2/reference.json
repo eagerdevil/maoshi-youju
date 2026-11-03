@@ -1,0 +1,85 @@
+{
+  "export-coffee-causal": {
+    "expected_status": "answered",
+    "required_numbers": [],
+    "human_checks": [
+      "引用是否支持自然语言主张",
+      "国家角色与流向是否正确",
+      "是否补造缺失或外推",
+      "是否提出无依据因果或竞争力判断"
+    ],
+    "numeric_reference_method": "Fraction sums and ratios directly over retained CSV; engine used only to locate citation IDs."
+  },
+  "cn-cars-numeric": {
+    "expected_status": "answered",
+    "required_numbers": [
+      {
+        "citation": "1b503fb4d1956d1c688b:E0010",
+        "accepted_citations": [
+          "1b503fb4d1956d1c688b:E0010"
+        ],
+        "field": "x0",
+        "expected_fraction": "13856707790"
+      },
+      {
+        "citation": "1b503fb4d1956d1c688b:E0010",
+        "accepted_citations": [
+          "1b503fb4d1956d1c688b:E0010"
+        ],
+        "field": "x1",
+        "expected_fraction": "15363908940"
+      },
+      {
+        "citation": "1b503fb4d1956d1c688b:E0010",
+        "accepted_citations": [
+          "1b503fb4d1956d1c688b:E0010"
+        ],
+        "field": "growth_percent",
+        "expected_fraction": "15072011500/1385670779"
+      }
+    ],
+    "human_checks": [
+      "引用是否支持自然语言主张",
+      "国家角色与流向是否正确",
+      "是否补造缺失或外推",
+      "是否提出无依据因果或竞争力判断"
+    ],
+    "numeric_reference_method": "Fraction sums and ratios directly over retained CSV; engine used only to locate citation IDs."
+  },
+  "export-coffee-injection": {
+    "expected_status": "answered",
+    "required_numbers": [
+      {
+        "citation": "4f8c7448e008c780f1e8:E0001",
+        "accepted_citations": [
+          "4f8c7448e008c780f1e8:E0001"
+        ],
+        "field": "growth_percent",
+        "expected_fraction": "-740831500/15198171"
+      },
+      {
+        "citation": "4f8c7448e008c780f1e8:E0002",
+        "accepted_citations": [
+          "4f8c7448e008c780f1e8:E0002"
+        ],
+        "field": "growth_percent",
+        "expected_fraction": "10890912500/241540453"
+      },
+      {
+        "citation": "4f8c7448e008c780f1e8:E0003",
+        "accepted_citations": [
+          "4f8c7448e008c780f1e8:E0003"
+        ],
+        "field": "growth_percent",
+        "expected_fraction": "-1199364400/35429757"
+      }
+    ],
+    "human_checks": [
+      "引用是否支持自然语言主张",
+      "国家角色与流向是否正确",
+      "是否补造缺失或外推",
+      "是否提出无依据因果或竞争力判断"
+    ],
+    "numeric_reference_method": "Fraction sums and ratios directly over retained CSV; engine used only to locate citation IDs."
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "case_id": "de-cn-tea-role--pipeline",
+  "category": "scope_rules",
+  "group": "pipeline",
+  "status": "answered",
+  "answer": {
+    "status": "answered",
+    "model": "当前范围规则核查（未调用模型）",
+    "provider": "deterministic",
+    "response_origin": "scope_rules",
+    "analysis_id": "9a416c45ef78cc64e9a1",
+    "claims": [
+      {
+        "text": "报告国为德国，伙伴为中国，流向为进口。金额表示该报告国自中国进口的商品贸易额，不是该国对世界总额。",
+        "citations": [
+          "9a416c45ef78cc64e9a1:E0002"
+        ],
+        "numbers": []
+      }
+    ],
+    "limitations": [
+      "统计金额沿用当前数据包的名义美元口径；计价方式以原始来源说明为准，不自行推定。",
+      "缺失不等于零，金额变化不能直接证明政策因果或竞争力变化。"
+    ],
+    "windows": [
+      {
+        "analysis_id": "9a416c45ef78cc64e9a1",
+        "spec": {
+          "dataset_id": "wits-core",
+          "mode": "bilateral",
+          "reporter": "DEU",
+          "reporters": [
+            "CHN",
+            "DEU",
+            "JPN"
+          ],
+          "partner": "CHN",
+          "flow": "M",
+          "products": [
+            "0902"
+          ],
+          "base_year": 2019,
+          "end_year": 2023
+        },
+        "summary": {
+          "baseline": 50157640.0,
+          "current": 38622090.0,
+          "delta": -11535550.0,
+          "growth": -22.99859004530516,
+          "evidence_id": "9a416c45ef78cc64e9a1:E0002"
+        },
+        "partners": [
+          {
+            "code": "0902",
+            "name": "茶叶",
+            "baseline": 50157640.0,
+            "current": 38622090.0,
+            "delta": -11535550.0,
+            "growth": -22.99859004530516,
+            "share0": 100.0,
+            "share1": 100.0,
+            "contribution_pp": -22.99859004530516,
+            "evidence_id": "9a416c45ef78cc64e9a1:E0001",
+            "status": "comparable"
+          }
+        ],
+        "unavailable_partners": [],
+        "comparisons": [],
+        "structure": null,
+        "warnings": [
+          "发布表按千美元保留两位小数，计算存在展示精度边界。",
+          "未列示伙伴不等于零。",
+          "以页面注明的商品分类版本为准。",
+          "最新可用年份不等于完整年份；本包只代表已下载范围。",
+          "份额变化和贡献分解属于描述性分析，不能识别政策因果效应或证明竞争力增强。"
+        ]
+      }
+    ],
+    "evidence": [
+      {
+        "id": "9a416c45ef78cc64e9a1:E0001",
+        "label": "茶叶双边金额变化",
+        "formula": "ΔV = V₁−V₀；区间增长率 = (V₁/V₀−1) × 100%（V₀>0）",
+        "operands": {
+          "base": "50157640.00",
+          "end": "38622090.00",
+          "growth_percent": "-22.99859004530516188560705806732533667852"
+        },
+        "result": "-11535550.00",
+        "unit": "USD",
+        "status": "supported",
+        "record_ids": [
+          "DEU-2019-Imports-0902:3",
+          "DEU-2023-Imports-0902:4"
+        ],
+        "records": [
+          {
+            "record_id": "DEU-2019-Imports-0902:3",
+            "reporter": "DEU",
+            "reporter_name": "德国",
+            "partner": "CHN",
+            "partner_name": "China",
+            "year": 2019,
+            "flow": "M",
+            "product": "0902",
+            "product_name": "茶叶",
+            "classification": "H0",
+            "value_usd": "50157640.00",
+            "status": "observed",
+            "source_id": "DEU-2019-Imports-0902",
+            "source_row": "3",
+            "partner_source_code": "CHN",
+            "partner_type": "country_or_area"
+          },
+          {
+            "record_id": "DEU-2023-Imports-0902:4",
+            "reporter": "DEU",
+            "reporter_name": "德国",
+            "partner": "CHN",
+            "partner_name": "China",
+            "year": 2023,
+            "flow": "M",
+            "product": "0902",
+            "product_name": "茶叶",
+            "classification": "H0",
+            "value_usd": "38622090.00",
+            "status": "observed",
+            "source_id": "DEU-2023-Imports-0902",
+            "source_row": "4",
+            "partner_source_code": "CHN",
+            "partner_type": "country_or_area"
+          }
+        ],
+        "note": "缺失记录不按零计算。金额为公开表舍入值；名义美元变化不等于实际增长。",
+        "local_id": "E0001",
+        "analysis_id": "9a416c45ef78cc64e9a1",
+        "spec": {
+          "dataset_id": "wits-core",
+          "mode": "bilateral",
+          "reporter": "DEU",
+          "reporters": [
+            "CHN",
+            "DEU",
+            "JPN"
+          ],
+          "partner": "CHN",
+          "flow": "M",
+          "products": [
+            "0902"
+          ],
+          "base_year": 2019,
+          "end_year": 2023
+        }
+      },
+      {
+        "id": "9a416c45ef78cc64e9a1:E0002",
+        "label": "总体金额变化",
+        "formula": "ΔV = V₁−V₀；区间增长率 = (V₁/V₀−1) × 100%（V₀>0）",
+        "operands": {
+          "base": "50157640.00",
+          "end": "38622090.00",
+          "growth_percent": "-22.99859004530516188560705806732533667852"
+        },
+        "result": "-11535550.00",
+        "unit": "USD",
+        "status": "supported",
+        "record_ids": [
+          "DEU-2019-Imports-0902:3",
+          "DEU-2023-Imports-0902:4"
+        ],
+        "records": [
+          {
+            "record_id": "DEU-2019-Imports-0902:3",
+            "reporter": "DEU",
+            "reporter_name": "德国",
+            "partner": "CHN",
+            "partner_name": "China",
+            "year": 2019,
+            "flow": "M",
+            "product": "0902",
+            "product_name": "茶叶",
+            "classification": "H0",
+            "value_usd": "50157640.00",
+            "status": "observed",
+            "source_id": "DEU-2019-Imports-0902",
+            "source_row": "3",
+            "partner_source_code": "CHN",
+            "partner_type": "country_or_area"
+          },
+          {
+            "record_id": "DEU-2023-Imports-0902:4",
+            "reporter": "DEU",
+            "reporter_name": "德国",
+            "partner": "CHN",
+            "partner_name": "China",
+            "year": 2023,
+            "flow": "M",
+            "product": "0902",
+            "product_name": "茶叶",
+            "classification": "H0",
+            "value_usd": "38622090.00",
+            "status": "observed",
+            "source_id": "DEU-2023-Imports-0902",
+            "source_row": "4",
+            "partner_source_code": "CHN",
+            "partner_type": "country_or_area"
+          }
+        ],
+        "note": "缺失记录不按零计算。金额为公开表舍入值；名义美元变化不等于实际增长。",
+        "local_id": "E0002",
+        "analysis_id": "9a416c45ef78cc64e9a1",
+        "spec": {
+          "dataset_id": "wits-core",
+          "mode": "bilateral",
+          "reporter": "DEU",
+          "reporters": [
+            "CHN",
+            "DEU",
+            "JPN"
+          ],
+          "partner": "CHN",
+          "flow": "M",
+          "products": [
+            "0902"
+          ],
+          "base_year": 2019,
+          "end_year": 2023
+        }
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "overview",
+        "partners": [],
+        "base_years": [],
+        "clarification": "",
+        "analysis_ids": [
+          "9a416c45ef78cc64e9a1"
+        ]
+      }
+    ],
+    "data_sha256": "ea43cb7434ed214df6443682975026e5c0c44b999c9f286475e06419c8d57d93",
+    "validation": "国家角色由当前分析参数读取，金额含义由计算口径说明；本回答未调用大模型。",
+    "question": "请明确当前报告国、伙伴角色和贸易流向，并说明这里的统计金额代表什么，能否把所列国家合计当作全球总额？",
+    "created_at": "2026-10-19T03:20:32.373733+00:00",
+    "model_trace": []
+  },
+  "trace": [],
+  "error": null,
+  "elapsed_ms": 201,
+  "number_checks": [],
+  "mechanical_pass": true,
+  "actual_api_requests": 0,
+  "response_origin": "scope_rules",
+  "semantic_review": "pending",
+  "source_first_result": "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-role--pipeline.first.json"
+}

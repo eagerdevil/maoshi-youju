@@ -1,0 +1,991 @@
+﻿record_id,reporter,reporter_name,partner,partner_name,year,flow,product,product_name,classification,value_usd,status,source_id,source_row,partner_source_code,partner_type
+CAN-2019-Imports-1806:105,CAN,加拿大,ABW,Aruba,2019,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2019-Imports-1806,105,ABW,country_or_area
+CAN-2019-Imports-1806:99,CAN,加拿大,AFG,Afghanistan,2019,M,1806,巧克力及其他含可可食品,H0,140.00,observed,CAN-2019-Imports-1806,99,AFG,country_or_area
+CAN-2019-Imports-1806:37,CAN,加拿大,ARE,United Arab Emirates,2019,M,1806,巧克力及其他含可可食品,H0,359870.00,observed,CAN-2019-Imports-1806,37,ARE,country_or_area
+CAN-2019-Imports-1806:15,CAN,加拿大,ARG,Argentina,2019,M,1806,巧克力及其他含可可食品,H0,4553730.00,observed,CAN-2019-Imports-1806,15,ARG,country_or_area
+CAN-2019-Imports-1806:75,CAN,加拿大,ARM,Armenia,2019,M,1806,巧克力及其他含可可食品,H0,7390.00,observed,CAN-2019-Imports-1806,75,ARM,country_or_area
+CAN-2019-Imports-1806:51,CAN,加拿大,AUS,Australia,2019,M,1806,巧克力及其他含可可食品,H0,102770.00,observed,CAN-2019-Imports-1806,51,AUS,country_or_area
+CAN-2019-Imports-1806:29,CAN,加拿大,AUT,Austria,2019,M,1806,巧克力及其他含可可食品,H0,766360.00,observed,CAN-2019-Imports-1806,29,AUT,country_or_area
+CAN-2019-Imports-1806:6,CAN,加拿大,BEL,Belgium,2019,M,1806,巧克力及其他含可可食品,H0,48427230.00,observed,CAN-2019-Imports-1806,6,BEL,country_or_area
+CAN-2019-Imports-1806:88,CAN,加拿大,BGD,Bangladesh,2019,M,1806,巧克力及其他含可可食品,H0,1760.00,observed,CAN-2019-Imports-1806,88,BGD,country_or_area
+CAN-2019-Imports-1806:32,CAN,加拿大,BGR,Bulgaria,2019,M,1806,巧克力及其他含可可食品,H0,507340.00,observed,CAN-2019-Imports-1806,32,BGR,country_or_area
+CAN-2019-Imports-1806:55,CAN,加拿大,BLR,Belarus,2019,M,1806,巧克力及其他含可可食品,H0,79270.00,observed,CAN-2019-Imports-1806,55,BLR,country_or_area
+CAN-2019-Imports-1806:101,CAN,加拿大,BLZ,Belize,2019,M,1806,巧克力及其他含可可食品,H0,60.00,observed,CAN-2019-Imports-1806,101,BLZ,country_or_area
+CAN-2019-Imports-1806:102,CAN,加拿大,BOL,Bolivia,2019,M,1806,巧克力及其他含可可食品,H0,50.00,observed,CAN-2019-Imports-1806,102,BOL,country_or_area
+CAN-2019-Imports-1806:47,CAN,加拿大,BRA,Brazil,2019,M,1806,巧克力及其他含可可食品,H0,151800.00,observed,CAN-2019-Imports-1806,47,BRA,country_or_area
+CAN-2019-Imports-1806:12,CAN,加拿大,CAN,Canada,2019,M,1806,巧克力及其他含可可食品,H0,7851510.00,observed,CAN-2019-Imports-1806,12,CAN,country_or_area
+CAN-2019-Imports-1806:3,CAN,加拿大,CHE,Switzerland,2019,M,1806,巧克力及其他含可可食品,H0,74579550.00,observed,CAN-2019-Imports-1806,3,CHE,country_or_area
+CAN-2019-Imports-1806:69,CAN,加拿大,CHL,Chile,2019,M,1806,巧克力及其他含可可食品,H0,15880.00,observed,CAN-2019-Imports-1806,69,CHL,country_or_area
+CAN-2019-Imports-1806:14,CAN,加拿大,CHN,China,2019,M,1806,巧克力及其他含可可食品,H0,5315250.00,observed,CAN-2019-Imports-1806,14,CHN,country_or_area
+CAN-2019-Imports-1806:23,CAN,加拿大,CIV,Cote d'Ivoire,2019,M,1806,巧克力及其他含可可食品,H0,1267090.00,observed,CAN-2019-Imports-1806,23,CIV,country_or_area
+CAN-2019-Imports-1806:78,CAN,加拿大,CMR,Cameroon,2019,M,1806,巧克力及其他含可可食品,H0,6760.00,observed,CAN-2019-Imports-1806,78,CMR,country_or_area
+CAN-2019-Imports-1806:19,CAN,加拿大,COL,Colombia,2019,M,1806,巧克力及其他含可可食品,H0,2684260.00,observed,CAN-2019-Imports-1806,19,COL,country_or_area
+CAN-2019-Imports-1806:70,CAN,加拿大,CRI,Costa Rica,2019,M,1806,巧克力及其他含可可食品,H0,15750.00,observed,CAN-2019-Imports-1806,70,CRI,country_or_area
+CAN-2019-Imports-1806:28,CAN,加拿大,CZE,Czech Republic,2019,M,1806,巧克力及其他含可可食品,H0,785630.00,observed,CAN-2019-Imports-1806,28,CZE,country_or_area
+CAN-2019-Imports-1806:5,CAN,加拿大,DEU,Germany,2019,M,1806,巧克力及其他含可可食品,H0,53357020.00,observed,CAN-2019-Imports-1806,5,DEU,country_or_area
+CAN-2019-Imports-1806:24,CAN,加拿大,DNK,Denmark,2019,M,1806,巧克力及其他含可可食品,H0,1201310.00,observed,CAN-2019-Imports-1806,24,DNK,country_or_area
+CAN-2019-Imports-1806:83,CAN,加拿大,DOM,Dominican Republic,2019,M,1806,巧克力及其他含可可食品,H0,3910.00,observed,CAN-2019-Imports-1806,83,DOM,country_or_area
+CAN-2019-Imports-1806:60,CAN,加拿大,DZA,Algeria,2019,M,1806,巧克力及其他含可可食品,H0,53580.00,observed,CAN-2019-Imports-1806,60,DZA,country_or_area
+CAN-2019-Imports-1806:42,CAN,加拿大,ECU,Ecuador,2019,M,1806,巧克力及其他含可可食品,H0,222830.00,observed,CAN-2019-Imports-1806,42,ECU,country_or_area
+CAN-2019-Imports-1806:21,CAN,加拿大,EGY,"Egypt, Arab Rep.",2019,M,1806,巧克力及其他含可可食品,H0,1482360.00,observed,CAN-2019-Imports-1806,21,EGY,country_or_area
+CAN-2019-Imports-1806:17,CAN,加拿大,ESP,Spain,2019,M,1806,巧克力及其他含可可食品,H0,3353500.00,observed,CAN-2019-Imports-1806,17,ESP,country_or_area
+CAN-2019-Imports-1806:77,CAN,加拿大,EST,Estonia,2019,M,1806,巧克力及其他含可可食品,H0,6810.00,observed,CAN-2019-Imports-1806,77,EST,country_or_area
+CAN-2019-Imports-1806:54,CAN,加拿大,FIN,Finland,2019,M,1806,巧克力及其他含可可食品,H0,92840.00,observed,CAN-2019-Imports-1806,54,FIN,country_or_area
+CAN-2019-Imports-1806:96,CAN,加拿大,FJI,Fiji,2019,M,1806,巧克力及其他含可可食品,H0,460.00,observed,CAN-2019-Imports-1806,96,FJI,country_or_area
+CAN-2019-Imports-1806:7,CAN,加拿大,FRA,France,2019,M,1806,巧克力及其他含可可食品,H0,40921780.00,observed,CAN-2019-Imports-1806,7,FRA,country_or_area
+CAN-2019-Imports-1806:9,CAN,加拿大,GBR,United Kingdom,2019,M,1806,巧克力及其他含可可食品,H0,26583340.00,observed,CAN-2019-Imports-1806,9,GBR,country_or_area
+CAN-2019-Imports-1806:66,CAN,加拿大,GHA,Ghana,2019,M,1806,巧克力及其他含可可食品,H0,21260.00,observed,CAN-2019-Imports-1806,66,GHA,country_or_area
+CAN-2019-Imports-1806:100,CAN,加拿大,GIN,Guinea,2019,M,1806,巧克力及其他含可可食品,H0,80.00,observed,CAN-2019-Imports-1806,100,GIN,country_or_area
+CAN-2019-Imports-1806:38,CAN,加拿大,GRC,Greece,2019,M,1806,巧克力及其他含可可食品,H0,288720.00,observed,CAN-2019-Imports-1806,38,GRC,country_or_area
+CAN-2019-Imports-1806:84,CAN,加拿大,GRD,Grenada,2019,M,1806,巧克力及其他含可可食品,H0,3660.00,observed,CAN-2019-Imports-1806,84,GRD,country_or_area
+CAN-2019-Imports-1806:76,CAN,加拿大,GTM,Guatemala,2019,M,1806,巧克力及其他含可可食品,H0,7200.00,observed,CAN-2019-Imports-1806,76,GTM,country_or_area
+CAN-2019-Imports-1806:110,CAN,加拿大,GUM,Guam,2019,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2019-Imports-1806,110,GUM,country_or_area
+CAN-2019-Imports-1806:81,CAN,加拿大,HKG,"Hong Kong, China",2019,M,1806,巧克力及其他含可可食品,H0,5730.00,observed,CAN-2019-Imports-1806,81,HKG,country_or_area
+CAN-2019-Imports-1806:30,CAN,加拿大,HRV,Croatia,2019,M,1806,巧克力及其他含可可食品,H0,756090.00,observed,CAN-2019-Imports-1806,30,HRV,country_or_area
+CAN-2019-Imports-1806:92,CAN,加拿大,HTI,Haiti,2019,M,1806,巧克力及其他含可可食品,H0,750.00,observed,CAN-2019-Imports-1806,92,HTI,country_or_area
+CAN-2019-Imports-1806:20,CAN,加拿大,HUN,Hungary,2019,M,1806,巧克力及其他含可可食品,H0,1923810.00,observed,CAN-2019-Imports-1806,20,HUN,country_or_area
+CAN-2019-Imports-1806:67,CAN,加拿大,IDN,Indonesia,2019,M,1806,巧克力及其他含可可食品,H0,19490.00,observed,CAN-2019-Imports-1806,67,IDN,country_or_area
+CAN-2019-Imports-1806:36,CAN,加拿大,IND,India,2019,M,1806,巧克力及其他含可可食品,H0,393330.00,observed,CAN-2019-Imports-1806,36,IND,country_or_area
+CAN-2019-Imports-1806:16,CAN,加拿大,IRL,Ireland,2019,M,1806,巧克力及其他含可可食品,H0,4426980.00,observed,CAN-2019-Imports-1806,16,IRL,country_or_area
+CAN-2019-Imports-1806:72,CAN,加拿大,IRN,"Iran, Islamic Rep.",2019,M,1806,巧克力及其他含可可食品,H0,9890.00,observed,CAN-2019-Imports-1806,72,IRN,country_or_area
+CAN-2019-Imports-1806:89,CAN,加拿大,IRQ,Iraq,2019,M,1806,巧克力及其他含可可食品,H0,1260.00,observed,CAN-2019-Imports-1806,89,IRQ,country_or_area
+CAN-2019-Imports-1806:59,CAN,加拿大,ISL,Iceland,2019,M,1806,巧克力及其他含可可食品,H0,55650.00,observed,CAN-2019-Imports-1806,59,ISL,country_or_area
+CAN-2019-Imports-1806:26,CAN,加拿大,ISR,Israel,2019,M,1806,巧克力及其他含可可食品,H0,1164390.00,observed,CAN-2019-Imports-1806,26,ISR,country_or_area
+CAN-2019-Imports-1806:8,CAN,加拿大,ITA,Italy,2019,M,1806,巧克力及其他含可可食品,H0,33760230.00,observed,CAN-2019-Imports-1806,8,ITA,country_or_area
+CAN-2019-Imports-1806:65,CAN,加拿大,JAM,Jamaica,2019,M,1806,巧克力及其他含可可食品,H0,28030.00,observed,CAN-2019-Imports-1806,65,JAM,country_or_area
+CAN-2019-Imports-1806:46,CAN,加拿大,JOR,Jordan,2019,M,1806,巧克力及其他含可可食品,H0,175810.00,observed,CAN-2019-Imports-1806,46,JOR,country_or_area
+CAN-2019-Imports-1806:31,CAN,加拿大,JPN,Japan,2019,M,1806,巧克力及其他含可可食品,H0,745360.00,observed,CAN-2019-Imports-1806,31,JPN,country_or_area
+CAN-2019-Imports-1806:109,CAN,加拿大,KAZ,Kazakhstan,2019,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2019-Imports-1806,109,KAZ,country_or_area
+CAN-2019-Imports-1806:107,CAN,加拿大,KGZ,Kyrgyz Republic,2019,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2019-Imports-1806,107,KGZ,country_or_area
+CAN-2019-Imports-1806:64,CAN,加拿大,KOR,"Korea, Rep.",2019,M,1806,巧克力及其他含可可食品,H0,35070.00,observed,CAN-2019-Imports-1806,64,KOR,country_or_area
+CAN-2019-Imports-1806:50,CAN,加拿大,LBN,Lebanon,2019,M,1806,巧克力及其他含可可食品,H0,111080.00,observed,CAN-2019-Imports-1806,50,LBN,country_or_area
+CAN-2019-Imports-1806:82,CAN,加拿大,LKA,Sri Lanka,2019,M,1806,巧克力及其他含可可食品,H0,4900.00,observed,CAN-2019-Imports-1806,82,LKA,country_or_area
+CAN-2019-Imports-1806:44,CAN,加拿大,LTU,Lithuania,2019,M,1806,巧克力及其他含可可食品,H0,191170.00,observed,CAN-2019-Imports-1806,44,LTU,country_or_area
+CAN-2019-Imports-1806:80,CAN,加拿大,LUX,Luxembourg,2019,M,1806,巧克力及其他含可可食品,H0,6230.00,observed,CAN-2019-Imports-1806,80,LUX,country_or_area
+CAN-2019-Imports-1806:56,CAN,加拿大,LVA,Latvia,2019,M,1806,巧克力及其他含可可食品,H0,72030.00,observed,CAN-2019-Imports-1806,56,LVA,country_or_area
+CAN-2019-Imports-1806:85,CAN,加拿大,MAR,Morocco,2019,M,1806,巧克力及其他含可可食品,H0,2970.00,observed,CAN-2019-Imports-1806,85,MAR,country_or_area
+CAN-2019-Imports-1806:62,CAN,加拿大,MDA,Moldova,2019,M,1806,巧克力及其他含可可食品,H0,48830.00,observed,CAN-2019-Imports-1806,62,MDA,country_or_area
+CAN-2019-Imports-1806:86,CAN,加拿大,MDG,Madagascar,2019,M,1806,巧克力及其他含可可食品,H0,2750.00,observed,CAN-2019-Imports-1806,86,MDG,country_or_area
+CAN-2019-Imports-1806:4,CAN,加拿大,MEX,Mexico,2019,M,1806,巧克力及其他含可可食品,H0,65331410.00,observed,CAN-2019-Imports-1806,4,MEX,country_or_area
+CAN-2019-Imports-1806:48,CAN,加拿大,MKD,North Macedonia,2019,M,1806,巧克力及其他含可可食品,H0,122710.00,observed,CAN-2019-Imports-1806,48,MKD,country_or_area
+CAN-2019-Imports-1806:106,CAN,加拿大,MSR,Montserrat,2019,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2019-Imports-1806,106,MSR,country_or_area
+CAN-2019-Imports-1806:57,CAN,加拿大,MYS,Malaysia,2019,M,1806,巧克力及其他含可可食品,H0,66020.00,observed,CAN-2019-Imports-1806,57,MYS,country_or_area
+CAN-2019-Imports-1806:111,CAN,加拿大,NER,Niger,2019,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2019-Imports-1806,111,NER,country_or_area
+CAN-2019-Imports-1806:68,CAN,加拿大,NGA,Nigeria,2019,M,1806,巧克力及其他含可可食品,H0,17390.00,observed,CAN-2019-Imports-1806,68,NGA,country_or_area
+CAN-2019-Imports-1806:95,CAN,加拿大,NIC,Nicaragua,2019,M,1806,巧克力及其他含可可食品,H0,470.00,observed,CAN-2019-Imports-1806,95,NIC,country_or_area
+CAN-2019-Imports-1806:11,CAN,加拿大,NLD,Netherlands,2019,M,1806,巧克力及其他含可可食品,H0,10636570.00,observed,CAN-2019-Imports-1806,11,NLD,country_or_area
+CAN-2019-Imports-1806:52,CAN,加拿大,NOR,Norway,2019,M,1806,巧克力及其他含可可食品,H0,100830.00,observed,CAN-2019-Imports-1806,52,NOR,country_or_area
+CAN-2019-Imports-1806:98,CAN,加拿大,NPL,Nepal,2019,M,1806,巧克力及其他含可可食品,H0,270.00,observed,CAN-2019-Imports-1806,98,NPL,country_or_area
+CAN-2019-Imports-1806:22,CAN,加拿大,NZL,New Zealand,2019,M,1806,巧克力及其他含可可食品,H0,1324970.00,observed,CAN-2019-Imports-1806,22,NZL,country_or_area
+CAN-2019-Imports-1806:53,CAN,加拿大,OAS,"Other Asia, nes",2019,M,1806,巧克力及其他含可可食品,H0,96950.00,observed,CAN-2019-Imports-1806,53,OAS,country_or_area
+CAN-2019-Imports-1806:87,CAN,加拿大,PAK,Pakistan,2019,M,1806,巧克力及其他含可可食品,H0,2230.00,observed,CAN-2019-Imports-1806,87,PAK,country_or_area
+CAN-2019-Imports-1806:94,CAN,加拿大,PAN,Panama,2019,M,1806,巧克力及其他含可可食品,H0,560.00,observed,CAN-2019-Imports-1806,94,PAN,country_or_area
+CAN-2019-Imports-1806:18,CAN,加拿大,PER,Peru,2019,M,1806,巧克力及其他含可可食品,H0,3192130.00,observed,CAN-2019-Imports-1806,18,PER,country_or_area
+CAN-2019-Imports-1806:43,CAN,加拿大,PHL,Philippines,2019,M,1806,巧克力及其他含可可食品,H0,216680.00,observed,CAN-2019-Imports-1806,43,PHL,country_or_area
+CAN-2019-Imports-1806:10,CAN,加拿大,POL,Poland,2019,M,1806,巧克力及其他含可可食品,H0,17220770.00,observed,CAN-2019-Imports-1806,10,POL,country_or_area
+CAN-2019-Imports-1806:40,CAN,加拿大,PRT,Portugal,2019,M,1806,巧克力及其他含可可食品,H0,257500.00,observed,CAN-2019-Imports-1806,40,PRT,country_or_area
+CAN-2019-Imports-1806:74,CAN,加拿大,PRY,Paraguay,2019,M,1806,巧克力及其他含可可食品,H0,8820.00,observed,CAN-2019-Imports-1806,74,PRY,country_or_area
+CAN-2019-Imports-1806:108,CAN,加拿大,QAT,Qatar,2019,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2019-Imports-1806,108,QAT,country_or_area
+CAN-2019-Imports-1806:34,CAN,加拿大,ROM,Romania,2019,M,1806,巧克力及其他含可可食品,H0,472090.00,observed,CAN-2019-Imports-1806,34,ROM,country_or_area
+CAN-2019-Imports-1806:27,CAN,加拿大,RUS,Russian Federation,2019,M,1806,巧克力及其他含可可食品,H0,841740.00,observed,CAN-2019-Imports-1806,27,RUS,country_or_area
+CAN-2019-Imports-1806:93,CAN,加拿大,SAU,Saudi Arabia,2019,M,1806,巧克力及其他含可可食品,H0,610.00,observed,CAN-2019-Imports-1806,93,SAU,country_or_area
+CAN-2019-Imports-1806:97,CAN,加拿大,SEN,Senegal,2019,M,1806,巧克力及其他含可可食品,H0,300.00,observed,CAN-2019-Imports-1806,97,SEN,country_or_area
+CAN-2019-Imports-1806:39,CAN,加拿大,SER,"Serbia, FR(Serbia/Montenegro)",2019,M,1806,巧克力及其他含可可食品,H0,264420.00,observed,CAN-2019-Imports-1806,39,SER,country_or_area
+CAN-2019-Imports-1806:49,CAN,加拿大,SGP,Singapore,2019,M,1806,巧克力及其他含可可食品,H0,118580.00,observed,CAN-2019-Imports-1806,49,SGP,country_or_area
+CAN-2019-Imports-1806:79,CAN,加拿大,SLV,El Salvador,2019,M,1806,巧克力及其他含可可食品,H0,6270.00,observed,CAN-2019-Imports-1806,79,SLV,country_or_area
+CAN-2019-Imports-1806:58,CAN,加拿大,SVK,Slovak Republic,2019,M,1806,巧克力及其他含可可食品,H0,63290.00,observed,CAN-2019-Imports-1806,58,SVK,country_or_area
+CAN-2019-Imports-1806:63,CAN,加拿大,SVN,Slovenia,2019,M,1806,巧克力及其他含可可食品,H0,47610.00,observed,CAN-2019-Imports-1806,63,SVN,country_or_area
+CAN-2019-Imports-1806:25,CAN,加拿大,SWE,Sweden,2019,M,1806,巧克力及其他含可可食品,H0,1180800.00,observed,CAN-2019-Imports-1806,25,SWE,country_or_area
+CAN-2019-Imports-1806:104,CAN,加拿大,SWZ,Eswatini,2019,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2019-Imports-1806,104,SWZ,country_or_area
+CAN-2019-Imports-1806:73,CAN,加拿大,SYR,Syrian Arab Republic,2019,M,1806,巧克力及其他含可可食品,H0,9180.00,observed,CAN-2019-Imports-1806,73,SYR,country_or_area
+CAN-2019-Imports-1806:41,CAN,加拿大,THA,Thailand,2019,M,1806,巧克力及其他含可可食品,H0,255330.00,observed,CAN-2019-Imports-1806,41,THA,country_or_area
+CAN-2019-Imports-1806:91,CAN,加拿大,TTO,Trinidad and Tobago,2019,M,1806,巧克力及其他含可可食品,H0,1030.00,observed,CAN-2019-Imports-1806,91,TTO,country_or_area
+CAN-2019-Imports-1806:61,CAN,加拿大,TUN,Tunisia,2019,M,1806,巧克力及其他含可可食品,H0,53560.00,observed,CAN-2019-Imports-1806,61,TUN,country_or_area
+CAN-2019-Imports-1806:13,CAN,加拿大,TUR,Turkey,2019,M,1806,巧克力及其他含可可食品,H0,5765150.00,observed,CAN-2019-Imports-1806,13,TUR,country_or_area
+CAN-2019-Imports-1806:90,CAN,加拿大,TZA,Tanzania,2019,M,1806,巧克力及其他含可可食品,H0,1070.00,observed,CAN-2019-Imports-1806,90,TZA,country_or_area
+CAN-2019-Imports-1806:103,CAN,加拿大,UGA,Uganda,2019,M,1806,巧克力及其他含可可食品,H0,40.00,observed,CAN-2019-Imports-1806,103,UGA,country_or_area
+CAN-2019-Imports-1806:33,CAN,加拿大,UKR,Ukraine,2019,M,1806,巧克力及其他含可可食品,H0,478770.00,observed,CAN-2019-Imports-1806,33,UKR,country_or_area
+CAN-2019-Imports-1806:2,CAN,加拿大,USA,United States,2019,M,1806,巧克力及其他含可可食品,H0,587872550.00,observed,CAN-2019-Imports-1806,2,USA,country_or_area
+CAN-2019-Imports-1806:71,CAN,加拿大,VEN,Venezuela,2019,M,1806,巧克力及其他含可可食品,H0,11760.00,observed,CAN-2019-Imports-1806,71,VEN,country_or_area
+CAN-2019-Imports-1806:45,CAN,加拿大,VNM,Vietnam,2019,M,1806,巧克力及其他含可可食品,H0,183910.00,observed,CAN-2019-Imports-1806,45,VNM,country_or_area
+CAN-2019-Imports-1806:1,CAN,加拿大,WLD,World,2019,M,1806,巧克力及其他含可可食品,H0,1015690400.00,observed,CAN-2019-Imports-1806,1,WLD,world
+CAN-2019-Imports-1806:35,CAN,加拿大,ZAF,South Africa,2019,M,1806,巧克力及其他含可可食品,H0,443970.00,observed,CAN-2019-Imports-1806,35,ZAF,country_or_area
+CAN-2019-Exports-1806:12,CAN,加拿大,ARE,United Arab Emirates,2019,X,1806,巧克力及其他含可可食品,H0,840740.00,observed,CAN-2019-Exports-1806,12,ARE,country_or_area
+CAN-2019-Exports-1806:4,CAN,加拿大,AUS,Australia,2019,X,1806,巧克力及其他含可可食品,H0,7558770.00,observed,CAN-2019-Exports-1806,4,AUS,country_or_area
+CAN-2019-Exports-1806:43,CAN,加拿大,AZE,Azerbaijan,2019,X,1806,巧克力及其他含可可食品,H0,12470.00,observed,CAN-2019-Exports-1806,43,AZE,country_or_area
+CAN-2019-Exports-1806:63,CAN,加拿大,BGD,Bangladesh,2019,X,1806,巧克力及其他含可可食品,H0,860.00,observed,CAN-2019-Exports-1806,63,BGD,country_or_area
+CAN-2019-Exports-1806:60,CAN,加拿大,BHS,"Bahamas, The",2019,X,1806,巧克力及其他含可可食品,H0,1480.00,observed,CAN-2019-Exports-1806,60,BHS,country_or_area
+CAN-2019-Exports-1806:74,CAN,加拿大,BLZ,Belize,2019,X,1806,巧克力及其他含可可食品,H0,120.00,observed,CAN-2019-Exports-1806,74,BLZ,country_or_area
+CAN-2019-Exports-1806:51,CAN,加拿大,BMU,Bermuda,2019,X,1806,巧克力及其他含可可食品,H0,4480.00,observed,CAN-2019-Exports-1806,51,BMU,country_or_area
+CAN-2019-Exports-1806:16,CAN,加拿大,BRA,Brazil,2019,X,1806,巧克力及其他含可可食品,H0,670460.00,observed,CAN-2019-Exports-1806,16,BRA,country_or_area
+CAN-2019-Exports-1806:27,CAN,加拿大,BRB,Barbados,2019,X,1806,巧克力及其他含可可食品,H0,75660.00,observed,CAN-2019-Exports-1806,27,BRB,country_or_area
+CAN-2019-Exports-1806:21,CAN,加拿大,CHE,Switzerland,2019,X,1806,巧克力及其他含可可食品,H0,216920.00,observed,CAN-2019-Exports-1806,21,CHE,country_or_area
+CAN-2019-Exports-1806:8,CAN,加拿大,CHL,Chile,2019,X,1806,巧克力及其他含可可食品,H0,1718970.00,observed,CAN-2019-Exports-1806,8,CHL,country_or_area
+CAN-2019-Exports-1806:9,CAN,加拿大,CHN,China,2019,X,1806,巧克力及其他含可可食品,H0,1408290.00,observed,CAN-2019-Exports-1806,9,CHN,country_or_area
+CAN-2019-Exports-1806:62,CAN,加拿大,CMR,Cameroon,2019,X,1806,巧克力及其他含可可食品,H0,970.00,observed,CAN-2019-Exports-1806,62,CMR,country_or_area
+CAN-2019-Exports-1806:56,CAN,加拿大,COL,Colombia,2019,X,1806,巧克力及其他含可可食品,H0,2590.00,observed,CAN-2019-Exports-1806,56,COL,country_or_area
+CAN-2019-Exports-1806:11,CAN,加拿大,CRI,Costa Rica,2019,X,1806,巧克力及其他含可可食品,H0,951850.00,observed,CAN-2019-Exports-1806,11,CRI,country_or_area
+CAN-2019-Exports-1806:28,CAN,加拿大,CUB,Cuba,2019,X,1806,巧克力及其他含可可食品,H0,47480.00,observed,CAN-2019-Exports-1806,28,CUB,country_or_area
+CAN-2019-Exports-1806:75,CAN,加拿大,CUW,Curaçao,2019,X,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2019-Exports-1806,75,CUW,country_or_area
+CAN-2019-Exports-1806:45,CAN,加拿大,CYP,Cyprus,2019,X,1806,巧克力及其他含可可食品,H0,9220.00,observed,CAN-2019-Exports-1806,45,CYP,country_or_area
+CAN-2019-Exports-1806:34,CAN,加拿大,DEU,Germany,2019,X,1806,巧克力及其他含可可食品,H0,31710.00,observed,CAN-2019-Exports-1806,34,DEU,country_or_area
+CAN-2019-Exports-1806:65,CAN,加拿大,DNK,Denmark,2019,X,1806,巧克力及其他含可可食品,H0,820.00,observed,CAN-2019-Exports-1806,65,DNK,country_or_area
+CAN-2019-Exports-1806:61,CAN,加拿大,DOM,Dominican Republic,2019,X,1806,巧克力及其他含可可食品,H0,1140.00,observed,CAN-2019-Exports-1806,61,DOM,country_or_area
+CAN-2019-Exports-1806:41,CAN,加拿大,EGY,"Egypt, Arab Rep.",2019,X,1806,巧克力及其他含可可食品,H0,20020.00,observed,CAN-2019-Exports-1806,41,EGY,country_or_area
+CAN-2019-Exports-1806:30,CAN,加拿大,ESP,Spain,2019,X,1806,巧克力及其他含可可食品,H0,41920.00,observed,CAN-2019-Exports-1806,30,ESP,country_or_area
+CAN-2019-Exports-1806:57,CAN,加拿大,FIN,Finland,2019,X,1806,巧克力及其他含可可食品,H0,2350.00,observed,CAN-2019-Exports-1806,57,FIN,country_or_area
+CAN-2019-Exports-1806:15,CAN,加拿大,FRA,France,2019,X,1806,巧克力及其他含可可食品,H0,693960.00,observed,CAN-2019-Exports-1806,15,FRA,country_or_area
+CAN-2019-Exports-1806:6,CAN,加拿大,GBR,United Kingdom,2019,X,1806,巧克力及其他含可可食品,H0,3889700.00,observed,CAN-2019-Exports-1806,6,GBR,country_or_area
+CAN-2019-Exports-1806:76,CAN,加拿大,GRC,Greece,2019,X,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2019-Exports-1806,76,GRC,country_or_area
+CAN-2019-Exports-1806:31,CAN,加拿大,GTM,Guatemala,2019,X,1806,巧克力及其他含可可食品,H0,37110.00,observed,CAN-2019-Exports-1806,31,GTM,country_or_area
+CAN-2019-Exports-1806:59,CAN,加拿大,GUY,Guyana,2019,X,1806,巧克力及其他含可可食品,H0,1730.00,observed,CAN-2019-Exports-1806,59,GUY,country_or_area
+CAN-2019-Exports-1806:13,CAN,加拿大,HKG,"Hong Kong, China",2019,X,1806,巧克力及其他含可可食品,H0,838650.00,observed,CAN-2019-Exports-1806,13,HKG,country_or_area
+CAN-2019-Exports-1806:54,CAN,加拿大,HND,Honduras,2019,X,1806,巧克力及其他含可可食品,H0,3030.00,observed,CAN-2019-Exports-1806,54,HND,country_or_area
+CAN-2019-Exports-1806:70,CAN,加拿大,HTI,Haiti,2019,X,1806,巧克力及其他含可可食品,H0,200.00,observed,CAN-2019-Exports-1806,70,HTI,country_or_area
+CAN-2019-Exports-1806:44,CAN,加拿大,IDN,Indonesia,2019,X,1806,巧克力及其他含可可食品,H0,11870.00,observed,CAN-2019-Exports-1806,44,IDN,country_or_area
+CAN-2019-Exports-1806:42,CAN,加拿大,IND,India,2019,X,1806,巧克力及其他含可可食品,H0,17080.00,observed,CAN-2019-Exports-1806,42,IND,country_or_area
+CAN-2019-Exports-1806:23,CAN,加拿大,IRL,Ireland,2019,X,1806,巧克力及其他含可可食品,H0,187790.00,observed,CAN-2019-Exports-1806,23,IRL,country_or_area
+CAN-2019-Exports-1806:37,CAN,加拿大,ISL,Iceland,2019,X,1806,巧克力及其他含可可食品,H0,24500.00,observed,CAN-2019-Exports-1806,37,ISL,country_or_area
+CAN-2019-Exports-1806:24,CAN,加拿大,ISR,Israel,2019,X,1806,巧克力及其他含可可食品,H0,145850.00,observed,CAN-2019-Exports-1806,24,ISR,country_or_area
+CAN-2019-Exports-1806:33,CAN,加拿大,ITA,Italy,2019,X,1806,巧克力及其他含可可食品,H0,35260.00,observed,CAN-2019-Exports-1806,33,ITA,country_or_area
+CAN-2019-Exports-1806:26,CAN,加拿大,JAM,Jamaica,2019,X,1806,巧克力及其他含可可食品,H0,80780.00,observed,CAN-2019-Exports-1806,26,JAM,country_or_area
+CAN-2019-Exports-1806:20,CAN,加拿大,JOR,Jordan,2019,X,1806,巧克力及其他含可可食品,H0,338030.00,observed,CAN-2019-Exports-1806,20,JOR,country_or_area
+CAN-2019-Exports-1806:5,CAN,加拿大,JPN,Japan,2019,X,1806,巧克力及其他含可可食品,H0,4008010.00,observed,CAN-2019-Exports-1806,5,JPN,country_or_area
+CAN-2019-Exports-1806:52,CAN,加拿大,KNA,St. Kitts and Nevis,2019,X,1806,巧克力及其他含可可食品,H0,3770.00,observed,CAN-2019-Exports-1806,52,KNA,country_or_area
+CAN-2019-Exports-1806:7,CAN,加拿大,KOR,"Korea, Rep.",2019,X,1806,巧克力及其他含可可食品,H0,2556660.00,observed,CAN-2019-Exports-1806,7,KOR,country_or_area
+CAN-2019-Exports-1806:38,CAN,加拿大,KWT,Kuwait,2019,X,1806,巧克力及其他含可可食品,H0,23140.00,observed,CAN-2019-Exports-1806,38,KWT,country_or_area
+CAN-2019-Exports-1806:49,CAN,加拿大,LBN,Lebanon,2019,X,1806,巧克力及其他含可可食品,H0,5070.00,observed,CAN-2019-Exports-1806,49,LBN,country_or_area
+CAN-2019-Exports-1806:64,CAN,加拿大,LBR,Liberia,2019,X,1806,巧克力及其他含可可食品,H0,840.00,observed,CAN-2019-Exports-1806,64,LBR,country_or_area
+CAN-2019-Exports-1806:22,CAN,加拿大,LBY,Libya,2019,X,1806,巧克力及其他含可可食品,H0,204070.00,observed,CAN-2019-Exports-1806,22,LBY,country_or_area
+CAN-2019-Exports-1806:3,CAN,加拿大,MEX,Mexico,2019,X,1806,巧克力及其他含可可食品,H0,52739860.00,observed,CAN-2019-Exports-1806,3,MEX,country_or_area
+CAN-2019-Exports-1806:66,CAN,加拿大,MUS,Mauritius,2019,X,1806,巧克力及其他含可可食品,H0,710.00,observed,CAN-2019-Exports-1806,66,MUS,country_or_area
+CAN-2019-Exports-1806:10,CAN,加拿大,NLD,Netherlands,2019,X,1806,巧克力及其他含可可食品,H0,1305170.00,observed,CAN-2019-Exports-1806,10,NLD,country_or_area
+CAN-2019-Exports-1806:72,CAN,加拿大,NPL,Nepal,2019,X,1806,巧克力及其他含可可食品,H0,160.00,observed,CAN-2019-Exports-1806,72,NPL,country_or_area
+CAN-2019-Exports-1806:29,CAN,加拿大,NZL,New Zealand,2019,X,1806,巧克力及其他含可可食品,H0,46960.00,observed,CAN-2019-Exports-1806,29,NZL,country_or_area
+CAN-2019-Exports-1806:18,CAN,加拿大,OAS,"Other Asia, nes",2019,X,1806,巧克力及其他含可可食品,H0,368890.00,observed,CAN-2019-Exports-1806,18,OAS,country_or_area
+CAN-2019-Exports-1806:39,CAN,加拿大,OMN,Oman,2019,X,1806,巧克力及其他含可可食品,H0,22610.00,observed,CAN-2019-Exports-1806,39,OMN,country_or_area
+CAN-2019-Exports-1806:32,CAN,加拿大,PAK,Pakistan,2019,X,1806,巧克力及其他含可可食品,H0,36620.00,observed,CAN-2019-Exports-1806,32,PAK,country_or_area
+CAN-2019-Exports-1806:47,CAN,加拿大,PCN,Pitcairn,2019,X,1806,巧克力及其他含可可食品,H0,7790.00,observed,CAN-2019-Exports-1806,47,PCN,country_or_area
+CAN-2019-Exports-1806:35,CAN,加拿大,PER,Peru,2019,X,1806,巧克力及其他含可可食品,H0,30680.00,observed,CAN-2019-Exports-1806,35,PER,country_or_area
+CAN-2019-Exports-1806:19,CAN,加拿大,PHL,Philippines,2019,X,1806,巧克力及其他含可可食品,H0,345260.00,observed,CAN-2019-Exports-1806,19,PHL,country_or_area
+CAN-2019-Exports-1806:53,CAN,加拿大,PRT,Portugal,2019,X,1806,巧克力及其他含可可食品,H0,3410.00,observed,CAN-2019-Exports-1806,53,PRT,country_or_area
+CAN-2019-Exports-1806:58,CAN,加拿大,QAT,Qatar,2019,X,1806,巧克力及其他含可可食品,H0,2330.00,observed,CAN-2019-Exports-1806,58,QAT,country_or_area
+CAN-2019-Exports-1806:68,CAN,加拿大,RWA,Rwanda,2019,X,1806,巧克力及其他含可可食品,H0,500.00,observed,CAN-2019-Exports-1806,68,RWA,country_or_area
+CAN-2019-Exports-1806:17,CAN,加拿大,SAU,Saudi Arabia,2019,X,1806,巧克力及其他含可可食品,H0,444140.00,observed,CAN-2019-Exports-1806,17,SAU,country_or_area
+CAN-2019-Exports-1806:50,CAN,加拿大,SEN,Senegal,2019,X,1806,巧克力及其他含可可食品,H0,4840.00,observed,CAN-2019-Exports-1806,50,SEN,country_or_area
+CAN-2019-Exports-1806:14,CAN,加拿大,SGP,Singapore,2019,X,1806,巧克力及其他含可可食品,H0,703950.00,observed,CAN-2019-Exports-1806,14,SGP,country_or_area
+CAN-2019-Exports-1806:73,CAN,加拿大,SLE,Sierra Leone,2019,X,1806,巧克力及其他含可可食品,H0,130.00,observed,CAN-2019-Exports-1806,73,SLE,country_or_area
+CAN-2019-Exports-1806:40,CAN,加拿大,SLV,El Salvador,2019,X,1806,巧克力及其他含可可食品,H0,21230.00,observed,CAN-2019-Exports-1806,40,SLV,country_or_area
+CAN-2019-Exports-1806:48,CAN,加拿大,SPM,Saint Pierre and Miquelon,2019,X,1806,巧克力及其他含可可食品,H0,6190.00,observed,CAN-2019-Exports-1806,48,SPM,country_or_area
+CAN-2019-Exports-1806:36,CAN,加拿大,THA,Thailand,2019,X,1806,巧克力及其他含可可食品,H0,26650.00,observed,CAN-2019-Exports-1806,36,THA,country_or_area
+CAN-2019-Exports-1806:25,CAN,加拿大,TTO,Trinidad and Tobago,2019,X,1806,巧克力及其他含可可食品,H0,96310.00,observed,CAN-2019-Exports-1806,25,TTO,country_or_area
+CAN-2019-Exports-1806:55,CAN,加拿大,TUR,Turkey,2019,X,1806,巧克力及其他含可可食品,H0,2720.00,observed,CAN-2019-Exports-1806,55,TUR,country_or_area
+CAN-2019-Exports-1806:46,CAN,加拿大,UGA,Uganda,2019,X,1806,巧克力及其他含可可食品,H0,9150.00,observed,CAN-2019-Exports-1806,46,UGA,country_or_area
+CAN-2019-Exports-1806:67,CAN,加拿大,UKR,Ukraine,2019,X,1806,巧克力及其他含可可食品,H0,690.00,observed,CAN-2019-Exports-1806,67,UKR,country_or_area
+CAN-2019-Exports-1806:2,CAN,加拿大,USA,United States,2019,X,1806,巧克力及其他含可可食品,H0,1512520570.00,observed,CAN-2019-Exports-1806,2,USA,country_or_area
+CAN-2019-Exports-1806:71,CAN,加拿大,VNM,Vietnam,2019,X,1806,巧克力及其他含可可食品,H0,180.00,observed,CAN-2019-Exports-1806,71,VNM,country_or_area
+CAN-2019-Exports-1806:1,CAN,加拿大,WLD,World,2019,X,1806,巧克力及其他含可可食品,H0,1595474600.00,observed,CAN-2019-Exports-1806,1,WLD,world
+CAN-2019-Exports-1806:69,CAN,加拿大,ZAF,South Africa,2019,X,1806,巧克力及其他含可可食品,H0,430.00,observed,CAN-2019-Exports-1806,69,ZAF,country_or_area
+CAN-2020-Imports-1806:100,CAN,加拿大,ABW,Aruba,2020,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2020-Imports-1806,100,ABW,country_or_area
+CAN-2020-Imports-1806:95,CAN,加拿大,AFG,Afghanistan,2020,M,1806,巧克力及其他含可可食品,H0,220.00,observed,CAN-2020-Imports-1806,95,AFG,country_or_area
+CAN-2020-Imports-1806:75,CAN,加拿大,ARE,United Arab Emirates,2020,M,1806,巧克力及其他含可可食品,H0,12910.00,observed,CAN-2020-Imports-1806,75,ARE,country_or_area
+CAN-2020-Imports-1806:19,CAN,加拿大,ARG,Argentina,2020,M,1806,巧克力及其他含可可食品,H0,2094010.00,observed,CAN-2020-Imports-1806,19,ARG,country_or_area
+CAN-2020-Imports-1806:108,CAN,加拿大,ARM,Armenia,2020,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2020-Imports-1806,108,ARM,country_or_area
+CAN-2020-Imports-1806:58,CAN,加拿大,AUS,Australia,2020,M,1806,巧克力及其他含可可食品,H0,66020.00,observed,CAN-2020-Imports-1806,58,AUS,country_or_area
+CAN-2020-Imports-1806:32,CAN,加拿大,AUT,Austria,2020,M,1806,巧克力及其他含可可食品,H0,642190.00,observed,CAN-2020-Imports-1806,32,AUT,country_or_area
+CAN-2020-Imports-1806:5,CAN,加拿大,BEL,Belgium,2020,M,1806,巧克力及其他含可可食品,H0,50241120.00,observed,CAN-2020-Imports-1806,5,BEL,country_or_area
+CAN-2020-Imports-1806:81,CAN,加拿大,BGD,Bangladesh,2020,M,1806,巧克力及其他含可可食品,H0,5990.00,observed,CAN-2020-Imports-1806,81,BGD,country_or_area
+CAN-2020-Imports-1806:31,CAN,加拿大,BGR,Bulgaria,2020,M,1806,巧克力及其他含可可食品,H0,668170.00,observed,CAN-2020-Imports-1806,31,BGR,country_or_area
+CAN-2020-Imports-1806:90,CAN,加拿大,BIH,Bosnia and Herzegovina,2020,M,1806,巧克力及其他含可可食品,H0,1320.00,observed,CAN-2020-Imports-1806,90,BIH,country_or_area
+CAN-2020-Imports-1806:62,CAN,加拿大,BLR,Belarus,2020,M,1806,巧克力及其他含可可食品,H0,38800.00,observed,CAN-2020-Imports-1806,62,BLR,country_or_area
+CAN-2020-Imports-1806:42,CAN,加拿大,BRA,Brazil,2020,M,1806,巧克力及其他含可可食品,H0,234510.00,observed,CAN-2020-Imports-1806,42,BRA,country_or_area
+CAN-2020-Imports-1806:102,CAN,加拿大,BRB,Barbados,2020,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2020-Imports-1806,102,BRB,country_or_area
+CAN-2020-Imports-1806:12,CAN,加拿大,CAN,Canada,2020,M,1806,巧克力及其他含可可食品,H0,8052060.00,observed,CAN-2020-Imports-1806,12,CAN,country_or_area
+CAN-2020-Imports-1806:3,CAN,加拿大,CHE,Switzerland,2020,M,1806,巧克力及其他含可可食品,H0,70256890.00,observed,CAN-2020-Imports-1806,3,CHE,country_or_area
+CAN-2020-Imports-1806:72,CAN,加拿大,CHL,Chile,2020,M,1806,巧克力及其他含可可食品,H0,16690.00,observed,CAN-2020-Imports-1806,72,CHL,country_or_area
+CAN-2020-Imports-1806:15,CAN,加拿大,CHN,China,2020,M,1806,巧克力及其他含可可食品,H0,4450500.00,observed,CAN-2020-Imports-1806,15,CHN,country_or_area
+CAN-2020-Imports-1806:25,CAN,加拿大,CIV,Cote d'Ivoire,2020,M,1806,巧克力及其他含可可食品,H0,1349390.00,observed,CAN-2020-Imports-1806,25,CIV,country_or_area
+CAN-2020-Imports-1806:71,CAN,加拿大,CMR,Cameroon,2020,M,1806,巧克力及其他含可可食品,H0,18500.00,observed,CAN-2020-Imports-1806,71,CMR,country_or_area
+CAN-2020-Imports-1806:27,CAN,加拿大,COL,Colombia,2020,M,1806,巧克力及其他含可可食品,H0,1096310.00,observed,CAN-2020-Imports-1806,27,COL,country_or_area
+CAN-2020-Imports-1806:105,CAN,加拿大,COM,Comoros,2020,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2020-Imports-1806,105,COM,country_or_area
+CAN-2020-Imports-1806:68,CAN,加拿大,CRI,Costa Rica,2020,M,1806,巧克力及其他含可可食品,H0,22710.00,observed,CAN-2020-Imports-1806,68,CRI,country_or_area
+CAN-2020-Imports-1806:29,CAN,加拿大,CZE,Czech Republic,2020,M,1806,巧克力及其他含可可食品,H0,840330.00,observed,CAN-2020-Imports-1806,29,CZE,country_or_area
+CAN-2020-Imports-1806:4,CAN,加拿大,DEU,Germany,2020,M,1806,巧克力及其他含可可食品,H0,55244670.00,observed,CAN-2020-Imports-1806,4,DEU,country_or_area
+CAN-2020-Imports-1806:24,CAN,加拿大,DNK,Denmark,2020,M,1806,巧克力及其他含可可食品,H0,1509320.00,observed,CAN-2020-Imports-1806,24,DNK,country_or_area
+CAN-2020-Imports-1806:69,CAN,加拿大,DOM,Dominican Republic,2020,M,1806,巧克力及其他含可可食品,H0,21290.00,observed,CAN-2020-Imports-1806,69,DOM,country_or_area
+CAN-2020-Imports-1806:64,CAN,加拿大,DZA,Algeria,2020,M,1806,巧克力及其他含可可食品,H0,30240.00,observed,CAN-2020-Imports-1806,64,DZA,country_or_area
+CAN-2020-Imports-1806:45,CAN,加拿大,ECU,Ecuador,2020,M,1806,巧克力及其他含可可食品,H0,171110.00,observed,CAN-2020-Imports-1806,45,ECU,country_or_area
+CAN-2020-Imports-1806:26,CAN,加拿大,EGY,"Egypt, Arab Rep.",2020,M,1806,巧克力及其他含可可食品,H0,1101620.00,observed,CAN-2020-Imports-1806,26,EGY,country_or_area
+CAN-2020-Imports-1806:16,CAN,加拿大,ESP,Spain,2020,M,1806,巧克力及其他含可可食品,H0,3895620.00,observed,CAN-2020-Imports-1806,16,ESP,country_or_area
+CAN-2020-Imports-1806:83,CAN,加拿大,EST,Estonia,2020,M,1806,巧克力及其他含可可食品,H0,3230.00,observed,CAN-2020-Imports-1806,83,EST,country_or_area
+CAN-2020-Imports-1806:57,CAN,加拿大,FIN,Finland,2020,M,1806,巧克力及其他含可可食品,H0,83220.00,observed,CAN-2020-Imports-1806,57,FIN,country_or_area
+CAN-2020-Imports-1806:88,CAN,加拿大,FJI,Fiji,2020,M,1806,巧克力及其他含可可食品,H0,1610.00,observed,CAN-2020-Imports-1806,88,FJI,country_or_area
+CAN-2020-Imports-1806:7,CAN,加拿大,FRA,France,2020,M,1806,巧克力及其他含可可食品,H0,45084890.00,observed,CAN-2020-Imports-1806,7,FRA,country_or_area
+CAN-2020-Imports-1806:9,CAN,加拿大,GBR,United Kingdom,2020,M,1806,巧克力及其他含可可食品,H0,31318560.00,observed,CAN-2020-Imports-1806,9,GBR,country_or_area
+CAN-2020-Imports-1806:70,CAN,加拿大,GHA,Ghana,2020,M,1806,巧克力及其他含可可食品,H0,19670.00,observed,CAN-2020-Imports-1806,70,GHA,country_or_area
+CAN-2020-Imports-1806:40,CAN,加拿大,GRC,Greece,2020,M,1806,巧克力及其他含可可食品,H0,269080.00,observed,CAN-2020-Imports-1806,40,GRC,country_or_area
+CAN-2020-Imports-1806:101,CAN,加拿大,GRD,Grenada,2020,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2020-Imports-1806,101,GRD,country_or_area
+CAN-2020-Imports-1806:89,CAN,加拿大,GTM,Guatemala,2020,M,1806,巧克力及其他含可可食品,H0,1600.00,observed,CAN-2020-Imports-1806,89,GTM,country_or_area
+CAN-2020-Imports-1806:84,CAN,加拿大,HKG,"Hong Kong, China",2020,M,1806,巧克力及其他含可可食品,H0,2780.00,observed,CAN-2020-Imports-1806,84,HKG,country_or_area
+CAN-2020-Imports-1806:73,CAN,加拿大,HND,Honduras,2020,M,1806,巧克力及其他含可可食品,H0,14960.00,observed,CAN-2020-Imports-1806,73,HND,country_or_area
+CAN-2020-Imports-1806:34,CAN,加拿大,HRV,Croatia,2020,M,1806,巧克力及其他含可可食品,H0,452000.00,observed,CAN-2020-Imports-1806,34,HRV,country_or_area
+CAN-2020-Imports-1806:91,CAN,加拿大,HTI,Haiti,2020,M,1806,巧克力及其他含可可食品,H0,1310.00,observed,CAN-2020-Imports-1806,91,HTI,country_or_area
+CAN-2020-Imports-1806:21,CAN,加拿大,HUN,Hungary,2020,M,1806,巧克力及其他含可可食品,H0,1728900.00,observed,CAN-2020-Imports-1806,21,HUN,country_or_area
+CAN-2020-Imports-1806:17,CAN,加拿大,IDN,Indonesia,2020,M,1806,巧克力及其他含可可食品,H0,3215320.00,observed,CAN-2020-Imports-1806,17,IDN,country_or_area
+CAN-2020-Imports-1806:37,CAN,加拿大,IND,India,2020,M,1806,巧克力及其他含可可食品,H0,338220.00,observed,CAN-2020-Imports-1806,37,IND,country_or_area
+CAN-2020-Imports-1806:14,CAN,加拿大,IRL,Ireland,2020,M,1806,巧克力及其他含可可食品,H0,5078960.00,observed,CAN-2020-Imports-1806,14,IRL,country_or_area
+CAN-2020-Imports-1806:85,CAN,加拿大,IRN,"Iran, Islamic Rep.",2020,M,1806,巧克力及其他含可可食品,H0,2610.00,observed,CAN-2020-Imports-1806,85,IRN,country_or_area
+CAN-2020-Imports-1806:54,CAN,加拿大,ISL,Iceland,2020,M,1806,巧克力及其他含可可食品,H0,95850.00,observed,CAN-2020-Imports-1806,54,ISL,country_or_area
+CAN-2020-Imports-1806:28,CAN,加拿大,ISR,Israel,2020,M,1806,巧克力及其他含可可食品,H0,931810.00,observed,CAN-2020-Imports-1806,28,ISR,country_or_area
+CAN-2020-Imports-1806:8,CAN,加拿大,ITA,Italy,2020,M,1806,巧克力及其他含可可食品,H0,42519810.00,observed,CAN-2020-Imports-1806,8,ITA,country_or_area
+CAN-2020-Imports-1806:61,CAN,加拿大,JAM,Jamaica,2020,M,1806,巧克力及其他含可可食品,H0,41060.00,observed,CAN-2020-Imports-1806,61,JAM,country_or_area
+CAN-2020-Imports-1806:47,CAN,加拿大,JOR,Jordan,2020,M,1806,巧克力及其他含可可食品,H0,167360.00,observed,CAN-2020-Imports-1806,47,JOR,country_or_area
+CAN-2020-Imports-1806:30,CAN,加拿大,JPN,Japan,2020,M,1806,巧克力及其他含可可食品,H0,766290.00,observed,CAN-2020-Imports-1806,30,JPN,country_or_area
+CAN-2020-Imports-1806:99,CAN,加拿大,KEN,Kenya,2020,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2020-Imports-1806,99,KEN,country_or_area
+CAN-2020-Imports-1806:82,CAN,加拿大,KGZ,Kyrgyz Republic,2020,M,1806,巧克力及其他含可可食品,H0,4340.00,observed,CAN-2020-Imports-1806,82,KGZ,country_or_area
+CAN-2020-Imports-1806:60,CAN,加拿大,KOR,"Korea, Rep.",2020,M,1806,巧克力及其他含可可食品,H0,47650.00,observed,CAN-2020-Imports-1806,60,KOR,country_or_area
+CAN-2020-Imports-1806:53,CAN,加拿大,LBN,Lebanon,2020,M,1806,巧克力及其他含可可食品,H0,105710.00,observed,CAN-2020-Imports-1806,53,LBN,country_or_area
+CAN-2020-Imports-1806:98,CAN,加拿大,LCA,St. Lucia,2020,M,1806,巧克力及其他含可可食品,H0,30.00,observed,CAN-2020-Imports-1806,98,LCA,country_or_area
+CAN-2020-Imports-1806:92,CAN,加拿大,LKA,Sri Lanka,2020,M,1806,巧克力及其他含可可食品,H0,1170.00,observed,CAN-2020-Imports-1806,92,LKA,country_or_area
+CAN-2020-Imports-1806:43,CAN,加拿大,LTU,Lithuania,2020,M,1806,巧克力及其他含可可食品,H0,229230.00,observed,CAN-2020-Imports-1806,43,LTU,country_or_area
+CAN-2020-Imports-1806:66,CAN,加拿大,LUX,Luxembourg,2020,M,1806,巧克力及其他含可可食品,H0,27150.00,observed,CAN-2020-Imports-1806,66,LUX,country_or_area
+CAN-2020-Imports-1806:59,CAN,加拿大,LVA,Latvia,2020,M,1806,巧克力及其他含可可食品,H0,49630.00,observed,CAN-2020-Imports-1806,59,LVA,country_or_area
+CAN-2020-Imports-1806:80,CAN,加拿大,MAR,Morocco,2020,M,1806,巧克力及其他含可可食品,H0,6760.00,observed,CAN-2020-Imports-1806,80,MAR,country_or_area
+CAN-2020-Imports-1806:65,CAN,加拿大,MDA,Moldova,2020,M,1806,巧克力及其他含可可食品,H0,29670.00,observed,CAN-2020-Imports-1806,65,MDA,country_or_area
+CAN-2020-Imports-1806:96,CAN,加拿大,MDG,Madagascar,2020,M,1806,巧克力及其他含可可食品,H0,130.00,observed,CAN-2020-Imports-1806,96,MDG,country_or_area
+CAN-2020-Imports-1806:6,CAN,加拿大,MEX,Mexico,2020,M,1806,巧克力及其他含可可食品,H0,49143380.00,observed,CAN-2020-Imports-1806,6,MEX,country_or_area
+CAN-2020-Imports-1806:48,CAN,加拿大,MKD,North Macedonia,2020,M,1806,巧克力及其他含可可食品,H0,141720.00,observed,CAN-2020-Imports-1806,48,MKD,country_or_area
+CAN-2020-Imports-1806:104,CAN,加拿大,MLT,Malta,2020,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2020-Imports-1806,104,MLT,country_or_area
+CAN-2020-Imports-1806:23,CAN,加拿大,MYS,Malaysia,2020,M,1806,巧克力及其他含可可食品,H0,1577220.00,observed,CAN-2020-Imports-1806,23,MYS,country_or_area
+CAN-2020-Imports-1806:77,CAN,加拿大,NGA,Nigeria,2020,M,1806,巧克力及其他含可可食品,H0,8340.00,observed,CAN-2020-Imports-1806,77,NGA,country_or_area
+CAN-2020-Imports-1806:94,CAN,加拿大,NIC,Nicaragua,2020,M,1806,巧克力及其他含可可食品,H0,270.00,observed,CAN-2020-Imports-1806,94,NIC,country_or_area
+CAN-2020-Imports-1806:11,CAN,加拿大,NLD,Netherlands,2020,M,1806,巧克力及其他含可可食品,H0,8434780.00,observed,CAN-2020-Imports-1806,11,NLD,country_or_area
+CAN-2020-Imports-1806:50,CAN,加拿大,NOR,Norway,2020,M,1806,巧克力及其他含可可食品,H0,133830.00,observed,CAN-2020-Imports-1806,50,NOR,country_or_area
+CAN-2020-Imports-1806:22,CAN,加拿大,NZL,New Zealand,2020,M,1806,巧克力及其他含可可食品,H0,1664790.00,observed,CAN-2020-Imports-1806,22,NZL,country_or_area
+CAN-2020-Imports-1806:52,CAN,加拿大,OAS,"Other Asia, nes",2020,M,1806,巧克力及其他含可可食品,H0,115750.00,observed,CAN-2020-Imports-1806,52,OAS,country_or_area
+CAN-2020-Imports-1806:87,CAN,加拿大,PAK,Pakistan,2020,M,1806,巧克力及其他含可可食品,H0,1820.00,observed,CAN-2020-Imports-1806,87,PAK,country_or_area
+CAN-2020-Imports-1806:18,CAN,加拿大,PER,Peru,2020,M,1806,巧克力及其他含可可食品,H0,3184430.00,observed,CAN-2020-Imports-1806,18,PER,country_or_area
+CAN-2020-Imports-1806:41,CAN,加拿大,PHL,Philippines,2020,M,1806,巧克力及其他含可可食品,H0,264810.00,observed,CAN-2020-Imports-1806,41,PHL,country_or_area
+CAN-2020-Imports-1806:10,CAN,加拿大,POL,Poland,2020,M,1806,巧克力及其他含可可食品,H0,14339050.00,observed,CAN-2020-Imports-1806,10,POL,country_or_area
+CAN-2020-Imports-1806:44,CAN,加拿大,PRT,Portugal,2020,M,1806,巧克力及其他含可可食品,H0,176240.00,observed,CAN-2020-Imports-1806,44,PRT,country_or_area
+CAN-2020-Imports-1806:76,CAN,加拿大,PRY,Paraguay,2020,M,1806,巧克力及其他含可可食品,H0,11560.00,observed,CAN-2020-Imports-1806,76,PRY,country_or_area
+CAN-2020-Imports-1806:36,CAN,加拿大,ROM,Romania,2020,M,1806,巧克力及其他含可可食品,H0,406590.00,observed,CAN-2020-Imports-1806,36,ROM,country_or_area
+CAN-2020-Imports-1806:33,CAN,加拿大,RUS,Russian Federation,2020,M,1806,巧克力及其他含可可食品,H0,624810.00,observed,CAN-2020-Imports-1806,33,RUS,country_or_area
+CAN-2020-Imports-1806:78,CAN,加拿大,SAU,Saudi Arabia,2020,M,1806,巧克力及其他含可可食品,H0,7090.00,observed,CAN-2020-Imports-1806,78,SAU,country_or_area
+CAN-2020-Imports-1806:97,CAN,加拿大,SEN,Senegal,2020,M,1806,巧克力及其他含可可食品,H0,100.00,observed,CAN-2020-Imports-1806,97,SEN,country_or_area
+CAN-2020-Imports-1806:39,CAN,加拿大,SER,"Serbia, FR(Serbia/Montenegro)",2020,M,1806,巧克力及其他含可可食品,H0,274210.00,observed,CAN-2020-Imports-1806,39,SER,country_or_area
+CAN-2020-Imports-1806:51,CAN,加拿大,SGP,Singapore,2020,M,1806,巧克力及其他含可可食品,H0,118220.00,observed,CAN-2020-Imports-1806,51,SGP,country_or_area
+CAN-2020-Imports-1806:74,CAN,加拿大,SLV,El Salvador,2020,M,1806,巧克力及其他含可可食品,H0,14290.00,observed,CAN-2020-Imports-1806,74,SLV,country_or_area
+CAN-2020-Imports-1806:67,CAN,加拿大,SVK,Slovak Republic,2020,M,1806,巧克力及其他含可可食品,H0,25380.00,observed,CAN-2020-Imports-1806,67,SVK,country_or_area
+CAN-2020-Imports-1806:46,CAN,加拿大,SVN,Slovenia,2020,M,1806,巧克力及其他含可可食品,H0,169500.00,observed,CAN-2020-Imports-1806,46,SVN,country_or_area
+CAN-2020-Imports-1806:20,CAN,加拿大,SWE,Sweden,2020,M,1806,巧克力及其他含可可食品,H0,1750670.00,observed,CAN-2020-Imports-1806,20,SWE,country_or_area
+CAN-2020-Imports-1806:93,CAN,加拿大,SWZ,Eswatini,2020,M,1806,巧克力及其他含可可食品,H0,590.00,observed,CAN-2020-Imports-1806,93,SWZ,country_or_area
+CAN-2020-Imports-1806:86,CAN,加拿大,SYR,Syrian Arab Republic,2020,M,1806,巧克力及其他含可可食品,H0,2010.00,observed,CAN-2020-Imports-1806,86,SYR,country_or_area
+CAN-2020-Imports-1806:49,CAN,加拿大,THA,Thailand,2020,M,1806,巧克力及其他含可可食品,H0,136060.00,observed,CAN-2020-Imports-1806,49,THA,country_or_area
+CAN-2020-Imports-1806:79,CAN,加拿大,TTO,Trinidad and Tobago,2020,M,1806,巧克力及其他含可可食品,H0,6880.00,observed,CAN-2020-Imports-1806,79,TTO,country_or_area
+CAN-2020-Imports-1806:55,CAN,加拿大,TUN,Tunisia,2020,M,1806,巧克力及其他含可可食品,H0,90680.00,observed,CAN-2020-Imports-1806,55,TUN,country_or_area
+CAN-2020-Imports-1806:13,CAN,加拿大,TUR,Turkey,2020,M,1806,巧克力及其他含可可食品,H0,6338240.00,observed,CAN-2020-Imports-1806,13,TUR,country_or_area
+CAN-2020-Imports-1806:35,CAN,加拿大,UKR,Ukraine,2020,M,1806,巧克力及其他含可可食品,H0,412660.00,observed,CAN-2020-Imports-1806,35,UKR,country_or_area
+CAN-2020-Imports-1806:107,CAN,加拿大,UMI,United States Minor Outlying I,2020,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2020-Imports-1806,107,UMI,country_or_area
+CAN-2020-Imports-1806:106,CAN,加拿大,URY,Uruguay,2020,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2020-Imports-1806,106,URY,country_or_area
+CAN-2020-Imports-1806:2,CAN,加拿大,USA,United States,2020,M,1806,巧克力及其他含可可食品,H0,590276600.00,observed,CAN-2020-Imports-1806,2,USA,country_or_area
+CAN-2020-Imports-1806:103,CAN,加拿大,UZB,Uzbekistan,2020,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2020-Imports-1806,103,UZB,country_or_area
+CAN-2020-Imports-1806:63,CAN,加拿大,VEN,Venezuela,2020,M,1806,巧克力及其他含可可食品,H0,30900.00,observed,CAN-2020-Imports-1806,63,VEN,country_or_area
+CAN-2020-Imports-1806:56,CAN,加拿大,VNM,Vietnam,2020,M,1806,巧克力及其他含可可食品,H0,89010.00,observed,CAN-2020-Imports-1806,56,VNM,country_or_area
+CAN-2020-Imports-1806:1,CAN,加拿大,WLD,World,2020,M,1806,巧克力及其他含可可食品,H0,1015032050.00,observed,CAN-2020-Imports-1806,1,WLD,world
+CAN-2020-Imports-1806:38,CAN,加拿大,ZAF,South Africa,2020,M,1806,巧克力及其他含可可食品,H0,336380.00,observed,CAN-2020-Imports-1806,38,ZAF,country_or_area
+CAN-2020-Exports-1806:81,CAN,加拿大,ABW,Aruba,2020,X,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2020-Exports-1806,81,ABW,country_or_area
+CAN-2020-Exports-1806:74,CAN,加拿大,AGO,Angola,2020,X,1806,巧克力及其他含可可食品,H0,240.00,observed,CAN-2020-Exports-1806,74,AGO,country_or_area
+CAN-2020-Exports-1806:22,CAN,加拿大,ARE,United Arab Emirates,2020,X,1806,巧克力及其他含可可食品,H0,295000.00,observed,CAN-2020-Exports-1806,22,ARE,country_or_area
+CAN-2020-Exports-1806:80,CAN,加拿大,ARM,Armenia,2020,X,1806,巧克力及其他含可可食品,H0,30.00,observed,CAN-2020-Exports-1806,80,ARM,country_or_area
+CAN-2020-Exports-1806:4,CAN,加拿大,AUS,Australia,2020,X,1806,巧克力及其他含可可食品,H0,8371710.00,observed,CAN-2020-Exports-1806,4,AUS,country_or_area
+CAN-2020-Exports-1806:65,CAN,加拿大,AUT,Austria,2020,X,1806,巧克力及其他含可可食品,H0,990.00,observed,CAN-2020-Exports-1806,65,AUT,country_or_area
+CAN-2020-Exports-1806:56,CAN,加拿大,AZE,Azerbaijan,2020,X,1806,巧克力及其他含可可食品,H0,4090.00,observed,CAN-2020-Exports-1806,56,AZE,country_or_area
+CAN-2020-Exports-1806:40,CAN,加拿大,BEL,Belgium,2020,X,1806,巧克力及其他含可可食品,H0,26220.00,observed,CAN-2020-Exports-1806,40,BEL,country_or_area
+CAN-2020-Exports-1806:76,CAN,加拿大,BFA,Burkina Faso,2020,X,1806,巧克力及其他含可可食品,H0,130.00,observed,CAN-2020-Exports-1806,76,BFA,country_or_area
+CAN-2020-Exports-1806:55,CAN,加拿大,BHS,"Bahamas, The",2020,X,1806,巧克力及其他含可可食品,H0,4210.00,observed,CAN-2020-Exports-1806,55,BHS,country_or_area
+CAN-2020-Exports-1806:50,CAN,加拿大,BMU,Bermuda,2020,X,1806,巧克力及其他含可可食品,H0,7830.00,observed,CAN-2020-Exports-1806,50,BMU,country_or_area
+CAN-2020-Exports-1806:14,CAN,加拿大,BRA,Brazil,2020,X,1806,巧克力及其他含可可食品,H0,657290.00,observed,CAN-2020-Exports-1806,14,BRA,country_or_area
+CAN-2020-Exports-1806:26,CAN,加拿大,BRB,Barbados,2020,X,1806,巧克力及其他含可可食品,H0,97830.00,observed,CAN-2020-Exports-1806,26,BRB,country_or_area
+CAN-2020-Exports-1806:72,CAN,加拿大,BRN,Brunei,2020,X,1806,巧克力及其他含可可食品,H0,300.00,observed,CAN-2020-Exports-1806,72,BRN,country_or_area
+CAN-2020-Exports-1806:27,CAN,加拿大,CHE,Switzerland,2020,X,1806,巧克力及其他含可可食品,H0,93510.00,observed,CAN-2020-Exports-1806,27,CHE,country_or_area
+CAN-2020-Exports-1806:8,CAN,加拿大,CHL,Chile,2020,X,1806,巧克力及其他含可可食品,H0,2327560.00,observed,CAN-2020-Exports-1806,8,CHL,country_or_area
+CAN-2020-Exports-1806:9,CAN,加拿大,CHN,China,2020,X,1806,巧克力及其他含可可食品,H0,1869350.00,observed,CAN-2020-Exports-1806,9,CHN,country_or_area
+CAN-2020-Exports-1806:83,CAN,加拿大,CIV,Cote d'Ivoire,2020,X,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2020-Exports-1806,83,CIV,country_or_area
+CAN-2020-Exports-1806:73,CAN,加拿大,CMR,Cameroon,2020,X,1806,巧克力及其他含可可食品,H0,290.00,observed,CAN-2020-Exports-1806,73,CMR,country_or_area
+CAN-2020-Exports-1806:46,CAN,加拿大,COL,Colombia,2020,X,1806,巧克力及其他含可可食品,H0,16670.00,observed,CAN-2020-Exports-1806,46,COL,country_or_area
+CAN-2020-Exports-1806:12,CAN,加拿大,CRI,Costa Rica,2020,X,1806,巧克力及其他含可可食品,H0,935880.00,observed,CAN-2020-Exports-1806,12,CRI,country_or_area
+CAN-2020-Exports-1806:45,CAN,加拿大,CUB,Cuba,2020,X,1806,巧克力及其他含可可食品,H0,17380.00,observed,CAN-2020-Exports-1806,45,CUB,country_or_area
+CAN-2020-Exports-1806:54,CAN,加拿大,CYP,Cyprus,2020,X,1806,巧克力及其他含可可食品,H0,5660.00,observed,CAN-2020-Exports-1806,54,CYP,country_or_area
+CAN-2020-Exports-1806:60,CAN,加拿大,CZE,Czech Republic,2020,X,1806,巧克力及其他含可可食品,H0,1600.00,observed,CAN-2020-Exports-1806,60,CZE,country_or_area
+CAN-2020-Exports-1806:34,CAN,加拿大,DEU,Germany,2020,X,1806,巧克力及其他含可可食品,H0,42470.00,observed,CAN-2020-Exports-1806,34,DEU,country_or_area
+CAN-2020-Exports-1806:77,CAN,加拿大,DMA,Dominica,2020,X,1806,巧克力及其他含可可食品,H0,130.00,observed,CAN-2020-Exports-1806,77,DMA,country_or_area
+CAN-2020-Exports-1806:82,CAN,加拿大,DNK,Denmark,2020,X,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2020-Exports-1806,82,DNK,country_or_area
+CAN-2020-Exports-1806:70,CAN,加拿大,DOM,Dominican Republic,2020,X,1806,巧克力及其他含可可食品,H0,560.00,observed,CAN-2020-Exports-1806,70,DOM,country_or_area
+CAN-2020-Exports-1806:28,CAN,加拿大,DZA,Algeria,2020,X,1806,巧克力及其他含可可食品,H0,88200.00,observed,CAN-2020-Exports-1806,28,DZA,country_or_area
+CAN-2020-Exports-1806:58,CAN,加拿大,EGY,"Egypt, Arab Rep.",2020,X,1806,巧克力及其他含可可食品,H0,2890.00,observed,CAN-2020-Exports-1806,58,EGY,country_or_area
+CAN-2020-Exports-1806:33,CAN,加拿大,ESP,Spain,2020,X,1806,巧克力及其他含可可食品,H0,44070.00,observed,CAN-2020-Exports-1806,33,ESP,country_or_area
+CAN-2020-Exports-1806:62,CAN,加拿大,FIN,Finland,2020,X,1806,巧克力及其他含可可食品,H0,1230.00,observed,CAN-2020-Exports-1806,62,FIN,country_or_area
+CAN-2020-Exports-1806:15,CAN,加拿大,FRA,France,2020,X,1806,巧克力及其他含可可食品,H0,656830.00,observed,CAN-2020-Exports-1806,15,FRA,country_or_area
+CAN-2020-Exports-1806:5,CAN,加拿大,GBR,United Kingdom,2020,X,1806,巧克力及其他含可可食品,H0,4240490.00,observed,CAN-2020-Exports-1806,5,GBR,country_or_area
+CAN-2020-Exports-1806:44,CAN,加拿大,GHA,Ghana,2020,X,1806,巧克力及其他含可可食品,H0,17830.00,observed,CAN-2020-Exports-1806,44,GHA,country_or_area
+CAN-2020-Exports-1806:78,CAN,加拿大,GRL,Greenland,2020,X,1806,巧克力及其他含可可食品,H0,60.00,observed,CAN-2020-Exports-1806,78,GRL,country_or_area
+CAN-2020-Exports-1806:25,CAN,加拿大,GTM,Guatemala,2020,X,1806,巧克力及其他含可可食品,H0,104980.00,observed,CAN-2020-Exports-1806,25,GTM,country_or_area
+CAN-2020-Exports-1806:66,CAN,加拿大,GUY,Guyana,2020,X,1806,巧克力及其他含可可食品,H0,890.00,observed,CAN-2020-Exports-1806,66,GUY,country_or_area
+CAN-2020-Exports-1806:10,CAN,加拿大,HKG,"Hong Kong, China",2020,X,1806,巧克力及其他含可可食品,H0,1191740.00,observed,CAN-2020-Exports-1806,10,HKG,country_or_area
+CAN-2020-Exports-1806:37,CAN,加拿大,HND,Honduras,2020,X,1806,巧克力及其他含可可食品,H0,38900.00,observed,CAN-2020-Exports-1806,37,HND,country_or_area
+CAN-2020-Exports-1806:64,CAN,加拿大,HTI,Haiti,2020,X,1806,巧克力及其他含可可食品,H0,990.00,observed,CAN-2020-Exports-1806,64,HTI,country_or_area
+CAN-2020-Exports-1806:48,CAN,加拿大,IDN,Indonesia,2020,X,1806,巧克力及其他含可可食品,H0,10570.00,observed,CAN-2020-Exports-1806,48,IDN,country_or_area
+CAN-2020-Exports-1806:32,CAN,加拿大,IND,India,2020,X,1806,巧克力及其他含可可食品,H0,57270.00,observed,CAN-2020-Exports-1806,32,IND,country_or_area
+CAN-2020-Exports-1806:24,CAN,加拿大,IRL,Ireland,2020,X,1806,巧克力及其他含可可食品,H0,198230.00,observed,CAN-2020-Exports-1806,24,IRL,country_or_area
+CAN-2020-Exports-1806:30,CAN,加拿大,ISL,Iceland,2020,X,1806,巧克力及其他含可可食品,H0,70750.00,observed,CAN-2020-Exports-1806,30,ISL,country_or_area
+CAN-2020-Exports-1806:47,CAN,加拿大,ISR,Israel,2020,X,1806,巧克力及其他含可可食品,H0,15170.00,observed,CAN-2020-Exports-1806,47,ISR,country_or_area
+CAN-2020-Exports-1806:16,CAN,加拿大,ITA,Italy,2020,X,1806,巧克力及其他含可可食品,H0,579950.00,observed,CAN-2020-Exports-1806,16,ITA,country_or_area
+CAN-2020-Exports-1806:23,CAN,加拿大,JAM,Jamaica,2020,X,1806,巧克力及其他含可可食品,H0,264130.00,observed,CAN-2020-Exports-1806,23,JAM,country_or_area
+CAN-2020-Exports-1806:19,CAN,加拿大,JOR,Jordan,2020,X,1806,巧克力及其他含可可食品,H0,476660.00,observed,CAN-2020-Exports-1806,19,JOR,country_or_area
+CAN-2020-Exports-1806:6,CAN,加拿大,JPN,Japan,2020,X,1806,巧克力及其他含可可食品,H0,3569790.00,observed,CAN-2020-Exports-1806,6,JPN,country_or_area
+CAN-2020-Exports-1806:67,CAN,加拿大,KEN,Kenya,2020,X,1806,巧克力及其他含可可食品,H0,690.00,observed,CAN-2020-Exports-1806,67,KEN,country_or_area
+CAN-2020-Exports-1806:7,CAN,加拿大,KOR,"Korea, Rep.",2020,X,1806,巧克力及其他含可可食品,H0,2604170.00,observed,CAN-2020-Exports-1806,7,KOR,country_or_area
+CAN-2020-Exports-1806:69,CAN,加拿大,LAO,Lao PDR,2020,X,1806,巧克力及其他含可可食品,H0,560.00,observed,CAN-2020-Exports-1806,69,LAO,country_or_area
+CAN-2020-Exports-1806:53,CAN,加拿大,LBR,Liberia,2020,X,1806,巧克力及其他含可可食品,H0,6710.00,observed,CAN-2020-Exports-1806,53,LBR,country_or_area
+CAN-2020-Exports-1806:68,CAN,加拿大,LBY,Libya,2020,X,1806,巧克力及其他含可可食品,H0,580.00,observed,CAN-2020-Exports-1806,68,LBY,country_or_area
+CAN-2020-Exports-1806:57,CAN,加拿大,LKA,Sri Lanka,2020,X,1806,巧克力及其他含可可食品,H0,3350.00,observed,CAN-2020-Exports-1806,57,LKA,country_or_area
+CAN-2020-Exports-1806:3,CAN,加拿大,MEX,Mexico,2020,X,1806,巧克力及其他含可可食品,H0,63225650.00,observed,CAN-2020-Exports-1806,3,MEX,country_or_area
+CAN-2020-Exports-1806:71,CAN,加拿大,MUS,Mauritius,2020,X,1806,巧克力及其他含可可食品,H0,520.00,observed,CAN-2020-Exports-1806,71,MUS,country_or_area
+CAN-2020-Exports-1806:43,CAN,加拿大,NIC,Nicaragua,2020,X,1806,巧克力及其他含可可食品,H0,20010.00,observed,CAN-2020-Exports-1806,43,NIC,country_or_area
+CAN-2020-Exports-1806:13,CAN,加拿大,NLD,Netherlands,2020,X,1806,巧克力及其他含可可食品,H0,673590.00,observed,CAN-2020-Exports-1806,13,NLD,country_or_area
+CAN-2020-Exports-1806:31,CAN,加拿大,NZL,New Zealand,2020,X,1806,巧克力及其他含可可食品,H0,65260.00,observed,CAN-2020-Exports-1806,31,NZL,country_or_area
+CAN-2020-Exports-1806:18,CAN,加拿大,OAS,"Other Asia, nes",2020,X,1806,巧克力及其他含可可食品,H0,488460.00,observed,CAN-2020-Exports-1806,18,OAS,country_or_area
+CAN-2020-Exports-1806:42,CAN,加拿大,OMN,Oman,2020,X,1806,巧克力及其他含可可食品,H0,21000.00,observed,CAN-2020-Exports-1806,42,OMN,country_or_area
+CAN-2020-Exports-1806:35,CAN,加拿大,PAK,Pakistan,2020,X,1806,巧克力及其他含可可食品,H0,41120.00,observed,CAN-2020-Exports-1806,35,PAK,country_or_area
+CAN-2020-Exports-1806:21,CAN,加拿大,PER,Peru,2020,X,1806,巧克力及其他含可可食品,H0,344710.00,observed,CAN-2020-Exports-1806,21,PER,country_or_area
+CAN-2020-Exports-1806:20,CAN,加拿大,PHL,Philippines,2020,X,1806,巧克力及其他含可可食品,H0,353320.00,observed,CAN-2020-Exports-1806,20,PHL,country_or_area
+CAN-2020-Exports-1806:84,CAN,加拿大,POL,Poland,2020,X,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2020-Exports-1806,84,POL,country_or_area
+CAN-2020-Exports-1806:29,CAN,加拿大,QAT,Qatar,2020,X,1806,巧克力及其他含可可食品,H0,72140.00,observed,CAN-2020-Exports-1806,29,QAT,country_or_area
+CAN-2020-Exports-1806:39,CAN,加拿大,RUS,Russian Federation,2020,X,1806,巧克力及其他含可可食品,H0,31430.00,observed,CAN-2020-Exports-1806,39,RUS,country_or_area
+CAN-2020-Exports-1806:11,CAN,加拿大,SAU,Saudi Arabia,2020,X,1806,巧克力及其他含可可食品,H0,1139400.00,observed,CAN-2020-Exports-1806,11,SAU,country_or_area
+CAN-2020-Exports-1806:79,CAN,加拿大,SEN,Senegal,2020,X,1806,巧克力及其他含可可食品,H0,40.00,observed,CAN-2020-Exports-1806,79,SEN,country_or_area
+CAN-2020-Exports-1806:17,CAN,加拿大,SGP,Singapore,2020,X,1806,巧克力及其他含可可食品,H0,489730.00,observed,CAN-2020-Exports-1806,17,SGP,country_or_area
+CAN-2020-Exports-1806:36,CAN,加拿大,SLV,El Salvador,2020,X,1806,巧克力及其他含可可食品,H0,39830.00,observed,CAN-2020-Exports-1806,36,SLV,country_or_area
+CAN-2020-Exports-1806:49,CAN,加拿大,SPM,Saint Pierre and Miquelon,2020,X,1806,巧克力及其他含可可食品,H0,9450.00,observed,CAN-2020-Exports-1806,49,SPM,country_or_area
+CAN-2020-Exports-1806:51,CAN,加拿大,SWE,Sweden,2020,X,1806,巧克力及其他含可可食品,H0,7740.00,observed,CAN-2020-Exports-1806,51,SWE,country_or_area
+CAN-2020-Exports-1806:59,CAN,加拿大,TCA,Turks and Caicos Isl.,2020,X,1806,巧克力及其他含可可食品,H0,1920.00,observed,CAN-2020-Exports-1806,59,TCA,country_or_area
+CAN-2020-Exports-1806:41,CAN,加拿大,THA,Thailand,2020,X,1806,巧克力及其他含可可食品,H0,24140.00,observed,CAN-2020-Exports-1806,41,THA,country_or_area
+CAN-2020-Exports-1806:38,CAN,加拿大,TTO,Trinidad and Tobago,2020,X,1806,巧克力及其他含可可食品,H0,33080.00,observed,CAN-2020-Exports-1806,38,TTO,country_or_area
+CAN-2020-Exports-1806:52,CAN,加拿大,TUR,Turkey,2020,X,1806,巧克力及其他含可可食品,H0,7550.00,observed,CAN-2020-Exports-1806,52,TUR,country_or_area
+CAN-2020-Exports-1806:63,CAN,加拿大,UKR,Ukraine,2020,X,1806,巧克力及其他含可可食品,H0,1170.00,observed,CAN-2020-Exports-1806,63,UKR,country_or_area
+CAN-2020-Exports-1806:85,CAN,加拿大,UMI,United States Minor Outlying I,2020,X,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2020-Exports-1806,85,UMI,country_or_area
+CAN-2020-Exports-1806:2,CAN,加拿大,USA,United States,2020,X,1806,巧克力及其他含可可食品,H0,1515084890.00,observed,CAN-2020-Exports-1806,2,USA,country_or_area
+CAN-2020-Exports-1806:61,CAN,加拿大,VNM,Vietnam,2020,X,1806,巧克力及其他含可可食品,H0,1250.00,observed,CAN-2020-Exports-1806,61,VNM,country_or_area
+CAN-2020-Exports-1806:1,CAN,加拿大,WLD,World,2020,X,1806,巧克力及其他含可可食品,H0,1611202270.00,observed,CAN-2020-Exports-1806,1,WLD,world
+CAN-2020-Exports-1806:75,CAN,加拿大,ZAF,South Africa,2020,X,1806,巧克力及其他含可可食品,H0,160.00,observed,CAN-2020-Exports-1806,75,ZAF,country_or_area
+CAN-2021-Imports-1806:118,CAN,加拿大,ABW,Aruba,2021,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2021-Imports-1806,118,ABW,country_or_area
+CAN-2021-Imports-1806:112,CAN,加拿大,AFG,Afghanistan,2021,M,1806,巧克力及其他含可可食品,H0,30.00,observed,CAN-2021-Imports-1806,112,AFG,country_or_area
+CAN-2021-Imports-1806:45,CAN,加拿大,ARE,United Arab Emirates,2021,M,1806,巧克力及其他含可可食品,H0,233110.00,observed,CAN-2021-Imports-1806,45,ARE,country_or_area
+CAN-2021-Imports-1806:65,CAN,加拿大,ARG,Argentina,2021,M,1806,巧克力及其他含可可食品,H0,45230.00,observed,CAN-2021-Imports-1806,65,ARG,country_or_area
+CAN-2021-Imports-1806:77,CAN,加拿大,ARM,Armenia,2021,M,1806,巧克力及其他含可可食品,H0,13940.00,observed,CAN-2021-Imports-1806,77,ARM,country_or_area
+CAN-2021-Imports-1806:58,CAN,加拿大,AUS,Australia,2021,M,1806,巧克力及其他含可可食品,H0,107980.00,observed,CAN-2021-Imports-1806,58,AUS,country_or_area
+CAN-2021-Imports-1806:33,CAN,加拿大,AUT,Austria,2021,M,1806,巧克力及其他含可可食品,H0,593740.00,observed,CAN-2021-Imports-1806,33,AUT,country_or_area
+CAN-2021-Imports-1806:5,CAN,加拿大,BEL,Belgium,2021,M,1806,巧克力及其他含可可食品,H0,62102810.00,observed,CAN-2021-Imports-1806,5,BEL,country_or_area
+CAN-2021-Imports-1806:126,CAN,加拿大,BEN,Benin,2021,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2021-Imports-1806,126,BEN,country_or_area
+CAN-2021-Imports-1806:86,CAN,加拿大,BGD,Bangladesh,2021,M,1806,巧克力及其他含可可食品,H0,4150.00,observed,CAN-2021-Imports-1806,86,BGD,country_or_area
+CAN-2021-Imports-1806:30,CAN,加拿大,BGR,Bulgaria,2021,M,1806,巧克力及其他含可可食品,H0,902240.00,observed,CAN-2021-Imports-1806,30,BGR,country_or_area
+CAN-2021-Imports-1806:111,CAN,加拿大,BIH,Bosnia and Herzegovina,2021,M,1806,巧克力及其他含可可食品,H0,40.00,observed,CAN-2021-Imports-1806,111,BIH,country_or_area
+CAN-2021-Imports-1806:59,CAN,加拿大,BLR,Belarus,2021,M,1806,巧克力及其他含可可食品,H0,77910.00,observed,CAN-2021-Imports-1806,59,BLR,country_or_area
+CAN-2021-Imports-1806:113,CAN,加拿大,BLZ,Belize,2021,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2021-Imports-1806,113,BLZ,country_or_area
+CAN-2021-Imports-1806:121,CAN,加拿大,BMU,Bermuda,2021,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2021-Imports-1806,121,BMU,country_or_area
+CAN-2021-Imports-1806:114,CAN,加拿大,BOL,Bolivia,2021,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2021-Imports-1806,114,BOL,country_or_area
+CAN-2021-Imports-1806:38,CAN,加拿大,BRA,Brazil,2021,M,1806,巧克力及其他含可可食品,H0,367390.00,observed,CAN-2021-Imports-1806,38,BRA,country_or_area
+CAN-2021-Imports-1806:108,CAN,加拿大,BRB,Barbados,2021,M,1806,巧克力及其他含可可食品,H0,50.00,observed,CAN-2021-Imports-1806,108,BRB,country_or_area
+CAN-2021-Imports-1806:125,CAN,加拿大,BRN,Brunei,2021,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2021-Imports-1806,125,BRN,country_or_area
+CAN-2021-Imports-1806:13,CAN,加拿大,CAN,Canada,2021,M,1806,巧克力及其他含可可食品,H0,8115750.00,observed,CAN-2021-Imports-1806,13,CAN,country_or_area
+CAN-2021-Imports-1806:3,CAN,加拿大,CHE,Switzerland,2021,M,1806,巧克力及其他含可可食品,H0,74832160.00,observed,CAN-2021-Imports-1806,3,CHE,country_or_area
+CAN-2021-Imports-1806:78,CAN,加拿大,CHL,Chile,2021,M,1806,巧克力及其他含可可食品,H0,12580.00,observed,CAN-2021-Imports-1806,78,CHL,country_or_area
+CAN-2021-Imports-1806:11,CAN,加拿大,CHN,China,2021,M,1806,巧克力及其他含可可食品,H0,14715790.00,observed,CAN-2021-Imports-1806,11,CHN,country_or_area
+CAN-2021-Imports-1806:25,CAN,加拿大,CIV,Cote d'Ivoire,2021,M,1806,巧克力及其他含可可食品,H0,1309930.00,observed,CAN-2021-Imports-1806,25,CIV,country_or_area
+CAN-2021-Imports-1806:70,CAN,加拿大,CMR,Cameroon,2021,M,1806,巧克力及其他含可可食品,H0,29910.00,observed,CAN-2021-Imports-1806,70,CMR,country_or_area
+CAN-2021-Imports-1806:96,CAN,加拿大,COG,"Congo, Rep.",2021,M,1806,巧克力及其他含可可食品,H0,290.00,observed,CAN-2021-Imports-1806,96,COG,country_or_area
+CAN-2021-Imports-1806:28,CAN,加拿大,COL,Colombia,2021,M,1806,巧克力及其他含可可食品,H0,965850.00,observed,CAN-2021-Imports-1806,28,COL,country_or_area
+CAN-2021-Imports-1806:54,CAN,加拿大,CRI,Costa Rica,2021,M,1806,巧克力及其他含可可食品,H0,144080.00,observed,CAN-2021-Imports-1806,54,CRI,country_or_area
+CAN-2021-Imports-1806:31,CAN,加拿大,CZE,Czech Republic,2021,M,1806,巧克力及其他含可可食品,H0,833900.00,observed,CAN-2021-Imports-1806,31,CZE,country_or_area
+CAN-2021-Imports-1806:4,CAN,加拿大,DEU,Germany,2021,M,1806,巧克力及其他含可可食品,H0,68066110.00,observed,CAN-2021-Imports-1806,4,DEU,country_or_area
+CAN-2021-Imports-1806:23,CAN,加拿大,DNK,Denmark,2021,M,1806,巧克力及其他含可可食品,H0,1639450.00,observed,CAN-2021-Imports-1806,23,DNK,country_or_area
+CAN-2021-Imports-1806:75,CAN,加拿大,DOM,Dominican Republic,2021,M,1806,巧克力及其他含可可食品,H0,15110.00,observed,CAN-2021-Imports-1806,75,DOM,country_or_area
+CAN-2021-Imports-1806:80,CAN,加拿大,DZA,Algeria,2021,M,1806,巧克力及其他含可可食品,H0,11340.00,observed,CAN-2021-Imports-1806,80,DZA,country_or_area
+CAN-2021-Imports-1806:53,CAN,加拿大,ECU,Ecuador,2021,M,1806,巧克力及其他含可可食品,H0,152250.00,observed,CAN-2021-Imports-1806,53,ECU,country_or_area
+CAN-2021-Imports-1806:29,CAN,加拿大,EGY,"Egypt, Arab Rep.",2021,M,1806,巧克力及其他含可可食品,H0,933600.00,observed,CAN-2021-Imports-1806,29,EGY,country_or_area
+CAN-2021-Imports-1806:19,CAN,加拿大,ESP,Spain,2021,M,1806,巧克力及其他含可可食品,H0,3329600.00,observed,CAN-2021-Imports-1806,19,ESP,country_or_area
+CAN-2021-Imports-1806:99,CAN,加拿大,EST,Estonia,2021,M,1806,巧克力及其他含可可食品,H0,210.00,observed,CAN-2021-Imports-1806,99,EST,country_or_area
+CAN-2021-Imports-1806:110,CAN,加拿大,ETH,Ethiopia(excludes Eritrea),2021,M,1806,巧克力及其他含可可食品,H0,50.00,observed,CAN-2021-Imports-1806,110,ETH,country_or_area
+CAN-2021-Imports-1806:55,CAN,加拿大,FIN,Finland,2021,M,1806,巧克力及其他含可可食品,H0,127260.00,observed,CAN-2021-Imports-1806,55,FIN,country_or_area
+CAN-2021-Imports-1806:93,CAN,加拿大,FJI,Fiji,2021,M,1806,巧克力及其他含可可食品,H0,800.00,observed,CAN-2021-Imports-1806,93,FJI,country_or_area
+CAN-2021-Imports-1806:8,CAN,加拿大,FRA,France,2021,M,1806,巧克力及其他含可可食品,H0,48100030.00,observed,CAN-2021-Imports-1806,8,FRA,country_or_area
+CAN-2021-Imports-1806:9,CAN,加拿大,GBR,United Kingdom,2021,M,1806,巧克力及其他含可可食品,H0,35431120.00,observed,CAN-2021-Imports-1806,9,GBR,country_or_area
+CAN-2021-Imports-1806:73,CAN,加拿大,GHA,Ghana,2021,M,1806,巧克力及其他含可可食品,H0,19630.00,observed,CAN-2021-Imports-1806,73,GHA,country_or_area
+CAN-2021-Imports-1806:35,CAN,加拿大,GRC,Greece,2021,M,1806,巧克力及其他含可可食品,H0,548870.00,observed,CAN-2021-Imports-1806,35,GRC,country_or_area
+CAN-2021-Imports-1806:119,CAN,加拿大,GRD,Grenada,2021,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2021-Imports-1806,119,GRD,country_or_area
+CAN-2021-Imports-1806:95,CAN,加拿大,GTM,Guatemala,2021,M,1806,巧克力及其他含可可食品,H0,630.00,observed,CAN-2021-Imports-1806,95,GTM,country_or_area
+CAN-2021-Imports-1806:85,CAN,加拿大,HKG,"Hong Kong, China",2021,M,1806,巧克力及其他含可可食品,H0,6630.00,observed,CAN-2021-Imports-1806,85,HKG,country_or_area
+CAN-2021-Imports-1806:89,CAN,加拿大,HND,Honduras,2021,M,1806,巧克力及其他含可可食品,H0,2300.00,observed,CAN-2021-Imports-1806,89,HND,country_or_area
+CAN-2021-Imports-1806:22,CAN,加拿大,HRV,Croatia,2021,M,1806,巧克力及其他含可可食品,H0,1808980.00,observed,CAN-2021-Imports-1806,22,HRV,country_or_area
+CAN-2021-Imports-1806:82,CAN,加拿大,HTI,Haiti,2021,M,1806,巧克力及其他含可可食品,H0,9920.00,observed,CAN-2021-Imports-1806,82,HTI,country_or_area
+CAN-2021-Imports-1806:20,CAN,加拿大,HUN,Hungary,2021,M,1806,巧克力及其他含可可食品,H0,2507280.00,observed,CAN-2021-Imports-1806,20,HUN,country_or_area
+CAN-2021-Imports-1806:15,CAN,加拿大,IDN,Indonesia,2021,M,1806,巧克力及其他含可可食品,H0,4615660.00,observed,CAN-2021-Imports-1806,15,IDN,country_or_area
+CAN-2021-Imports-1806:39,CAN,加拿大,IND,India,2021,M,1806,巧克力及其他含可可食品,H0,318090.00,observed,CAN-2021-Imports-1806,39,IND,country_or_area
+CAN-2021-Imports-1806:16,CAN,加拿大,IRL,Ireland,2021,M,1806,巧克力及其他含可可食品,H0,4292590.00,observed,CAN-2021-Imports-1806,16,IRL,country_or_area
+CAN-2021-Imports-1806:83,CAN,加拿大,IRN,"Iran, Islamic Rep.",2021,M,1806,巧克力及其他含可可食品,H0,9630.00,observed,CAN-2021-Imports-1806,83,IRN,country_or_area
+CAN-2021-Imports-1806:68,CAN,加拿大,ISL,Iceland,2021,M,1806,巧克力及其他含可可食品,H0,37490.00,observed,CAN-2021-Imports-1806,68,ISL,country_or_area
+CAN-2021-Imports-1806:26,CAN,加拿大,ISR,Israel,2021,M,1806,巧克力及其他含可可食品,H0,1012980.00,observed,CAN-2021-Imports-1806,26,ISR,country_or_area
+CAN-2021-Imports-1806:6,CAN,加拿大,ITA,Italy,2021,M,1806,巧克力及其他含可可食品,H0,58982650.00,observed,CAN-2021-Imports-1806,6,ITA,country_or_area
+CAN-2021-Imports-1806:64,CAN,加拿大,JAM,Jamaica,2021,M,1806,巧克力及其他含可可食品,H0,49060.00,observed,CAN-2021-Imports-1806,64,JAM,country_or_area
+CAN-2021-Imports-1806:46,CAN,加拿大,JOR,Jordan,2021,M,1806,巧克力及其他含可可食品,H0,230880.00,observed,CAN-2021-Imports-1806,46,JOR,country_or_area
+CAN-2021-Imports-1806:27,CAN,加拿大,JPN,Japan,2021,M,1806,巧克力及其他含可可食品,H0,991980.00,observed,CAN-2021-Imports-1806,27,JPN,country_or_area
+CAN-2021-Imports-1806:115,CAN,加拿大,KAZ,Kazakhstan,2021,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2021-Imports-1806,115,KAZ,country_or_area
+CAN-2021-Imports-1806:116,CAN,加拿大,KHM,Cambodia,2021,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2021-Imports-1806,116,KHM,country_or_area
+CAN-2021-Imports-1806:51,CAN,加拿大,KOR,"Korea, Rep.",2021,M,1806,巧克力及其他含可可食品,H0,160620.00,observed,CAN-2021-Imports-1806,51,KOR,country_or_area
+CAN-2021-Imports-1806:117,CAN,加拿大,KWT,Kuwait,2021,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2021-Imports-1806,117,KWT,country_or_area
+CAN-2021-Imports-1806:40,CAN,加拿大,LBN,Lebanon,2021,M,1806,巧克力及其他含可可食品,H0,313240.00,observed,CAN-2021-Imports-1806,40,LBN,country_or_area
+CAN-2021-Imports-1806:122,CAN,加拿大,LBY,Libya,2021,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2021-Imports-1806,122,LBY,country_or_area
+CAN-2021-Imports-1806:100,CAN,加拿大,LCA,St. Lucia,2021,M,1806,巧克力及其他含可可食品,H0,190.00,observed,CAN-2021-Imports-1806,100,LCA,country_or_area
+CAN-2021-Imports-1806:94,CAN,加拿大,LKA,Sri Lanka,2021,M,1806,巧克力及其他含可可食品,H0,650.00,observed,CAN-2021-Imports-1806,94,LKA,country_or_area
+CAN-2021-Imports-1806:41,CAN,加拿大,LTU,Lithuania,2021,M,1806,巧克力及其他含可可食品,H0,297550.00,observed,CAN-2021-Imports-1806,41,LTU,country_or_area
+CAN-2021-Imports-1806:69,CAN,加拿大,LUX,Luxembourg,2021,M,1806,巧克力及其他含可可食品,H0,30250.00,observed,CAN-2021-Imports-1806,69,LUX,country_or_area
+CAN-2021-Imports-1806:79,CAN,加拿大,LVA,Latvia,2021,M,1806,巧克力及其他含可可食品,H0,12390.00,observed,CAN-2021-Imports-1806,79,LVA,country_or_area
+CAN-2021-Imports-1806:84,CAN,加拿大,MAR,Morocco,2021,M,1806,巧克力及其他含可可食品,H0,7900.00,observed,CAN-2021-Imports-1806,84,MAR,country_or_area
+CAN-2021-Imports-1806:61,CAN,加拿大,MDA,Moldova,2021,M,1806,巧克力及其他含可可食品,H0,66310.00,observed,CAN-2021-Imports-1806,61,MDA,country_or_area
+CAN-2021-Imports-1806:98,CAN,加拿大,MDG,Madagascar,2021,M,1806,巧克力及其他含可可食品,H0,230.00,observed,CAN-2021-Imports-1806,98,MDG,country_or_area
+CAN-2021-Imports-1806:7,CAN,加拿大,MEX,Mexico,2021,M,1806,巧克力及其他含可可食品,H0,52113110.00,observed,CAN-2021-Imports-1806,7,MEX,country_or_area
+CAN-2021-Imports-1806:50,CAN,加拿大,MKD,North Macedonia,2021,M,1806,巧克力及其他含可可食品,H0,162200.00,observed,CAN-2021-Imports-1806,50,MKD,country_or_area
+CAN-2021-Imports-1806:123,CAN,加拿大,MNG,Mongolia,2021,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2021-Imports-1806,123,MNG,country_or_area
+CAN-2021-Imports-1806:17,CAN,加拿大,MYS,Malaysia,2021,M,1806,巧克力及其他含可可食品,H0,3757320.00,observed,CAN-2021-Imports-1806,17,MYS,country_or_area
+CAN-2021-Imports-1806:81,CAN,加拿大,NCL,New Caledonia,2021,M,1806,巧克力及其他含可可食品,H0,10560.00,observed,CAN-2021-Imports-1806,81,NCL,country_or_area
+CAN-2021-Imports-1806:104,CAN,加拿大,NER,Niger,2021,M,1806,巧克力及其他含可可食品,H0,80.00,observed,CAN-2021-Imports-1806,104,NER,country_or_area
+CAN-2021-Imports-1806:92,CAN,加拿大,NGA,Nigeria,2021,M,1806,巧克力及其他含可可食品,H0,960.00,observed,CAN-2021-Imports-1806,92,NGA,country_or_area
+CAN-2021-Imports-1806:90,CAN,加拿大,NIC,Nicaragua,2021,M,1806,巧克力及其他含可可食品,H0,1850.00,observed,CAN-2021-Imports-1806,90,NIC,country_or_area
+CAN-2021-Imports-1806:12,CAN,加拿大,NLD,Netherlands,2021,M,1806,巧克力及其他含可可食品,H0,11504140.00,observed,CAN-2021-Imports-1806,12,NLD,country_or_area
+CAN-2021-Imports-1806:52,CAN,加拿大,NOR,Norway,2021,M,1806,巧克力及其他含可可食品,H0,153510.00,observed,CAN-2021-Imports-1806,52,NOR,country_or_area
+CAN-2021-Imports-1806:91,CAN,加拿大,NPL,Nepal,2021,M,1806,巧克力及其他含可可食品,H0,1430.00,observed,CAN-2021-Imports-1806,91,NPL,country_or_area
+CAN-2021-Imports-1806:21,CAN,加拿大,NZL,New Zealand,2021,M,1806,巧克力及其他含可可食品,H0,2324260.00,observed,CAN-2021-Imports-1806,21,NZL,country_or_area
+CAN-2021-Imports-1806:57,CAN,加拿大,OAS,"Other Asia, nes",2021,M,1806,巧克力及其他含可可食品,H0,114130.00,observed,CAN-2021-Imports-1806,57,OAS,country_or_area
+CAN-2021-Imports-1806:72,CAN,加拿大,OMN,Oman,2021,M,1806,巧克力及其他含可可食品,H0,20070.00,observed,CAN-2021-Imports-1806,72,OMN,country_or_area
+CAN-2021-Imports-1806:87,CAN,加拿大,PAK,Pakistan,2021,M,1806,巧克力及其他含可可食品,H0,4110.00,observed,CAN-2021-Imports-1806,87,PAK,country_or_area
+CAN-2021-Imports-1806:127,CAN,加拿大,PAN,Panama,2021,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2021-Imports-1806,127,PAN,country_or_area
+CAN-2021-Imports-1806:18,CAN,加拿大,PER,Peru,2021,M,1806,巧克力及其他含可可食品,H0,3450390.00,observed,CAN-2021-Imports-1806,18,PER,country_or_area
+CAN-2021-Imports-1806:36,CAN,加拿大,PHL,Philippines,2021,M,1806,巧克力及其他含可可食品,H0,394940.00,observed,CAN-2021-Imports-1806,36,PHL,country_or_area
+CAN-2021-Imports-1806:10,CAN,加拿大,POL,Poland,2021,M,1806,巧克力及其他含可可食品,H0,15483160.00,observed,CAN-2021-Imports-1806,10,POL,country_or_area
+CAN-2021-Imports-1806:49,CAN,加拿大,PRT,Portugal,2021,M,1806,巧克力及其他含可可食品,H0,189440.00,observed,CAN-2021-Imports-1806,49,PRT,country_or_area
+CAN-2021-Imports-1806:76,CAN,加拿大,PRY,Paraguay,2021,M,1806,巧克力及其他含可可食品,H0,14310.00,observed,CAN-2021-Imports-1806,76,PRY,country_or_area
+CAN-2021-Imports-1806:120,CAN,加拿大,QAT,Qatar,2021,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2021-Imports-1806,120,QAT,country_or_area
+CAN-2021-Imports-1806:37,CAN,加拿大,ROM,Romania,2021,M,1806,巧克力及其他含可可食品,H0,373630.00,observed,CAN-2021-Imports-1806,37,ROM,country_or_area
+CAN-2021-Imports-1806:32,CAN,加拿大,RUS,Russian Federation,2021,M,1806,巧克力及其他含可可食品,H0,746770.00,observed,CAN-2021-Imports-1806,32,RUS,country_or_area
+CAN-2021-Imports-1806:62,CAN,加拿大,SAU,Saudi Arabia,2021,M,1806,巧克力及其他含可可食品,H0,59720.00,observed,CAN-2021-Imports-1806,62,SAU,country_or_area
+CAN-2021-Imports-1806:103,CAN,加拿大,SEN,Senegal,2021,M,1806,巧克力及其他含可可食品,H0,100.00,observed,CAN-2021-Imports-1806,103,SEN,country_or_area
+CAN-2021-Imports-1806:44,CAN,加拿大,SER,"Serbia, FR(Serbia/Montenegro)",2021,M,1806,巧克力及其他含可可食品,H0,261170.00,observed,CAN-2021-Imports-1806,44,SER,country_or_area
+CAN-2021-Imports-1806:42,CAN,加拿大,SGP,Singapore,2021,M,1806,巧克力及其他含可可食品,H0,284290.00,observed,CAN-2021-Imports-1806,42,SGP,country_or_area
+CAN-2021-Imports-1806:102,CAN,加拿大,SLB,Solomon Islands,2021,M,1806,巧克力及其他含可可食品,H0,100.00,observed,CAN-2021-Imports-1806,102,SLB,country_or_area
+CAN-2021-Imports-1806:74,CAN,加拿大,SLV,El Salvador,2021,M,1806,巧克力及其他含可可食品,H0,19560.00,observed,CAN-2021-Imports-1806,74,SLV,country_or_area
+CAN-2021-Imports-1806:105,CAN,加拿大,SUR,Suriname,2021,M,1806,巧克力及其他含可可食品,H0,80.00,observed,CAN-2021-Imports-1806,105,SUR,country_or_area
+CAN-2021-Imports-1806:56,CAN,加拿大,SVK,Slovak Republic,2021,M,1806,巧克力及其他含可可食品,H0,124710.00,observed,CAN-2021-Imports-1806,56,SVK,country_or_area
+CAN-2021-Imports-1806:66,CAN,加拿大,SVN,Slovenia,2021,M,1806,巧克力及其他含可可食品,H0,41370.00,observed,CAN-2021-Imports-1806,66,SVN,country_or_area
+CAN-2021-Imports-1806:24,CAN,加拿大,SWE,Sweden,2021,M,1806,巧克力及其他含可可食品,H0,1448460.00,observed,CAN-2021-Imports-1806,24,SWE,country_or_area
+CAN-2021-Imports-1806:67,CAN,加拿大,SYR,Syrian Arab Republic,2021,M,1806,巧克力及其他含可可食品,H0,40050.00,observed,CAN-2021-Imports-1806,67,SYR,country_or_area
+CAN-2021-Imports-1806:48,CAN,加拿大,THA,Thailand,2021,M,1806,巧克力及其他含可可食品,H0,200170.00,observed,CAN-2021-Imports-1806,48,THA,country_or_area
+CAN-2021-Imports-1806:60,CAN,加拿大,TTO,Trinidad and Tobago,2021,M,1806,巧克力及其他含可可食品,H0,75140.00,observed,CAN-2021-Imports-1806,60,TTO,country_or_area
+CAN-2021-Imports-1806:63,CAN,加拿大,TUN,Tunisia,2021,M,1806,巧克力及其他含可可食品,H0,52590.00,observed,CAN-2021-Imports-1806,63,TUN,country_or_area
+CAN-2021-Imports-1806:14,CAN,加拿大,TUR,Turkey,2021,M,1806,巧克力及其他含可可食品,H0,5724450.00,observed,CAN-2021-Imports-1806,14,TUR,country_or_area
+CAN-2021-Imports-1806:106,CAN,加拿大,TZA,Tanzania,2021,M,1806,巧克力及其他含可可食品,H0,60.00,observed,CAN-2021-Imports-1806,106,TZA,country_or_area
+CAN-2021-Imports-1806:124,CAN,加拿大,UGA,Uganda,2021,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2021-Imports-1806,124,UGA,country_or_area
+CAN-2021-Imports-1806:34,CAN,加拿大,UKR,Ukraine,2021,M,1806,巧克力及其他含可可食品,H0,551030.00,observed,CAN-2021-Imports-1806,34,UKR,country_or_area
+CAN-2021-Imports-1806:101,CAN,加拿大,URY,Uruguay,2021,M,1806,巧克力及其他含可可食品,H0,170.00,observed,CAN-2021-Imports-1806,101,URY,country_or_area
+CAN-2021-Imports-1806:2,CAN,加拿大,USA,United States,2021,M,1806,巧克力及其他含可可食品,H0,654338560.00,observed,CAN-2021-Imports-1806,2,USA,country_or_area
+CAN-2021-Imports-1806:107,CAN,加拿大,VCT,St. Vincent and the Grenadines,2021,M,1806,巧克力及其他含可可食品,H0,60.00,observed,CAN-2021-Imports-1806,107,VCT,country_or_area
+CAN-2021-Imports-1806:71,CAN,加拿大,VEN,Venezuela,2021,M,1806,巧克力及其他含可可食品,H0,26130.00,observed,CAN-2021-Imports-1806,71,VEN,country_or_area
+CAN-2021-Imports-1806:47,CAN,加拿大,VNM,Vietnam,2021,M,1806,巧克力及其他含可可食品,H0,215430.00,observed,CAN-2021-Imports-1806,47,VNM,country_or_area
+CAN-2021-Imports-1806:97,CAN,加拿大,VUT,Vanuatu,2021,M,1806,巧克力及其他含可可食品,H0,250.00,observed,CAN-2021-Imports-1806,97,VUT,country_or_area
+CAN-2021-Imports-1806:1,CAN,加拿大,WLD,World,2021,M,1806,巧克力及其他含可可食品,H0,1154114720.00,observed,CAN-2021-Imports-1806,1,WLD,world
+CAN-2021-Imports-1806:88,CAN,加拿大,YEM,Yemen,2021,M,1806,巧克力及其他含可可食品,H0,3090.00,observed,CAN-2021-Imports-1806,88,YEM,country_or_area
+CAN-2021-Imports-1806:43,CAN,加拿大,ZAF,South Africa,2021,M,1806,巧克力及其他含可可食品,H0,277040.00,observed,CAN-2021-Imports-1806,43,ZAF,country_or_area
+CAN-2021-Imports-1806:109,CAN,加拿大,ZAR,"Congo, Dem. Rep.",2021,M,1806,巧克力及其他含可可食品,H0,50.00,observed,CAN-2021-Imports-1806,109,ZAR,country_or_area
+CAN-2021-Exports-1806:83,CAN,加拿大,ABW,Aruba,2021,X,1806,巧克力及其他含可可食品,H0,170.00,observed,CAN-2021-Exports-1806,83,ABW,country_or_area
+CAN-2021-Exports-1806:14,CAN,加拿大,ARE,United Arab Emirates,2021,X,1806,巧克力及其他含可可食品,H0,807360.00,observed,CAN-2021-Exports-1806,14,ARE,country_or_area
+CAN-2021-Exports-1806:4,CAN,加拿大,AUS,Australia,2021,X,1806,巧克力及其他含可可食品,H0,9481450.00,observed,CAN-2021-Exports-1806,4,AUS,country_or_area
+CAN-2021-Exports-1806:61,CAN,加拿大,AZE,Azerbaijan,2021,X,1806,巧克力及其他含可可食品,H0,7510.00,observed,CAN-2021-Exports-1806,61,AZE,country_or_area
+CAN-2021-Exports-1806:28,CAN,加拿大,BEL,Belgium,2021,X,1806,巧克力及其他含可可食品,H0,101470.00,observed,CAN-2021-Exports-1806,28,BEL,country_or_area
+CAN-2021-Exports-1806:71,CAN,加拿大,BFA,Burkina Faso,2021,X,1806,巧克力及其他含可可食品,H0,1200.00,observed,CAN-2021-Exports-1806,71,BFA,country_or_area
+CAN-2021-Exports-1806:75,CAN,加拿大,BGD,Bangladesh,2021,X,1806,巧克力及其他含可可食品,H0,600.00,observed,CAN-2021-Exports-1806,75,BGD,country_or_area
+CAN-2021-Exports-1806:63,CAN,加拿大,BHR,Bahrain,2021,X,1806,巧克力及其他含可可食品,H0,5000.00,observed,CAN-2021-Exports-1806,63,BHR,country_or_area
+CAN-2021-Exports-1806:70,CAN,加拿大,BHS,"Bahamas, The",2021,X,1806,巧克力及其他含可可食品,H0,2680.00,observed,CAN-2021-Exports-1806,70,BHS,country_or_area
+CAN-2021-Exports-1806:67,CAN,加拿大,BMU,Bermuda,2021,X,1806,巧克力及其他含可可食品,H0,3270.00,observed,CAN-2021-Exports-1806,67,BMU,country_or_area
+CAN-2021-Exports-1806:48,CAN,加拿大,BRA,Brazil,2021,X,1806,巧克力及其他含可可食品,H0,23170.00,observed,CAN-2021-Exports-1806,48,BRA,country_or_area
+CAN-2021-Exports-1806:22,CAN,加拿大,BRB,Barbados,2021,X,1806,巧克力及其他含可可食品,H0,202620.00,observed,CAN-2021-Exports-1806,22,BRB,country_or_area
+CAN-2021-Exports-1806:69,CAN,加拿大,BRN,Brunei,2021,X,1806,巧克力及其他含可可食品,H0,2880.00,observed,CAN-2021-Exports-1806,69,BRN,country_or_area
+CAN-2021-Exports-1806:27,CAN,加拿大,CHE,Switzerland,2021,X,1806,巧克力及其他含可可食品,H0,109440.00,observed,CAN-2021-Exports-1806,27,CHE,country_or_area
+CAN-2021-Exports-1806:6,CAN,加拿大,CHL,Chile,2021,X,1806,巧克力及其他含可可食品,H0,5371810.00,observed,CAN-2021-Exports-1806,6,CHL,country_or_area
+CAN-2021-Exports-1806:8,CAN,加拿大,CHN,China,2021,X,1806,巧克力及其他含可可食品,H0,2612990.00,observed,CAN-2021-Exports-1806,8,CHN,country_or_area
+CAN-2021-Exports-1806:79,CAN,加拿大,CMR,Cameroon,2021,X,1806,巧克力及其他含可可食品,H0,550.00,observed,CAN-2021-Exports-1806,79,CMR,country_or_area
+CAN-2021-Exports-1806:46,CAN,加拿大,COL,Colombia,2021,X,1806,巧克力及其他含可可食品,H0,25090.00,observed,CAN-2021-Exports-1806,46,COL,country_or_area
+CAN-2021-Exports-1806:12,CAN,加拿大,CRI,Costa Rica,2021,X,1806,巧克力及其他含可可食品,H0,1304560.00,observed,CAN-2021-Exports-1806,12,CRI,country_or_area
+CAN-2021-Exports-1806:35,CAN,加拿大,CUB,Cuba,2021,X,1806,巧克力及其他含可可食品,H0,40180.00,observed,CAN-2021-Exports-1806,35,CUB,country_or_area
+CAN-2021-Exports-1806:59,CAN,加拿大,CYM,Cayman Islands,2021,X,1806,巧克力及其他含可可食品,H0,9670.00,observed,CAN-2021-Exports-1806,59,CYM,country_or_area
+CAN-2021-Exports-1806:40,CAN,加拿大,CYP,Cyprus,2021,X,1806,巧克力及其他含可可食品,H0,30580.00,observed,CAN-2021-Exports-1806,40,CYP,country_or_area
+CAN-2021-Exports-1806:55,CAN,加拿大,DEU,Germany,2021,X,1806,巧克力及其他含可可食品,H0,16420.00,observed,CAN-2021-Exports-1806,55,DEU,country_or_area
+CAN-2021-Exports-1806:84,CAN,加拿大,DNK,Denmark,2021,X,1806,巧克力及其他含可可食品,H0,50.00,observed,CAN-2021-Exports-1806,84,DNK,country_or_area
+CAN-2021-Exports-1806:31,CAN,加拿大,DZA,Algeria,2021,X,1806,巧克力及其他含可可食品,H0,75610.00,observed,CAN-2021-Exports-1806,31,DZA,country_or_area
+CAN-2021-Exports-1806:49,CAN,加拿大,EGY,"Egypt, Arab Rep.",2021,X,1806,巧克力及其他含可可食品,H0,22300.00,observed,CAN-2021-Exports-1806,49,EGY,country_or_area
+CAN-2021-Exports-1806:29,CAN,加拿大,ESP,Spain,2021,X,1806,巧克力及其他含可可食品,H0,85400.00,observed,CAN-2021-Exports-1806,29,ESP,country_or_area
+CAN-2021-Exports-1806:51,CAN,加拿大,EST,Estonia,2021,X,1806,巧克力及其他含可可食品,H0,21690.00,observed,CAN-2021-Exports-1806,51,EST,country_or_area
+CAN-2021-Exports-1806:16,CAN,加拿大,FRA,France,2021,X,1806,巧克力及其他含可可食品,H0,614480.00,observed,CAN-2021-Exports-1806,16,FRA,country_or_area
+CAN-2021-Exports-1806:5,CAN,加拿大,GBR,United Kingdom,2021,X,1806,巧克力及其他含可可食品,H0,5590060.00,observed,CAN-2021-Exports-1806,5,GBR,country_or_area
+CAN-2021-Exports-1806:74,CAN,加拿大,GEO,Georgia,2021,X,1806,巧克力及其他含可可食品,H0,860.00,observed,CAN-2021-Exports-1806,74,GEO,country_or_area
+CAN-2021-Exports-1806:54,CAN,加拿大,GHA,Ghana,2021,X,1806,巧克力及其他含可可食品,H0,18610.00,observed,CAN-2021-Exports-1806,54,GHA,country_or_area
+CAN-2021-Exports-1806:68,CAN,加拿大,GRC,Greece,2021,X,1806,巧克力及其他含可可食品,H0,3090.00,observed,CAN-2021-Exports-1806,68,GRC,country_or_area
+CAN-2021-Exports-1806:24,CAN,加拿大,GTM,Guatemala,2021,X,1806,巧克力及其他含可可食品,H0,189290.00,observed,CAN-2021-Exports-1806,24,GTM,country_or_area
+CAN-2021-Exports-1806:10,CAN,加拿大,HKG,"Hong Kong, China",2021,X,1806,巧克力及其他含可可食品,H0,1845480.00,observed,CAN-2021-Exports-1806,10,HKG,country_or_area
+CAN-2021-Exports-1806:45,CAN,加拿大,HND,Honduras,2021,X,1806,巧克力及其他含可可食品,H0,25630.00,observed,CAN-2021-Exports-1806,45,HND,country_or_area
+CAN-2021-Exports-1806:77,CAN,加拿大,HTI,Haiti,2021,X,1806,巧克力及其他含可可食品,H0,570.00,observed,CAN-2021-Exports-1806,77,HTI,country_or_area
+CAN-2021-Exports-1806:37,CAN,加拿大,IDN,Indonesia,2021,X,1806,巧克力及其他含可可食品,H0,36250.00,observed,CAN-2021-Exports-1806,37,IDN,country_or_area
+CAN-2021-Exports-1806:17,CAN,加拿大,IRL,Ireland,2021,X,1806,巧克力及其他含可可食品,H0,585150.00,observed,CAN-2021-Exports-1806,17,IRL,country_or_area
+CAN-2021-Exports-1806:60,CAN,加拿大,IRQ,Iraq,2021,X,1806,巧克力及其他含可可食品,H0,7920.00,observed,CAN-2021-Exports-1806,60,IRQ,country_or_area
+CAN-2021-Exports-1806:23,CAN,加拿大,ISL,Iceland,2021,X,1806,巧克力及其他含可可食品,H0,190150.00,observed,CAN-2021-Exports-1806,23,ISL,country_or_area
+CAN-2021-Exports-1806:18,CAN,加拿大,ISR,Israel,2021,X,1806,巧克力及其他含可可食品,H0,369200.00,observed,CAN-2021-Exports-1806,18,ISR,country_or_area
+CAN-2021-Exports-1806:50,CAN,加拿大,ITA,Italy,2021,X,1806,巧克力及其他含可可食品,H0,21920.00,observed,CAN-2021-Exports-1806,50,ITA,country_or_area
+CAN-2021-Exports-1806:43,CAN,加拿大,JAM,Jamaica,2021,X,1806,巧克力及其他含可可食品,H0,26160.00,observed,CAN-2021-Exports-1806,43,JAM,country_or_area
+CAN-2021-Exports-1806:20,CAN,加拿大,JOR,Jordan,2021,X,1806,巧克力及其他含可可食品,H0,263550.00,observed,CAN-2021-Exports-1806,20,JOR,country_or_area
+CAN-2021-Exports-1806:7,CAN,加拿大,JPN,Japan,2021,X,1806,巧克力及其他含可可食品,H0,2882140.00,observed,CAN-2021-Exports-1806,7,JPN,country_or_area
+CAN-2021-Exports-1806:9,CAN,加拿大,KOR,"Korea, Rep.",2021,X,1806,巧克力及其他含可可食品,H0,1925520.00,observed,CAN-2021-Exports-1806,9,KOR,country_or_area
+CAN-2021-Exports-1806:56,CAN,加拿大,KWT,Kuwait,2021,X,1806,巧克力及其他含可可食品,H0,13700.00,observed,CAN-2021-Exports-1806,56,KWT,country_or_area
+CAN-2021-Exports-1806:73,CAN,加拿大,LAO,Lao PDR,2021,X,1806,巧克力及其他含可可食品,H0,870.00,observed,CAN-2021-Exports-1806,73,LAO,country_or_area
+CAN-2021-Exports-1806:34,CAN,加拿大,LBN,Lebanon,2021,X,1806,巧克力及其他含可可食品,H0,43140.00,observed,CAN-2021-Exports-1806,34,LBN,country_or_area
+CAN-2021-Exports-1806:26,CAN,加拿大,LBY,Libya,2021,X,1806,巧克力及其他含可可食品,H0,127510.00,observed,CAN-2021-Exports-1806,26,LBY,country_or_area
+CAN-2021-Exports-1806:47,CAN,加拿大,LKA,Sri Lanka,2021,X,1806,巧克力及其他含可可食品,H0,24070.00,observed,CAN-2021-Exports-1806,47,LKA,country_or_area
+CAN-2021-Exports-1806:82,CAN,加拿大,LUX,Luxembourg,2021,X,1806,巧克力及其他含可可食品,H0,360.00,observed,CAN-2021-Exports-1806,82,LUX,country_or_area
+CAN-2021-Exports-1806:62,CAN,加拿大,LVA,Latvia,2021,X,1806,巧克力及其他含可可食品,H0,6570.00,observed,CAN-2021-Exports-1806,62,LVA,country_or_area
+CAN-2021-Exports-1806:52,CAN,加拿大,MAC,Macao,2021,X,1806,巧克力及其他含可可食品,H0,21320.00,observed,CAN-2021-Exports-1806,52,MAC,country_or_area
+CAN-2021-Exports-1806:3,CAN,加拿大,MEX,Mexico,2021,X,1806,巧克力及其他含可可食品,H0,69012830.00,observed,CAN-2021-Exports-1806,3,MEX,country_or_area
+CAN-2021-Exports-1806:66,CAN,加拿大,MYS,Malaysia,2021,X,1806,巧克力及其他含可可食品,H0,3450.00,observed,CAN-2021-Exports-1806,66,MYS,country_or_area
+CAN-2021-Exports-1806:36,CAN,加拿大,NGA,Nigeria,2021,X,1806,巧克力及其他含可可食品,H0,37730.00,observed,CAN-2021-Exports-1806,36,NGA,country_or_area
+CAN-2021-Exports-1806:58,CAN,加拿大,NIC,Nicaragua,2021,X,1806,巧克力及其他含可可食品,H0,9890.00,observed,CAN-2021-Exports-1806,58,NIC,country_or_area
+CAN-2021-Exports-1806:13,CAN,加拿大,NLD,Netherlands,2021,X,1806,巧克力及其他含可可食品,H0,886580.00,observed,CAN-2021-Exports-1806,13,NLD,country_or_area
+CAN-2021-Exports-1806:64,CAN,加拿大,NPL,Nepal,2021,X,1806,巧克力及其他含可可食品,H0,4550.00,observed,CAN-2021-Exports-1806,64,NPL,country_or_area
+CAN-2021-Exports-1806:33,CAN,加拿大,NZL,New Zealand,2021,X,1806,巧克力及其他含可可食品,H0,63310.00,observed,CAN-2021-Exports-1806,33,NZL,country_or_area
+CAN-2021-Exports-1806:19,CAN,加拿大,OAS,"Other Asia, nes",2021,X,1806,巧克力及其他含可可食品,H0,352800.00,observed,CAN-2021-Exports-1806,19,OAS,country_or_area
+CAN-2021-Exports-1806:42,CAN,加拿大,OMN,Oman,2021,X,1806,巧克力及其他含可可食品,H0,27060.00,observed,CAN-2021-Exports-1806,42,OMN,country_or_area
+CAN-2021-Exports-1806:38,CAN,加拿大,PAK,Pakistan,2021,X,1806,巧克力及其他含可可食品,H0,35960.00,observed,CAN-2021-Exports-1806,38,PAK,country_or_area
+CAN-2021-Exports-1806:30,CAN,加拿大,PER,Peru,2021,X,1806,巧克力及其他含可可食品,H0,77530.00,observed,CAN-2021-Exports-1806,30,PER,country_or_area
+CAN-2021-Exports-1806:25,CAN,加拿大,PHL,Philippines,2021,X,1806,巧克力及其他含可可食品,H0,176340.00,observed,CAN-2021-Exports-1806,25,PHL,country_or_area
+CAN-2021-Exports-1806:53,CAN,加拿大,QAT,Qatar,2021,X,1806,巧克力及其他含可可食品,H0,19760.00,observed,CAN-2021-Exports-1806,53,QAT,country_or_area
+CAN-2021-Exports-1806:76,CAN,加拿大,RUS,Russian Federation,2021,X,1806,巧克力及其他含可可食品,H0,600.00,observed,CAN-2021-Exports-1806,76,RUS,country_or_area
+CAN-2021-Exports-1806:11,CAN,加拿大,SAU,Saudi Arabia,2021,X,1806,巧克力及其他含可可食品,H0,1793940.00,observed,CAN-2021-Exports-1806,11,SAU,country_or_area
+CAN-2021-Exports-1806:15,CAN,加拿大,SGP,Singapore,2021,X,1806,巧克力及其他含可可食品,H0,758940.00,observed,CAN-2021-Exports-1806,15,SGP,country_or_area
+CAN-2021-Exports-1806:32,CAN,加拿大,SLV,El Salvador,2021,X,1806,巧克力及其他含可可食品,H0,70410.00,observed,CAN-2021-Exports-1806,32,SLV,country_or_area
+CAN-2021-Exports-1806:57,CAN,加拿大,SPM,Saint Pierre and Miquelon,2021,X,1806,巧克力及其他含可可食品,H0,9930.00,observed,CAN-2021-Exports-1806,57,SPM,country_or_area
+CAN-2021-Exports-1806:78,CAN,加拿大,SVK,Slovak Republic,2021,X,1806,巧克力及其他含可可食品,H0,560.00,observed,CAN-2021-Exports-1806,78,SVK,country_or_area
+CAN-2021-Exports-1806:44,CAN,加拿大,SWE,Sweden,2021,X,1806,巧克力及其他含可可食品,H0,25760.00,observed,CAN-2021-Exports-1806,44,SWE,country_or_area
+CAN-2021-Exports-1806:80,CAN,加拿大,THA,Thailand,2021,X,1806,巧克力及其他含可可食品,H0,450.00,observed,CAN-2021-Exports-1806,80,THA,country_or_area
+CAN-2021-Exports-1806:21,CAN,加拿大,TTO,Trinidad and Tobago,2021,X,1806,巧克力及其他含可可食品,H0,237290.00,observed,CAN-2021-Exports-1806,21,TTO,country_or_area
+CAN-2021-Exports-1806:65,CAN,加拿大,UGA,Uganda,2021,X,1806,巧克力及其他含可可食品,H0,3490.00,observed,CAN-2021-Exports-1806,65,UGA,country_or_area
+CAN-2021-Exports-1806:72,CAN,加拿大,UKR,Ukraine,2021,X,1806,巧克力及其他含可可食品,H0,900.00,observed,CAN-2021-Exports-1806,72,UKR,country_or_area
+CAN-2021-Exports-1806:41,CAN,加拿大,UMI,United States Minor Outlying I,2021,X,1806,巧克力及其他含可可食品,H0,27510.00,observed,CAN-2021-Exports-1806,41,UMI,country_or_area
+CAN-2021-Exports-1806:2,CAN,加拿大,USA,United States,2021,X,1806,巧克力及其他含可可食品,H0,1661252130.00,observed,CAN-2021-Exports-1806,2,USA,country_or_area
+CAN-2021-Exports-1806:39,CAN,加拿大,VNM,Vietnam,2021,X,1806,巧克力及其他含可可食品,H0,33290.00,observed,CAN-2021-Exports-1806,39,VNM,country_or_area
+CAN-2021-Exports-1806:1,CAN,加拿大,WLD,World,2021,X,1806,巧克力及其他含可可食品,H0,1770122620.00,observed,CAN-2021-Exports-1806,1,WLD,world
+CAN-2021-Exports-1806:81,CAN,加拿大,ZAF,South Africa,2021,X,1806,巧克力及其他含可可食品,H0,390.00,observed,CAN-2021-Exports-1806,81,ZAF,country_or_area
+CAN-2022-Imports-1806:101,CAN,加拿大,ABW,Aruba,2022,M,1806,巧克力及其他含可可食品,H0,130.00,observed,CAN-2022-Imports-1806,101,ABW,country_or_area
+CAN-2022-Imports-1806:99,CAN,加拿大,AFG,Afghanistan,2022,M,1806,巧克力及其他含可可食品,H0,150.00,observed,CAN-2022-Imports-1806,99,AFG,country_or_area
+CAN-2022-Imports-1806:59,CAN,加拿大,ARE,United Arab Emirates,2022,M,1806,巧克力及其他含可可食品,H0,80990.00,observed,CAN-2022-Imports-1806,59,ARE,country_or_area
+CAN-2022-Imports-1806:63,CAN,加拿大,ARG,Argentina,2022,M,1806,巧克力及其他含可可食品,H0,39650.00,observed,CAN-2022-Imports-1806,63,ARG,country_or_area
+CAN-2022-Imports-1806:78,CAN,加拿大,ARM,Armenia,2022,M,1806,巧克力及其他含可可食品,H0,12870.00,observed,CAN-2022-Imports-1806,78,ARM,country_or_area
+CAN-2022-Imports-1806:52,CAN,加拿大,AUS,Australia,2022,M,1806,巧克力及其他含可可食品,H0,159480.00,observed,CAN-2022-Imports-1806,52,AUS,country_or_area
+CAN-2022-Imports-1806:27,CAN,加拿大,AUT,Austria,2022,M,1806,巧克力及其他含可可食品,H0,1356920.00,observed,CAN-2022-Imports-1806,27,AUT,country_or_area
+CAN-2022-Imports-1806:4,CAN,加拿大,BEL,Belgium,2022,M,1806,巧克力及其他含可可食品,H0,74831110.00,observed,CAN-2022-Imports-1806,4,BEL,country_or_area
+CAN-2022-Imports-1806:105,CAN,加拿大,BEN,Benin,2022,M,1806,巧克力及其他含可可食品,H0,30.00,observed,CAN-2022-Imports-1806,105,BEN,country_or_area
+CAN-2022-Imports-1806:90,CAN,加拿大,BGD,Bangladesh,2022,M,1806,巧克力及其他含可可食品,H0,1900.00,observed,CAN-2022-Imports-1806,90,BGD,country_or_area
+CAN-2022-Imports-1806:28,CAN,加拿大,BGR,Bulgaria,2022,M,1806,巧克力及其他含可可食品,H0,1257900.00,observed,CAN-2022-Imports-1806,28,BGR,country_or_area
+CAN-2022-Imports-1806:103,CAN,加拿大,BHR,Bahrain,2022,M,1806,巧克力及其他含可可食品,H0,50.00,observed,CAN-2022-Imports-1806,103,BHR,country_or_area
+CAN-2022-Imports-1806:68,CAN,加拿大,BLR,Belarus,2022,M,1806,巧克力及其他含可可食品,H0,27070.00,observed,CAN-2022-Imports-1806,68,BLR,country_or_area
+CAN-2022-Imports-1806:111,CAN,加拿大,BMU,Bermuda,2022,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2022-Imports-1806,111,BMU,country_or_area
+CAN-2022-Imports-1806:26,CAN,加拿大,BRA,Brazil,2022,M,1806,巧克力及其他含可可食品,H0,1471070.00,observed,CAN-2022-Imports-1806,26,BRA,country_or_area
+CAN-2022-Imports-1806:13,CAN,加拿大,CAN,Canada,2022,M,1806,巧克力及其他含可可食品,H0,10043920.00,observed,CAN-2022-Imports-1806,13,CAN,country_or_area
+CAN-2022-Imports-1806:3,CAN,加拿大,CHE,Switzerland,2022,M,1806,巧克力及其他含可可食品,H0,81623940.00,observed,CAN-2022-Imports-1806,3,CHE,country_or_area
+CAN-2022-Imports-1806:43,CAN,加拿大,CHL,Chile,2022,M,1806,巧克力及其他含可可食品,H0,322130.00,observed,CAN-2022-Imports-1806,43,CHL,country_or_area
+CAN-2022-Imports-1806:11,CAN,加拿大,CHN,China,2022,M,1806,巧克力及其他含可可食品,H0,13662110.00,observed,CAN-2022-Imports-1806,11,CHN,country_or_area
+CAN-2022-Imports-1806:17,CAN,加拿大,CIV,Cote d'Ivoire,2022,M,1806,巧克力及其他含可可食品,H0,4493710.00,observed,CAN-2022-Imports-1806,17,CIV,country_or_area
+CAN-2022-Imports-1806:69,CAN,加拿大,CMR,Cameroon,2022,M,1806,巧克力及其他含可可食品,H0,19400.00,observed,CAN-2022-Imports-1806,69,CMR,country_or_area
+CAN-2022-Imports-1806:25,CAN,加拿大,COL,Colombia,2022,M,1806,巧克力及其他含可可食品,H0,1488330.00,observed,CAN-2022-Imports-1806,25,COL,country_or_area
+CAN-2022-Imports-1806:54,CAN,加拿大,CRI,Costa Rica,2022,M,1806,巧克力及其他含可可食品,H0,138200.00,observed,CAN-2022-Imports-1806,54,CRI,country_or_area
+CAN-2022-Imports-1806:40,CAN,加拿大,CZE,Czech Republic,2022,M,1806,巧克力及其他含可可食品,H0,442390.00,observed,CAN-2022-Imports-1806,40,CZE,country_or_area
+CAN-2022-Imports-1806:5,CAN,加拿大,DEU,Germany,2022,M,1806,巧克力及其他含可可食品,H0,72152280.00,observed,CAN-2022-Imports-1806,5,DEU,country_or_area
+CAN-2022-Imports-1806:100,CAN,加拿大,DMA,Dominica,2022,M,1806,巧克力及其他含可可食品,H0,150.00,observed,CAN-2022-Imports-1806,100,DMA,country_or_area
+CAN-2022-Imports-1806:23,CAN,加拿大,DNK,Denmark,2022,M,1806,巧克力及其他含可可食品,H0,1618340.00,observed,CAN-2022-Imports-1806,23,DNK,country_or_area
+CAN-2022-Imports-1806:86,CAN,加拿大,DOM,Dominican Republic,2022,M,1806,巧克力及其他含可可食品,H0,3200.00,observed,CAN-2022-Imports-1806,86,DOM,country_or_area
+CAN-2022-Imports-1806:75,CAN,加拿大,DZA,Algeria,2022,M,1806,巧克力及其他含可可食品,H0,13820.00,observed,CAN-2022-Imports-1806,75,DZA,country_or_area
+CAN-2022-Imports-1806:48,CAN,加拿大,ECU,Ecuador,2022,M,1806,巧克力及其他含可可食品,H0,181860.00,observed,CAN-2022-Imports-1806,48,ECU,country_or_area
+CAN-2022-Imports-1806:32,CAN,加拿大,EGY,"Egypt, Arab Rep.",2022,M,1806,巧克力及其他含可可食品,H0,645860.00,observed,CAN-2022-Imports-1806,32,EGY,country_or_area
+CAN-2022-Imports-1806:20,CAN,加拿大,ESP,Spain,2022,M,1806,巧克力及其他含可可食品,H0,2683070.00,observed,CAN-2022-Imports-1806,20,ESP,country_or_area
+CAN-2022-Imports-1806:77,CAN,加拿大,EST,Estonia,2022,M,1806,巧克力及其他含可可食品,H0,12950.00,observed,CAN-2022-Imports-1806,77,EST,country_or_area
+CAN-2022-Imports-1806:104,CAN,加拿大,ETH,Ethiopia(excludes Eritrea),2022,M,1806,巧克力及其他含可可食品,H0,40.00,observed,CAN-2022-Imports-1806,104,ETH,country_or_area
+CAN-2022-Imports-1806:56,CAN,加拿大,FIN,Finland,2022,M,1806,巧克力及其他含可可食品,H0,135690.00,observed,CAN-2022-Imports-1806,56,FIN,country_or_area
+CAN-2022-Imports-1806:96,CAN,加拿大,FJI,Fiji,2022,M,1806,巧克力及其他含可可食品,H0,530.00,observed,CAN-2022-Imports-1806,96,FJI,country_or_area
+CAN-2022-Imports-1806:8,CAN,加拿大,FRA,France,2022,M,1806,巧克力及其他含可可食品,H0,39898070.00,observed,CAN-2022-Imports-1806,8,FRA,country_or_area
+CAN-2022-Imports-1806:9,CAN,加拿大,GBR,United Kingdom,2022,M,1806,巧克力及其他含可可食品,H0,37289960.00,observed,CAN-2022-Imports-1806,9,GBR,country_or_area
+CAN-2022-Imports-1806:76,CAN,加拿大,GEO,Georgia,2022,M,1806,巧克力及其他含可可食品,H0,13320.00,observed,CAN-2022-Imports-1806,76,GEO,country_or_area
+CAN-2022-Imports-1806:72,CAN,加拿大,GHA,Ghana,2022,M,1806,巧克力及其他含可可食品,H0,17270.00,observed,CAN-2022-Imports-1806,72,GHA,country_or_area
+CAN-2022-Imports-1806:37,CAN,加拿大,GRC,Greece,2022,M,1806,巧克力及其他含可可食品,H0,485650.00,observed,CAN-2022-Imports-1806,37,GRC,country_or_area
+CAN-2022-Imports-1806:102,CAN,加拿大,GRD,Grenada,2022,M,1806,巧克力及其他含可可食品,H0,110.00,observed,CAN-2022-Imports-1806,102,GRD,country_or_area
+CAN-2022-Imports-1806:93,CAN,加拿大,GTM,Guatemala,2022,M,1806,巧克力及其他含可可食品,H0,890.00,observed,CAN-2022-Imports-1806,93,GTM,country_or_area
+CAN-2022-Imports-1806:82,CAN,加拿大,HKG,"Hong Kong, China",2022,M,1806,巧克力及其他含可可食品,H0,7410.00,observed,CAN-2022-Imports-1806,82,HKG,country_or_area
+CAN-2022-Imports-1806:87,CAN,加拿大,HND,Honduras,2022,M,1806,巧克力及其他含可可食品,H0,2900.00,observed,CAN-2022-Imports-1806,87,HND,country_or_area
+CAN-2022-Imports-1806:19,CAN,加拿大,HRV,Croatia,2022,M,1806,巧克力及其他含可可食品,H0,2996620.00,observed,CAN-2022-Imports-1806,19,HRV,country_or_area
+CAN-2022-Imports-1806:80,CAN,加拿大,HTI,Haiti,2022,M,1806,巧克力及其他含可可食品,H0,11280.00,observed,CAN-2022-Imports-1806,80,HTI,country_or_area
+CAN-2022-Imports-1806:22,CAN,加拿大,HUN,Hungary,2022,M,1806,巧克力及其他含可可食品,H0,2424740.00,observed,CAN-2022-Imports-1806,22,HUN,country_or_area
+CAN-2022-Imports-1806:18,CAN,加拿大,IDN,Indonesia,2022,M,1806,巧克力及其他含可可食品,H0,4224090.00,observed,CAN-2022-Imports-1806,18,IDN,country_or_area
+CAN-2022-Imports-1806:39,CAN,加拿大,IND,India,2022,M,1806,巧克力及其他含可可食品,H0,466540.00,observed,CAN-2022-Imports-1806,39,IND,country_or_area
+CAN-2022-Imports-1806:16,CAN,加拿大,IRL,Ireland,2022,M,1806,巧克力及其他含可可食品,H0,5520730.00,observed,CAN-2022-Imports-1806,16,IRL,country_or_area
+CAN-2022-Imports-1806:89,CAN,加拿大,IRN,"Iran, Islamic Rep.",2022,M,1806,巧克力及其他含可可食品,H0,2060.00,observed,CAN-2022-Imports-1806,89,IRN,country_or_area
+CAN-2022-Imports-1806:85,CAN,加拿大,ISL,Iceland,2022,M,1806,巧克力及其他含可可食品,H0,3890.00,observed,CAN-2022-Imports-1806,85,ISL,country_or_area
+CAN-2022-Imports-1806:31,CAN,加拿大,ISR,Israel,2022,M,1806,巧克力及其他含可可食品,H0,856540.00,observed,CAN-2022-Imports-1806,31,ISR,country_or_area
+CAN-2022-Imports-1806:6,CAN,加拿大,ITA,Italy,2022,M,1806,巧克力及其他含可可食品,H0,71798770.00,observed,CAN-2022-Imports-1806,6,ITA,country_or_area
+CAN-2022-Imports-1806:67,CAN,加拿大,JAM,Jamaica,2022,M,1806,巧克力及其他含可可食品,H0,32400.00,observed,CAN-2022-Imports-1806,67,JAM,country_or_area
+CAN-2022-Imports-1806:50,CAN,加拿大,JOR,Jordan,2022,M,1806,巧克力及其他含可可食品,H0,173990.00,observed,CAN-2022-Imports-1806,50,JOR,country_or_area
+CAN-2022-Imports-1806:29,CAN,加拿大,JPN,Japan,2022,M,1806,巧克力及其他含可可食品,H0,1152460.00,observed,CAN-2022-Imports-1806,29,JPN,country_or_area
+CAN-2022-Imports-1806:109,CAN,加拿大,KAZ,Kazakhstan,2022,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2022-Imports-1806,109,KAZ,country_or_area
+CAN-2022-Imports-1806:113,CAN,加拿大,KEN,Kenya,2022,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2022-Imports-1806,113,KEN,country_or_area
+CAN-2022-Imports-1806:117,CAN,加拿大,KHM,Cambodia,2022,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2022-Imports-1806,117,KHM,country_or_area
+CAN-2022-Imports-1806:51,CAN,加拿大,KOR,"Korea, Rep.",2022,M,1806,巧克力及其他含可可食品,H0,170670.00,observed,CAN-2022-Imports-1806,51,KOR,country_or_area
+CAN-2022-Imports-1806:107,CAN,加拿大,KWT,Kuwait,2022,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2022-Imports-1806,107,KWT,country_or_area
+CAN-2022-Imports-1806:36,CAN,加拿大,LBN,Lebanon,2022,M,1806,巧克力及其他含可可食品,H0,494290.00,observed,CAN-2022-Imports-1806,36,LBN,country_or_area
+CAN-2022-Imports-1806:108,CAN,加拿大,LCA,St. Lucia,2022,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2022-Imports-1806,108,LCA,country_or_area
+CAN-2022-Imports-1806:88,CAN,加拿大,LKA,Sri Lanka,2022,M,1806,巧克力及其他含可可食品,H0,2240.00,observed,CAN-2022-Imports-1806,88,LKA,country_or_area
+CAN-2022-Imports-1806:30,CAN,加拿大,LTU,Lithuania,2022,M,1806,巧克力及其他含可可食品,H0,858100.00,observed,CAN-2022-Imports-1806,30,LTU,country_or_area
+CAN-2022-Imports-1806:79,CAN,加拿大,LUX,Luxembourg,2022,M,1806,巧克力及其他含可可食品,H0,11900.00,observed,CAN-2022-Imports-1806,79,LUX,country_or_area
+CAN-2022-Imports-1806:62,CAN,加拿大,LVA,Latvia,2022,M,1806,巧克力及其他含可可食品,H0,57220.00,observed,CAN-2022-Imports-1806,62,LVA,country_or_area
+CAN-2022-Imports-1806:73,CAN,加拿大,MAR,Morocco,2022,M,1806,巧克力及其他含可可食品,H0,17240.00,observed,CAN-2022-Imports-1806,73,MAR,country_or_area
+CAN-2022-Imports-1806:60,CAN,加拿大,MDA,Moldova,2022,M,1806,巧克力及其他含可可食品,H0,61150.00,observed,CAN-2022-Imports-1806,60,MDA,country_or_area
+CAN-2022-Imports-1806:91,CAN,加拿大,MDG,Madagascar,2022,M,1806,巧克力及其他含可可食品,H0,1720.00,observed,CAN-2022-Imports-1806,91,MDG,country_or_area
+CAN-2022-Imports-1806:7,CAN,加拿大,MEX,Mexico,2022,M,1806,巧克力及其他含可可食品,H0,55248250.00,observed,CAN-2022-Imports-1806,7,MEX,country_or_area
+CAN-2022-Imports-1806:49,CAN,加拿大,MKD,North Macedonia,2022,M,1806,巧克力及其他含可可食品,H0,174350.00,observed,CAN-2022-Imports-1806,49,MKD,country_or_area
+CAN-2022-Imports-1806:115,CAN,加拿大,MUS,Mauritius,2022,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2022-Imports-1806,115,MUS,country_or_area
+CAN-2022-Imports-1806:42,CAN,加拿大,MYS,Malaysia,2022,M,1806,巧克力及其他含可可食品,H0,373490.00,observed,CAN-2022-Imports-1806,42,MYS,country_or_area
+CAN-2022-Imports-1806:110,CAN,加拿大,NAM,Namibia,2022,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2022-Imports-1806,110,NAM,country_or_area
+CAN-2022-Imports-1806:81,CAN,加拿大,NGA,Nigeria,2022,M,1806,巧克力及其他含可可食品,H0,7480.00,observed,CAN-2022-Imports-1806,81,NGA,country_or_area
+CAN-2022-Imports-1806:15,CAN,加拿大,NLD,Netherlands,2022,M,1806,巧克力及其他含可可食品,H0,8321410.00,observed,CAN-2022-Imports-1806,15,NLD,country_or_area
+CAN-2022-Imports-1806:47,CAN,加拿大,NOR,Norway,2022,M,1806,巧克力及其他含可可食品,H0,188670.00,observed,CAN-2022-Imports-1806,47,NOR,country_or_area
+CAN-2022-Imports-1806:84,CAN,加拿大,NPL,Nepal,2022,M,1806,巧克力及其他含可可食品,H0,4020.00,observed,CAN-2022-Imports-1806,84,NPL,country_or_area
+CAN-2022-Imports-1806:21,CAN,加拿大,NZL,New Zealand,2022,M,1806,巧克力及其他含可可食品,H0,2434740.00,observed,CAN-2022-Imports-1806,21,NZL,country_or_area
+CAN-2022-Imports-1806:55,CAN,加拿大,OAS,"Other Asia, nes",2022,M,1806,巧克力及其他含可可食品,H0,138090.00,observed,CAN-2022-Imports-1806,55,OAS,country_or_area
+CAN-2022-Imports-1806:65,CAN,加拿大,PAK,Pakistan,2022,M,1806,巧克力及其他含可可食品,H0,37440.00,observed,CAN-2022-Imports-1806,65,PAK,country_or_area
+CAN-2022-Imports-1806:12,CAN,加拿大,PER,Peru,2022,M,1806,巧克力及其他含可可食品,H0,11465340.00,observed,CAN-2022-Imports-1806,12,PER,country_or_area
+CAN-2022-Imports-1806:34,CAN,加拿大,PHL,Philippines,2022,M,1806,巧克力及其他含可可食品,H0,565250.00,observed,CAN-2022-Imports-1806,34,PHL,country_or_area
+CAN-2022-Imports-1806:10,CAN,加拿大,POL,Poland,2022,M,1806,巧克力及其他含可可食品,H0,17744880.00,observed,CAN-2022-Imports-1806,10,POL,country_or_area
+CAN-2022-Imports-1806:46,CAN,加拿大,PRT,Portugal,2022,M,1806,巧克力及其他含可可食品,H0,204090.00,observed,CAN-2022-Imports-1806,46,PRT,country_or_area
+CAN-2022-Imports-1806:70,CAN,加拿大,PRY,Paraguay,2022,M,1806,巧克力及其他含可可食品,H0,17500.00,observed,CAN-2022-Imports-1806,70,PRY,country_or_area
+CAN-2022-Imports-1806:45,CAN,加拿大,ROM,Romania,2022,M,1806,巧克力及其他含可可食品,H0,244300.00,observed,CAN-2022-Imports-1806,45,ROM,country_or_area
+CAN-2022-Imports-1806:44,CAN,加拿大,RUS,Russian Federation,2022,M,1806,巧克力及其他含可可食品,H0,291010.00,observed,CAN-2022-Imports-1806,44,RUS,country_or_area
+CAN-2022-Imports-1806:92,CAN,加拿大,SAU,Saudi Arabia,2022,M,1806,巧克力及其他含可可食品,H0,1480.00,observed,CAN-2022-Imports-1806,92,SAU,country_or_area
+CAN-2022-Imports-1806:97,CAN,加拿大,SEN,Senegal,2022,M,1806,巧克力及其他含可可食品,H0,370.00,observed,CAN-2022-Imports-1806,97,SEN,country_or_area
+CAN-2022-Imports-1806:53,CAN,加拿大,SER,"Serbia, FR(Serbia/Montenegro)",2022,M,1806,巧克力及其他含可可食品,H0,153300.00,observed,CAN-2022-Imports-1806,53,SER,country_or_area
+CAN-2022-Imports-1806:41,CAN,加拿大,SGP,Singapore,2022,M,1806,巧克力及其他含可可食品,H0,380920.00,observed,CAN-2022-Imports-1806,41,SGP,country_or_area
+CAN-2022-Imports-1806:116,CAN,加拿大,SLE,Sierra Leone,2022,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2022-Imports-1806,116,SLE,country_or_area
+CAN-2022-Imports-1806:83,CAN,加拿大,SLV,El Salvador,2022,M,1806,巧克力及其他含可可食品,H0,5140.00,observed,CAN-2022-Imports-1806,83,SLV,country_or_area
+CAN-2022-Imports-1806:71,CAN,加拿大,SVK,Slovak Republic,2022,M,1806,巧克力及其他含可可食品,H0,17310.00,observed,CAN-2022-Imports-1806,71,SVK,country_or_area
+CAN-2022-Imports-1806:64,CAN,加拿大,SVN,Slovenia,2022,M,1806,巧克力及其他含可可食品,H0,38580.00,observed,CAN-2022-Imports-1806,64,SVN,country_or_area
+CAN-2022-Imports-1806:24,CAN,加拿大,SWE,Sweden,2022,M,1806,巧克力及其他含可可食品,H0,1490330.00,observed,CAN-2022-Imports-1806,24,SWE,country_or_area
+CAN-2022-Imports-1806:95,CAN,加拿大,SWZ,Eswatini,2022,M,1806,巧克力及其他含可可食品,H0,600.00,observed,CAN-2022-Imports-1806,95,SWZ,country_or_area
+CAN-2022-Imports-1806:66,CAN,加拿大,SYR,Syrian Arab Republic,2022,M,1806,巧克力及其他含可可食品,H0,33250.00,observed,CAN-2022-Imports-1806,66,SYR,country_or_area
+CAN-2022-Imports-1806:33,CAN,加拿大,THA,Thailand,2022,M,1806,巧克力及其他含可可食品,H0,567530.00,observed,CAN-2022-Imports-1806,33,THA,country_or_area
+CAN-2022-Imports-1806:58,CAN,加拿大,TTO,Trinidad and Tobago,2022,M,1806,巧克力及其他含可可食品,H0,87710.00,observed,CAN-2022-Imports-1806,58,TTO,country_or_area
+CAN-2022-Imports-1806:61,CAN,加拿大,TUN,Tunisia,2022,M,1806,巧克力及其他含可可食品,H0,60620.00,observed,CAN-2022-Imports-1806,61,TUN,country_or_area
+CAN-2022-Imports-1806:14,CAN,加拿大,TUR,Turkey,2022,M,1806,巧克力及其他含可可食品,H0,9077960.00,observed,CAN-2022-Imports-1806,14,TUR,country_or_area
+CAN-2022-Imports-1806:94,CAN,加拿大,TZA,Tanzania,2022,M,1806,巧克力及其他含可可食品,H0,790.00,observed,CAN-2022-Imports-1806,94,TZA,country_or_area
+CAN-2022-Imports-1806:35,CAN,加拿大,UKR,Ukraine,2022,M,1806,巧克力及其他含可可食品,H0,511480.00,observed,CAN-2022-Imports-1806,35,UKR,country_or_area
+CAN-2022-Imports-1806:112,CAN,加拿大,URY,Uruguay,2022,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2022-Imports-1806,112,URY,country_or_area
+CAN-2022-Imports-1806:2,CAN,加拿大,USA,United States,2022,M,1806,巧克力及其他含可可食品,H0,690954400.00,observed,CAN-2022-Imports-1806,2,USA,country_or_area
+CAN-2022-Imports-1806:114,CAN,加拿大,UZB,Uzbekistan,2022,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2022-Imports-1806,114,UZB,country_or_area
+CAN-2022-Imports-1806:98,CAN,加拿大,VCT,St. Vincent and the Grenadines,2022,M,1806,巧克力及其他含可可食品,H0,150.00,observed,CAN-2022-Imports-1806,98,VCT,country_or_area
+CAN-2022-Imports-1806:74,CAN,加拿大,VEN,Venezuela,2022,M,1806,巧克力及其他含可可食品,H0,16880.00,observed,CAN-2022-Imports-1806,74,VEN,country_or_area
+CAN-2022-Imports-1806:57,CAN,加拿大,VNM,Vietnam,2022,M,1806,巧克力及其他含可可食品,H0,135670.00,observed,CAN-2022-Imports-1806,57,VNM,country_or_area
+CAN-2022-Imports-1806:1,CAN,加拿大,WLD,World,2022,M,1806,巧克力及其他含可可食品,H0,1239443290.00,observed,CAN-2022-Imports-1806,1,WLD,world
+CAN-2022-Imports-1806:38,CAN,加拿大,ZAF,South Africa,2022,M,1806,巧克力及其他含可可食品,H0,473000.00,observed,CAN-2022-Imports-1806,38,ZAF,country_or_area
+CAN-2022-Imports-1806:106,CAN,加拿大,ZAR,"Congo, Dem. Rep.",2022,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2022-Imports-1806,106,ZAR,country_or_area
+CAN-2022-Exports-1806:71,CAN,加拿大,ABW,Aruba,2022,X,1806,巧克力及其他含可可食品,H0,290.00,observed,CAN-2022-Exports-1806,71,ABW,country_or_area
+CAN-2022-Exports-1806:19,CAN,加拿大,ARE,United Arab Emirates,2022,X,1806,巧克力及其他含可可食品,H0,390340.00,observed,CAN-2022-Exports-1806,19,ARE,country_or_area
+CAN-2022-Exports-1806:4,CAN,加拿大,AUS,Australia,2022,X,1806,巧克力及其他含可可食品,H0,6231720.00,observed,CAN-2022-Exports-1806,4,AUS,country_or_area
+CAN-2022-Exports-1806:55,CAN,加拿大,AZE,Azerbaijan,2022,X,1806,巧克力及其他含可可食品,H0,7810.00,observed,CAN-2022-Exports-1806,55,AZE,country_or_area
+CAN-2022-Exports-1806:24,CAN,加拿大,BEL,Belgium,2022,X,1806,巧克力及其他含可可食品,H0,198090.00,observed,CAN-2022-Exports-1806,24,BEL,country_or_area
+CAN-2022-Exports-1806:58,CAN,加拿大,BHR,Bahrain,2022,X,1806,巧克力及其他含可可食品,H0,6470.00,observed,CAN-2022-Exports-1806,58,BHR,country_or_area
+CAN-2022-Exports-1806:53,CAN,加拿大,BHS,"Bahamas, The",2022,X,1806,巧克力及其他含可可食品,H0,10130.00,observed,CAN-2022-Exports-1806,53,BHS,country_or_area
+CAN-2022-Exports-1806:62,CAN,加拿大,BMU,Bermuda,2022,X,1806,巧克力及其他含可可食品,H0,3280.00,observed,CAN-2022-Exports-1806,62,BMU,country_or_area
+CAN-2022-Exports-1806:40,CAN,加拿大,BRA,Brazil,2022,X,1806,巧克力及其他含可可食品,H0,48900.00,observed,CAN-2022-Exports-1806,40,BRA,country_or_area
+CAN-2022-Exports-1806:36,CAN,加拿大,BRB,Barbados,2022,X,1806,巧克力及其他含可可食品,H0,67120.00,observed,CAN-2022-Exports-1806,36,BRB,country_or_area
+CAN-2022-Exports-1806:47,CAN,加拿大,CHE,Switzerland,2022,X,1806,巧克力及其他含可可食品,H0,26640.00,observed,CAN-2022-Exports-1806,47,CHE,country_or_area
+CAN-2022-Exports-1806:7,CAN,加拿大,CHL,Chile,2022,X,1806,巧克力及其他含可可食品,H0,3863460.00,observed,CAN-2022-Exports-1806,7,CHL,country_or_area
+CAN-2022-Exports-1806:9,CAN,加拿大,CHN,China,2022,X,1806,巧克力及其他含可可食品,H0,1921480.00,observed,CAN-2022-Exports-1806,9,CHN,country_or_area
+CAN-2022-Exports-1806:22,CAN,加拿大,COL,Colombia,2022,X,1806,巧克力及其他含可可食品,H0,259340.00,observed,CAN-2022-Exports-1806,22,COL,country_or_area
+CAN-2022-Exports-1806:11,CAN,加拿大,CRI,Costa Rica,2022,X,1806,巧克力及其他含可可食品,H0,1471130.00,observed,CAN-2022-Exports-1806,11,CRI,country_or_area
+CAN-2022-Exports-1806:41,CAN,加拿大,CZE,Czech Republic,2022,X,1806,巧克力及其他含可可食品,H0,44160.00,observed,CAN-2022-Exports-1806,41,CZE,country_or_area
+CAN-2022-Exports-1806:35,CAN,加拿大,DEU,Germany,2022,X,1806,巧克力及其他含可可食品,H0,67560.00,observed,CAN-2022-Exports-1806,35,DEU,country_or_area
+CAN-2022-Exports-1806:73,CAN,加拿大,DMA,Dominica,2022,X,1806,巧克力及其他含可可食品,H0,220.00,observed,CAN-2022-Exports-1806,73,DMA,country_or_area
+CAN-2022-Exports-1806:67,CAN,加拿大,DNK,Denmark,2022,X,1806,巧克力及其他含可可食品,H0,1520.00,observed,CAN-2022-Exports-1806,67,DNK,country_or_area
+CAN-2022-Exports-1806:68,CAN,加拿大,DOM,Dominican Republic,2022,X,1806,巧克力及其他含可可食品,H0,1140.00,observed,CAN-2022-Exports-1806,68,DOM,country_or_area
+CAN-2022-Exports-1806:52,CAN,加拿大,EGY,"Egypt, Arab Rep.",2022,X,1806,巧克力及其他含可可食品,H0,14160.00,observed,CAN-2022-Exports-1806,52,EGY,country_or_area
+CAN-2022-Exports-1806:38,CAN,加拿大,ESP,Spain,2022,X,1806,巧克力及其他含可可食品,H0,60390.00,observed,CAN-2022-Exports-1806,38,ESP,country_or_area
+CAN-2022-Exports-1806:74,CAN,加拿大,FIN,Finland,2022,X,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2022-Exports-1806,74,FIN,country_or_area
+CAN-2022-Exports-1806:14,CAN,加拿大,FRA,France,2022,X,1806,巧克力及其他含可可食品,H0,635720.00,observed,CAN-2022-Exports-1806,14,FRA,country_or_area
+CAN-2022-Exports-1806:5,CAN,加拿大,GBR,United Kingdom,2022,X,1806,巧克力及其他含可可食品,H0,4665380.00,observed,CAN-2022-Exports-1806,5,GBR,country_or_area
+CAN-2022-Exports-1806:51,CAN,加拿大,GHA,Ghana,2022,X,1806,巧克力及其他含可可食品,H0,16740.00,observed,CAN-2022-Exports-1806,51,GHA,country_or_area
+CAN-2022-Exports-1806:30,CAN,加拿大,GTM,Guatemala,2022,X,1806,巧克力及其他含可可食品,H0,124060.00,observed,CAN-2022-Exports-1806,30,GTM,country_or_area
+CAN-2022-Exports-1806:10,CAN,加拿大,HKG,"Hong Kong, China",2022,X,1806,巧克力及其他含可可食品,H0,1771180.00,observed,CAN-2022-Exports-1806,10,HKG,country_or_area
+CAN-2022-Exports-1806:45,CAN,加拿大,HND,Honduras,2022,X,1806,巧克力及其他含可可食品,H0,35690.00,observed,CAN-2022-Exports-1806,45,HND,country_or_area
+CAN-2022-Exports-1806:72,CAN,加拿大,HTI,Haiti,2022,X,1806,巧克力及其他含可可食品,H0,270.00,observed,CAN-2022-Exports-1806,72,HTI,country_or_area
+CAN-2022-Exports-1806:28,CAN,加拿大,IND,India,2022,X,1806,巧克力及其他含可可食品,H0,133630.00,observed,CAN-2022-Exports-1806,28,IND,country_or_area
+CAN-2022-Exports-1806:23,CAN,加拿大,IRL,Ireland,2022,X,1806,巧克力及其他含可可食品,H0,209910.00,observed,CAN-2022-Exports-1806,23,IRL,country_or_area
+CAN-2022-Exports-1806:26,CAN,加拿大,ISL,Iceland,2022,X,1806,巧克力及其他含可可食品,H0,173900.00,observed,CAN-2022-Exports-1806,26,ISL,country_or_area
+CAN-2022-Exports-1806:20,CAN,加拿大,ISR,Israel,2022,X,1806,巧克力及其他含可可食品,H0,328260.00,observed,CAN-2022-Exports-1806,20,ISR,country_or_area
+CAN-2022-Exports-1806:64,CAN,加拿大,ITA,Italy,2022,X,1806,巧克力及其他含可可食品,H0,2570.00,observed,CAN-2022-Exports-1806,64,ITA,country_or_area
+CAN-2022-Exports-1806:42,CAN,加拿大,JAM,Jamaica,2022,X,1806,巧克力及其他含可可食品,H0,39040.00,observed,CAN-2022-Exports-1806,42,JAM,country_or_area
+CAN-2022-Exports-1806:27,CAN,加拿大,JOR,Jordan,2022,X,1806,巧克力及其他含可可食品,H0,141160.00,observed,CAN-2022-Exports-1806,27,JOR,country_or_area
+CAN-2022-Exports-1806:8,CAN,加拿大,JPN,Japan,2022,X,1806,巧克力及其他含可可食品,H0,2423650.00,observed,CAN-2022-Exports-1806,8,JPN,country_or_area
+CAN-2022-Exports-1806:37,CAN,加拿大,KAZ,Kazakhstan,2022,X,1806,巧克力及其他含可可食品,H0,60780.00,observed,CAN-2022-Exports-1806,37,KAZ,country_or_area
+CAN-2022-Exports-1806:65,CAN,加拿大,KHM,Cambodia,2022,X,1806,巧克力及其他含可可食品,H0,2480.00,observed,CAN-2022-Exports-1806,65,KHM,country_or_area
+CAN-2022-Exports-1806:6,CAN,加拿大,KOR,"Korea, Rep.",2022,X,1806,巧克力及其他含可可食品,H0,4445190.00,observed,CAN-2022-Exports-1806,6,KOR,country_or_area
+CAN-2022-Exports-1806:16,CAN,加拿大,KWT,Kuwait,2022,X,1806,巧克力及其他含可可食品,H0,493530.00,observed,CAN-2022-Exports-1806,16,KWT,country_or_area
+CAN-2022-Exports-1806:31,CAN,加拿大,LBN,Lebanon,2022,X,1806,巧克力及其他含可可食品,H0,114390.00,observed,CAN-2022-Exports-1806,31,LBN,country_or_area
+CAN-2022-Exports-1806:56,CAN,加拿大,LBY,Libya,2022,X,1806,巧克力及其他含可可食品,H0,6940.00,observed,CAN-2022-Exports-1806,56,LBY,country_or_area
+CAN-2022-Exports-1806:60,CAN,加拿大,LCA,St. Lucia,2022,X,1806,巧克力及其他含可可食品,H0,3930.00,observed,CAN-2022-Exports-1806,60,LCA,country_or_area
+CAN-2022-Exports-1806:46,CAN,加拿大,LVA,Latvia,2022,X,1806,巧克力及其他含可可食品,H0,29510.00,observed,CAN-2022-Exports-1806,46,LVA,country_or_area
+CAN-2022-Exports-1806:39,CAN,加拿大,MAC,Macao,2022,X,1806,巧克力及其他含可可食品,H0,56110.00,observed,CAN-2022-Exports-1806,39,MAC,country_or_area
+CAN-2022-Exports-1806:3,CAN,加拿大,MEX,Mexico,2022,X,1806,巧克力及其他含可可食品,H0,30190680.00,observed,CAN-2022-Exports-1806,3,MEX,country_or_area
+CAN-2022-Exports-1806:50,CAN,加拿大,MKD,North Macedonia,2022,X,1806,巧克力及其他含可可食品,H0,21890.00,observed,CAN-2022-Exports-1806,50,MKD,country_or_area
+CAN-2022-Exports-1806:48,CAN,加拿大,NGA,Nigeria,2022,X,1806,巧克力及其他含可可食品,H0,23340.00,observed,CAN-2022-Exports-1806,48,NGA,country_or_area
+CAN-2022-Exports-1806:49,CAN,加拿大,NIC,Nicaragua,2022,X,1806,巧克力及其他含可可食品,H0,22240.00,observed,CAN-2022-Exports-1806,49,NIC,country_or_area
+CAN-2022-Exports-1806:12,CAN,加拿大,NLD,Netherlands,2022,X,1806,巧克力及其他含可可食品,H0,975450.00,observed,CAN-2022-Exports-1806,12,NLD,country_or_area
+CAN-2022-Exports-1806:75,CAN,加拿大,NOR,Norway,2022,X,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2022-Exports-1806,75,NOR,country_or_area
+CAN-2022-Exports-1806:70,CAN,加拿大,NZL,New Zealand,2022,X,1806,巧克力及其他含可可食品,H0,300.00,observed,CAN-2022-Exports-1806,70,NZL,country_or_area
+CAN-2022-Exports-1806:17,CAN,加拿大,OAS,"Other Asia, nes",2022,X,1806,巧克力及其他含可可食品,H0,459260.00,observed,CAN-2022-Exports-1806,17,OAS,country_or_area
+CAN-2022-Exports-1806:66,CAN,加拿大,OMN,Oman,2022,X,1806,巧克力及其他含可可食品,H0,2340.00,observed,CAN-2022-Exports-1806,66,OMN,country_or_area
+CAN-2022-Exports-1806:34,CAN,加拿大,PAK,Pakistan,2022,X,1806,巧克力及其他含可可食品,H0,76750.00,observed,CAN-2022-Exports-1806,34,PAK,country_or_area
+CAN-2022-Exports-1806:44,CAN,加拿大,PAN,Panama,2022,X,1806,巧克力及其他含可可食品,H0,38090.00,observed,CAN-2022-Exports-1806,44,PAN,country_or_area
+CAN-2022-Exports-1806:33,CAN,加拿大,PER,Peru,2022,X,1806,巧克力及其他含可可食品,H0,78110.00,observed,CAN-2022-Exports-1806,33,PER,country_or_area
+CAN-2022-Exports-1806:21,CAN,加拿大,PHL,Philippines,2022,X,1806,巧克力及其他含可可食品,H0,304120.00,observed,CAN-2022-Exports-1806,21,PHL,country_or_area
+CAN-2022-Exports-1806:61,CAN,加拿大,POL,Poland,2022,X,1806,巧克力及其他含可可食品,H0,3650.00,observed,CAN-2022-Exports-1806,61,POL,country_or_area
+CAN-2022-Exports-1806:59,CAN,加拿大,QAT,Qatar,2022,X,1806,巧克力及其他含可可食品,H0,4290.00,observed,CAN-2022-Exports-1806,59,QAT,country_or_area
+CAN-2022-Exports-1806:13,CAN,加拿大,SAU,Saudi Arabia,2022,X,1806,巧克力及其他含可可食品,H0,827300.00,observed,CAN-2022-Exports-1806,13,SAU,country_or_area
+CAN-2022-Exports-1806:15,CAN,加拿大,SGP,Singapore,2022,X,1806,巧克力及其他含可可食品,H0,605020.00,observed,CAN-2022-Exports-1806,15,SGP,country_or_area
+CAN-2022-Exports-1806:43,CAN,加拿大,SLV,El Salvador,2022,X,1806,巧克力及其他含可可食品,H0,38260.00,observed,CAN-2022-Exports-1806,43,SLV,country_or_area
+CAN-2022-Exports-1806:57,CAN,加拿大,SPM,Saint Pierre and Miquelon,2022,X,1806,巧克力及其他含可可食品,H0,6480.00,observed,CAN-2022-Exports-1806,57,SPM,country_or_area
+CAN-2022-Exports-1806:32,CAN,加拿大,SWE,Sweden,2022,X,1806,巧克力及其他含可可食品,H0,79330.00,observed,CAN-2022-Exports-1806,32,SWE,country_or_area
+CAN-2022-Exports-1806:69,CAN,加拿大,SXM,Saint Maarten (Dutch part),2022,X,1806,巧克力及其他含可可食品,H0,320.00,observed,CAN-2022-Exports-1806,69,SXM,country_or_area
+CAN-2022-Exports-1806:76,CAN,加拿大,TCA,Turks and Caicos Isl.,2022,X,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2022-Exports-1806,76,TCA,country_or_area
+CAN-2022-Exports-1806:29,CAN,加拿大,TTO,Trinidad and Tobago,2022,X,1806,巧克力及其他含可可食品,H0,124520.00,observed,CAN-2022-Exports-1806,29,TTO,country_or_area
+CAN-2022-Exports-1806:25,CAN,加拿大,TUR,Turkey,2022,X,1806,巧克力及其他含可可食品,H0,197160.00,observed,CAN-2022-Exports-1806,25,TUR,country_or_area
+CAN-2022-Exports-1806:54,CAN,加拿大,TZA,Tanzania,2022,X,1806,巧克力及其他含可可食品,H0,8380.00,observed,CAN-2022-Exports-1806,54,TZA,country_or_area
+CAN-2022-Exports-1806:63,CAN,加拿大,UGA,Uganda,2022,X,1806,巧克力及其他含可可食品,H0,3000.00,observed,CAN-2022-Exports-1806,63,UGA,country_or_area
+CAN-2022-Exports-1806:2,CAN,加拿大,USA,United States,2022,X,1806,巧克力及其他含可可食品,H0,1905127470.00,observed,CAN-2022-Exports-1806,2,USA,country_or_area
+CAN-2022-Exports-1806:18,CAN,加拿大,VNM,Vietnam,2022,X,1806,巧克力及其他含可可食品,H0,393740.00,observed,CAN-2022-Exports-1806,18,VNM,country_or_area
+CAN-2022-Exports-1806:1,CAN,加拿大,WLD,World,2022,X,1806,巧克力及其他含可可食品,H0,1970220890.00,observed,CAN-2022-Exports-1806,1,WLD,world
+CAN-2022-Exports-1806:77,CAN,加拿大,ZAF,South Africa,2022,X,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2022-Exports-1806,77,ZAF,country_or_area
+CAN-2023-Imports-1806:120,CAN,加拿大,AGO,Angola,2023,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2023-Imports-1806,120,AGO,country_or_area
+CAN-2023-Imports-1806:123,CAN,加拿大,AIA,Anguila,2023,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2023-Imports-1806,123,AIA,country_or_area
+CAN-2023-Imports-1806:97,CAN,加拿大,ALB,Albania,2023,M,1806,巧克力及其他含可可食品,H0,370.00,observed,CAN-2023-Imports-1806,97,ALB,country_or_area
+CAN-2023-Imports-1806:92,CAN,加拿大,AND,Andorra,2023,M,1806,巧克力及其他含可可食品,H0,1140.00,observed,CAN-2023-Imports-1806,92,AND,country_or_area
+CAN-2023-Imports-1806:49,CAN,加拿大,ARE,United Arab Emirates,2023,M,1806,巧克力及其他含可可食品,H0,167160.00,observed,CAN-2023-Imports-1806,49,ARE,country_or_area
+CAN-2023-Imports-1806:60,CAN,加拿大,ARG,Argentina,2023,M,1806,巧克力及其他含可可食品,H0,66140.00,observed,CAN-2023-Imports-1806,60,ARG,country_or_area
+CAN-2023-Imports-1806:68,CAN,加拿大,ARM,Armenia,2023,M,1806,巧克力及其他含可可食品,H0,24040.00,observed,CAN-2023-Imports-1806,68,ARM,country_or_area
+CAN-2023-Imports-1806:112,CAN,加拿大,ATF,Fr. So. Ant. Tr,2023,M,1806,巧克力及其他含可可食品,H0,50.00,observed,CAN-2023-Imports-1806,112,ATF,country_or_area
+CAN-2023-Imports-1806:40,CAN,加拿大,AUS,Australia,2023,M,1806,巧克力及其他含可可食品,H0,299660.00,observed,CAN-2023-Imports-1806,40,AUS,country_or_area
+CAN-2023-Imports-1806:31,CAN,加拿大,AUT,Austria,2023,M,1806,巧克力及其他含可可食品,H0,1010190.00,observed,CAN-2023-Imports-1806,31,AUT,country_or_area
+CAN-2023-Imports-1806:5,CAN,加拿大,BEL,Belgium,2023,M,1806,巧克力及其他含可可食品,H0,76129850.00,observed,CAN-2023-Imports-1806,5,BEL,country_or_area
+CAN-2023-Imports-1806:87,CAN,加拿大,BGD,Bangladesh,2023,M,1806,巧克力及其他含可可食品,H0,1420.00,observed,CAN-2023-Imports-1806,87,BGD,country_or_area
+CAN-2023-Imports-1806:28,CAN,加拿大,BGR,Bulgaria,2023,M,1806,巧克力及其他含可可食品,H0,1207140.00,observed,CAN-2023-Imports-1806,28,BGR,country_or_area
+CAN-2023-Imports-1806:117,CAN,加拿大,BHR,Bahrain,2023,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2023-Imports-1806,117,BHR,country_or_area
+CAN-2023-Imports-1806:114,CAN,加拿大,BHS,"Bahamas, The",2023,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2023-Imports-1806,114,BHS,country_or_area
+CAN-2023-Imports-1806:84,CAN,加拿大,BIH,Bosnia and Herzegovina,2023,M,1806,巧克力及其他含可可食品,H0,4120.00,observed,CAN-2023-Imports-1806,84,BIH,country_or_area
+CAN-2023-Imports-1806:82,CAN,加拿大,BLR,Belarus,2023,M,1806,巧克力及其他含可可食品,H0,7250.00,observed,CAN-2023-Imports-1806,82,BLR,country_or_area
+CAN-2023-Imports-1806:109,CAN,加拿大,BOL,Bolivia,2023,M,1806,巧克力及其他含可可食品,H0,80.00,observed,CAN-2023-Imports-1806,109,BOL,country_or_area
+CAN-2023-Imports-1806:34,CAN,加拿大,BRA,Brazil,2023,M,1806,巧克力及其他含可可食品,H0,522990.00,observed,CAN-2023-Imports-1806,34,BRA,country_or_area
+CAN-2023-Imports-1806:11,CAN,加拿大,CAN,Canada,2023,M,1806,巧克力及其他含可可食品,H0,11621000.00,observed,CAN-2023-Imports-1806,11,CAN,country_or_area
+CAN-2023-Imports-1806:4,CAN,加拿大,CHE,Switzerland,2023,M,1806,巧克力及其他含可可食品,H0,79828460.00,observed,CAN-2023-Imports-1806,4,CHE,country_or_area
+CAN-2023-Imports-1806:41,CAN,加拿大,CHL,Chile,2023,M,1806,巧克力及其他含可可食品,H0,291370.00,observed,CAN-2023-Imports-1806,41,CHL,country_or_area
+CAN-2023-Imports-1806:16,CAN,加拿大,CHN,China,2023,M,1806,巧克力及其他含可可食品,H0,5880650.00,observed,CAN-2023-Imports-1806,16,CHN,country_or_area
+CAN-2023-Imports-1806:22,CAN,加拿大,CIV,Cote d'Ivoire,2023,M,1806,巧克力及其他含可可食品,H0,2246350.00,observed,CAN-2023-Imports-1806,22,CIV,country_or_area
+CAN-2023-Imports-1806:58,CAN,加拿大,CMR,Cameroon,2023,M,1806,巧克力及其他含可可食品,H0,72140.00,observed,CAN-2023-Imports-1806,58,CMR,country_or_area
+CAN-2023-Imports-1806:25,CAN,加拿大,COL,Colombia,2023,M,1806,巧克力及其他含可可食品,H0,1624630.00,observed,CAN-2023-Imports-1806,25,COL,country_or_area
+CAN-2023-Imports-1806:53,CAN,加拿大,CRI,Costa Rica,2023,M,1806,巧克力及其他含可可食品,H0,144570.00,observed,CAN-2023-Imports-1806,53,CRI,country_or_area
+CAN-2023-Imports-1806:121,CAN,加拿大,CXR,Christmas Island,2023,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2023-Imports-1806,121,CXR,country_or_area
+CAN-2023-Imports-1806:39,CAN,加拿大,CZE,Czech Republic,2023,M,1806,巧克力及其他含可可食品,H0,302320.00,observed,CAN-2023-Imports-1806,39,CZE,country_or_area
+CAN-2023-Imports-1806:3,CAN,加拿大,DEU,Germany,2023,M,1806,巧克力及其他含可可食品,H0,90549760.00,observed,CAN-2023-Imports-1806,3,DEU,country_or_area
+CAN-2023-Imports-1806:127,CAN,加拿大,DMA,Dominica,2023,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2023-Imports-1806,127,DMA,country_or_area
+CAN-2023-Imports-1806:23,CAN,加拿大,DNK,Denmark,2023,M,1806,巧克力及其他含可可食品,H0,1994440.00,observed,CAN-2023-Imports-1806,23,DNK,country_or_area
+CAN-2023-Imports-1806:76,CAN,加拿大,DOM,Dominican Republic,2023,M,1806,巧克力及其他含可可食品,H0,10190.00,observed,CAN-2023-Imports-1806,76,DOM,country_or_area
+CAN-2023-Imports-1806:74,CAN,加拿大,DZA,Algeria,2023,M,1806,巧克力及其他含可可食品,H0,15540.00,observed,CAN-2023-Imports-1806,74,DZA,country_or_area
+CAN-2023-Imports-1806:43,CAN,加拿大,ECU,Ecuador,2023,M,1806,巧克力及其他含可可食品,H0,273860.00,observed,CAN-2023-Imports-1806,43,ECU,country_or_area
+CAN-2023-Imports-1806:27,CAN,加拿大,EGY,"Egypt, Arab Rep.",2023,M,1806,巧克力及其他含可可食品,H0,1436940.00,observed,CAN-2023-Imports-1806,27,EGY,country_or_area
+CAN-2023-Imports-1806:19,CAN,加拿大,ESP,Spain,2023,M,1806,巧克力及其他含可可食品,H0,3910000.00,observed,CAN-2023-Imports-1806,19,ESP,country_or_area
+CAN-2023-Imports-1806:108,CAN,加拿大,EST,Estonia,2023,M,1806,巧克力及其他含可可食品,H0,100.00,observed,CAN-2023-Imports-1806,108,EST,country_or_area
+CAN-2023-Imports-1806:98,CAN,加拿大,ETH,Ethiopia(excludes Eritrea),2023,M,1806,巧克力及其他含可可食品,H0,360.00,observed,CAN-2023-Imports-1806,98,ETH,country_or_area
+CAN-2023-Imports-1806:56,CAN,加拿大,FIN,Finland,2023,M,1806,巧克力及其他含可可食品,H0,116120.00,observed,CAN-2023-Imports-1806,56,FIN,country_or_area
+CAN-2023-Imports-1806:89,CAN,加拿大,FJI,Fiji,2023,M,1806,巧克力及其他含可可食品,H0,1270.00,observed,CAN-2023-Imports-1806,89,FJI,country_or_area
+CAN-2023-Imports-1806:9,CAN,加拿大,FRA,France,2023,M,1806,巧克力及其他含可可食品,H0,35585540.00,observed,CAN-2023-Imports-1806,9,FRA,country_or_area
+CAN-2023-Imports-1806:8,CAN,加拿大,GBR,United Kingdom,2023,M,1806,巧克力及其他含可可食品,H0,35776060.00,observed,CAN-2023-Imports-1806,8,GBR,country_or_area
+CAN-2023-Imports-1806:124,CAN,加拿大,GEO,Georgia,2023,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2023-Imports-1806,124,GEO,country_or_area
+CAN-2023-Imports-1806:73,CAN,加拿大,GHA,Ghana,2023,M,1806,巧克力及其他含可可食品,H0,17220.00,observed,CAN-2023-Imports-1806,73,GHA,country_or_area
+CAN-2023-Imports-1806:90,CAN,加拿大,GIN,Guinea,2023,M,1806,巧克力及其他含可可食品,H0,1210.00,observed,CAN-2023-Imports-1806,90,GIN,country_or_area
+CAN-2023-Imports-1806:37,CAN,加拿大,GRC,Greece,2023,M,1806,巧克力及其他含可可食品,H0,349180.00,observed,CAN-2023-Imports-1806,37,GRC,country_or_area
+CAN-2023-Imports-1806:85,CAN,加拿大,GTM,Guatemala,2023,M,1806,巧克力及其他含可可食品,H0,2910.00,observed,CAN-2023-Imports-1806,85,GTM,country_or_area
+CAN-2023-Imports-1806:75,CAN,加拿大,HKG,"Hong Kong, China",2023,M,1806,巧克力及其他含可可食品,H0,12440.00,observed,CAN-2023-Imports-1806,75,HKG,country_or_area
+CAN-2023-Imports-1806:93,CAN,加拿大,HND,Honduras,2023,M,1806,巧克力及其他含可可食品,H0,1130.00,observed,CAN-2023-Imports-1806,93,HND,country_or_area
+CAN-2023-Imports-1806:21,CAN,加拿大,HRV,Croatia,2023,M,1806,巧克力及其他含可可食品,H0,3393860.00,observed,CAN-2023-Imports-1806,21,HRV,country_or_area
+CAN-2023-Imports-1806:88,CAN,加拿大,HTI,Haiti,2023,M,1806,巧克力及其他含可可食品,H0,1390.00,observed,CAN-2023-Imports-1806,88,HTI,country_or_area
+CAN-2023-Imports-1806:24,CAN,加拿大,HUN,Hungary,2023,M,1806,巧克力及其他含可可食品,H0,1705020.00,observed,CAN-2023-Imports-1806,24,HUN,country_or_area
+CAN-2023-Imports-1806:18,CAN,加拿大,IDN,Indonesia,2023,M,1806,巧克力及其他含可可食品,H0,4488780.00,observed,CAN-2023-Imports-1806,18,IDN,country_or_area
+CAN-2023-Imports-1806:33,CAN,加拿大,IND,India,2023,M,1806,巧克力及其他含可可食品,H0,601170.00,observed,CAN-2023-Imports-1806,33,IND,country_or_area
+CAN-2023-Imports-1806:15,CAN,加拿大,IRL,Ireland,2023,M,1806,巧克力及其他含可可食品,H0,6815120.00,observed,CAN-2023-Imports-1806,15,IRL,country_or_area
+CAN-2023-Imports-1806:64,CAN,加拿大,IRN,"Iran, Islamic Rep.",2023,M,1806,巧克力及其他含可可食品,H0,52400.00,observed,CAN-2023-Imports-1806,64,IRN,country_or_area
+CAN-2023-Imports-1806:110,CAN,加拿大,IRQ,Iraq,2023,M,1806,巧克力及其他含可可食品,H0,80.00,observed,CAN-2023-Imports-1806,110,IRQ,country_or_area
+CAN-2023-Imports-1806:95,CAN,加拿大,ISL,Iceland,2023,M,1806,巧克力及其他含可可食品,H0,840.00,observed,CAN-2023-Imports-1806,95,ISL,country_or_area
+CAN-2023-Imports-1806:32,CAN,加拿大,ISR,Israel,2023,M,1806,巧克力及其他含可可食品,H0,886040.00,observed,CAN-2023-Imports-1806,32,ISR,country_or_area
+CAN-2023-Imports-1806:6,CAN,加拿大,ITA,Italy,2023,M,1806,巧克力及其他含可可食品,H0,66724710.00,observed,CAN-2023-Imports-1806,6,ITA,country_or_area
+CAN-2023-Imports-1806:67,CAN,加拿大,JAM,Jamaica,2023,M,1806,巧克力及其他含可可食品,H0,26900.00,observed,CAN-2023-Imports-1806,67,JAM,country_or_area
+CAN-2023-Imports-1806:45,CAN,加拿大,JOR,Jordan,2023,M,1806,巧克力及其他含可可食品,H0,222630.00,observed,CAN-2023-Imports-1806,45,JOR,country_or_area
+CAN-2023-Imports-1806:26,CAN,加拿大,JPN,Japan,2023,M,1806,巧克力及其他含可可食品,H0,1575180.00,observed,CAN-2023-Imports-1806,26,JPN,country_or_area
+CAN-2023-Imports-1806:119,CAN,加拿大,KAZ,Kazakhstan,2023,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2023-Imports-1806,119,KAZ,country_or_area
+CAN-2023-Imports-1806:106,CAN,加拿大,KEN,Kenya,2023,M,1806,巧克力及其他含可可食品,H0,130.00,observed,CAN-2023-Imports-1806,106,KEN,country_or_area
+CAN-2023-Imports-1806:96,CAN,加拿大,KGZ,Kyrgyz Republic,2023,M,1806,巧克力及其他含可可食品,H0,510.00,observed,CAN-2023-Imports-1806,96,KGZ,country_or_area
+CAN-2023-Imports-1806:44,CAN,加拿大,KOR,"Korea, Rep.",2023,M,1806,巧克力及其他含可可食品,H0,255490.00,observed,CAN-2023-Imports-1806,44,KOR,country_or_area
+CAN-2023-Imports-1806:107,CAN,加拿大,KWT,Kuwait,2023,M,1806,巧克力及其他含可可食品,H0,130.00,observed,CAN-2023-Imports-1806,107,KWT,country_or_area
+CAN-2023-Imports-1806:35,CAN,加拿大,LBN,Lebanon,2023,M,1806,巧克力及其他含可可食品,H0,452490.00,observed,CAN-2023-Imports-1806,35,LBN,country_or_area
+CAN-2023-Imports-1806:125,CAN,加拿大,LCA,St. Lucia,2023,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2023-Imports-1806,125,LCA,country_or_area
+CAN-2023-Imports-1806:86,CAN,加拿大,LKA,Sri Lanka,2023,M,1806,巧克力及其他含可可食品,H0,2530.00,observed,CAN-2023-Imports-1806,86,LKA,country_or_area
+CAN-2023-Imports-1806:17,CAN,加拿大,LTU,Lithuania,2023,M,1806,巧克力及其他含可可食品,H0,4830180.00,observed,CAN-2023-Imports-1806,17,LTU,country_or_area
+CAN-2023-Imports-1806:83,CAN,加拿大,LUX,Luxembourg,2023,M,1806,巧克力及其他含可可食品,H0,5660.00,observed,CAN-2023-Imports-1806,83,LUX,country_or_area
+CAN-2023-Imports-1806:61,CAN,加拿大,LVA,Latvia,2023,M,1806,巧克力及其他含可可食品,H0,60800.00,observed,CAN-2023-Imports-1806,61,LVA,country_or_area
+CAN-2023-Imports-1806:79,CAN,加拿大,MAR,Morocco,2023,M,1806,巧克力及其他含可可食品,H0,8160.00,observed,CAN-2023-Imports-1806,79,MAR,country_or_area
+CAN-2023-Imports-1806:65,CAN,加拿大,MDA,Moldova,2023,M,1806,巧克力及其他含可可食品,H0,52370.00,observed,CAN-2023-Imports-1806,65,MDA,country_or_area
+CAN-2023-Imports-1806:91,CAN,加拿大,MDG,Madagascar,2023,M,1806,巧克力及其他含可可食品,H0,1180.00,observed,CAN-2023-Imports-1806,91,MDG,country_or_area
+CAN-2023-Imports-1806:7,CAN,加拿大,MEX,Mexico,2023,M,1806,巧克力及其他含可可食品,H0,57993770.00,observed,CAN-2023-Imports-1806,7,MEX,country_or_area
+CAN-2023-Imports-1806:51,CAN,加拿大,MKD,North Macedonia,2023,M,1806,巧克力及其他含可可食品,H0,152050.00,observed,CAN-2023-Imports-1806,51,MKD,country_or_area
+CAN-2023-Imports-1806:115,CAN,加拿大,MNG,Mongolia,2023,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2023-Imports-1806,115,MNG,country_or_area
+CAN-2023-Imports-1806:59,CAN,加拿大,MYS,Malaysia,2023,M,1806,巧克力及其他含可可食品,H0,67480.00,observed,CAN-2023-Imports-1806,59,MYS,country_or_area
+CAN-2023-Imports-1806:118,CAN,加拿大,NER,Niger,2023,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2023-Imports-1806,118,NER,country_or_area
+CAN-2023-Imports-1806:78,CAN,加拿大,NGA,Nigeria,2023,M,1806,巧克力及其他含可可食品,H0,8480.00,observed,CAN-2023-Imports-1806,78,NGA,country_or_area
+CAN-2023-Imports-1806:101,CAN,加拿大,NIC,Nicaragua,2023,M,1806,巧克力及其他含可可食品,H0,290.00,observed,CAN-2023-Imports-1806,101,NIC,country_or_area
+CAN-2023-Imports-1806:13,CAN,加拿大,NLD,Netherlands,2023,M,1806,巧克力及其他含可可食品,H0,10783640.00,observed,CAN-2023-Imports-1806,13,NLD,country_or_area
+CAN-2023-Imports-1806:70,CAN,加拿大,NOR,Norway,2023,M,1806,巧克力及其他含可可食品,H0,23210.00,observed,CAN-2023-Imports-1806,70,NOR,country_or_area
+CAN-2023-Imports-1806:99,CAN,加拿大,NPL,Nepal,2023,M,1806,巧克力及其他含可可食品,H0,340.00,observed,CAN-2023-Imports-1806,99,NPL,country_or_area
+CAN-2023-Imports-1806:20,CAN,加拿大,NZL,New Zealand,2023,M,1806,巧克力及其他含可可食品,H0,3455300.00,observed,CAN-2023-Imports-1806,20,NZL,country_or_area
+CAN-2023-Imports-1806:52,CAN,加拿大,OAS,"Other Asia, nes",2023,M,1806,巧克力及其他含可可食品,H0,146420.00,observed,CAN-2023-Imports-1806,52,OAS,country_or_area
+CAN-2023-Imports-1806:80,CAN,加拿大,PAK,Pakistan,2023,M,1806,巧克力及其他含可可食品,H0,8000.00,observed,CAN-2023-Imports-1806,80,PAK,country_or_area
+CAN-2023-Imports-1806:126,CAN,加拿大,PAN,Panama,2023,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2023-Imports-1806,126,PAN,country_or_area
+CAN-2023-Imports-1806:14,CAN,加拿大,PER,Peru,2023,M,1806,巧克力及其他含可可食品,H0,9985430.00,observed,CAN-2023-Imports-1806,14,PER,country_or_area
+CAN-2023-Imports-1806:36,CAN,加拿大,PHL,Philippines,2023,M,1806,巧克力及其他含可可食品,H0,396370.00,observed,CAN-2023-Imports-1806,36,PHL,country_or_area
+CAN-2023-Imports-1806:103,CAN,加拿大,PNG,Papua New Guinea,2023,M,1806,巧克力及其他含可可食品,H0,210.00,observed,CAN-2023-Imports-1806,103,PNG,country_or_area
+CAN-2023-Imports-1806:10,CAN,加拿大,POL,Poland,2023,M,1806,巧克力及其他含可可食品,H0,18225690.00,observed,CAN-2023-Imports-1806,10,POL,country_or_area
+CAN-2023-Imports-1806:42,CAN,加拿大,PRT,Portugal,2023,M,1806,巧克力及其他含可可食品,H0,279510.00,observed,CAN-2023-Imports-1806,42,PRT,country_or_area
+CAN-2023-Imports-1806:81,CAN,加拿大,PRY,Paraguay,2023,M,1806,巧克力及其他含可可食品,H0,7970.00,observed,CAN-2023-Imports-1806,81,PRY,country_or_area
+CAN-2023-Imports-1806:38,CAN,加拿大,ROM,Romania,2023,M,1806,巧克力及其他含可可食品,H0,325000.00,observed,CAN-2023-Imports-1806,38,ROM,country_or_area
+CAN-2023-Imports-1806:48,CAN,加拿大,RUS,Russian Federation,2023,M,1806,巧克力及其他含可可食品,H0,171390.00,observed,CAN-2023-Imports-1806,48,RUS,country_or_area
+CAN-2023-Imports-1806:62,CAN,加拿大,SAU,Saudi Arabia,2023,M,1806,巧克力及其他含可可食品,H0,56400.00,observed,CAN-2023-Imports-1806,62,SAU,country_or_area
+CAN-2023-Imports-1806:104,CAN,加拿大,SEN,Senegal,2023,M,1806,巧克力及其他含可可食品,H0,180.00,observed,CAN-2023-Imports-1806,104,SEN,country_or_area
+CAN-2023-Imports-1806:50,CAN,加拿大,SER,"Serbia, FR(Serbia/Montenegro)",2023,M,1806,巧克力及其他含可可食品,H0,156740.00,observed,CAN-2023-Imports-1806,50,SER,country_or_area
+CAN-2023-Imports-1806:47,CAN,加拿大,SGP,Singapore,2023,M,1806,巧克力及其他含可可食品,H0,184800.00,observed,CAN-2023-Imports-1806,47,SGP,country_or_area
+CAN-2023-Imports-1806:113,CAN,加拿大,SLB,Solomon Islands,2023,M,1806,巧克力及其他含可可食品,H0,20.00,observed,CAN-2023-Imports-1806,113,SLB,country_or_area
+CAN-2023-Imports-1806:128,CAN,加拿大,SLE,Sierra Leone,2023,M,1806,巧克力及其他含可可食品,H0,0.00,observed,CAN-2023-Imports-1806,128,SLE,country_or_area
+CAN-2023-Imports-1806:77,CAN,加拿大,SLV,El Salvador,2023,M,1806,巧克力及其他含可可食品,H0,9430.00,observed,CAN-2023-Imports-1806,77,SLV,country_or_area
+CAN-2023-Imports-1806:71,CAN,加拿大,SVK,Slovak Republic,2023,M,1806,巧克力及其他含可可食品,H0,23060.00,observed,CAN-2023-Imports-1806,71,SVK,country_or_area
+CAN-2023-Imports-1806:72,CAN,加拿大,SVN,Slovenia,2023,M,1806,巧克力及其他含可可食品,H0,20350.00,observed,CAN-2023-Imports-1806,72,SVN,country_or_area
+CAN-2023-Imports-1806:29,CAN,加拿大,SWE,Sweden,2023,M,1806,巧克力及其他含可可食品,H0,1192520.00,observed,CAN-2023-Imports-1806,29,SWE,country_or_area
+CAN-2023-Imports-1806:111,CAN,加拿大,SWZ,Eswatini,2023,M,1806,巧克力及其他含可可食品,H0,70.00,observed,CAN-2023-Imports-1806,111,SWZ,country_or_area
+CAN-2023-Imports-1806:66,CAN,加拿大,SYR,Syrian Arab Republic,2023,M,1806,巧克力及其他含可可食品,H0,51250.00,observed,CAN-2023-Imports-1806,66,SYR,country_or_area
+CAN-2023-Imports-1806:57,CAN,加拿大,THA,Thailand,2023,M,1806,巧克力及其他含可可食品,H0,107220.00,observed,CAN-2023-Imports-1806,57,THA,country_or_area
+CAN-2023-Imports-1806:54,CAN,加拿大,TTO,Trinidad and Tobago,2023,M,1806,巧克力及其他含可可食品,H0,134510.00,observed,CAN-2023-Imports-1806,54,TTO,country_or_area
+CAN-2023-Imports-1806:63,CAN,加拿大,TUN,Tunisia,2023,M,1806,巧克力及其他含可可食品,H0,54040.00,observed,CAN-2023-Imports-1806,63,TUN,country_or_area
+CAN-2023-Imports-1806:12,CAN,加拿大,TUR,Turkey,2023,M,1806,巧克力及其他含可可食品,H0,11219680.00,observed,CAN-2023-Imports-1806,12,TUR,country_or_area
+CAN-2023-Imports-1806:100,CAN,加拿大,TZA,Tanzania,2023,M,1806,巧克力及其他含可可食品,H0,300.00,observed,CAN-2023-Imports-1806,100,TZA,country_or_area
+CAN-2023-Imports-1806:122,CAN,加拿大,UGA,Uganda,2023,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2023-Imports-1806,122,UGA,country_or_area
+CAN-2023-Imports-1806:30,CAN,加拿大,UKR,Ukraine,2023,M,1806,巧克力及其他含可可食品,H0,1105470.00,observed,CAN-2023-Imports-1806,30,UKR,country_or_area
+CAN-2023-Imports-1806:105,CAN,加拿大,URY,Uruguay,2023,M,1806,巧克力及其他含可可食品,H0,140.00,observed,CAN-2023-Imports-1806,105,URY,country_or_area
+CAN-2023-Imports-1806:2,CAN,加拿大,USA,United States,2023,M,1806,巧克力及其他含可可食品,H0,732887010.00,observed,CAN-2023-Imports-1806,2,USA,country_or_area
+CAN-2023-Imports-1806:116,CAN,加拿大,UZB,Uzbekistan,2023,M,1806,巧克力及其他含可可食品,H0,10.00,observed,CAN-2023-Imports-1806,116,UZB,country_or_area
+CAN-2023-Imports-1806:102,CAN,加拿大,VCT,St. Vincent and the Grenadines,2023,M,1806,巧克力及其他含可可食品,H0,210.00,observed,CAN-2023-Imports-1806,102,VCT,country_or_area
+CAN-2023-Imports-1806:69,CAN,加拿大,VEN,Venezuela,2023,M,1806,巧克力及其他含可可食品,H0,23690.00,observed,CAN-2023-Imports-1806,69,VEN,country_or_area
+CAN-2023-Imports-1806:55,CAN,加拿大,VNM,Vietnam,2023,M,1806,巧克力及其他含可可食品,H0,116400.00,observed,CAN-2023-Imports-1806,55,VNM,country_or_area
+CAN-2023-Imports-1806:1,CAN,加拿大,WLD,World,2023,M,1806,巧克力及其他含可可食品,H0,1293242330.00,observed,CAN-2023-Imports-1806,1,WLD,world
+CAN-2023-Imports-1806:46,CAN,加拿大,ZAF,South Africa,2023,M,1806,巧克力及其他含可可食品,H0,196000.00,observed,CAN-2023-Imports-1806,46,ZAF,country_or_area
+CAN-2023-Imports-1806:94,CAN,加拿大,ZAR,"Congo, Dem. Rep.",2023,M,1806,巧克力及其他含可可食品,H0,1020.00,observed,CAN-2023-Imports-1806,94,ZAR,country_or_area
+CAN-2023-Exports-1806:73,CAN,加拿大,ABW,Aruba,2023,X,1806,巧克力及其他含可可食品,H0,500.00,observed,CAN-2023-Exports-1806,73,ABW,country_or_area
+CAN-2023-Exports-1806:66,CAN,加拿大,AIA,Anguila,2023,X,1806,巧克力及其他含可可食品,H0,1220.00,observed,CAN-2023-Exports-1806,66,AIA,country_or_area
+CAN-2023-Exports-1806:19,CAN,加拿大,ARE,United Arab Emirates,2023,X,1806,巧克力及其他含可可食品,H0,261990.00,observed,CAN-2023-Exports-1806,19,ARE,country_or_area
+CAN-2023-Exports-1806:4,CAN,加拿大,AUS,Australia,2023,X,1806,巧克力及其他含可可食品,H0,6069750.00,observed,CAN-2023-Exports-1806,4,AUS,country_or_area
+CAN-2023-Exports-1806:62,CAN,加拿大,AUT,Austria,2023,X,1806,巧克力及其他含可可食品,H0,2940.00,observed,CAN-2023-Exports-1806,62,AUT,country_or_area
+CAN-2023-Exports-1806:53,CAN,加拿大,AZE,Azerbaijan,2023,X,1806,巧克力及其他含可可食品,H0,12120.00,observed,CAN-2023-Exports-1806,53,AZE,country_or_area
+CAN-2023-Exports-1806:17,CAN,加拿大,BEL,Belgium,2023,X,1806,巧克力及其他含可可食品,H0,326770.00,observed,CAN-2023-Exports-1806,17,BEL,country_or_area
+CAN-2023-Exports-1806:61,CAN,加拿大,BES,Bonaire,2023,X,1806,巧克力及其他含可可食品,H0,3960.00,observed,CAN-2023-Exports-1806,61,BES,country_or_area
+CAN-2023-Exports-1806:46,CAN,加拿大,BHS,"Bahamas, The",2023,X,1806,巧克力及其他含可可食品,H0,18990.00,observed,CAN-2023-Exports-1806,46,BHS,country_or_area
+CAN-2023-Exports-1806:58,CAN,加拿大,BMU,Bermuda,2023,X,1806,巧克力及其他含可可食品,H0,5910.00,observed,CAN-2023-Exports-1806,58,BMU,country_or_area
+CAN-2023-Exports-1806:34,CAN,加拿大,BRA,Brazil,2023,X,1806,巧克力及其他含可可食品,H0,71340.00,observed,CAN-2023-Exports-1806,34,BRA,country_or_area
+CAN-2023-Exports-1806:23,CAN,加拿大,BRB,Barbados,2023,X,1806,巧克力及其他含可可食品,H0,166730.00,observed,CAN-2023-Exports-1806,23,BRB,country_or_area
+CAN-2023-Exports-1806:38,CAN,加拿大,CHE,Switzerland,2023,X,1806,巧克力及其他含可可食品,H0,57190.00,observed,CAN-2023-Exports-1806,38,CHE,country_or_area
+CAN-2023-Exports-1806:5,CAN,加拿大,CHL,Chile,2023,X,1806,巧克力及其他含可可食品,H0,4902800.00,observed,CAN-2023-Exports-1806,5,CHL,country_or_area
+CAN-2023-Exports-1806:12,CAN,加拿大,CHN,China,2023,X,1806,巧克力及其他含可可食品,H0,1315000.00,observed,CAN-2023-Exports-1806,12,CHN,country_or_area
+CAN-2023-Exports-1806:24,CAN,加拿大,COL,Colombia,2023,X,1806,巧克力及其他含可可食品,H0,160890.00,observed,CAN-2023-Exports-1806,24,COL,country_or_area
+CAN-2023-Exports-1806:11,CAN,加拿大,CRI,Costa Rica,2023,X,1806,巧克力及其他含可可食品,H0,1330280.00,observed,CAN-2023-Exports-1806,11,CRI,country_or_area
+CAN-2023-Exports-1806:42,CAN,加拿大,CUB,Cuba,2023,X,1806,巧克力及其他含可可食品,H0,43200.00,observed,CAN-2023-Exports-1806,42,CUB,country_or_area
+CAN-2023-Exports-1806:74,CAN,加拿大,CYM,Cayman Islands,2023,X,1806,巧克力及其他含可可食品,H0,410.00,observed,CAN-2023-Exports-1806,74,CYM,country_or_area
+CAN-2023-Exports-1806:43,CAN,加拿大,DEU,Germany,2023,X,1806,巧克力及其他含可可食品,H0,31320.00,observed,CAN-2023-Exports-1806,43,DEU,country_or_area
+CAN-2023-Exports-1806:76,CAN,加拿大,DMA,Dominica,2023,X,1806,巧克力及其他含可可食品,H0,310.00,observed,CAN-2023-Exports-1806,76,DMA,country_or_area
+CAN-2023-Exports-1806:69,CAN,加拿大,DOM,Dominican Republic,2023,X,1806,巧克力及其他含可可食品,H0,860.00,observed,CAN-2023-Exports-1806,69,DOM,country_or_area
+CAN-2023-Exports-1806:50,CAN,加拿大,ESP,Spain,2023,X,1806,巧克力及其他含可可食品,H0,18010.00,observed,CAN-2023-Exports-1806,50,ESP,country_or_area
+CAN-2023-Exports-1806:13,CAN,加拿大,FRA,France,2023,X,1806,巧克力及其他含可可食品,H0,825810.00,observed,CAN-2023-Exports-1806,13,FRA,country_or_area
+CAN-2023-Exports-1806:6,CAN,加拿大,GBR,United Kingdom,2023,X,1806,巧克力及其他含可可食品,H0,3238020.00,observed,CAN-2023-Exports-1806,6,GBR,country_or_area
+CAN-2023-Exports-1806:45,CAN,加拿大,GHA,Ghana,2023,X,1806,巧克力及其他含可可食品,H0,21940.00,observed,CAN-2023-Exports-1806,45,GHA,country_or_area
+CAN-2023-Exports-1806:20,CAN,加拿大,GTM,Guatemala,2023,X,1806,巧克力及其他含可可食品,H0,221350.00,observed,CAN-2023-Exports-1806,20,GTM,country_or_area
+CAN-2023-Exports-1806:9,CAN,加拿大,HKG,"Hong Kong, China",2023,X,1806,巧克力及其他含可可食品,H0,1677900.00,observed,CAN-2023-Exports-1806,9,HKG,country_or_area
+CAN-2023-Exports-1806:33,CAN,加拿大,HND,Honduras,2023,X,1806,巧克力及其他含可可食品,H0,79040.00,observed,CAN-2023-Exports-1806,33,HND,country_or_area
+CAN-2023-Exports-1806:75,CAN,加拿大,HTI,Haiti,2023,X,1806,巧克力及其他含可可食品,H0,380.00,observed,CAN-2023-Exports-1806,75,HTI,country_or_area
+CAN-2023-Exports-1806:29,CAN,加拿大,IDN,Indonesia,2023,X,1806,巧克力及其他含可可食品,H0,102540.00,observed,CAN-2023-Exports-1806,29,IDN,country_or_area
+CAN-2023-Exports-1806:77,CAN,加拿大,IND,India,2023,X,1806,巧克力及其他含可可食品,H0,150.00,observed,CAN-2023-Exports-1806,77,IND,country_or_area
+CAN-2023-Exports-1806:15,CAN,加拿大,IRL,Ireland,2023,X,1806,巧克力及其他含可可食品,H0,529020.00,observed,CAN-2023-Exports-1806,15,IRL,country_or_area
+CAN-2023-Exports-1806:35,CAN,加拿大,ISL,Iceland,2023,X,1806,巧克力及其他含可可食品,H0,68810.00,observed,CAN-2023-Exports-1806,35,ISL,country_or_area
+CAN-2023-Exports-1806:30,CAN,加拿大,ISR,Israel,2023,X,1806,巧克力及其他含可可食品,H0,98120.00,observed,CAN-2023-Exports-1806,30,ISR,country_or_area
+CAN-2023-Exports-1806:59,CAN,加拿大,ITA,Italy,2023,X,1806,巧克力及其他含可可食品,H0,5330.00,observed,CAN-2023-Exports-1806,59,ITA,country_or_area
+CAN-2023-Exports-1806:37,CAN,加拿大,JAM,Jamaica,2023,X,1806,巧克力及其他含可可食品,H0,63490.00,observed,CAN-2023-Exports-1806,37,JAM,country_or_area
+CAN-2023-Exports-1806:18,CAN,加拿大,JOR,Jordan,2023,X,1806,巧克力及其他含可可食品,H0,322700.00,observed,CAN-2023-Exports-1806,18,JOR,country_or_area
+CAN-2023-Exports-1806:8,CAN,加拿大,JPN,Japan,2023,X,1806,巧克力及其他含可可食品,H0,2233550.00,observed,CAN-2023-Exports-1806,8,JPN,country_or_area
+CAN-2023-Exports-1806:39,CAN,加拿大,KAZ,Kazakhstan,2023,X,1806,巧克力及其他含可可食品,H0,54750.00,observed,CAN-2023-Exports-1806,39,KAZ,country_or_area
+CAN-2023-Exports-1806:71,CAN,加拿大,KHM,Cambodia,2023,X,1806,巧克力及其他含可可食品,H0,580.00,observed,CAN-2023-Exports-1806,71,KHM,country_or_area
+CAN-2023-Exports-1806:68,CAN,加拿大,KNA,St. Kitts and Nevis,2023,X,1806,巧克力及其他含可可食品,H0,1030.00,observed,CAN-2023-Exports-1806,68,KNA,country_or_area
+CAN-2023-Exports-1806:7,CAN,加拿大,KOR,"Korea, Rep.",2023,X,1806,巧克力及其他含可可食品,H0,2701460.00,observed,CAN-2023-Exports-1806,7,KOR,country_or_area
+CAN-2023-Exports-1806:31,CAN,加拿大,KWT,Kuwait,2023,X,1806,巧克力及其他含可可食品,H0,81700.00,observed,CAN-2023-Exports-1806,31,KWT,country_or_area
+CAN-2023-Exports-1806:56,CAN,加拿大,LBY,Libya,2023,X,1806,巧克力及其他含可可食品,H0,8340.00,observed,CAN-2023-Exports-1806,56,LBY,country_or_area
+CAN-2023-Exports-1806:26,CAN,加拿大,LKA,Sri Lanka,2023,X,1806,巧克力及其他含可可食品,H0,138210.00,observed,CAN-2023-Exports-1806,26,LKA,country_or_area
+CAN-2023-Exports-1806:41,CAN,加拿大,LTU,Lithuania,2023,X,1806,巧克力及其他含可可食品,H0,46300.00,observed,CAN-2023-Exports-1806,41,LTU,country_or_area
+CAN-2023-Exports-1806:44,CAN,加拿大,LVA,Latvia,2023,X,1806,巧克力及其他含可可食品,H0,25420.00,observed,CAN-2023-Exports-1806,44,LVA,country_or_area
+CAN-2023-Exports-1806:32,CAN,加拿大,MAC,Macao,2023,X,1806,巧克力及其他含可可食品,H0,79740.00,observed,CAN-2023-Exports-1806,32,MAC,country_or_area
+CAN-2023-Exports-1806:3,CAN,加拿大,MEX,Mexico,2023,X,1806,巧克力及其他含可可食品,H0,33697950.00,observed,CAN-2023-Exports-1806,3,MEX,country_or_area
+CAN-2023-Exports-1806:70,CAN,加拿大,MNG,Mongolia,2023,X,1806,巧克力及其他含可可食品,H0,710.00,observed,CAN-2023-Exports-1806,70,MNG,country_or_area
+CAN-2023-Exports-1806:64,CAN,加拿大,MYS,Malaysia,2023,X,1806,巧克力及其他含可可食品,H0,1350.00,observed,CAN-2023-Exports-1806,64,MYS,country_or_area
+CAN-2023-Exports-1806:54,CAN,加拿大,NGA,Nigeria,2023,X,1806,巧克力及其他含可可食品,H0,9110.00,observed,CAN-2023-Exports-1806,54,NGA,country_or_area
+CAN-2023-Exports-1806:51,CAN,加拿大,NIC,Nicaragua,2023,X,1806,巧克力及其他含可可食品,H0,17090.00,observed,CAN-2023-Exports-1806,51,NIC,country_or_area
+CAN-2023-Exports-1806:10,CAN,加拿大,NLD,Netherlands,2023,X,1806,巧克力及其他含可可食品,H0,1367040.00,observed,CAN-2023-Exports-1806,10,NLD,country_or_area
+CAN-2023-Exports-1806:28,CAN,加拿大,NZL,New Zealand,2023,X,1806,巧克力及其他含可可食品,H0,107630.00,observed,CAN-2023-Exports-1806,28,NZL,country_or_area
+CAN-2023-Exports-1806:16,CAN,加拿大,OAS,"Other Asia, nes",2023,X,1806,巧克力及其他含可可食品,H0,522750.00,observed,CAN-2023-Exports-1806,16,OAS,country_or_area
+CAN-2023-Exports-1806:48,CAN,加拿大,OMN,Oman,2023,X,1806,巧克力及其他含可可食品,H0,18660.00,observed,CAN-2023-Exports-1806,48,OMN,country_or_area
+CAN-2023-Exports-1806:52,CAN,加拿大,PAK,Pakistan,2023,X,1806,巧克力及其他含可可食品,H0,14700.00,observed,CAN-2023-Exports-1806,52,PAK,country_or_area
+CAN-2023-Exports-1806:36,CAN,加拿大,PER,Peru,2023,X,1806,巧克力及其他含可可食品,H0,64920.00,observed,CAN-2023-Exports-1806,36,PER,country_or_area
+CAN-2023-Exports-1806:25,CAN,加拿大,PHL,Philippines,2023,X,1806,巧克力及其他含可可食品,H0,144070.00,observed,CAN-2023-Exports-1806,25,PHL,country_or_area
+CAN-2023-Exports-1806:65,CAN,加拿大,POL,Poland,2023,X,1806,巧克力及其他含可可食品,H0,1320.00,observed,CAN-2023-Exports-1806,65,POL,country_or_area
+CAN-2023-Exports-1806:22,CAN,加拿大,SAU,Saudi Arabia,2023,X,1806,巧克力及其他含可可食品,H0,174170.00,observed,CAN-2023-Exports-1806,22,SAU,country_or_area
+CAN-2023-Exports-1806:14,CAN,加拿大,SGP,Singapore,2023,X,1806,巧克力及其他含可可食品,H0,724050.00,observed,CAN-2023-Exports-1806,14,SGP,country_or_area
+CAN-2023-Exports-1806:27,CAN,加拿大,SLV,El Salvador,2023,X,1806,巧克力及其他含可可食品,H0,120100.00,observed,CAN-2023-Exports-1806,27,SLV,country_or_area
+CAN-2023-Exports-1806:60,CAN,加拿大,SPM,Saint Pierre and Miquelon,2023,X,1806,巧克力及其他含可可食品,H0,5090.00,observed,CAN-2023-Exports-1806,60,SPM,country_or_area
+CAN-2023-Exports-1806:57,CAN,加拿大,SUR,Suriname,2023,X,1806,巧克力及其他含可可食品,H0,6940.00,observed,CAN-2023-Exports-1806,57,SUR,country_or_area
+CAN-2023-Exports-1806:47,CAN,加拿大,SWE,Sweden,2023,X,1806,巧克力及其他含可可食品,H0,18850.00,observed,CAN-2023-Exports-1806,47,SWE,country_or_area
+CAN-2023-Exports-1806:49,CAN,加拿大,THA,Thailand,2023,X,1806,巧克力及其他含可可食品,H0,18380.00,observed,CAN-2023-Exports-1806,49,THA,country_or_area
+CAN-2023-Exports-1806:21,CAN,加拿大,TTO,Trinidad and Tobago,2023,X,1806,巧克力及其他含可可食品,H0,178050.00,observed,CAN-2023-Exports-1806,21,TTO,country_or_area
+CAN-2023-Exports-1806:63,CAN,加拿大,TZA,Tanzania,2023,X,1806,巧克力及其他含可可食品,H0,1680.00,observed,CAN-2023-Exports-1806,63,TZA,country_or_area
+CAN-2023-Exports-1806:55,CAN,加拿大,UGA,Uganda,2023,X,1806,巧克力及其他含可可食品,H0,8890.00,observed,CAN-2023-Exports-1806,55,UGA,country_or_area
+CAN-2023-Exports-1806:72,CAN,加拿大,UKR,Ukraine,2023,X,1806,巧克力及其他含可可食品,H0,570.00,observed,CAN-2023-Exports-1806,72,UKR,country_or_area
+CAN-2023-Exports-1806:2,CAN,加拿大,USA,United States,2023,X,1806,巧克力及其他含可可食品,H0,1996712900.00,observed,CAN-2023-Exports-1806,2,USA,country_or_area
+CAN-2023-Exports-1806:40,CAN,加拿大,VNM,Vietnam,2023,X,1806,巧克力及其他含可可食品,H0,52530.00,observed,CAN-2023-Exports-1806,40,VNM,country_or_area
+CAN-2023-Exports-1806:1,CAN,加拿大,WLD,World,2023,X,1806,巧克力及其他含可可食品,H0,2061418810.00,observed,CAN-2023-Exports-1806,1,WLD,world
+CAN-2023-Exports-1806:67,CAN,加拿大,ZAF,South Africa,2023,X,1806,巧克力及其他含可可食品,H0,1120.00,observed,CAN-2023-Exports-1806,67,ZAF,country_or_area

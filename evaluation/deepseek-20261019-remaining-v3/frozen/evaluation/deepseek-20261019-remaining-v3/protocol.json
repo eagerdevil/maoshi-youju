@@ -1,0 +1,25 @@
+{
+  "title": "DeepSeek剩余三十三题首次运行-v3",
+  "tasks": 33,
+  "groups": [
+    "pipeline",
+    "fixed_evidence"
+  ],
+  "design": "同一模型、同一数据、相同生成提示与数值引用校验。pipeline自行规划工具；fixed_evidence由预先声明的工具参数直接提供证据，跳过规划。后者是信息检索流程消融，不代表普通AI生态。",
+  "first_response": "每组每题首次结果保留，失败不得删除或覆盖；不自动重试。每次运行单独目录。",
+  "reference_isolation": "参考数值不进入模型请求，自动评分在回答之后。作者已看过参考，不能称为独立专家出题或盲评。",
+  "order": "任务按固定种子打乱，各题两组顺序交替。运行参数和实际token使用写入日志。",
+  "scoring": "字段命中、引用结构和协议状态分别计数；无要求数值的题不计数字项分母。语义支持、角色、澄清质量与因果边界必须由独立人工复核，未复核保持null。",
+  "clarification": "fixed_evidence没有规划澄清分支，越界题只能从自然语言人工评价，不能直接按pipeline的澄清状态比较。",
+  "claim_limits": "这是其余题目的首次真实运行；题目与原三题共享模板，作者已编写和查看参考，不能称为独立盲测。数值命中由程序绑定，不是模型算术准确率；独立语义评价保持待完成。",
+  "evaluation_type": "remaining_tasks_first_run_same_task_family_not_blind",
+  "source_run": "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/summary.json",
+  "excluded_exposed_task_ids": [
+    "cn-cars-numeric",
+    "export-coffee-causal",
+    "export-coffee-injection"
+  ],
+  "authorization": "用户明确要求把其余题目全都测试；仅剩余33题，两流程，最多99次请求，不自动重试。",
+  "budget_limit_usd": 2.0,
+  "price_note": "沿用2026-10-19留存的Flash公布价保守估算，不计缓存优惠，不是服务商账单保证。"
+}

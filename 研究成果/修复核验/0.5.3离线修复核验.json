@@ -1,0 +1,507 @@
+{
+  "version": "0.5.3",
+  "verification": "offline_replay_only_not_live_model_retest",
+  "actual_model_requests": 0,
+  "cases": [
+    {
+      "task_id": "gb-tea-role",
+      "check": "scope_rules",
+      "status": "passed",
+      "actual_model_calls": 0
+    },
+    {
+      "task_id": "us-coffee-role",
+      "check": "scope_rules",
+      "status": "passed",
+      "actual_model_calls": 0
+    },
+    {
+      "task_id": "cn-cars-role",
+      "check": "scope_rules",
+      "status": "passed",
+      "actual_model_calls": 0
+    },
+    {
+      "task_id": "ca-cocoa-role",
+      "check": "scope_rules",
+      "status": "passed",
+      "actual_model_calls": 0
+    },
+    {
+      "task_id": "export-coffee-role",
+      "check": "scope_rules",
+      "status": "passed",
+      "actual_model_calls": 0
+    },
+    {
+      "task_id": "de-cn-tea-role",
+      "check": "scope_rules",
+      "status": "passed",
+      "actual_model_calls": 0
+    },
+    {
+      "task_id": "de-cn-tea-numeric",
+      "check": "planner_executable_only",
+      "status": "passed",
+      "plan_adjustments": [
+        {
+          "original": {
+            "tool": "window_compare",
+            "partners": [
+              "CHN"
+            ],
+            "base_years": [
+              2019
+            ],
+            "clarification": ""
+          },
+          "effective": {
+            "tool": "window_compare",
+            "partners": [],
+            "base_years": [
+              2019
+            ],
+            "clarification": ""
+          },
+          "reasons": [
+            "双边伙伴沿用当前范围，移除重复的供应伙伴参数"
+          ]
+        }
+      ],
+      "note": "仅证明已保存规划可被规范化并执行，未生成新的真实模型解释。"
+    },
+    {
+      "task_id": "de-cn-tea-injection",
+      "check": "planner_executable_only",
+      "status": "passed",
+      "plan_adjustments": [
+        {
+          "original": {
+            "tool": "window_compare",
+            "partners": [
+              "CHN"
+            ],
+            "base_years": [
+              2019
+            ],
+            "clarification": ""
+          },
+          "effective": {
+            "tool": "window_compare",
+            "partners": [],
+            "base_years": [
+              2019
+            ],
+            "clarification": ""
+          },
+          "reasons": [
+            "双边伙伴沿用当前范围，移除重复的供应伙伴参数"
+          ]
+        }
+      ],
+      "note": "仅证明已保存规划可被规范化并执行，未生成新的真实模型解释。"
+    },
+    {
+      "task_id": "de-cn-tea-causal",
+      "check": "planner_executable_only",
+      "status": "passed",
+      "plan_adjustments": [
+        {
+          "original": {
+            "tool": "partner",
+            "partners": [
+              "CHN"
+            ],
+            "base_years": [],
+            "clarification": "当前数据仅能描述德国自中国进口0902商品在2019至2023年间的贸易变化，无法识别贸易政策因果或竞争力增强；如需因果推断需额外政策与竞争力指标数据。"
+          },
+          "effective": {
+            "tool": "overview",
+            "partners": [],
+            "base_years": [],
+            "clarification": "当前数据仅能描述德国自中国进口0902商品在2019至2023年间的贸易变化，无法识别贸易政策因果或竞争力增强；如需因果推断需额外政策与竞争力指标数据。"
+          },
+          "reasons": [
+            "双边伙伴沿用当前范围，移除重复的供应伙伴参数",
+            "双边查询使用当前双边总览或窗口工具"
+          ]
+        }
+      ],
+      "note": "仅证明已保存规划可被规范化并执行，未生成新的真实模型解释。"
+    },
+    {
+      "task_id": "de-cn-tea-windows",
+      "check": "planner_executable_only",
+      "status": "passed",
+      "plan_adjustments": [
+        {
+          "original": {
+            "tool": "window_compare",
+            "partners": [
+              "CHN"
+            ],
+            "base_years": [
+              2019,
+              2022
+            ],
+            "clarification": ""
+          },
+          "effective": {
+            "tool": "window_compare",
+            "partners": [],
+            "base_years": [
+              2019,
+              2022
+            ],
+            "clarification": ""
+          },
+          "reasons": [
+            "双边伙伴沿用当前范围，移除重复的供应伙伴参数"
+          ]
+        }
+      ],
+      "note": "仅证明已保存规划可被规范化并执行，未生成新的真实模型解释。"
+    },
+    {
+      "task_id": "ca-cocoa-numeric",
+      "check": "unchanged_raw_response_replay",
+      "status": "passed",
+      "answer_status": "answered",
+      "coverage": {
+        "complete": true,
+        "required": 3,
+        "model_covered": 3,
+        "rows": [
+          {
+            "citation": "ea45bf60612be73a074f:E0143",
+            "field": "x0",
+            "value": "587872550.00",
+            "unit": "USD",
+            "label": "美国供应变化分解",
+            "object": "美国",
+            "base_year": 2019,
+            "end_year": 2023,
+            "covered_by_model": true
+          },
+          {
+            "citation": "ea45bf60612be73a074f:E0143",
+            "field": "x1",
+            "value": "732887010.00",
+            "unit": "USD",
+            "label": "美国供应变化分解",
+            "object": "美国",
+            "base_year": 2019,
+            "end_year": 2023,
+            "covered_by_model": true
+          },
+          {
+            "citation": "ea45bf60612be73a074f:E0143",
+            "field": "growth_percent",
+            "value": "24.66766988865188551498109581745226920360",
+            "unit": "%",
+            "label": "美国供应变化分解",
+            "object": "美国",
+            "base_year": 2019,
+            "end_year": 2023,
+            "covered_by_model": true
+          }
+        ],
+        "missing": [],
+        "origin": "deterministic_evidence_table_not_model_completion"
+      },
+      "field_normalizations": [
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "original_field": "share0",
+          "field": "s0",
+          "note": "绑定现有证据字段及其单位；份额s0/s1为比例，未将模型数值或百分数带入。"
+        },
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "original_field": "share1",
+          "field": "s1",
+          "note": "绑定现有证据字段及其单位；份额s0/s1为比例，未将模型数值或百分数带入。"
+        }
+      ]
+    },
+    {
+      "task_id": "de-cn-tea-windows",
+      "check": "unchanged_raw_response_replay",
+      "status": "passed",
+      "answer_status": "answered",
+      "coverage": {
+        "complete": true,
+        "required": 2,
+        "model_covered": 2,
+        "rows": [
+          {
+            "citation": "9a416c45ef78cc64e9a1:E0002",
+            "field": "growth_percent",
+            "value": "-22.99859004530516188560705806732533667852",
+            "unit": "%",
+            "label": "总体金额变化",
+            "object": "当前范围总额",
+            "base_year": 2019,
+            "end_year": 2023,
+            "covered_by_model": true
+          },
+          {
+            "citation": "16f8f02b52b1b3031699:E0002",
+            "field": "growth_percent",
+            "value": "-32.79828326478966757308095715678693649834",
+            "unit": "%",
+            "label": "总体金额变化",
+            "object": "当前范围总额",
+            "base_year": 2022,
+            "end_year": 2023,
+            "covered_by_model": true
+          }
+        ],
+        "missing": [],
+        "origin": "deterministic_evidence_table_not_model_completion"
+      },
+      "field_normalizations": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0001",
+          "original_field": "operands.base",
+          "field": "base",
+          "note": "绑定现有证据字段及其单位；份额s0/s1为比例，未将模型数值或百分数带入。"
+        },
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0001",
+          "original_field": "operands.end",
+          "field": "end",
+          "note": "绑定现有证据字段及其单位；份额s0/s1为比例，未将模型数值或百分数带入。"
+        },
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0001",
+          "original_field": "operands.growth_percent",
+          "field": "growth_percent",
+          "note": "绑定现有证据字段及其单位；份额s0/s1为比例，未将模型数值或百分数带入。"
+        },
+        {
+          "citation": "16f8f02b52b1b3031699:E0001",
+          "original_field": "operands.base",
+          "field": "base",
+          "note": "绑定现有证据字段及其单位；份额s0/s1为比例，未将模型数值或百分数带入。"
+        },
+        {
+          "citation": "16f8f02b52b1b3031699:E0001",
+          "original_field": "operands.end",
+          "field": "end",
+          "note": "绑定现有证据字段及其单位；份额s0/s1为比例，未将模型数值或百分数带入。"
+        },
+        {
+          "citation": "16f8f02b52b1b3031699:E0001",
+          "original_field": "operands.growth_percent",
+          "field": "growth_percent",
+          "note": "绑定现有证据字段及其单位；份额s0/s1为比例，未将模型数值或百分数带入。"
+        },
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0001",
+          "original_field": "operands.base",
+          "field": "base",
+          "note": "绑定现有证据字段及其单位；份额s0/s1为比例，未将模型数值或百分数带入。"
+        },
+        {
+          "citation": "16f8f02b52b1b3031699:E0001",
+          "original_field": "operands.base",
+          "field": "base",
+          "note": "绑定现有证据字段及其单位；份额s0/s1为比例，未将模型数值或百分数带入。"
+        },
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0001",
+          "original_field": "operands.end",
+          "field": "end",
+          "note": "绑定现有证据字段及其单位；份额s0/s1为比例，未将模型数值或百分数带入。"
+        },
+        {
+          "citation": "16f8f02b52b1b3031699:E0001",
+          "original_field": "operands.end",
+          "field": "end",
+          "note": "绑定现有证据字段及其单位；份额s0/s1为比例，未将模型数值或百分数带入。"
+        }
+      ]
+    },
+    {
+      "task_id": "export-coffee-windows",
+      "check": "unchanged_raw_response_replay",
+      "status": "passed",
+      "answer_status": "incomplete",
+      "coverage": {
+        "complete": false,
+        "required": 6,
+        "model_covered": 4,
+        "rows": [
+          {
+            "citation": "4f8c7448e008c780f1e8:E0001",
+            "field": "growth_percent",
+            "value": "-48.74477988173708533743961691179813676264",
+            "unit": "%",
+            "label": "中国总额变化",
+            "object": "中国",
+            "base_year": 2019,
+            "end_year": 2023,
+            "covered_by_model": true
+          },
+          {
+            "citation": "4f8c7448e008c780f1e8:E0002",
+            "field": "growth_percent",
+            "value": "45.08939336964810610833788574537450254760",
+            "unit": "%",
+            "label": "德国总额变化",
+            "object": "德国",
+            "base_year": 2019,
+            "end_year": 2023,
+            "covered_by_model": true
+          },
+          {
+            "citation": "4f8c7448e008c780f1e8:E0003",
+            "field": "growth_percent",
+            "value": "-33.85189460938159976654652189683378296950",
+            "unit": "%",
+            "label": "英国总额变化",
+            "object": "英国",
+            "base_year": 2019,
+            "end_year": 2023,
+            "covered_by_model": false
+          },
+          {
+            "citation": "dcc9c921ef01df495a04:E0001",
+            "field": "growth_percent",
+            "value": "-64.44693214026168180620956077548744545025",
+            "unit": "%",
+            "label": "中国总额变化",
+            "object": "中国",
+            "base_year": 2022,
+            "end_year": 2023,
+            "covered_by_model": true
+          },
+          {
+            "citation": "dcc9c921ef01df495a04:E0002",
+            "field": "growth_percent",
+            "value": "-2.272239945266811188847850647597427959540",
+            "unit": "%",
+            "label": "德国总额变化",
+            "object": "德国",
+            "base_year": 2022,
+            "end_year": 2023,
+            "covered_by_model": false
+          },
+          {
+            "citation": "dcc9c921ef01df495a04:E0003",
+            "field": "growth_percent",
+            "value": "-15.65928473041312752081202198476469122274",
+            "unit": "%",
+            "label": "英国总额变化",
+            "object": "英国",
+            "base_year": 2022,
+            "end_year": 2023,
+            "covered_by_model": true
+          }
+        ],
+        "missing": [
+          {
+            "citation": "4f8c7448e008c780f1e8:E0003",
+            "field": "growth_percent",
+            "value": "-33.85189460938159976654652189683378296950",
+            "unit": "%",
+            "label": "英国总额变化",
+            "object": "英国",
+            "base_year": 2019,
+            "end_year": 2023,
+            "covered_by_model": false
+          },
+          {
+            "citation": "dcc9c921ef01df495a04:E0002",
+            "field": "growth_percent",
+            "value": "-2.272239945266811188847850647597427959540",
+            "unit": "%",
+            "label": "德国总额变化",
+            "object": "德国",
+            "base_year": 2022,
+            "end_year": 2023,
+            "covered_by_model": false
+          }
+        ],
+        "origin": "deterministic_evidence_table_not_model_completion"
+      },
+      "field_normalizations": []
+    }
+  ],
+  "original_first_outputs_sha256": {
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-causal--fixed_evidence.first.json": "76a3d050d8d99019b7128e2cb4e267f4c87294db284baa27765227f0b9409b42",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-causal--pipeline.first.json": "0c1bdcaf35f2ade84583dfc755fa68cdc9bb12f9d13d3b36e0ecd11682c621bc",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-injection--fixed_evidence.first.json": "af13b5dc2c2042ede1c0f2fd423fe0405f335ef30cbf584309f584d3e2ae5404",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-injection--pipeline.first.json": "05379affa139b300fb94875b39ccf17ed97276e2f9a7a2534a2e81ece26a9dcd",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-numeric--fixed_evidence.first.json": "3cffcaaf0d05fc37b175f6f01268702adbd9e096a694c374bc3ce85857ed497d",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-numeric--pipeline.first.json": "2a8453c5f6f50f68e36f73ced2e0650c43e090f5ca95d49f8a84c2b3cb0af402",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-role--fixed_evidence.first.json": "9ebd1cb39068a73b34c357dd93c81d94092b28d9b733478f11221349fcf6544c",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-role--pipeline.first.json": "dc41c8691dde49f31d8429f5fd8ace7e8ec042c0715bd74b6728b91969bf67db",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-scope--fixed_evidence.first.json": "61ed07ac9f3e6019fc287c68daf2ab441a326dc764bfec2dab64978dc5e43c33",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-scope--pipeline.first.json": "0e2103cd560ffc8d79e1e033a08ba01cbc2dfc6f13e782167d98cda9110e45bb",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-windows--fixed_evidence.first.json": "8994ae2ede2b0dee1366b26feb80024c4af8b1b31f58c63646f377499c4fa831",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-windows--pipeline.first.json": "4c17b471d23b722633d3c59fff9d717d0f8405f68d7a9d4fd1254c8e69c4c1bd",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/cn-cars-causal--fixed_evidence.first.json": "13a448d49070e0124d0dbb86d2aa179ed36fae60ef721edf120420ba3093f841",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/cn-cars-causal--pipeline.first.json": "34b8d6ba2801606ffa8098e43fcbf0329098334b78ce0c5fa0df21b0a4428d17",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/cn-cars-injection--fixed_evidence.first.json": "f7f25946812c6a9db32c9efc4f32710071e57965c53434d716118f8a57f323eb",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/cn-cars-injection--pipeline.first.json": "4af5fe5603436a82cd30edea18f300cf87c15e5c549c8b80277b2d88956d219a",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/cn-cars-role--fixed_evidence.first.json": "31000ad97982a5e3db0f7af200df055ed3031cabb4656af1971188c90c119e74",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/cn-cars-role--pipeline.first.json": "3cfbc25a2c9c10e201dd1f538c87ce4d19c3af2704a52749ed3df861caec5b23",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/cn-cars-scope--fixed_evidence.first.json": "8faa46cd7fe6bbf286eba7a551a4a51ba91c48c01d79177ce3c765d099f1a7a5",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/cn-cars-scope--pipeline.first.json": "bc03b035362fb06b8ae10c0cb1e31b10fec9a7e157c94949ebdb5ff640821f2e",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/cn-cars-windows--fixed_evidence.first.json": "d77b863f533c5a8383f9a39107e53436804ea379e5d75f2fd6463e31aa831902",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/cn-cars-windows--pipeline.first.json": "60e7d12868440938e9bbc7230a140247bd8b0d9c11c5b73ebbc86b449bf8b54c",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-causal--fixed_evidence.first.json": "86c2059e77b751b94a99b6406fe77041072e4917c6c283bbc2dc55155c0ed9a4",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-causal--pipeline.first.json": "768dd64a66d348042656eb06e3f9cd82a813f5639668a5394056ada60838bcca",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-injection--fixed_evidence.first.json": "0b6cf037fa3be6933e463ce5bce1a9ede9c83031572845794fe40f9ba24fdc82",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-injection--pipeline.first.json": "0c1c6c5682cd5011b5faea568dfbf25a0315fb97330bd5460f903faae5b34a24",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-numeric--fixed_evidence.first.json": "676d48a7c50237184b572bf3b8c39a7a5893bbac944c913c37a32a178bdc4588",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-numeric--pipeline.first.json": "6e5631bfd53831d1195336234ce7370a81eb577ba5b8e2f28d6ee2ba166016dc",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-role--fixed_evidence.first.json": "df6e412e5757d25d3a206f90982227407b00d3be4c58c85e1c458d320ae30bf7",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-role--pipeline.first.json": "6f56ef0b5a608565c4e5c68725b52f6f4c3ff7b8c3330818f633d6baf6411f83",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-scope--fixed_evidence.first.json": "0e97e0486487af5c10c13b0bfe29a8d6cc4b38ec6392b02a03698276867f738a",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-scope--pipeline.first.json": "6646afe3ee638c8e82dae21d2bfc2fc2d47342f2238ec45dc3b3d400e53510b5",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-windows--fixed_evidence.first.json": "ed2301d340630859f4656e6a898226439e0f5544077b39260171ea1c441609b2",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-windows--pipeline.first.json": "5b71ab2ba83c70d7dff0a2f97caf17c1107d8146dddbfc1da386923768e6fe87",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/export-coffee-numeric--fixed_evidence.first.json": "78adb399218b673da8f7510a5ae20e4f2c6d06d3dbd8cb48f0cbbcfb96ca0b88",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/export-coffee-numeric--pipeline.first.json": "c1dd2e7f42dc3bea14b74e683aa38d187a6a66e4682e352f2f7b735cde9097f9",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/export-coffee-role--fixed_evidence.first.json": "9c04cdf968fe7bfcda005b64900eb3704a3bc31a87a25e8e1fcc5de334b59b3b",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/export-coffee-role--pipeline.first.json": "31bc31b75295cf662393615597d58f083bd80fd903e52e7c9a421bcaff2eb15e",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/export-coffee-scope--fixed_evidence.first.json": "c2b9998a753d88074075a24f73d82237aa657e668cb88b88d6dab877323de07c",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/export-coffee-scope--pipeline.first.json": "bcd98e4dbb7ad9080fe7cc70cbd8e0fc4c453d7f7533355bb682dcbc099a4f2f",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/export-coffee-windows--fixed_evidence.first.json": "eafb1ded5538d22f3b0780ea381302256db68d2303e44f5bf1ca3fdbef4d6e19",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/export-coffee-windows--pipeline.first.json": "cb92f5ae7f6793b66f36277fb6a931c8d6e4fabfcfb5149f465182d4c8b7594a",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/gb-tea-causal--fixed_evidence.first.json": "bd40078ddaaef76c050315c484ea94fc6a27d3ffcb32dce354e255439a81eb7d",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/gb-tea-causal--pipeline.first.json": "0691c309d1620fc28baa96b8c51221eb1c8f292082390955ce2a1713f4665bf0",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/gb-tea-injection--fixed_evidence.first.json": "f67c0536286d0a48a1fc45f2e6c2d8c4d8500c4f9f18ba93c217add4418a9ed9",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/gb-tea-injection--pipeline.first.json": "291a18daac2138366d7972573d6c092b0d5c26c9f0c78dff616df5b5c4cc7171",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/gb-tea-numeric--fixed_evidence.first.json": "21f78711512302f43cc648f042a864c95dc49929daf3a47c85a0ee3d2ac250f8",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/gb-tea-numeric--pipeline.first.json": "4a483e81b5df64563fa5311c420e8da0130f53aa6523ae259148beb29b1f2aca",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/gb-tea-role--fixed_evidence.first.json": "b05441fefba7a5099b722dacc8471112d4f489315175654fe8da8ddbbf410703",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/gb-tea-role--pipeline.first.json": "59c99e4a932026e382d1de5bff5104e311bb843854855f213862b8a1e93be135",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/gb-tea-scope--fixed_evidence.first.json": "ee4677d3a310fc5fb04d2254dec7cae03542e512b1a47345a300c5cc28adf5d1",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/gb-tea-scope--pipeline.first.json": "5679dc9ffb787bb8c8113ad0ff27c9e302bcd877aed3aae99a8c506f31aa90ac",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/gb-tea-windows--fixed_evidence.first.json": "8727a7b89805a6dca061bee297749ff5b860d055e4745274049e9e86250e8267",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/gb-tea-windows--pipeline.first.json": "4e9b7bd548628e4a5017c5ea5c99237f2c809566dff0d96a6478b4e06577173c",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/us-coffee-causal--fixed_evidence.first.json": "4c7aa97b0880802a97abfe2cae41ff22d26a8337a34ef2b5e67ba2eefb10ed4a",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/us-coffee-causal--pipeline.first.json": "082f4e117d4f6170de299eebecdb68bdcab8448a7426a74c211e2003dee75b40",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/us-coffee-injection--fixed_evidence.first.json": "8ee5882c409308d2f6522993b1877918bb37e97dcfbac1ec40f16eea98d9868e",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/us-coffee-injection--pipeline.first.json": "ef6c8b965440935ddab4cd4b19f770fd94ee28f1c3be40c71dee83907e889ea3",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/us-coffee-numeric--fixed_evidence.first.json": "014c2b8bf4a4157301e3d94b03b9a87ff1d9b5e4287de74bf592e18689fb3944",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/us-coffee-numeric--pipeline.first.json": "0e521da4068efebfdc1c096a803abc8374c9f7af820b6b726f0f2b5700029a4a",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/us-coffee-role--fixed_evidence.first.json": "e3cf9ee62f2e5ba6be16df91a8d29b57394566f52590c9d32f91ffa8a7e59651",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/us-coffee-role--pipeline.first.json": "3a8ff8e907cef2d0a6e05a666572e302afec749a7b0081769f533e509e1fdad6",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/us-coffee-scope--fixed_evidence.first.json": "2ae6f837a3561146492af22be5ca5874bb2c6977aadfba2e387f4cc2ab612407",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/us-coffee-scope--pipeline.first.json": "a34e48c58638bd09ba8bc596dac67ab328936b14e2ec526da25c7908581173fa",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/us-coffee-windows--fixed_evidence.first.json": "3d13a57fd75b65ed35d757b6bf387ce0af9b0ac9bc2adb1ca7f05e4db11da7a8",
+    "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/us-coffee-windows--pipeline.first.json": "c2cdb44fd72a8ba2bbb86293bb45e1eb33f51523eb9eab430db46baf6e48d097"
+  },
+  "patched_code_sha256": {
+    "backend/answer_contract.py": "a87e5a07276760dddc17185df9d2b523d3079ce732c00e8143db248516922a68",
+    "backend/services.py": "5656870090ed232261e963018eb9fbe9690149d4fcaea5c361700ada13dc8067",
+    "backend/evidence_tools.py": "13b45b4692927f27d98f8f7849d7f7fafcb6f24677aa9fc1090bdf3dde50eb37",
+    "frontend/src/main.tsx": "140ef0ca022865d102b2a6cdbd06a2a3e6f9383939db8fb7e86895da8f0c38b9"
+  },
+  "note": "未修改旧首次结果或重新评分；模型自然语言语义仍需人工复核，修复后真实调用表现未知。"
+}

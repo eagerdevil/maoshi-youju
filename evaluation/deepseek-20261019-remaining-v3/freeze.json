@@ -1,0 +1,19 @@
+{
+  "files": {
+    "evaluation/deepseek-20261019-remaining-v3/tasks.json": "1c9595dc44a04a623c954a3bc71ed22301239f6496831ba926013feb3ce6dc9c",
+    "evaluation/deepseek-20261019-remaining-v3/reference.json": "4efe5fc08435c08d1f4d2c9babb5c47db09206c3c06313cbfadf5119eddb32f8",
+    "evaluation/deepseek-20261019-remaining-v3/protocol.json": "1099b7e669d9af1d9def9122f1b06907b0bf131d6a8f53b83b79bcf65b8e5fc7",
+    "backend/services.py": "e5f2732fb067623645b6f3945ff4567fdd5a0591b05bb78d5f649127e3ea92a8",
+    "backend/evidence_tools.py": "2da1f8158e2724cdbbc036cb2875abb94f243568cd9471267d9b450956e39742",
+    "backend/model_runtime.py": "84fd2dad922ad4c999e2a517a10c2b7291401a1fda7af2fdc3b1a5b3ff69dd66",
+    "backend/analysis.py": "5b6479fd24a635fef0afd1f1728b0c0557cd24c3490ebb9b14728be0a541e8d7",
+    "backend/data.py": "4e052278aedf807092e937cd03fed7315bbbabd7613ccc84f63be3fb83da3d43",
+    "backend/__init__.py": "7e8717b6338f038c5d22603a8086ee8ee7474c7e2806c6f477732eb4e94caf28",
+    "data/processed/wits-core.csv": "ea43cb7434ed214df6443682975026e5c0c44b999c9f286475e06419c8d57d93",
+    "data/processed/wits-canada-cocoa.csv": "2ae0866070cdba80e523fb1774b8ba68fd23f288a47e2dc2294e6f240d3072cc",
+    "scripts/run_model_evaluation.py": "fd2a79c38750a3a1ec50aecc1fca3395d205210c841527eb87d6ce41ce595b0f",
+    "scripts/run_remaining_evaluation.py": "ad7945684e6a516801134954df4001d0b06cd786d88560cf24466fbffae28663",
+    "scripts/prepare_remaining_evaluation.py": "b73a15e6dcec9f2f7878d3a32388e9b176525ccc7923951fca3ee8b36f7ee235"
+  },
+  "note": "首次调用前冻结；运行期间不修改提示、代码、题目和参考；保留全部失败。"
+}

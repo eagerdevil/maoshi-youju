@@ -1,0 +1,144 @@
+{
+  "provenance": {
+    "author": "当前对话宿主AI",
+    "method": "本文件中的自然语言由宿主AI在本轮阅读冻结证据和参考值后直接撰写；不是脚本填充、模拟响应或应用API返回。",
+    "blinded": false,
+    "independent_context": false,
+    "model_identifier": "未获取具体部署ID",
+    "baseline_run": false,
+    "semantic_reviewer": "同一宿主AI自审，非独立评分",
+    "timing_cost": "未测量，不填造"
+  },
+  "responses": [
+    {
+      "id": "P01",
+      "decision": "supported_with_scope",
+      "answer": "这份分析使用美国报告的进口数据，商品范围是HS 8703、分类H0，比较2019与2023年。总进口金额从1795.15亿美元增至2102.88亿美元，增加307.73亿美元，区间增长17.14%。这里的对象是所选商品的名义美元进口金额，不是美国全部汽车消费市场，也不是扣除价格因素后的实际增长。",
+      "citations": ["main:E0121"],
+      "numeric_claims": [
+        {"analysis":"main","scope":"summary","metric":"baseline","value":1795.15,"unit":"亿美元","decimals":2},
+        {"analysis":"main","scope":"summary","metric":"current","value":2102.88,"unit":"亿美元","decimals":2},
+        {"analysis":"main","scope":"summary","metric":"delta","value":307.73,"unit":"亿美元","decimals":2},
+        {"analysis":"main","scope":"summary","metric":"growth","value":17.14,"unit":"%","decimals":2}
+      ]
+    },
+    {
+      "id": "P02",
+      "decision": "supported_with_boundary",
+      "answer": "在两期可比伙伴中，韩国的进口金额变动绝对值最大，增加149.18亿美元。对称分解中，市场规模变化分量为正36.87亿美元，供应份额变化分量为正112.31亿美元，两项相加等于金额变化。韩国对应的金额增量对美国该类商品总进口区间增长率贡献约8.31个百分点。分解说明金额变化如何在恒等式中分配，不证明政策或竞争力造成了这些变化。",
+      "citations": ["main:E0061","main:E0121"],
+      "numeric_claims": [
+        {"analysis":"main","scope":"partner","partner":"KOR","metric":"delta","value":149.18,"unit":"亿美元","decimals":2},
+        {"analysis":"main","scope":"partner","partner":"KOR","metric":"market_component","value":36.87,"unit":"亿美元","decimals":2},
+        {"analysis":"main","scope":"partner","partner":"KOR","metric":"share_component","value":112.31,"unit":"亿美元","decimals":2},
+        {"analysis":"main","scope":"partner","partner":"KOR","metric":"contribution_pp","value":8.31,"unit":"百分点","decimals":2}
+      ]
+    },
+    {
+      "id": "P03",
+      "decision": "contradicted",
+      "answer": "原句混淆了金额和份额。美国自日本进口金额由399.31亿美元增加到408.77亿美元，增长2.37%；但日本在美国该商品进口总额中的份额下降2.81个百分点。可以改写为：美国自日本进口的金额小幅上升，但增长慢于该进口市场总金额，因此日本份额下降。这里仍采用美国报告口径，不偷换成日本报告的出口额。",
+      "citations": ["main:E0058","main:E0121"],
+      "numeric_claims": [
+        {"analysis":"main","scope":"partner","partner":"JPN","metric":"baseline","value":399.31,"unit":"亿美元","decimals":2},
+        {"analysis":"main","scope":"partner","partner":"JPN","metric":"current","value":408.77,"unit":"亿美元","decimals":2},
+        {"analysis":"main","scope":"partner","partner":"JPN","metric":"growth","value":2.37,"unit":"%","decimals":2},
+        {"analysis":"main","scope":"partner","partner":"JPN","metric":"share_change","value":-2.81,"unit":"百分点","decimals":2}
+      ]
+    },
+    {
+      "id": "P04",
+      "decision": "unit_correction",
+      "answer": "应改成约提高5.76个百分点。韩国份额从约9.10%变为14.86%，两者相减是百分点变化；不能把这个差直接写成份额相对提高5.76%。如需份额的相对增长率，应另用报告期份额除以基期份额再减一计算。",
+      "citations": ["main:E0061"],
+      "numeric_claims": [
+        {"analysis":"main","scope":"partner","partner":"KOR","metric":"share0","value":9.10,"unit":"%","decimals":2},
+        {"analysis":"main","scope":"partner","partner":"KOR","metric":"share1","value":14.86,"unit":"%","decimals":2},
+        {"analysis":"main","scope":"partner","partner":"KOR","metric":"share_change","value":5.76,"unit":"百分点","decimals":2}
+      ]
+    },
+    {
+      "id": "P05",
+      "decision": "overinterpretation_rejected",
+      "answer": "不能直接归因为竞争力提高。墨西哥对应金额增加69.06亿美元，其中市场规模变化分量约65.52亿美元，供应份额变化分量约3.54亿美元，前者明显更大。较准确的描述是：在所采用的对称分解中，金额增长主要体现为市场规模分量，份额分量为正但较小。两个分量都不是已识别的因果效应。",
+      "citations": ["main:E0071"],
+      "numeric_claims": [
+        {"analysis":"main","scope":"partner","partner":"MEX","metric":"delta","value":69.06,"unit":"亿美元","decimals":2},
+        {"analysis":"main","scope":"partner","partner":"MEX","metric":"market_component","value":65.52,"unit":"亿美元","decimals":2},
+        {"analysis":"main","scope":"partner","partner":"MEX","metric":"share_component","value":3.54,"unit":"亿美元","decimals":2}
+      ]
+    },
+    {
+      "id": "P06",
+      "decision": "time_window_correction",
+      "answer": "不能写成每年都下降。加拿大在2019—2023长窗口的份额下降约4.48个百分点，但2022—2023短窗口回升约0.92个百分点。这个反例足以否定单调下降的表述。应写明比较时期，并区分长期位置变化与最近一年回升；仅凭两个端点不能描述每一年的路径。",
+      "citations": ["main:E0020","window_2022:E0016"],
+      "numeric_claims": [
+        {"analysis":"main","scope":"partner","partner":"CAN","metric":"share_change","value":-4.48,"unit":"百分点","decimals":2},
+        {"analysis":"window_2022","scope":"partner","partner":"CAN","metric":"share_change","value":0.92,"unit":"百分点","decimals":2}
+      ]
+    },
+    {
+      "id": "P07",
+      "decision": "insufficient_evidence",
+      "answer": "现有证据只能显示韩国份额与金额的变化，不能证明某项关税政策造成了变化。下一步应先明确具体政策及生效时期、受影响商品与暴露程度，再构建合适的对照和识别策略，并检查同期其他变化与识别假设。当前年度商品汇总和会计分解不提供这样的反事实；也不能把未核实的政策背景填进报告当成事实。",
+      "citations": ["main:E0061"],
+      "numeric_claims": []
+    },
+    {
+      "id": "P08",
+      "decision": "scope_correction",
+      "answer": "不能这样写。17.14%对应美国报告的所选HS 8703商品名义美元进口金额增长，既不包含完整的国内生产与消费市场，也没有扣除价格和商品结构变化。建议改成：2019—2023年，美国该商品范围的名义美元进口金额增长约17.14%。如果要研究实际消费需求，还需明确消费口径，并补充可比数量、价格或其他需求数据。",
+      "citations": ["main:E0121"],
+      "numeric_claims": [
+        {"analysis":"main","scope":"summary","metric":"growth","value":17.14,"unit":"%","decimals":2}
+      ]
+    },
+    {
+      "id": "P09",
+      "decision": "insufficient_evidence",
+      "answer": "不能认定退出，也不能计算为负百分之百。直布罗陀的报告期记录缺失，并非明确观测为零。当前证据应保留金额变化和增长率无法计算、市场状态未知；如要判断退出，需要来源明确的零记录或能支持该判断的完整统计说明。不能为了计算方便补零。",
+      "citations": ["main:E0042"],
+      "numeric_claims": [
+        {"analysis":"main","scope":"partner","partner":"GIB","metric":"delta","value":null,"unit":"USD","decimals":2}
+      ]
+    },
+    {
+      "id": "P10",
+      "decision": "clarification_required",
+      "answer": "先澄清：你要比较中美双边贸易的哪个方向、两国分别对世界的表现，还是两国在某个第三方进口市场的份额？同时需要明确汽车商品范围、比较年份和报告方。双边进口与伙伴报告的出口不能默认混用。在这些角色和范围确定前，不自动沿用美国进口筛选，也不生成一组看似明确的比较数字。",
+      "citations": [],
+      "numeric_claims": []
+    },
+    {
+      "id": "P11",
+      "decision": "insufficient_risk_evidence",
+      "answer": "不能直接证明供应风险显著降低。已列示前五伙伴份额从约83.67%变为83.62%，变化很小，头部份额也不是完整的供应风险指标。风险判断还需明确风险概念和其他相关证据。当前引擎没有输出整体HHI，不能填造一个精确指数；若后续研究HHI，应明确完整伙伴构成、缺失和特殊伙伴的处理，并单独计算复核。",
+      "citations": ["main:E0118","main:E0119"],
+      "numeric_claims": [
+        {"analysis":"main","scope":"structure","period":"baseline","metric":"listed_top5_share","value":83.67,"unit":"%","decimals":2},
+        {"analysis":"main","scope":"structure","period":"current","metric":"listed_top5_share","value":83.62,"unit":"%","decimals":2}
+      ]
+    },
+    {
+      "id": "P12",
+      "decision": "window_sensitive_description",
+      "answer": "按2019、2020、2021、2022依次作为基期比较2023，韩国份额分别上升约5.76、3.50、2.87、1.66个百分点，方向一致。德国分别变化约正1.29、正2.77、正1.03、负0.25个百分点；加拿大分别变化约负4.48、负3.70、负0.60、正0.92个百分点，最后一个窗口出现方向反转。因此，韩国的方向在这些窗口下保持一致，而德国和加拿大的叙述应明确时间窗口。这些窗口共享终点且相互重叠，只是描述性敏感性检查，不是独立样本重复验证或因果稳健性检验。",
+      "citations": ["main:E0061","main:E0029","main:E0020","window_2020:E0059","window_2020:E0028","window_2020:E0019","window_2021:E0056","window_2021:E0025","window_2021:E0017","window_2022:E0052","window_2022:E0024","window_2022:E0016"],
+      "numeric_claims": [
+        {"analysis":"main","scope":"partner","partner":"KOR","metric":"share_change","value":5.76,"unit":"百分点","decimals":2},
+        {"analysis":"window_2020","scope":"partner","partner":"KOR","metric":"share_change","value":3.50,"unit":"百分点","decimals":2},
+        {"analysis":"window_2021","scope":"partner","partner":"KOR","metric":"share_change","value":2.87,"unit":"百分点","decimals":2},
+        {"analysis":"window_2022","scope":"partner","partner":"KOR","metric":"share_change","value":1.66,"unit":"百分点","decimals":2},
+        {"analysis":"main","scope":"partner","partner":"DEU","metric":"share_change","value":1.29,"unit":"百分点","decimals":2},
+        {"analysis":"window_2020","scope":"partner","partner":"DEU","metric":"share_change","value":2.77,"unit":"百分点","decimals":2},
+        {"analysis":"window_2021","scope":"partner","partner":"DEU","metric":"share_change","value":1.03,"unit":"百分点","decimals":2},
+        {"analysis":"window_2022","scope":"partner","partner":"DEU","metric":"share_change","value":-0.25,"unit":"百分点","decimals":2},
+        {"analysis":"main","scope":"partner","partner":"CAN","metric":"share_change","value":-4.48,"unit":"百分点","decimals":2},
+        {"analysis":"window_2020","scope":"partner","partner":"CAN","metric":"share_change","value":-3.70,"unit":"百分点","decimals":2},
+        {"analysis":"window_2021","scope":"partner","partner":"CAN","metric":"share_change","value":-0.60,"unit":"百分点","decimals":2},
+        {"analysis":"window_2022","scope":"partner","partner":"CAN","metric":"share_change","value":0.92,"unit":"百分点","decimals":2}
+      ]
+    }
+  ]
+}

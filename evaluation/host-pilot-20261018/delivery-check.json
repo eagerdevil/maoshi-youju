@@ -1,0 +1,7 @@
+{
+  "verified_at": "2026-10-18T15:28:39.042971+00:00",
+  "path": "E:\\codex\\校园AI大赛\\贸势有据\\交付物\\美国乘用车主案例与宿主AI预实验.zip",
+  "sha256": "8c4200c06e79e2aec1fa036905d3f60d03d63ce2d8811003c85c9e57aefffde3",
+  "files": 48,
+  "reproduction": "PASS: main\nPASS: window_2020\nPASS: window_2021\nPASS: window_2022\nPASS: all four frozen analyses reproduced; model text not regenerated"
+}

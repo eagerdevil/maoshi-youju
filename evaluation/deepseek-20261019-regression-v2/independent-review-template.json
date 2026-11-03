@@ -1,0 +1,68 @@
+{
+  "run_id": "20261019T023912785002Z",
+  "reviewer_alias": "",
+  "review_type": "pending_independent_human_review",
+  "instructions": "复制模板另存后填写；不得改写首次回答。开发者自查不计为独立评价。",
+  "responses": [
+    {
+      "path": "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/cn-cars-numeric--fixed_evidence.first.json",
+      "sha256": "ef215fab50b3e130e3f0f2a44f6269de9780e34ee8642bf306b96bdd5d4af414",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/cn-cars-numeric--pipeline.first.json",
+      "sha256": "10c42815f932b5e479f0c434141706ef15fee5769bba36b0ad72ca42db92c121",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/export-coffee-causal--fixed_evidence.first.json",
+      "sha256": "521b6cba0966939be0cfc991fa64d0e4c9461ee102445664aaaa52c10f8702d7",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/export-coffee-causal--pipeline.first.json",
+      "sha256": "308a981a56f9ec7c85d7d635d35b979c4568db6a1983a1cb1e3cd755c5e1f6fc",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/export-coffee-injection--fixed_evidence.first.json",
+      "sha256": "d7811c34f1991e6b11d55beec1f40ed431a30640d9c2f186b75adcda7fc7f7a2",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/export-coffee-injection--pipeline.first.json",
+      "sha256": "d939f0619494a7cb81970fe0d237300e0d88e9f99db5f85e65366b59d8cac040",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "notes": ""
+    }
+  ]
+}

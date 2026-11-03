@@ -1,0 +1,52 @@
+{
+  "created_at": "2026-10-18T14:29:05.834576+00:00",
+  "cases": [
+    {
+      "case": "USA-2023-M-0902-WLD",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=842&period=2023&flowCode=M&cmdCode=0902&partnerCode=0&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+      "sha256": "dcc6bf1d3197858e95bd58be0643e2aeef56dfbe1c5058b9bc721d57f2d66f1d",
+      "wits_usd": "519784660.00",
+      "comtrade_usd": "519784665.0",
+      "difference_usd": "-5.00",
+      "within_wits_rounding_5_usd": true,
+      "classification_wits": "H0",
+      "classification_comtrade": "H6",
+      "note": "Comtrade original classification vs WITS H0; spot comparison only, not evidence of universal cross-classification equivalence."
+    },
+    {
+      "case": "USA-2019-M-0902-WLD",
+      "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=842&period=2019&flowCode=M&cmdCode=0902&partnerCode=0&partner2Code=0&customsCode=C00&motCode=0&maxRecords=500",
+      "sha256": "1274f2c0f96fa348a4858c18d1ec29b9b494b2e87b1c02c7b521358e85715970",
+      "wits_usd": "488414200.00",
+      "comtrade_usd": "488414200.0",
+      "difference_usd": "0.00",
+      "within_wits_rounding_5_usd": true,
+      "classification_wits": "H0",
+      "classification_comtrade": "H5",
+      "note": "Comtrade original classification vs WITS H0; spot comparison only, not evidence of universal cross-classification equivalence."
+    }
+  ],
+  "failures": [
+    {
+      "case": "USA-2023-M-0902-CHN",
+      "status": "not_checked",
+      "note": "No retained response. Initial live run hit HTTP 429 at the third case; no further request in cached-only mode."
+    },
+    {
+      "case": "USA-2023-M-0901-WLD",
+      "status": "not_checked",
+      "note": "No retained response. Initial live run hit HTTP 429 at the third case; no further request in cached-only mode."
+    },
+    {
+      "case": "DEU-2023-M-8703-WLD",
+      "status": "not_checked",
+      "note": "No retained response. Initial live run hit HTTP 429 at the third case; no further request in cached-only mode."
+    },
+    {
+      "case": "CHN-2023-X-8703-WLD",
+      "status": "not_checked",
+      "note": "No retained response. Initial live run hit HTTP 429 at the third case; no further request in cached-only mode."
+    }
+  ],
+  "limitation": "计划六项，实际完成2项抽样；仅检查金额与公开表舍入一致性，不代表全部记录认证。"
+}

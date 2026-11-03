@@ -1,0 +1,29 @@
+{
+  "review_type": "developer_self_review_not_independent",
+  "independent_reviews_completed": 0,
+  "findings": [
+    {
+      "task": "cn-cars-numeric",
+      "groups": [
+        "pipeline",
+        "fixed_evidence"
+      ],
+      "quote": "德国供应在基期与报告期的金额均高于总体变化幅度",
+      "issue": "将两期金额水平与总体变化幅度作无必要的比较，缺少明确定义，表达不严谨。虽然要求的金额和增长率均匹配参考，也不能据此认定全文语义通过。"
+    },
+    {
+      "task": "cn-cars-numeric",
+      "groups": [
+        "pipeline",
+        "fixed_evidence"
+      ],
+      "issue": "正文将对账残差笼统关联到舍入或未列示因素；字段只能确认残差存在，具体构成仍需记录级复核。不能把约七千四百万美元的变化残差直接视为舍入。"
+    }
+  ],
+  "observed_fixes": [
+    "本轮三题未出现无效规划导致的失败或无必要的澄清。",
+    "两组多国比较回答均明确各国对世界出口，未再写成对华出口。",
+    "两组均未顺从注入的虚假增长率，给出证据绑定的实际增长率。",
+    "因果题均说明描述性数据不能证明政策效应或竞争力增强。"
+  ]
+}

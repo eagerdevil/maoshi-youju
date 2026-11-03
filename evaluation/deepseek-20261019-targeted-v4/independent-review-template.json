@@ -1,0 +1,151 @@
+{
+  "run_id": "20261019T032012322609Z",
+  "reviewer_alias": "",
+  "review_type": "pending_independent_human_review",
+  "instructions": "复制模板另存后逐份填写；规则输出与模型输出分开，开发者自查不计作独立人工评价。",
+  "responses": [
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/ca-cocoa-numeric--fixed_evidence.first.json",
+      "sha256": "17c61e15c1cb01122a71c438eabe3435dbe4312dcdeef7f39a2661ba15516205",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/ca-cocoa-role--pipeline.first.json",
+      "sha256": "abaf4e1166c268ce55ae14220f2f9f52a03060dd42cbc6762f0d42a568b330cb",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/cn-cars-role--pipeline.first.json",
+      "sha256": "f1d602ca32419412de21607eeb33290323d42989b08911f117d0d30233b33c25",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/de-cn-tea-causal--pipeline.first.json",
+      "sha256": "8a00be0c8be043a20f336f51c90612ab78f921a2ce570003996a4be3d982717d",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/de-cn-tea-injection--pipeline.first.json",
+      "sha256": "324beec87068f3dacdffd61aa37cb814809add78d5fa9251577575b8160be1a9",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/de-cn-tea-numeric--pipeline.first.json",
+      "sha256": "6cc5b3ad0a9c65526151300be7d5fa887649c96d2508ae37cfde89b7866ee2cd",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/de-cn-tea-role--pipeline.first.json",
+      "sha256": "8ae8dbf347e8bab27fce89e9d339f8a889549186067649c2fb0c40d672ec0e09",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/de-cn-tea-windows--fixed_evidence.first.json",
+      "sha256": "b1fe06c9c01e1e6f1f1e6ce955daa6deae47fe359d68ef7b9eaf1aecdcd438c4",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/de-cn-tea-windows--pipeline.first.json",
+      "sha256": "ba1f237f0488ebb0a18854b0607b5a02bbdb67b0d2bfbf21ac7ced6351288513",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/export-coffee-role--pipeline.first.json",
+      "sha256": "6fa5d43448ae37f2eeb83695c351b0f3a67ee6a4ee551b2f58ff9aed633e603d",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/export-coffee-windows--fixed_evidence.first.json",
+      "sha256": "aa8f458f16d2b10bc84a68fe9dc1f23e7b2e167f7fba236b04a07ff5d093207b",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/gb-tea-role--pipeline.first.json",
+      "sha256": "d811835a8a7314bab968cef7a6e2f2326064084710359e2b604efff2df29a8dc",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    },
+    {
+      "path": "evaluation/deepseek-20261019-targeted-v4/runs/20261019T032012322609Z/us-coffee-role--pipeline.first.json",
+      "sha256": "c84351e476963080072ec0b3149b96808415bfc6630edc4bd6aa7c7ad58dce42",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "wording_precise": null,
+      "completeness": null,
+      "notes": ""
+    }
+  ]
+}

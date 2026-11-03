@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-10-18T15:26:31.523347+00:00",
+  "audit_type": "static_information_coverage_not_model_performance",
+  "current_packet_partner_codes": [
+    "KOR",
+    "MEX",
+    "DEU",
+    "GBR",
+    "CAN",
+    "SVK",
+    "SWE",
+    "ITA"
+  ],
+  "packet_rule": "Current backend/services.py selects eight partners by absolute amount delta, plus summary and structure.",
+  "tasks": [
+    {
+      "id": "P01",
+      "missing_reference_citations": []
+    },
+    {
+      "id": "P02",
+      "missing_reference_citations": []
+    },
+    {
+      "id": "P03",
+      "missing_reference_citations": [
+        "main:E0058"
+      ]
+    },
+    {
+      "id": "P04",
+      "missing_reference_citations": []
+    },
+    {
+      "id": "P05",
+      "missing_reference_citations": []
+    },
+    {
+      "id": "P06",
+      "missing_reference_citations": [
+        "window_2022:E0016"
+      ]
+    },
+    {
+      "id": "P07",
+      "missing_reference_citations": []
+    },
+    {
+      "id": "P08",
+      "missing_reference_citations": []
+    },
+    {
+      "id": "P09",
+      "missing_reference_citations": [
+        "main:E0042"
+      ]
+    },
+    {
+      "id": "P10",
+      "missing_reference_citations": []
+    },
+    {
+      "id": "P11",
+      "missing_reference_citations": []
+    },
+    {
+      "id": "P12",
+      "missing_reference_citations": [
+        "window_2020:E0019",
+        "window_2020:E0028",
+        "window_2020:E0059",
+        "window_2021:E0017",
+        "window_2021:E0025",
+        "window_2021:E0056",
+        "window_2022:E0016",
+        "window_2022:E0024",
+        "window_2022:E0052"
+      ]
+    }
+  ],
+  "limitations": [
+    "无模型调用；缺少参考引用说明当前固定包不覆盖该任务所用证据，不等于模型实际回答错误。",
+    "宿主预实验读到完整结果和多个窗口，当前应用仅提供单窗口固定子集，二者信息条件不同。",
+    "宿主回答使用结构化数值清单，未执行API的claimsJSON与禁止自由数字协议。"
+  ],
+  "services_sha256": "0246f9ddc52761617bb717f2ba68aba33a596b089048de74fe18c58c8b74abdc"
+}

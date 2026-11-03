@@ -1,0 +1,194 @@
+{
+  "run_id": "20261019T025703618497Z",
+  "review_type": "same_model_ai_assisted_not_independent_human",
+  "responses": 66,
+  "statuses": {
+    "reviewed": 60,
+    "no_usable_answer": 6
+  },
+  "ai_verdicts": {
+    "pass": 58,
+    "fail": 1,
+    "uncertain": 1
+  },
+  "groups": {
+    "pipeline": {
+      "pass": 28,
+      "no_usable_answer": 4,
+      "uncertain": 1
+    },
+    "fixed_evidence": {
+      "pass": 30,
+      "no_usable_answer": 2,
+      "fail": 1
+    }
+  },
+  "criteria": {
+    "citation_support": {
+      "pass": 59,
+      "uncertain": 1
+    },
+    "role_correct": {
+      "pass": 60
+    },
+    "clarification_adequate": {
+      "pass": 60
+    },
+    "no_overclaim": {
+      "pass": 60
+    },
+    "wording_precise": {
+      "pass": 59,
+      "uncertain": 1
+    },
+    "completeness": {
+      "pass": 59,
+      "fail": 1
+    }
+  },
+  "findings": [
+    {
+      "review_id": "R032",
+      "task_id": "export-coffee-windows",
+      "group": "fixed_evidence",
+      "criterion": "completeness",
+      "rating": "fail",
+      "reason": "问题要求三国（中国、德国、英国）在两个窗口共六组数值，回答仅给出中国两组、德国2019基期一组、英国2022基期一组，缺少德国2022基期（-2.27%）与英国2019基期（-33.85%）两组。",
+      "citations": [
+        "dcc9c921ef01df495a04:E0002",
+        "4f8c7448e008c780f1e8:E0003"
+      ]
+    },
+    {
+      "review_id": "R041",
+      "task_id": "gb-tea-role",
+      "group": "pipeline",
+      "criterion": "citation_support",
+      "rating": "uncertain",
+      "reason": "回答称统计金额“通常按CIF计价”，但证据中没有任何条目说明计价口径；其余关于报告国、流向、商品、年份和伙伴角色的表述与范围一致，但CIF这一具体事实缺乏引用支持。",
+      "citations": [
+        "f4f962e334b6f25e4008:E0117",
+        "f4f962e334b6f25e4008:E0118"
+      ]
+    },
+    {
+      "review_id": "R041",
+      "task_id": "gb-tea-role",
+      "group": "pipeline",
+      "criterion": "wording_precise",
+      "rating": "uncertain",
+      "reason": "“统计金额为WITS记录的进口贸易额，通常按CIF计价，单位为美元”中，CIF口径无证据支持，且“通常”表述含混；其余角色和流向表述清楚。",
+      "citations": []
+    }
+  ],
+  "reviewer_failures": [],
+  "developer_disagreements": [
+    {
+      "review_id": "R003",
+      "task_id": "cn-cars-role",
+      "group": "pipeline",
+      "kind": "unnecessary_clarification_accepted",
+      "developer_observation": "原问题要求解释已有国家角色，不需要新增伙伴条件；候选回答仍要求澄清。AI将澄清恰当性判通过，理由与明确评分标准存在分歧。",
+      "candidate": {
+        "status": "clarification",
+        "answer": "当前报告国为中国（CHN），流向为进口（M），商品为8703，报告期2019-2023；伙伴角色未指定，请明确要分析哪些伙伴国家。统计金额为WITS记录的进口贸易额（通常为CIF美元值），所列国家仅为目录中的部分伙伴，不能合计当作全球总额。"
+      },
+      "ai_criterion": {
+        "rating": "pass",
+        "reason": "题目要求明确当前报告国、伙伴角色和贸易流向，并说明统计金额含义及能否合计为全球总额。回答已明确报告国、流向、商品和年份，说明伙伴角色未指定并请用户明确要分析哪些伙伴，同时说明金额为WITS进口贸易额、所列国家不能合计当作全球总额。仅要求解释现有角色，不需要另选具体伙伴，回答合理。",
+        "citations": []
+      }
+    },
+    {
+      "review_id": "R027",
+      "task_id": "us-coffee-role",
+      "group": "pipeline",
+      "kind": "unnecessary_clarification_accepted",
+      "developer_observation": "原问题要求解释已有国家角色，不需要新增伙伴条件；候选回答仍要求澄清。AI将澄清恰当性判通过，理由与明确评分标准存在分歧。",
+      "candidate": {
+        "status": "clarification",
+        "answer": "当前报告国为美国（USA），流向为进口（M），商品为HS 0901，报告期2019-2023年；伙伴角色在竞争模式下指美国该商品的进口来源国。统计金额为美国自各伙伴进口的申报进口额（通常按CIF计价，美元现价），并非全球进口总额；所列伙伴合计不能直接当作全球总额，因为目录未覆盖所有来源地且可能存在未报告或转口贸易。请明确您希望分析哪些伙伴或采用何种竞争分析口径。"
+      },
+      "ai_criterion": {
+        "rating": "pass",
+        "reason": "回答了报告国、伙伴角色、贸易流向和金额含义，并明确说明所列伙伴合计不能当作全球总额及原因；对竞争分析口径的进一步询问属于合理澄清，未捏造2024年数据。",
+        "citations": [
+          "5f67a2fff44e7c6bfc82:E0131",
+          "5f67a2fff44e7c6bfc82:E0132"
+        ]
+      }
+    },
+    {
+      "review_id": "R030",
+      "task_id": "de-cn-tea-role",
+      "group": "pipeline",
+      "kind": "unnecessary_clarification_accepted",
+      "developer_observation": "原问题要求解释已有国家角色，不需要新增伙伴条件；候选回答仍要求澄清。AI将澄清恰当性判通过，理由与明确评分标准存在分歧。",
+      "candidate": {
+        "status": "clarification",
+        "answer": "当前问题已明确：报告国为德国（DEU），伙伴为中国（CHN），流向为进口（M），商品为HS 0902，报告期2019-2023。统计金额代表德国自中国进口该商品的申报进口额（通常为CIF价值，以美元计），仅覆盖双边德中贸易，不能将所列国家合计当作全球总额；如需全球总额或流向/角色调整，请另行说明。"
+      },
+      "ai_criterion": {
+        "rating": "pass",
+        "reason": "问题要求明确当前角色、流向、金额含义及能否合计为全球总额；回答逐项说明并明确不能将所列国家合计当作全球总额，同时说明如需全球总额或调整需另行说明，合理回应了澄清需求。",
+        "citations": []
+      }
+    },
+    {
+      "review_id": "R041",
+      "task_id": "gb-tea-role",
+      "group": "pipeline",
+      "kind": "unnecessary_clarification_accepted",
+      "developer_observation": "原问题要求解释已有国家角色，不需要新增伙伴条件；候选回答仍要求澄清。AI将澄清恰当性判通过，理由与明确评分标准存在分歧。",
+      "candidate": {
+        "status": "clarification",
+        "answer": "当前角色已明确：报告国为英国（GBR），流向为进口（M），商品为HS 0902，报告期2019—2023年；伙伴角色在竞争模式下为英国进口来源国。统计金额为WITS记录的进口贸易额，通常按CIF计价，单位为美元。所列国家仅为目录中的部分伙伴，不能合计当作全球总额；全球总额应使用WITS全部伙伴口径，而非本目录子集。"
+      },
+      "ai_criterion": {
+        "rating": "pass",
+        "reason": "问题要求明确当前角色、流向、金额含义及能否合计为全球总额；回答逐项说明，并明确所列国家仅为部分伙伴、不能合计当作全球总额，符合澄清要求。",
+        "citations": [
+          "f4f962e334b6f25e4008:E0117",
+          "f4f962e334b6f25e4008:E0118"
+        ]
+      }
+    },
+    {
+      "review_id": "R051",
+      "task_id": "ca-cocoa-role",
+      "group": "pipeline",
+      "kind": "unnecessary_clarification_accepted",
+      "developer_observation": "原问题要求解释已有国家角色，不需要新增伙伴条件；候选回答仍要求澄清。AI将澄清恰当性判通过，理由与明确评分标准存在分歧。",
+      "candidate": {
+        "status": "clarification",
+        "answer": "当前报告国为加拿大（CAN），角色为报告国/进口方，流向为进口（M），商品为HS 1806，报告期2019-2023年。统计金额为加拿大自各伙伴进口该商品的申报进口额（通常按CIF计），并非全球总额；所列伙伴仅为目录中的部分贸易伙伴，合计不能当作全球总额，且未列明伙伴、转口及未申报贸易不在其中。请明确您希望分析的具体伙伴角色（如供应国）或确认是否按现有进口口径继续。"
+      },
+      "ai_criterion": {
+        "rating": "pass",
+        "reason": "回答了报告国、伙伴角色、贸易流向和金额含义，并明确说明所列国家合计不能当作全球总额；对“具体伙伴角色”的追问虽略显多余，但未捏造数据或越界外推。",
+        "citations": [
+          "ea45bf60612be73a074f:E0152",
+          "ea45bf60612be73a074f:E0153"
+        ]
+      }
+    },
+    {
+      "review_id": "R064",
+      "task_id": "export-coffee-role",
+      "group": "pipeline",
+      "kind": "unnecessary_clarification_accepted",
+      "developer_observation": "原问题要求解释已有国家角色，不需要新增伙伴条件；候选回答仍要求澄清。AI将澄清恰当性判通过，理由与明确评分标准存在分歧。",
+      "candidate": {
+        "status": "clarification",
+        "answer": "当前为多国比较模式，报告国为中国、德国、英国，流向为出口，商品为HS 0901，报告期为2019至2023年。请明确伙伴角色：是作为出口目的地伙伴，还是仅比较这三个报告国自身；若需伙伴，请指定目录中的伙伴代码。统计金额通常为按报告国申报的出口贸易额，所列国家合计不能直接当作全球总额，因为目录未覆盖所有经济体且存在未报告、转口和统计口径差异。"
+      },
+      "ai_criterion": {
+        "rating": "pass",
+        "reason": "问题要求明确当前报告国、伙伴角色和贸易流向，并说明金额含义及能否合计为全球总额；回答已说明报告国、流向、商品和年份，指出伙伴角色需明确，并明确不能把所列国家合计当作全球总额及原因，属于合理澄清而非无端外推。",
+        "citations": []
+      }
+    }
+  ],
+  "human_semantic_reviews_completed": 0,
+  "interpretation": "AI通过只表示本次同模型审阅未标出问题；不等于人工确认、独立准确率或无错误。AI审阅会漏判和误判。原协议失败和评价协议失败均保留，不能删出总体分母。"
+}

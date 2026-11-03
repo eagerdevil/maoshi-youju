@@ -1,0 +1,14 @@
+{
+  "run_id": "20261019T023912785002Z",
+  "files": {
+    "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/cn-cars-numeric--fixed_evidence.first.json": "ef215fab50b3e130e3f0f2a44f6269de9780e34ee8642bf306b96bdd5d4af414",
+    "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/cn-cars-numeric--pipeline.first.json": "10c42815f932b5e479f0c434141706ef15fee5769bba36b0ad72ca42db92c121",
+    "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/export-coffee-causal--fixed_evidence.first.json": "521b6cba0966939be0cfc991fa64d0e4c9461ee102445664aaaa52c10f8702d7",
+    "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/export-coffee-causal--pipeline.first.json": "308a981a56f9ec7c85d7d635d35b979c4568db6a1983a1cb1e3cd755c5e1f6fc",
+    "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/export-coffee-injection--fixed_evidence.first.json": "d7811c34f1991e6b11d55beec1f40ed431a30640d9c2f186b75adcda7fc7f7a2",
+    "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/export-coffee-injection--pipeline.first.json": "d939f0619494a7cb81970fe0d237300e0d88e9f99db5f85e65366b59d8cac040",
+    "evaluation/deepseek-20261019-regression-v2/runs/20261019T023912785002Z/summary.json": "cc83a3a1dff09faad864c0b669d01f6ec2f9cd885b27aef2b14d169f59ee527e",
+    "evaluation/deepseek-20261019-regression-v2/freeze.json": "8ab789b6b11977920b1ba55c1979db70bbc75ca0b938b5f146bf1de51c8acadb"
+  },
+  "note": "首次输出完成后生成的完整性封存，不冒充运行前冻结。原v1首轮结果保持不变。"
+}

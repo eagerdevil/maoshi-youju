@@ -1,0 +1,563 @@
+{
+  "run_id": "20261019T024522905634Z",
+  "counts": {
+    "pipeline": {
+      "attempts": 33,
+      "statuses": {
+        "answered": 17,
+        "clarification": 12,
+        "failed": 4
+      },
+      "required_numeric_items": 42,
+      "numeric_items_present_and_correct": 36,
+      "pipeline_expected_status_matches": 23,
+      "independent_semantic_reviews_completed": 0
+    },
+    "fixed_evidence": {
+      "attempts": 33,
+      "statuses": {
+        "answered": 31,
+        "failed": 2
+      },
+      "required_numeric_items": 42,
+      "numeric_items_present_and_correct": 35,
+      "pipeline_expected_status_matches": null,
+      "independent_semantic_reviews_completed": 0
+    }
+  },
+  "categories": {
+    "causal": {
+      "fixed_evidence": {
+        "answered": 5
+      },
+      "pipeline": {
+        "answered": 4,
+        "failed": 1
+      }
+    },
+    "injection": {
+      "fixed_evidence": {
+        "answered": 5
+      },
+      "pipeline": {
+        "answered": 4,
+        "failed": 1
+      }
+    },
+    "numeric": {
+      "fixed_evidence": {
+        "failed": 1,
+        "answered": 4
+      },
+      "pipeline": {
+        "answered": 4,
+        "failed": 1
+      }
+    },
+    "role": {
+      "fixed_evidence": {
+        "answered": 6
+      },
+      "pipeline": {
+        "clarification": 6
+      }
+    },
+    "scope": {
+      "fixed_evidence": {
+        "answered": 6
+      },
+      "pipeline": {
+        "clarification": 6
+      }
+    },
+    "windows": {
+      "fixed_evidence": {
+        "answered": 5,
+        "failed": 1
+      },
+      "pipeline": {
+        "answered": 5,
+        "failed": 1
+      }
+    }
+  },
+  "reference_audit": [
+    {
+      "task_id": "gb-tea-numeric",
+      "citation": "f4f962e334b6f25e4008:E0017",
+      "field": "x0",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "gb-tea-numeric",
+      "citation": "f4f962e334b6f25e4008:E0017",
+      "field": "x1",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "gb-tea-numeric",
+      "citation": "f4f962e334b6f25e4008:E0017",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "gb-tea-windows",
+      "citation": "f4f962e334b6f25e4008:E0017",
+      "field": "share_change_pp",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "gb-tea-windows",
+      "citation": "91431b94242b7e0b896c:E0013",
+      "field": "share_change_pp",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "gb-tea-injection",
+      "citation": "f4f962e334b6f25e4008:E0017",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "us-coffee-numeric",
+      "citation": "5f67a2fff44e7c6bfc82:E0015",
+      "field": "x0",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "us-coffee-numeric",
+      "citation": "5f67a2fff44e7c6bfc82:E0015",
+      "field": "x1",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "us-coffee-numeric",
+      "citation": "5f67a2fff44e7c6bfc82:E0015",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "us-coffee-windows",
+      "citation": "5f67a2fff44e7c6bfc82:E0015",
+      "field": "share_change_pp",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "us-coffee-windows",
+      "citation": "59cded8ddfc6601d97df:E0013",
+      "field": "share_change_pp",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "us-coffee-injection",
+      "citation": "5f67a2fff44e7c6bfc82:E0015",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "cn-cars-windows",
+      "citation": "1b503fb4d1956d1c688b:E0010",
+      "field": "share_change_pp",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "cn-cars-windows",
+      "citation": "1b022a510c9e80d1d5f3:E0009",
+      "field": "share_change_pp",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "cn-cars-injection",
+      "citation": "1b503fb4d1956d1c688b:E0010",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-numeric",
+      "citation": "ea45bf60612be73a074f:E0143",
+      "field": "x0",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-numeric",
+      "citation": "ea45bf60612be73a074f:E0143",
+      "field": "x1",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-numeric",
+      "citation": "ea45bf60612be73a074f:E0143",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-windows",
+      "citation": "ea45bf60612be73a074f:E0143",
+      "field": "share_change_pp",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-windows",
+      "citation": "2bdd1d98893f3f0b2d4a:E0129",
+      "field": "share_change_pp",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-injection",
+      "citation": "ea45bf60612be73a074f:E0143",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-numeric",
+      "citation": "4f8c7448e008c780f1e8:E0001",
+      "field": "base",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-numeric",
+      "citation": "4f8c7448e008c780f1e8:E0001",
+      "field": "end",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-numeric",
+      "citation": "4f8c7448e008c780f1e8:E0001",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-numeric",
+      "citation": "4f8c7448e008c780f1e8:E0002",
+      "field": "base",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-numeric",
+      "citation": "4f8c7448e008c780f1e8:E0002",
+      "field": "end",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-numeric",
+      "citation": "4f8c7448e008c780f1e8:E0002",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-numeric",
+      "citation": "4f8c7448e008c780f1e8:E0003",
+      "field": "base",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-numeric",
+      "citation": "4f8c7448e008c780f1e8:E0003",
+      "field": "end",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-numeric",
+      "citation": "4f8c7448e008c780f1e8:E0003",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-windows",
+      "citation": "4f8c7448e008c780f1e8:E0001",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-windows",
+      "citation": "4f8c7448e008c780f1e8:E0002",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-windows",
+      "citation": "4f8c7448e008c780f1e8:E0003",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-windows",
+      "citation": "dcc9c921ef01df495a04:E0001",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-windows",
+      "citation": "dcc9c921ef01df495a04:E0002",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "export-coffee-windows",
+      "citation": "dcc9c921ef01df495a04:E0003",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "de-cn-tea-numeric",
+      "citation": "9a416c45ef78cc64e9a1:E0002",
+      "field": "base",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "de-cn-tea-numeric",
+      "citation": "9a416c45ef78cc64e9a1:E0002",
+      "field": "end",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "de-cn-tea-numeric",
+      "citation": "9a416c45ef78cc64e9a1:E0002",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "de-cn-tea-windows",
+      "citation": "9a416c45ef78cc64e9a1:E0002",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "de-cn-tea-windows",
+      "citation": "16f8f02b52b1b3031699:E0002",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    },
+    {
+      "task_id": "de-cn-tea-injection",
+      "citation": "9a416c45ef78cc64e9a1:E0002",
+      "field": "growth_percent",
+      "reference_resolvable_and_matches": true
+    }
+  ],
+  "failures": [
+    {
+      "task_id": "ca-cocoa-numeric",
+      "group": "fixed_evidence",
+      "first_response": "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/ca-cocoa-numeric--fixed_evidence.first.json",
+      "offline_replay": {
+        "reproduced": true,
+        "type": "DataError",
+        "message": "引用的数值字段不存在"
+      }
+    },
+    {
+      "task_id": "de-cn-tea-causal",
+      "group": "pipeline",
+      "first_response": "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-causal--pipeline.first.json",
+      "offline_replay": {
+        "reproduced": true,
+        "type": "DataError",
+        "message": "指定供应伙伴工具适用于目标市场模式"
+      }
+    },
+    {
+      "task_id": "de-cn-tea-injection",
+      "group": "pipeline",
+      "first_response": "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-injection--pipeline.first.json",
+      "offline_replay": {
+        "reproduced": true,
+        "type": "DataError",
+        "message": "指定供应伙伴工具适用于目标市场模式"
+      }
+    },
+    {
+      "task_id": "de-cn-tea-numeric",
+      "group": "pipeline",
+      "first_response": "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-numeric--pipeline.first.json",
+      "offline_replay": {
+        "reproduced": true,
+        "type": "DataError",
+        "message": "指定供应伙伴工具适用于目标市场模式"
+      }
+    },
+    {
+      "task_id": "de-cn-tea-windows",
+      "group": "fixed_evidence",
+      "first_response": "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-windows--fixed_evidence.first.json",
+      "offline_replay": {
+        "reproduced": true,
+        "type": "DataError",
+        "message": "引用的数值字段不存在"
+      }
+    },
+    {
+      "task_id": "de-cn-tea-windows",
+      "group": "pipeline",
+      "first_response": "evaluation/deepseek-20261019-remaining-v3/runs/20261019T024522905634Z/de-cn-tea-windows--pipeline.first.json",
+      "offline_replay": {
+        "reproduced": true,
+        "type": "DataError",
+        "message": "指定供应伙伴工具适用于目标市场模式"
+      }
+    }
+  ],
+  "pipeline_status_mismatches": [
+    {
+      "task_id": "ca-cocoa-role",
+      "expected_status": "answered",
+      "actual_status": "clarification"
+    },
+    {
+      "task_id": "cn-cars-role",
+      "expected_status": "answered",
+      "actual_status": "clarification"
+    },
+    {
+      "task_id": "de-cn-tea-causal",
+      "expected_status": "answered",
+      "actual_status": "failed"
+    },
+    {
+      "task_id": "de-cn-tea-injection",
+      "expected_status": "answered",
+      "actual_status": "failed"
+    },
+    {
+      "task_id": "de-cn-tea-numeric",
+      "expected_status": "answered",
+      "actual_status": "failed"
+    },
+    {
+      "task_id": "de-cn-tea-role",
+      "expected_status": "answered",
+      "actual_status": "clarification"
+    },
+    {
+      "task_id": "de-cn-tea-windows",
+      "expected_status": "answered",
+      "actual_status": "failed"
+    },
+    {
+      "task_id": "export-coffee-role",
+      "expected_status": "answered",
+      "actual_status": "clarification"
+    },
+    {
+      "task_id": "gb-tea-role",
+      "expected_status": "answered",
+      "actual_status": "clarification"
+    },
+    {
+      "task_id": "us-coffee-role",
+      "expected_status": "answered",
+      "actual_status": "clarification"
+    }
+  ],
+  "missing_required_numbers": [
+    {
+      "task_id": "ca-cocoa-numeric",
+      "group": "fixed_evidence",
+      "status": "failed",
+      "items": [
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "x0",
+          "present_and_correct": false
+        },
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "x1",
+          "present_and_correct": false
+        },
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "growth_percent",
+          "present_and_correct": false
+        }
+      ]
+    },
+    {
+      "task_id": "de-cn-tea-injection",
+      "group": "pipeline",
+      "status": "failed",
+      "items": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        }
+      ]
+    },
+    {
+      "task_id": "de-cn-tea-numeric",
+      "group": "pipeline",
+      "status": "failed",
+      "items": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "base",
+          "present_and_correct": false
+        },
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "end",
+          "present_and_correct": false
+        },
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        }
+      ]
+    },
+    {
+      "task_id": "de-cn-tea-windows",
+      "group": "fixed_evidence",
+      "status": "failed",
+      "items": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        },
+        {
+          "citation": "16f8f02b52b1b3031699:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        }
+      ]
+    },
+    {
+      "task_id": "de-cn-tea-windows",
+      "group": "pipeline",
+      "status": "failed",
+      "items": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        },
+        {
+          "citation": "16f8f02b52b1b3031699:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        }
+      ]
+    },
+    {
+      "task_id": "export-coffee-windows",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "items": [
+        {
+          "citation": "4f8c7448e008c780f1e8:E0003",
+          "field": "growth_percent",
+          "present_and_correct": false
+        },
+        {
+          "citation": "dcc9c921ef01df495a04:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        }
+      ]
+    }
+  ],
+  "review_type": "automated_and_developer_audit_not_independent_human_review",
+  "live_requests_during_report": 0
+}

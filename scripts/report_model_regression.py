@@ -1,0 +1,108 @@
+"""Seal the completed live regression and create an honest comparison report."""
+import hashlib
+import html
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+SUITE = ROOT / 'evaluation/deepseek-20261019-regression-v2'
+
+
+def read(path):
+    return json.loads(path.read_text(encoding='utf-8'))
+
+
+def write_once(path, value):
+    with path.open('x', encoding='utf-8') as stream:
+        json.dump(value, stream, ensure_ascii=False, indent=2)
+
+
+def main():
+    new = read(ROOT / read(SUITE / 'latest-run.json')['summary'])
+    old_suite = ROOT / 'evaluation/deepseek-20261019-v1'
+    old = read(ROOT / read(old_suite / 'latest-run.json')['summary'])
+    run = SUITE / 'runs' / new['run_id']
+    outputs = sorted(run.glob('*.first.json'))
+    if len(outputs) != 6 or new['budget']['requests'] > 9:
+        raise RuntimeError('Unexpected regression size')
+    for name, digest in read(SUITE / 'freeze.json')['files'].items():
+        if hashlib.sha256((ROOT / name).read_bytes()).hexdigest() != digest:
+            raise RuntimeError('Frozen file changed: ' + name)
+    # Check exact private credential locally without exposing it in output.
+    key = read(ROOT / 'config.local.json').get('api_key', '') if (ROOT / 'config.local.json').exists() else ''
+    sealed = outputs + [run / 'summary.json', SUITE / 'freeze.json']
+    hashes = {}
+    for path in sealed:
+        raw = path.read_bytes()
+        if key and key.encode() in raw:
+            raise RuntimeError('Private credential found; stop delivery')
+        hashes[path.relative_to(ROOT).as_posix()] = hashlib.sha256(raw).hexdigest()
+    write_once(SUITE / 'first-results-seal.json', {
+        'run_id': new['run_id'], 'files': hashes,
+        'note': '首次输出完成后生成的完整性封存，不冒充运行前冻结。原v1首轮结果保持不变。',
+    })
+    write_once(SUITE / 'independent-review-template.json', {
+        'run_id': new['run_id'], 'reviewer_alias': '', 'review_type': 'pending_independent_human_review',
+        'instructions': '复制模板另存后填写；不得改写首次回答。开发者自查不计为独立评价。',
+        'responses': [{
+            'path': p.relative_to(ROOT).as_posix(), 'sha256': hashes[p.relative_to(ROOT).as_posix()],
+            'citation_support': None, 'role_correct': None, 'clarification_adequate': None,
+            'no_overclaim': None, 'wording_precise': None, 'notes': '',
+        } for p in outputs],
+    })
+    observations = {
+        'review_type': 'developer_self_review_not_independent', 'independent_reviews_completed': 0,
+        'findings': [
+            {'task': 'cn-cars-numeric', 'groups': ['pipeline', 'fixed_evidence'],
+             'quote': '德国供应在基期与报告期的金额均高于总体变化幅度',
+             'issue': '将两期金额水平与总体变化幅度作无必要的比较，缺少明确定义，表达不严谨。虽然要求的金额和增长率均匹配参考，也不能据此认定全文语义通过。'},
+            {'task': 'cn-cars-numeric', 'groups': ['pipeline', 'fixed_evidence'],
+             'issue': '正文将对账残差笼统关联到舍入或未列示因素；字段只能确认残差存在，具体构成仍需记录级复核。不能把约七千四百万美元的变化残差直接视为舍入。'},
+        ],
+        'observed_fixes': ['本轮三题未出现无效规划导致的失败或无必要的澄清。',
+                           '两组多国比较回答均明确各国对世界出口，未再写成对华出口。',
+                           '两组均未顺从注入的虚假增长率，给出证据绑定的实际增长率。',
+                           '因果题均说明描述性数据不能证明政策效应或竞争力增强。'],
+    }
+    write_once(SUITE / 'developer-observations.json', observations)
+    lines = ['# 修复后三题真实模型回归报告', '',
+             f"运行ID：`{new['run_id']}`。模型：DeepSeek Flash。", '',
+             '只运行原先暴露问题的三道已见题，分别走自动规划与固定证据流程。共六份首次回答、九次API请求，无自动重试。其余三十三题未调用；原始失败不覆盖。', '',
+             '**用途：开发回归，不能称为独立盲测、泛化准确率或优于通用AI。**', '',
+             '| 流程 | 原协议失败 | 本轮协议失败 | 原要求数值匹配 | 本轮要求数值匹配 |',
+             '| --- | --- | --- | --- | --- |']
+    for group, name in [('pipeline', '自动规划'), ('fixed_evidence', '固定证据')]:
+        a, b = old['totals'][group], new['totals'][group]
+        lines.append(f"| {name} | {a['protocol_failures']}/{a['attempts']} | {b['protocol_failures']}/{b['attempts']} | {a['numeric_items_present_and_correct']}/{a['required_numeric_items']} | {b['numeric_items_present_and_correct']}/{b['required_numeric_items']} |")
+    lines += ['', '协议失败不包含澄清；原自动规划另有一次不必要澄清。本轮六份回答均为answered。数值匹配指要求的引用字段存在且与独立Fraction参考相符，数值由程序绑定，不是模型自行算术准确率。', '',
+              f"费用：按留存的公布价格、不计缓存优惠，估算约 **{new['budget']['estimated_usd']:.6f}美元**，低于0.10美元估算上限；不是账单金额保证。", '',
+              '## 开发者自查', '',
+              '以下为开发者核查，不计作独立人工评价；独立评价完成数仍为零。', '']
+    lines.extend('- ' + item for item in observations['observed_fixes'])
+    lines += ['', '**仍有的问题：**', '']
+    lines.extend('- ' + item['issue'] for item in observations['findings'])
+    lines += ['', '这些措辞问题已保留，本轮不再追加模型调用或挑选重试。后续可单独优化解释质量，再在获授权后验证。', '',
+              '## 可追溯记录', '',
+              '- evaluation/deepseek-20261019-regression-v2/freeze.json：运行前题目、参考和代码哈希，以及frozen目录原件。',
+              '- runs目录：六份首次完整回答、原始请求与响应、耗时和token用量；不包含密钥。',
+              '- first-results-seal.json：运行后输出完整性封存。',
+              '- independent-review-template.json：独立评价待填写模板，不得改写首次结果。',
+              '- developer-observations.json：开发者自查问题，与独立评价分开记录。', '',
+              '旧0.5.0 PDF材料是历史核验稿，尚未同步本轮结果；提交前须合并新版状态。下一步为真实用户试用和独立语义评价。', '']
+    report = ROOT / '研究成果/真实模型试运行'
+    report.mkdir(parents=True, exist_ok=True)
+    (report / '修复后三题回归报告.md').write_text('\n'.join(lines), encoding='utf-8')
+    page = '<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>修复后三题回归报告</title><style>body{max-width:1050px;margin:36px auto;padding:20px;font:16px/1.8 system-ui;color:#264536}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f4f6f0;padding:18px}article{border-top:1px solid #bbc9be;padding-top:20px}</style>'
+    page += '<pre>' + html.escape('\n'.join(lines)) + '</pre><h2>六份首次回答原文</h2>'
+    for path in outputs:
+        payload = read(path)
+        answer = payload['answer']
+        page += '<article><h3>' + html.escape(path.name) + '</h3><pre>'
+        page += html.escape(json.dumps({k: answer[k] for k in ['status', 'claims', 'limitations', 'tool_calls', 'validation'] if k in answer}, ensure_ascii=False, indent=2))
+        page += '</pre></article>'
+    (report / '修复后三题回归报告.html').write_text(page + '</html>', encoding='utf-8')
+    print(json.dumps({'report': str(report / '修复后三题回归报告.md'), 'sealed_responses': len(outputs), 'requests': new['budget']['requests'], 'estimated_usd': new['budget']['estimated_usd'], 'independent_reviews': 0}, ensure_ascii=False))
+
+
+if __name__ == '__main__':
+    main()

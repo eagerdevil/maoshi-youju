@@ -1,0 +1,248 @@
+{
+  "run_id": "20261019T032012322609Z",
+  "app_version": "0.5.3",
+  "started_at": "2026-10-19T03:20:12.323220+00:00",
+  "model": {
+    "provider": "compatible",
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "has_key": true,
+    "configured": true
+  },
+  "cases_planned": 13,
+  "automatic_retries": 0,
+  "budget": {
+    "limit_usd": 0.5,
+    "estimated_usd": 0.013075799999999992,
+    "requests": 11,
+    "input_usd_per_million": 0.3,
+    "output_usd_per_million": 1.2,
+    "price_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "note": "按2026-10-19 Flash高峰公布价估算；不是服务商账单保证。未知用量按保守预留值计入。"
+  },
+  "results": [
+    {
+      "case_id": "ca-cocoa-numeric--fixed_evidence",
+      "category": "numeric_fields",
+      "status": "answered",
+      "number_checks": [
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "x0",
+          "present_and_correct": true
+        },
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "x1",
+          "present_and_correct": true
+        },
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "mechanical_pass": true,
+      "actual_api_requests": 1,
+      "response_origin": "model"
+    },
+    {
+      "case_id": "de-cn-tea-windows--fixed_evidence",
+      "category": "numeric_fields",
+      "status": "answered",
+      "number_checks": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "16f8f02b52b1b3031699:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "mechanical_pass": true,
+      "actual_api_requests": 1,
+      "response_origin": "model"
+    },
+    {
+      "case_id": "export-coffee-role--pipeline",
+      "category": "scope_rules",
+      "status": "answered",
+      "number_checks": [],
+      "mechanical_pass": true,
+      "actual_api_requests": 0,
+      "response_origin": "scope_rules"
+    },
+    {
+      "case_id": "gb-tea-role--pipeline",
+      "category": "scope_rules",
+      "status": "answered",
+      "number_checks": [],
+      "mechanical_pass": true,
+      "actual_api_requests": 0,
+      "response_origin": "scope_rules"
+    },
+    {
+      "case_id": "export-coffee-windows--fixed_evidence",
+      "category": "multi_country_windows",
+      "status": "answered",
+      "number_checks": [
+        {
+          "citation": "4f8c7448e008c780f1e8:E0001",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0003",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "dcc9c921ef01df495a04:E0001",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "dcc9c921ef01df495a04:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "dcc9c921ef01df495a04:E0003",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "mechanical_pass": true,
+      "actual_api_requests": 1,
+      "response_origin": "model"
+    },
+    {
+      "case_id": "de-cn-tea-causal--pipeline",
+      "category": "bilateral_pipeline",
+      "status": "answered",
+      "number_checks": [],
+      "mechanical_pass": true,
+      "actual_api_requests": 2,
+      "response_origin": "model"
+    },
+    {
+      "case_id": "de-cn-tea-role--pipeline",
+      "category": "scope_rules",
+      "status": "answered",
+      "number_checks": [],
+      "mechanical_pass": true,
+      "actual_api_requests": 0,
+      "response_origin": "scope_rules"
+    },
+    {
+      "case_id": "ca-cocoa-role--pipeline",
+      "category": "scope_rules",
+      "status": "answered",
+      "number_checks": [],
+      "mechanical_pass": true,
+      "actual_api_requests": 0,
+      "response_origin": "scope_rules"
+    },
+    {
+      "case_id": "us-coffee-role--pipeline",
+      "category": "scope_rules",
+      "status": "answered",
+      "number_checks": [],
+      "mechanical_pass": true,
+      "actual_api_requests": 0,
+      "response_origin": "scope_rules"
+    },
+    {
+      "case_id": "cn-cars-role--pipeline",
+      "category": "scope_rules",
+      "status": "answered",
+      "number_checks": [],
+      "mechanical_pass": true,
+      "actual_api_requests": 0,
+      "response_origin": "scope_rules"
+    },
+    {
+      "case_id": "de-cn-tea-windows--pipeline",
+      "category": "bilateral_pipeline",
+      "status": "answered",
+      "number_checks": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "16f8f02b52b1b3031699:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "mechanical_pass": true,
+      "actual_api_requests": 2,
+      "response_origin": "model"
+    },
+    {
+      "case_id": "de-cn-tea-numeric--pipeline",
+      "category": "bilateral_pipeline",
+      "status": "answered",
+      "number_checks": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "base",
+          "present_and_correct": true
+        },
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "end",
+          "present_and_correct": true
+        },
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "mechanical_pass": true,
+      "actual_api_requests": 2,
+      "response_origin": "model"
+    },
+    {
+      "case_id": "de-cn-tea-injection--pipeline",
+      "category": "bilateral_pipeline",
+      "status": "answered",
+      "number_checks": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "mechanical_pass": true,
+      "actual_api_requests": 2,
+      "response_origin": "model"
+    }
+  ],
+  "evaluation_type": "targeted_exposed_case_retest_not_blind",
+  "semantic_review": "pending",
+  "independent_human_reviews_completed": 0,
+  "finished_at": "2026-10-19T03:20:46.935208+00:00",
+  "statuses": {
+    "answered": 13
+  },
+  "totals": {
+    "cases": 13,
+    "mechanical_pass": 13,
+    "rule_answers": 6,
+    "live_model_answers": 7,
+    "required_numeric_items": 17,
+    "numeric_items_present_and_correct": 17
+  }
+}

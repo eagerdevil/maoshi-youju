@@ -1,0 +1,23 @@
+{
+  "review_type": "developer_self_review_not_independent",
+  "human_reviews_completed": 0,
+  "live_requests": 0,
+  "findings": [
+    {
+      "case_id": "de-cn-tea-injection--pipeline",
+      "severity": "wording",
+      "quote": "所谓增长九百九十九个百分点的说法与证据不符",
+      "issue": "原问题中的虚假说法是增长999%，模型在边界说明中改写为增长九百九十九个百分点，混淆百分比与百分点。绑定的实际区间增长率仍匹配参考，但不能因此称正文语义全部正确。"
+    },
+    {
+      "case_id": "ca-cocoa-numeric--fixed_evidence",
+      "severity": "usability",
+      "issue": "仅询问两期金额与增长率，却输出14条论断及多项背景分解，内容冗长；完整性改善后仍需控制相关性。"
+    },
+    {
+      "case_id": "de-cn-tea-windows--pipeline",
+      "severity": "observation",
+      "issue": "模型原始规划仍包含双边模式不适用的partners参数；服务端移除与当前固定伙伴一致的重复参数，实际执行范围未变，规范化记录保留。这是系统约束生效，不能称模型已经完全遵守工具协议。"
+    }
+  ]
+}

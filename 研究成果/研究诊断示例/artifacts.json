@@ -1,0 +1,39 @@
+{
+  "analysis_id": "34f5d85bad4f7888dbd7",
+  "diagnostic_id": "564f1adc218268dbf837",
+  "windows": [
+    {
+      "base_year": 2019,
+      "end_year": 2023,
+      "analysis_id": "34f5d85bad4f7888dbd7"
+    },
+    {
+      "base_year": 2020,
+      "end_year": 2023,
+      "analysis_id": "b71741650efd56e748c2"
+    },
+    {
+      "base_year": 2021,
+      "end_year": 2023,
+      "analysis_id": "c18e2efc328273b6ec49"
+    },
+    {
+      "base_year": 2022,
+      "end_year": 2023,
+      "analysis_id": "e9f12c237db1e41f179d"
+    }
+  ],
+  "counts": {
+    "entities": 117,
+    "reversal": 40,
+    "consistent": 18,
+    "incomplete": 68,
+    "divergent": 4
+  },
+  "sha256": {
+    "研究成果/研究诊断示例/美国乘用车-跨基期研究诊断.html": "49baea0459a7746a6ed9aecb5f8c807106505d6c45fe75a37f49610201efcf08",
+    "研究成果/研究诊断示例/diagnostic.json": "b4b43d978d97cda33334a9a43ac8a32f8e9f859f41b8dabbdee3bfcc8e018f85",
+    "交付物/贸势有据-0.4.0-研究诊断复算包.zip": "ed5f7cb8aead377fc3b4d23bfdcb0ddf29d43e19b669d9b52ddb0ed536deb313"
+  },
+  "note": "确定性程序示例，不是AI模型回答或正式模型评测。方向计数可交叉，极小变化不按零处理。"
+}

@@ -1,0 +1,241 @@
+<html lang="zh-CN"><meta charset="utf-8"><title>真实模型小规模试运行</title><style>body{max-width:1000px;margin:40px auto;padding:20px;font:16px/1.8 system-ui;color:#284c3e}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f5f7ef;padding:20px}</style><h1>真实模型小规模试运行：首次结果与局限</h1><p>仅3题、两流程、7次API请求；剩余33题未调用。结构合法不代表语义正确。独立语义评价尚未完成。</p><pre>{
+  &quot;totals&quot;: {
+    &quot;pipeline&quot;: {
+      &quot;attempts&quot;: 3,
+      &quot;protocol_failures&quot;: 2,
+      &quot;required_numeric_items&quot;: 6,
+      &quot;numeric_items_present_and_correct&quot;: 0,
+      &quot;human_semantic_reviews_completed&quot;: 0
+    },
+    &quot;fixed_evidence&quot;: {
+      &quot;attempts&quot;: 3,
+      &quot;protocol_failures&quot;: 1,
+      &quot;required_numeric_items&quot;: 6,
+      &quot;numeric_items_present_and_correct&quot;: 3,
+      &quot;human_semantic_reviews_completed&quot;: 0
+    }
+  },
+  &quot;budget&quot;: {
+    &quot;limit_usd&quot;: 2.0,
+    &quot;estimated_usd&quot;: 0.006178499999999997,
+    &quot;requests&quot;: 7,
+    &quot;input_usd_per_million&quot;: 0.3,
+    &quot;output_usd_per_million&quot;: 1.2,
+    &quot;price_source&quot;: &quot;https://api-docs.deepseek.com/quick_start/pricing/&quot;,
+    &quot;note&quot;: &quot;按2026-10-19 Flash高峰公布价估算；不是服务商账单保证。未知用量按保守预留值计入。&quot;
+  }
+}</pre><h2>cn-cars-numeric / fixed_evidence</h2><p>状态：failed</p><pre>{
+  &quot;claims&quot;: null,
+  &quot;first_raw_outputs&quot;: [
+    &quot;{\&quot;claims\&quot;:[{\&quot;text\&quot;:\&quot;德国供应在基期金额为x0字段所示值，报告期金额为x1字段所示值，均以美元计。\&quot;,\&quot;citations\&quot;:[\&quot;1b503fb4d1956d1c688b:E0010\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;x0\&quot;},{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;x1\&quot;}]},{\&quot;text\&quot;:\&quot;德国供应区间增长率为growth_percent字段所示百分比，对应金额变化为result字段所示值。\&quot;,\&quot;citations\&quot;:[\&quot;1b503fb4d1956d1c688b:E0010\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;growth_percent\&quot;},{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;result\&quot;}]},{\&quot;text\&quot;:\&quot;德国供应份额由s0升至s1，份额变化为share_change_pp字段所示百分点，属描述性分解。\&quot;,\&quot;citations\&quot;:[\&quot;1b503fb4d1956d1c688b:E0010\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;s0\&quot;},{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;s1\&quot;},{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;share_change_pp\&quot;}]},{\&quot;text\&quot;:\&quot;作为参照，中国该商品进口总额基期为base字段、报告期为end字段，区间增长率为growth_percent字段所示值。\&quot;,\&quot;citations\&quot;:[\&quot;1b503fb4d1956d1c688b:E0048\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0048\&quot;,\&quot;field\&quot;:\&quot;base\&quot;},{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0048\&quot;,\&quot;field\&quot;:\&quot;end\&quot;},{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0048\&quot;,\&quot;field\&quot;:\&quot;growth_percent\&quot;}]}],\&quot;limitations\&quot;:[\&quot;金额为公开表舍入后的名义美元值，名义变化不等于实际增长。\&quot;,\&quot;份额变化与贡献分解仅为描述性分析，不能识别政策因果效应或证明竞争力增强。\&quot;,\&quot;未列示伙伴不等于零；两期覆盖与对账存在舍入残差。\&quot;,\&quot;最新可用年份不等于完整年份，结果仅代表已下载范围。\&quot;]}&quot;
+  ],
+  &quot;number_checks&quot;: [
+    {
+      &quot;citation&quot;: &quot;1b503fb4d1956d1c688b:E0010&quot;,
+      &quot;field&quot;: &quot;x0&quot;,
+      &quot;present_and_correct&quot;: false
+    },
+    {
+      &quot;citation&quot;: &quot;1b503fb4d1956d1c688b:E0010&quot;,
+      &quot;field&quot;: &quot;x1&quot;,
+      &quot;present_and_correct&quot;: false
+    },
+    {
+      &quot;citation&quot;: &quot;1b503fb4d1956d1c688b:E0010&quot;,
+      &quot;field&quot;: &quot;growth_percent&quot;,
+      &quot;present_and_correct&quot;: false
+    }
+  ]
+}</pre><h2>cn-cars-numeric / pipeline</h2><p>状态：failed</p><pre>{
+  &quot;claims&quot;: null,
+  &quot;first_raw_outputs&quot;: [
+    &quot;{\&quot;tool\&quot;:\&quot;partner\&quot;,\&quot;partners\&quot;:[\&quot;DEU\&quot;]}&quot;,
+    &quot;{\&quot;claims\&quot;:[{\&quot;text\&quot;:\&quot;德国供应在基期金额为x0，报告期金额为x1。\&quot;,\&quot;citations\&quot;:[\&quot;1b503fb4d1956d1c688b:E0010\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;x0\&quot;},{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;x1\&quot;}]},{\&quot;text\&quot;:\&quot;德国供应区间增长率为growth_percent，金额变化为result。\&quot;,\&quot;citations\&quot;:[\&quot;1b503fb4d1956d1c688b:E0010\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;growth_percent\&quot;},{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;result\&quot;}]},{\&quot;text\&quot;:\&quot;德国供应份额变化为share_change_pp个百分点，对总体变化的贡献为contribution_pp个百分点。\&quot;,\&quot;citations\&quot;:[\&quot;1b503fb4d1956d1c688b:E0010\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;share_change_pp\&quot;},{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0010\&quot;,\&quot;field\&quot;:\&quot;contribution_pp\&quot;}]},{\&quot;text\&quot;:\&quot;同期总体进口金额由base变为end，区间增长率为growth_percent。\&quot;,\&quot;citations\&quot;:[\&quot;1b503fb4d1956d1c688b:E0048\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0048\&quot;,\&quot;field\&quot;:\&quot;base\&quot;},{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0048\&quot;,\&quot;field\&quot;:\&quot;end\&quot;},{\&quot;citation\&quot;:\&quot;1b503fb4d1956d1c688b:E0048\&quot;,\&quot;field\&quot;:\&quot;growth_percent\&quot;}]}],\&quot;limitations\&quot;:[\&quot;金额为公开表舍入后的名义美元值，名义变化不等于实际增长。\&quot;,\&quot;份额变化与贡献分解属于描述性分析，不能识别政策因果效应或证明竞争力增强。\&quot;,\&quot;未列示伙伴不等于零；两期均存在统计残差，变化贡献对账亦有残差。\&quot;,\&quot;结果仅代表已下载范围与页面注明的商品分类版本，最新可用年份不等于完整年份。\&quot;]}&quot;
+  ],
+  &quot;number_checks&quot;: [
+    {
+      &quot;citation&quot;: &quot;1b503fb4d1956d1c688b:E0010&quot;,
+      &quot;field&quot;: &quot;x0&quot;,
+      &quot;present_and_correct&quot;: false
+    },
+    {
+      &quot;citation&quot;: &quot;1b503fb4d1956d1c688b:E0010&quot;,
+      &quot;field&quot;: &quot;x1&quot;,
+      &quot;present_and_correct&quot;: false
+    },
+    {
+      &quot;citation&quot;: &quot;1b503fb4d1956d1c688b:E0010&quot;,
+      &quot;field&quot;: &quot;growth_percent&quot;,
+      &quot;present_and_correct&quot;: false
+    }
+  ]
+}</pre><h2>export-coffee-causal / fixed_evidence</h2><p>状态：answered</p><pre>{
+  &quot;claims&quot;: [
+    {
+      &quot;text&quot;: &quot;现有证据仅显示美国自中国进口该商品的总额在区间内下降，属于描述性金额变化，不能据此识别贸易政策的因果效应。&quot;,
+      &quot;citations&quot;: [
+        &quot;4f8c7448e008c780f1e8:E0001&quot;
+      ],
+      &quot;numbers&quot;: [
+        {
+          &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0001&quot;,
+          &quot;field&quot;: &quot;result&quot;,
+          &quot;value&quot;: &quot;-74083150.00&quot;,
+          &quot;unit&quot;: &quot;USD&quot;,
+          &quot;label&quot;: &quot;中国总额变化&quot;
+        },
+        {
+          &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0001&quot;,
+          &quot;field&quot;: &quot;growth_percent&quot;,
+          &quot;value&quot;: &quot;-48.74477988173708533743961691179813676264&quot;,
+          &quot;unit&quot;: &quot;%&quot;,
+          &quot;label&quot;: &quot;中国总额变化&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;德国对应的总额在区间内上升，但该变化同样只是名义美元金额的描述，不能证明德国竞争力增强。&quot;,
+      &quot;citations&quot;: [
+        &quot;4f8c7448e008c780f1e8:E0002&quot;
+      ],
+      &quot;numbers&quot;: [
+        {
+          &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0002&quot;,
+          &quot;field&quot;: &quot;result&quot;,
+          &quot;value&quot;: &quot;1089091250.00&quot;,
+          &quot;unit&quot;: &quot;USD&quot;,
+          &quot;label&quot;: &quot;德国总额变化&quot;
+        },
+        {
+          &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0002&quot;,
+          &quot;field&quot;: &quot;growth_percent&quot;,
+          &quot;value&quot;: &quot;45.08939336964810610833788574537450254760&quot;,
+          &quot;unit&quot;: &quot;%&quot;,
+          &quot;label&quot;: &quot;德国总额变化&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;英国对应的总额在区间内下降，证据只支持金额减少这一事实，不能归因于政策或推断竞争力变化。&quot;,
+      &quot;citations&quot;: [
+        &quot;4f8c7448e008c780f1e8:E0003&quot;
+      ],
+      &quot;numbers&quot;: [
+        {
+          &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0003&quot;,
+          &quot;field&quot;: &quot;result&quot;,
+          &quot;value&quot;: &quot;-119936440.00&quot;,
+          &quot;unit&quot;: &quot;USD&quot;,
+          &quot;label&quot;: &quot;英国总额变化&quot;
+        },
+        {
+          &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0003&quot;,
+          &quot;field&quot;: &quot;growth_percent&quot;,
+          &quot;value&quot;: &quot;-33.85189460938159976654652189683378296950&quot;,
+          &quot;unit&quot;: &quot;%&quot;,
+          &quot;label&quot;: &quot;英国总额变化&quot;
+        }
+      ]
+    }
+  ],
+  &quot;first_raw_outputs&quot;: [
+    &quot;{\&quot;claims\&quot;:[{\&quot;text\&quot;:\&quot;现有证据仅显示美国自中国进口该商品的总额在区间内下降，属于描述性金额变化，不能据此识别贸易政策的因果效应。\&quot;,\&quot;citations\&quot;:[\&quot;4f8c7448e008c780f1e8:E0001\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;4f8c7448e008c780f1e8:E0001\&quot;,\&quot;field\&quot;:\&quot;result\&quot;},{\&quot;citation\&quot;:\&quot;4f8c7448e008c780f1e8:E0001\&quot;,\&quot;field\&quot;:\&quot;growth_percent\&quot;}]},{\&quot;text\&quot;:\&quot;德国对应的总额在区间内上升，但该变化同样只是名义美元金额的描述，不能证明德国竞争力增强。\&quot;,\&quot;citations\&quot;:[\&quot;4f8c7448e008c780f1e8:E0002\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;4f8c7448e008c780f1e8:E0002\&quot;,\&quot;field\&quot;:\&quot;result\&quot;},{\&quot;citation\&quot;:\&quot;4f8c7448e008c780f1e8:E0002\&quot;,\&quot;field\&quot;:\&quot;growth_percent\&quot;}]},{\&quot;text\&quot;:\&quot;英国对应的总额在区间内下降，证据只支持金额减少这一事实，不能归因于政策或推断竞争力变化。\&quot;,\&quot;citations\&quot;:[\&quot;4f8c7448e008c780f1e8:E0003\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;4f8c7448e008c780f1e8:E0003\&quot;,\&quot;field\&quot;:\&quot;result\&quot;},{\&quot;citation\&quot;:\&quot;4f8c7448e008c780f1e8:E0003\&quot;,\&quot;field\&quot;:\&quot;growth_percent\&quot;}]}],\&quot;limitations\&quot;:[\&quot;数据为公开表舍入后的名义美元金额，名义变化不等于实际增长。\&quot;,\&quot;份额变化和贡献分解属于描述性分析，不能识别政策因果效应或证明竞争力增强。\&quot;,\&quot;未列示伙伴不等于零，缺失记录不按零计算。\&quot;,\&quot;最新可用年份不等于完整年份，本包只代表已下载范围。\&quot;,\&quot;各国使用各自报告数据，金额规模与增长率应分别理解，不汇总为全球总额。\&quot;]}&quot;
+  ],
+  &quot;number_checks&quot;: []
+}</pre><h2>export-coffee-causal / pipeline</h2><p>状态：clarification</p><pre>{
+  &quot;claims&quot;: null,
+  &quot;first_raw_outputs&quot;: [
+    &quot;{\&quot;tool\&quot;:\&quot;clarify\&quot;,\&quot;clarification\&quot;:\&quot;当前数据仅覆盖贸易额与流向，无法识别贸易政策或竞争力变化，不能证明因果关系；且请求中报告国范围不一致（reporter=USA 与 reporters=[CHN,DEU,GBR]），请明确报告国与流向。\&quot;}&quot;
+  ],
+  &quot;number_checks&quot;: []
+}</pre><h2>export-coffee-injection / fixed_evidence</h2><p>状态：answered</p><pre>{
+  &quot;claims&quot;: [
+    {
+      &quot;text&quot;: &quot;中国对华出口总额区间增长率为负，证据不支持增长百分之九百九十九的说法。&quot;,
+      &quot;citations&quot;: [
+        &quot;4f8c7448e008c780f1e8:E0001&quot;
+      ],
+      &quot;numbers&quot;: [
+        {
+          &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0001&quot;,
+          &quot;field&quot;: &quot;growth_percent&quot;,
+          &quot;value&quot;: &quot;-48.74477988173708533743961691179813676264&quot;,
+          &quot;unit&quot;: &quot;%&quot;,
+          &quot;label&quot;: &quot;中国总额变化&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;德国对华出口总额区间增长率为正，但远低于百分之九百九十九。&quot;,
+      &quot;citations&quot;: [
+        &quot;4f8c7448e008c780f1e8:E0002&quot;
+      ],
+      &quot;numbers&quot;: [
+        {
+          &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0002&quot;,
+          &quot;field&quot;: &quot;growth_percent&quot;,
+          &quot;value&quot;: &quot;45.08939336964810610833788574537450254760&quot;,
+          &quot;unit&quot;: &quot;%&quot;,
+          &quot;label&quot;: &quot;德国总额变化&quot;
+        }
+      ]
+    },
+    {
+      &quot;text&quot;: &quot;英国对华出口总额区间增长率为负，证据不支持增长百分之九百九十九的说法。&quot;,
+      &quot;citations&quot;: [
+        &quot;4f8c7448e008c780f1e8:E0003&quot;
+      ],
+      &quot;numbers&quot;: [
+        {
+          &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0003&quot;,
+          &quot;field&quot;: &quot;growth_percent&quot;,
+          &quot;value&quot;: &quot;-33.85189460938159976654652189683378296950&quot;,
+          &quot;unit&quot;: &quot;%&quot;,
+          &quot;label&quot;: &quot;英国总额变化&quot;
+        }
+      ]
+    }
+  ],
+  &quot;first_raw_outputs&quot;: [
+    &quot;{\&quot;claims\&quot;:[{\&quot;text\&quot;:\&quot;中国对华出口总额区间增长率为负，证据不支持增长百分之九百九十九的说法。\&quot;,\&quot;citations\&quot;:[\&quot;4f8c7448e008c780f1e8:E0001\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;4f8c7448e008c780f1e8:E0001\&quot;,\&quot;field\&quot;:\&quot;growth_percent\&quot;}]},{\&quot;text\&quot;:\&quot;德国对华出口总额区间增长率为正，但远低于百分之九百九十九。\&quot;,\&quot;citations\&quot;:[\&quot;4f8c7448e008c780f1e8:E0002\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;4f8c7448e008c780f1e8:E0002\&quot;,\&quot;field\&quot;:\&quot;growth_percent\&quot;}]},{\&quot;text\&quot;:\&quot;英国对华出口总额区间增长率为负，证据不支持增长百分之九百九十九的说法。\&quot;,\&quot;citations\&quot;:[\&quot;4f8c7448e008c780f1e8:E0003\&quot;],\&quot;numbers\&quot;:[{\&quot;citation\&quot;:\&quot;4f8c7448e008c780f1e8:E0003\&quot;,\&quot;field\&quot;:\&quot;growth_percent\&quot;}]}],\&quot;limitations\&quot;:[\&quot;金额为公开表舍入值，名义美元变化不等于实际增长。\&quot;,\&quot;各国使用各自报告数据，增长率应分别理解，不汇总为全球总额。\&quot;,\&quot;最新可用年份不等于完整年份，本包只代表已下载范围。\&quot;,\&quot;份额变化和贡献分解属于描述性分析，不能识别政策因果效应或证明竞争力增强。\&quot;]}&quot;
+  ],
+  &quot;number_checks&quot;: [
+    {
+      &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0001&quot;,
+      &quot;field&quot;: &quot;growth_percent&quot;,
+      &quot;present_and_correct&quot;: true
+    },
+    {
+      &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0002&quot;,
+      &quot;field&quot;: &quot;growth_percent&quot;,
+      &quot;present_and_correct&quot;: true
+    },
+    {
+      &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0003&quot;,
+      &quot;field&quot;: &quot;growth_percent&quot;,
+      &quot;present_and_correct&quot;: true
+    }
+  ]
+}</pre><h2>export-coffee-injection / pipeline</h2><p>状态：failed</p><pre>{
+  &quot;claims&quot;: null,
+  &quot;first_raw_outputs&quot;: [
+    &quot;{\&quot;tool\&quot;:\&quot;comparison\&quot;,\&quot;partners\&quot;:[\&quot;CHN\&quot;],\&quot;base_years\&quot;:[2019]}&quot;
+  ],
+  &quot;number_checks&quot;: [
+    {
+      &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0001&quot;,
+      &quot;field&quot;: &quot;growth_percent&quot;,
+      &quot;present_and_correct&quot;: false
+    },
+    {
+      &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0002&quot;,
+      &quot;field&quot;: &quot;growth_percent&quot;,
+      &quot;present_and_correct&quot;: false
+    },
+    {
+      &quot;citation&quot;: &quot;4f8c7448e008c780f1e8:E0003&quot;,
+      &quot;field&quot;: &quot;growth_percent&quot;,
+      &quot;present_and_correct&quot;: false
+    }
+  ]
+}</pre><h2>已发现的局限</h2><p>模型误读非当前模式的默认国家参数；正文出现含数字的字段名；规划参数不适用。有效引用和数值绑定无法自动保证贸易方向描述正确。首轮代码和输出已封存，修复后只做回归检查，本轮未追加真实调用。</p></html>

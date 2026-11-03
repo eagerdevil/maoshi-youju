@@ -1,0 +1,18 @@
+{
+  "files": {
+    "evaluation/deepseek-20261019-regression-v2/tasks.json": "15d5d050766410b518f4f6f4ad1c1fc273ed743c0314b3ae393a254eb8976132",
+    "evaluation/deepseek-20261019-regression-v2/reference.json": "ad67e970a201887c3f7476f2e2a23e536faacf2416bd71e9cb6cebc9f46cb4af",
+    "evaluation/deepseek-20261019-regression-v2/protocol.json": "4918e7fe53c1c90e27d09f664d6b36b62b7d275810eb528fa174849b7c5b68ee",
+    "backend/services.py": "e5f2732fb067623645b6f3945ff4567fdd5a0591b05bb78d5f649127e3ea92a8",
+    "backend/evidence_tools.py": "2da1f8158e2724cdbbc036cb2875abb94f243568cd9471267d9b450956e39742",
+    "backend/model_runtime.py": "84fd2dad922ad4c999e2a517a10c2b7291401a1fda7af2fdc3b1a5b3ff69dd66",
+    "backend/analysis.py": "5b6479fd24a635fef0afd1f1728b0c0557cd24c3490ebb9b14728be0a541e8d7",
+    "backend/data.py": "4e052278aedf807092e937cd03fed7315bbbabd7613ccc84f63be3fb83da3d43",
+    "backend/__init__.py": "7e8717b6338f038c5d22603a8086ee8ee7474c7e2806c6f477732eb4e94caf28",
+    "data/processed/wits-core.csv": "ea43cb7434ed214df6443682975026e5c0c44b999c9f286475e06419c8d57d93",
+    "data/processed/wits-canada-cocoa.csv": "2ae0866070cdba80e523fb1774b8ba68fd23f288a47e2dc2294e6f240d3072cc",
+    "scripts/run_model_evaluation.py": "fd2a79c38750a3a1ec50aecc1fca3395d205210c841527eb87d6ce41ce595b0f",
+    "scripts/prepare_model_regression.py": "8b46997bb96a6afa68a43c6b5d234a1fee4e12067efa57a4f3bf390e90163125"
+  },
+  "note": "运行前冻结；修改代码必须另建版本，旧输出不得覆盖。"
+}

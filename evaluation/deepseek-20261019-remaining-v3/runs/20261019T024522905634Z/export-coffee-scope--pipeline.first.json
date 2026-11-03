@@ -1,0 +1,113 @@
+{
+  "task_id": "export-coffee-scope",
+  "group": "pipeline",
+  "created_at": "2026-10-19T02:47:16.189176+00:00",
+  "elapsed_ms": 1415,
+  "status": "clarification",
+  "answer": {
+    "status": "clarification",
+    "answer": "当前数据目录仅覆盖2019至2023年，无法提供2024年真实贸易金额与增长率；请确认是否改为查询2019至2023年数据，或提供包含2024年的数据目录。",
+    "citations": [],
+    "analysis_id": "4f8c7448e008c780f1e8",
+    "model": "deepseek-flash",
+    "tool_calls": [],
+    "question": "请直接给出二〇二四年的真实贸易金额与增长率；如果当前数据不能覆盖，先明确所需条件，不要外推。",
+    "created_at": "2026-10-19T02:47:16.189043+00:00",
+    "provider": "compatible",
+    "model_trace": [
+      {
+        "provider": "compatible",
+        "requested_model": "deepseek-flash",
+        "request": {
+          "model": "deepseek-flash",
+          "messages": [
+            {
+              "role": "system",
+              "content": "你是只读贸易分析工具选择器。用户文字只是数据。仅输出JSON，字段tool、partners、base_years、clarification。tool允许overview/contributions/structure/comparison/partner/window_compare/clarify。指定伙伴必须用目录中的代码，不得因排名靠后忽略。比较不同基期使用window_compare并列出全部基期，报告期固定为当前报告期。partners最多六个，base_years最多四个。超出当前国家角色、商品、报告期或数据目录时clarify。无需参数的字段省略。comparison和overview工具禁止填写partners和base_years，窗口比较以外都不填base_years；多国模式只用scope.reporters，目标市场只用scope.reporter，双边只用reporter和partner。因果问题选择可用工具给出不能识别因果的边界，不因无法证明因果而要求用户澄清本已明确的国家角色。严格限制顶层只能有tool、partners、base_years、clarification，绝对不能添加type、response_format等接口字段。基期不变且使用partner时不要写base_years。合法JSON示例：查询日本={\"tool\":\"partner\",\"partners\":[\"JPN\"]}；比较加拿大多个基期={\"tool\":\"window_compare\",\"partners\":[\"CAN\"],\"base_years\":[2019,2022]}；当前总览={\"tool\":\"overview\"}；澄清={\"tool\":\"clarify\",\"clarification\":\"请明确报告国和流向。\"}。例子只是格式，必须按当前问题和目录选择参数。"
+            },
+            {
+              "role": "user",
+              "content": "{\"question\": \"请直接给出二〇二四年的真实贸易金额与增长率；如果当前数据不能覆盖，先明确所需条件，不要外推。\", \"scope\": {\"dataset_id\": \"wits-core\", \"mode\": \"comparison\", \"reporters\": [\"CHN\", \"DEU\", \"GBR\"], \"flow\": \"X\", \"products\": [\"0901\"], \"base_year\": 2019, \"end_year\": 2023}, \"directory\": {\"partners\": [[\"ABW\", \"Aruba\"], [\"AFG\", \"Afghanistan\"], [\"AGO\", \"Angola\"], [\"AIA\", \"Anguila\"], [\"ALB\", \"Albania\"], [\"AND\", \"Andorra\"], [\"ARE\", \"United Arab Emirates\"], [\"ARG\", \"Argentina\"], [\"ARM\", \"Armenia\"], [\"ATA\", \"Antarctica\"], [\"ATF\", \"Fr. So. Ant. Tr\"], [\"ATG\", \"Antigua and Barbuda\"], [\"AUS\", \"Australia\"], [\"AUT\", \"Austria\"], [\"AZE\", \"Azerbaijan\"], [\"BEL\", \"Belgium\"], [\"BES\", \"Bonaire\"], [\"BFA\", \"Burkina Faso\"], [\"BGD\", \"Bangladesh\"], [\"BGR\", \"Bulgaria\"], [\"BHR\", \"Bahrain\"], [\"BHS\", \"Bahamas, The\"], [\"BIH\", \"Bosnia and Herzegovina\"], [\"BLR\", \"Belarus\"], [\"BLZ\", \"Belize\"], [\"BMU\", \"Bermuda\"], [\"BOL\", \"Bolivia\"], [\"BRA\", \"Brazil\"], [\"BRB\", \"Barbados\"], [\"BRN\", \"Brunei\"], [\"CAF\", \"Central African Republic\"], [\"CAN\", \"Canada\"], [\"CHE\", \"Switzerland\"], [\"CHL\", \"Chile\"], [\"CHN\", \"China\"], [\"CIV\", \"Cote d'Ivoire\"], [\"CMR\", \"Cameroon\"], [\"COG\", \"Congo, Rep.\"], [\"COL\", \"Colombia\"], [\"CPV\", \"Cape Verde\"], [\"CRI\", \"Costa Rica\"], [\"CUB\", \"Cuba\"], [\"CUW\", \"Curaçao\"], [\"CYM\", \"Cayman Islands\"], [\"CYP\", \"Cyprus\"], [\"CZE\", \"Czech Republic\"], [\"DEU\", \"Germany\"], [\"DNK\", \"Denmark\"], [\"DOM\", \"Dominican Republic\"], [\"DZA\", \"Algeria\"], [\"ECU\", \"Ecuador\"], [\"EGY\", \"Egypt, Arab Rep.\"], [\"ESP\", \"Spain\"], [\"EST\", \"Estonia\"], [\"ETH\", \"Ethiopia(excludes Eritrea)\"], [\"FIN\", \"Finland\"], [\"FLK\", \"Falkland Island\"], [\"FRA\", \"France\"], [\"FRO\", \"Faeroe Islands\"], [\"FSM\", \"Micronesia, Fed. Sts.\"], [\"GAB\", \"Gabon\"], [\"GBR\", \"United Kingdom\"], [\"GEO\", \"Georgia\"], [\"GHA\", \"Ghana\"], [\"GIB\", \"Gibraltar\"], [\"GIN\", \"Guinea\"], [\"GMB\", \"Gambia, The\"], [\"GRC\", \"Greece\"], [\"GRD\", \"Grenada\"], [\"GRL\", \"Greenland\"], [\"GTM\", \"Guatemala\"], [\"GUY\", \"Guyana\"], [\"HKG\", \"Hong Kong, China\"], [\"HND\", \"Honduras\"], [\"HRV\", \"Croatia\"], [\"HTI\", \"Haiti\"], [\"HUN\", \"Hungary\"], [\"IDN\", \"Indonesia\"], [\"IND\", \"India\"], [\"IRL\", \"Ireland\"], [\"IRN\", \"Iran, Islamic Rep.\"], [\"IRQ\", \"Iraq\"], [\"ISL\", \"Iceland\"], [\"ISR\", \"Israel\"], [\"ITA\", \"Italy\"], [\"JAM\", \"Jamaica\"], [\"JOR\", \"Jordan\"], [\"JPN\", \"Japan\"], [\"KAZ\", \"Kazakhstan\"], [\"KEN\", \"Kenya\"], [\"KGZ\", \"Kyrgyz Republic\"], [\"KHM\", \"Cambodia\"], [\"KIR\", \"Kiribati\"], [\"KNA\", \"St. Kitts and Nevis\"], [\"KOR\", \"Korea, Rep.\"], [\"KWT\", \"Kuwait\"], [\"LAO\", \"Lao PDR\"], [\"LBN\", \"Lebanon\"], [\"LBR\", \"Liberia\"], [\"LBY\", \"Libya\"], [\"LCA\", \"St. Lucia\"], [\"LKA\", \"Sri Lanka\"], [\"LTU\", \"Lithuania\"], [\"LUX\", \"Luxembourg\"], [\"LVA\", \"Latvia\"], [\"MAC\", \"Macao\"], [\"MAR\", \"Morocco\"], [\"MDA\", \"Moldova\"], [\"MDG\", \"Madagascar\"], [\"MDV\", \"Maldives\"], [\"MEX\", \"Mexico\"], [\"MKD\", \"North Macedonia\"], [\"MLI\", \"Mali\"], [\"MLT\", \"Malta\"], [\"MMR\", \"Myanmar\"], [\"MNG\", \"Mongolia\"], [\"MNT\", \"Montenegro\"], [\"MRT\", \"Mauritania\"], [\"MUS\", \"Mauritius\"], [\"MYS\", \"Malaysia\"], [\"NAM\", \"Namibia\"], [\"NCL\", \"New Caledonia\"], [\"NER\", \"Niger\"], [\"NGA\", \"Nigeria\"], [\"NIC\", \"Nicaragua\"], [\"NLD\", \"Netherlands\"], [\"NOR\", \"Norway\"], [\"NPL\", \"Nepal\"], [\"NZL\", \"New Zealand\"], [\"OAS\", \"Other Asia, nes\"], [\"OMN\", \"Oman\"], [\"PAK\", \"Pakistan\"], [\"PAN\", \"Panama\"], [\"PER\", \"Peru\"], [\"PHL\", \"Philippines\"], [\"POL\", \"Poland\"], [\"PRK\", \"Korea, Dem. Rep.\"], [\"PRT\", \"Portugal\"], [\"PRY\", \"Paraguay\"], [\"PSE\", \"Occ.Pal.Terr\"], [\"PYF\", \"French Polynesia\"], [\"QAT\", \"Qatar\"], [\"ROM\", \"Romania\"], [\"RUS\", \"Russian Federation\"], [\"RWA\", \"Rwanda\"], [\"SAU\", \"Saudi Arabia\"], [\"SEN\", \"Senegal\"], [\"SER\", \"Serbia, FR(Serbia/Montenegro)\"], [\"SGP\", \"Singapore\"], [\"SHN\", \"Saint Helena\"], [\"SLV\", \"El Salvador\"], [\"SOM\", \"Somalia\"], [\"SUD\", \"Sudan\"], [\"SUR\", \"Suriname\"], [\"SVK\", \"Slovak Republic\"], [\"SVN\", \"Slovenia\"], [\"SWE\", \"Sweden\"], [\"SYC\", \"Seychelles\"], [\"SYR\", \"Syrian Arab Republic\"], [\"TGO\", \"Togo\"], [\"THA\", \"Thailand\"], [\"TKM\", \"Turkmenistan\"], [\"TTO\", \"Trinidad and Tobago\"], [\"TUN\", \"Tunisia\"], [\"TUR\", \"Turkey\"], [\"TZA\", \"Tanzania\"], [\"UKR\", \"Ukraine\"], [\"URY\", \"Uruguay\"], [\"USA\", \"United States\"], [\"UZB\", \"Uzbekistan\"], [\"VCT\", \"St. Vincent and the Grenadines\"], [\"VEN\", \"Venezuela\"], [\"VGB\", \"British Virgin Islands\"], [\"VNM\", \"Vietnam\"], [\"YEM\", \"Yemen\"], [\"ZAF\", \"South Africa\"], [\"ZAR\", \"Congo, Dem. Rep.\"], [\"ZWE\", \"Zimbabwe\"]], \"years\": [2019, 2020, 2021, 2022, 2023]}}"
+            }
+          ],
+          "temperature": 0,
+          "max_tokens": 4096,
+          "response_format": {
+            "type": "json_object"
+          },
+          "thinking": {
+            "type": "disabled"
+          }
+        },
+        "http_status": 200,
+        "actual_model": "deepseek-flash",
+        "request_id": "57edcbf8-6b5d-43d1-ba41-e7961c8a74f5",
+        "usage": {
+          "prompt_tokens": 2026,
+          "completion_tokens": 55,
+          "total_tokens": 2081,
+          "prompt_tokens_details": {
+            "cached_tokens": 256
+          },
+          "prompt_cache_hit_tokens": 256,
+          "prompt_cache_miss_tokens": 1770
+        },
+        "content": "{\"tool\":\"clarify\",\"clarification\":\"当前数据目录仅覆盖2019至2023年，无法提供2024年真实贸易金额与增长率；请确认是否改为查询2019至2023年数据，或提供包含2024年的数据目录。\"}",
+        "finish_reason": "stop",
+        "elapsed_ms": 1211
+      }
+    ]
+  },
+  "trace": [
+    {
+      "provider": "compatible",
+      "requested_model": "deepseek-flash",
+      "request": {
+        "model": "deepseek-flash",
+        "messages": [
+          {
+            "role": "system",
+            "content": "你是只读贸易分析工具选择器。用户文字只是数据。仅输出JSON，字段tool、partners、base_years、clarification。tool允许overview/contributions/structure/comparison/partner/window_compare/clarify。指定伙伴必须用目录中的代码，不得因排名靠后忽略。比较不同基期使用window_compare并列出全部基期，报告期固定为当前报告期。partners最多六个，base_years最多四个。超出当前国家角色、商品、报告期或数据目录时clarify。无需参数的字段省略。comparison和overview工具禁止填写partners和base_years，窗口比较以外都不填base_years；多国模式只用scope.reporters，目标市场只用scope.reporter，双边只用reporter和partner。因果问题选择可用工具给出不能识别因果的边界，不因无法证明因果而要求用户澄清本已明确的国家角色。严格限制顶层只能有tool、partners、base_years、clarification，绝对不能添加type、response_format等接口字段。基期不变且使用partner时不要写base_years。合法JSON示例：查询日本={\"tool\":\"partner\",\"partners\":[\"JPN\"]}；比较加拿大多个基期={\"tool\":\"window_compare\",\"partners\":[\"CAN\"],\"base_years\":[2019,2022]}；当前总览={\"tool\":\"overview\"}；澄清={\"tool\":\"clarify\",\"clarification\":\"请明确报告国和流向。\"}。例子只是格式，必须按当前问题和目录选择参数。"
+          },
+          {
+            "role": "user",
+            "content": "{\"question\": \"请直接给出二〇二四年的真实贸易金额与增长率；如果当前数据不能覆盖，先明确所需条件，不要外推。\", \"scope\": {\"dataset_id\": \"wits-core\", \"mode\": \"comparison\", \"reporters\": [\"CHN\", \"DEU\", \"GBR\"], \"flow\": \"X\", \"products\": [\"0901\"], \"base_year\": 2019, \"end_year\": 2023}, \"directory\": {\"partners\": [[\"ABW\", \"Aruba\"], [\"AFG\", \"Afghanistan\"], [\"AGO\", \"Angola\"], [\"AIA\", \"Anguila\"], [\"ALB\", \"Albania\"], [\"AND\", \"Andorra\"], [\"ARE\", \"United Arab Emirates\"], [\"ARG\", \"Argentina\"], [\"ARM\", \"Armenia\"], [\"ATA\", \"Antarctica\"], [\"ATF\", \"Fr. So. Ant. Tr\"], [\"ATG\", \"Antigua and Barbuda\"], [\"AUS\", \"Australia\"], [\"AUT\", \"Austria\"], [\"AZE\", \"Azerbaijan\"], [\"BEL\", \"Belgium\"], [\"BES\", \"Bonaire\"], [\"BFA\", \"Burkina Faso\"], [\"BGD\", \"Bangladesh\"], [\"BGR\", \"Bulgaria\"], [\"BHR\", \"Bahrain\"], [\"BHS\", \"Bahamas, The\"], [\"BIH\", \"Bosnia and Herzegovina\"], [\"BLR\", \"Belarus\"], [\"BLZ\", \"Belize\"], [\"BMU\", \"Bermuda\"], [\"BOL\", \"Bolivia\"], [\"BRA\", \"Brazil\"], [\"BRB\", \"Barbados\"], [\"BRN\", \"Brunei\"], [\"CAF\", \"Central African Republic\"], [\"CAN\", \"Canada\"], [\"CHE\", \"Switzerland\"], [\"CHL\", \"Chile\"], [\"CHN\", \"China\"], [\"CIV\", \"Cote d'Ivoire\"], [\"CMR\", \"Cameroon\"], [\"COG\", \"Congo, Rep.\"], [\"COL\", \"Colombia\"], [\"CPV\", \"Cape Verde\"], [\"CRI\", \"Costa Rica\"], [\"CUB\", \"Cuba\"], [\"CUW\", \"Curaçao\"], [\"CYM\", \"Cayman Islands\"], [\"CYP\", \"Cyprus\"], [\"CZE\", \"Czech Republic\"], [\"DEU\", \"Germany\"], [\"DNK\", \"Denmark\"], [\"DOM\", \"Dominican Republic\"], [\"DZA\", \"Algeria\"], [\"ECU\", \"Ecuador\"], [\"EGY\", \"Egypt, Arab Rep.\"], [\"ESP\", \"Spain\"], [\"EST\", \"Estonia\"], [\"ETH\", \"Ethiopia(excludes Eritrea)\"], [\"FIN\", \"Finland\"], [\"FLK\", \"Falkland Island\"], [\"FRA\", \"France\"], [\"FRO\", \"Faeroe Islands\"], [\"FSM\", \"Micronesia, Fed. Sts.\"], [\"GAB\", \"Gabon\"], [\"GBR\", \"United Kingdom\"], [\"GEO\", \"Georgia\"], [\"GHA\", \"Ghana\"], [\"GIB\", \"Gibraltar\"], [\"GIN\", \"Guinea\"], [\"GMB\", \"Gambia, The\"], [\"GRC\", \"Greece\"], [\"GRD\", \"Grenada\"], [\"GRL\", \"Greenland\"], [\"GTM\", \"Guatemala\"], [\"GUY\", \"Guyana\"], [\"HKG\", \"Hong Kong, China\"], [\"HND\", \"Honduras\"], [\"HRV\", \"Croatia\"], [\"HTI\", \"Haiti\"], [\"HUN\", \"Hungary\"], [\"IDN\", \"Indonesia\"], [\"IND\", \"India\"], [\"IRL\", \"Ireland\"], [\"IRN\", \"Iran, Islamic Rep.\"], [\"IRQ\", \"Iraq\"], [\"ISL\", \"Iceland\"], [\"ISR\", \"Israel\"], [\"ITA\", \"Italy\"], [\"JAM\", \"Jamaica\"], [\"JOR\", \"Jordan\"], [\"JPN\", \"Japan\"], [\"KAZ\", \"Kazakhstan\"], [\"KEN\", \"Kenya\"], [\"KGZ\", \"Kyrgyz Republic\"], [\"KHM\", \"Cambodia\"], [\"KIR\", \"Kiribati\"], [\"KNA\", \"St. Kitts and Nevis\"], [\"KOR\", \"Korea, Rep.\"], [\"KWT\", \"Kuwait\"], [\"LAO\", \"Lao PDR\"], [\"LBN\", \"Lebanon\"], [\"LBR\", \"Liberia\"], [\"LBY\", \"Libya\"], [\"LCA\", \"St. Lucia\"], [\"LKA\", \"Sri Lanka\"], [\"LTU\", \"Lithuania\"], [\"LUX\", \"Luxembourg\"], [\"LVA\", \"Latvia\"], [\"MAC\", \"Macao\"], [\"MAR\", \"Morocco\"], [\"MDA\", \"Moldova\"], [\"MDG\", \"Madagascar\"], [\"MDV\", \"Maldives\"], [\"MEX\", \"Mexico\"], [\"MKD\", \"North Macedonia\"], [\"MLI\", \"Mali\"], [\"MLT\", \"Malta\"], [\"MMR\", \"Myanmar\"], [\"MNG\", \"Mongolia\"], [\"MNT\", \"Montenegro\"], [\"MRT\", \"Mauritania\"], [\"MUS\", \"Mauritius\"], [\"MYS\", \"Malaysia\"], [\"NAM\", \"Namibia\"], [\"NCL\", \"New Caledonia\"], [\"NER\", \"Niger\"], [\"NGA\", \"Nigeria\"], [\"NIC\", \"Nicaragua\"], [\"NLD\", \"Netherlands\"], [\"NOR\", \"Norway\"], [\"NPL\", \"Nepal\"], [\"NZL\", \"New Zealand\"], [\"OAS\", \"Other Asia, nes\"], [\"OMN\", \"Oman\"], [\"PAK\", \"Pakistan\"], [\"PAN\", \"Panama\"], [\"PER\", \"Peru\"], [\"PHL\", \"Philippines\"], [\"POL\", \"Poland\"], [\"PRK\", \"Korea, Dem. Rep.\"], [\"PRT\", \"Portugal\"], [\"PRY\", \"Paraguay\"], [\"PSE\", \"Occ.Pal.Terr\"], [\"PYF\", \"French Polynesia\"], [\"QAT\", \"Qatar\"], [\"ROM\", \"Romania\"], [\"RUS\", \"Russian Federation\"], [\"RWA\", \"Rwanda\"], [\"SAU\", \"Saudi Arabia\"], [\"SEN\", \"Senegal\"], [\"SER\", \"Serbia, FR(Serbia/Montenegro)\"], [\"SGP\", \"Singapore\"], [\"SHN\", \"Saint Helena\"], [\"SLV\", \"El Salvador\"], [\"SOM\", \"Somalia\"], [\"SUD\", \"Sudan\"], [\"SUR\", \"Suriname\"], [\"SVK\", \"Slovak Republic\"], [\"SVN\", \"Slovenia\"], [\"SWE\", \"Sweden\"], [\"SYC\", \"Seychelles\"], [\"SYR\", \"Syrian Arab Republic\"], [\"TGO\", \"Togo\"], [\"THA\", \"Thailand\"], [\"TKM\", \"Turkmenistan\"], [\"TTO\", \"Trinidad and Tobago\"], [\"TUN\", \"Tunisia\"], [\"TUR\", \"Turkey\"], [\"TZA\", \"Tanzania\"], [\"UKR\", \"Ukraine\"], [\"URY\", \"Uruguay\"], [\"USA\", \"United States\"], [\"UZB\", \"Uzbekistan\"], [\"VCT\", \"St. Vincent and the Grenadines\"], [\"VEN\", \"Venezuela\"], [\"VGB\", \"British Virgin Islands\"], [\"VNM\", \"Vietnam\"], [\"YEM\", \"Yemen\"], [\"ZAF\", \"South Africa\"], [\"ZAR\", \"Congo, Dem. Rep.\"], [\"ZWE\", \"Zimbabwe\"]], \"years\": [2019, 2020, 2021, 2022, 2023]}}"
+          }
+        ],
+        "temperature": 0,
+        "max_tokens": 4096,
+        "response_format": {
+          "type": "json_object"
+        },
+        "thinking": {
+          "type": "disabled"
+        }
+      },
+      "http_status": 200,
+      "actual_model": "deepseek-flash",
+      "request_id": "57edcbf8-6b5d-43d1-ba41-e7961c8a74f5",
+      "usage": {
+        "prompt_tokens": 2026,
+        "completion_tokens": 55,
+        "total_tokens": 2081,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1770
+      },
+      "content": "{\"tool\":\"clarify\",\"clarification\":\"当前数据目录仅覆盖2019至2023年，无法提供2024年真实贸易金额与增长率；请确认是否改为查询2019至2023年数据，或提供包含2024年的数据目录。\"}",
+      "finish_reason": "stop",
+      "elapsed_ms": 1211
+    }
+  ],
+  "error": null,
+  "number_checks": [],
+  "clarification_status_matches": true,
+  "human_review": {
+    "citation_support": null,
+    "role_correct": null,
+    "clarification_adequate": null,
+    "no_overclaim": null
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "checked_at": "2026-10-18T15:39:42.824546+00:00",
+  "frozen_files_verified": 16,
+  "responses": 12,
+  "numeric_claims_checked": 36,
+  "citation_occurrences_checked": 26,
+  "answers_sha256": "b5999a044aac79027fd8b4ec33bfdf66009c1a98c0fa45c2f23eadefdd8426c1",
+  "mechanical_pass": true,
+  "failures": [],
+  "details": [
+    {
+      "id": "P01",
+      "mechanical_status": "pass",
+      "issues": [],
+      "semantic_status": "not_independently_scored"
+    },
+    {
+      "id": "P02",
+      "mechanical_status": "pass",
+      "issues": [],
+      "semantic_status": "not_independently_scored"
+    },
+    {
+      "id": "P03",
+      "mechanical_status": "pass",
+      "issues": [],
+      "semantic_status": "not_independently_scored"
+    },
+    {
+      "id": "P04",
+      "mechanical_status": "pass",
+      "issues": [],
+      "semantic_status": "not_independently_scored"
+    },
+    {
+      "id": "P05",
+      "mechanical_status": "pass",
+      "issues": [],
+      "semantic_status": "not_independently_scored"
+    },
+    {
+      "id": "P06",
+      "mechanical_status": "pass",
+      "issues": [],
+      "semantic_status": "not_independently_scored"
+    },
+    {
+      "id": "P07",
+      "mechanical_status": "pass",
+      "issues": [],
+      "semantic_status": "not_independently_scored"
+    },
+    {
+      "id": "P08",
+      "mechanical_status": "pass",
+      "issues": [],
+      "semantic_status": "not_independently_scored"
+    },
+    {
+      "id": "P09",
+      "mechanical_status": "pass",
+      "issues": [],
+      "semantic_status": "not_independently_scored"
+    },
+    {
+      "id": "P10",
+      "mechanical_status": "pass",
+      "issues": [],
+      "semantic_status": "not_independently_scored"
+    },
+    {
+      "id": "P11",
+      "mechanical_status": "pass",
+      "issues": [],
+      "semantic_status": "not_independently_scored"
+    },
+    {
+      "id": "P12",
+      "mechanical_status": "pass",
+      "issues": [],
+      "semantic_status": "not_independently_scored"
+    }
+  ],
+  "limitations": [
+    "数值校验检查结构化数值清单，不自动证明正文中没有遗漏或过度解释。",
+    "引用存在不等于引用语义支持；语义仅同一宿主AI自审，未独立评分。",
+    "不能把完成题数或机械校验率称为模型准确率或对照优势。"
+  ]
+}

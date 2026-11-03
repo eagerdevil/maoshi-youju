@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-10-18T15:18:34.070918+00:00",
+  "files": {
+    "frozen/analysis.py": "5b6479fd24a635fef0afd1f1728b0c0557cd24c3490ebb9b14728be0a541e8d7",
+    "frozen/data.py": "4e052278aedf807092e937cd03fed7315bbbabd7613ccc84f63be3fb83da3d43",
+    "frozen/wits-core.csv": "ea43cb7434ed214df6443682975026e5c0c44b999c9f286475e06419c8d57d93",
+    "frozen/wits-core.manifest.json": "c528788ad58914435327af8ee5e92a4f849bc00eb40ae73efcb73e3718d9bbf8",
+    "inputs/main.json": "16ec49a2e51078c964490248b3b44f4770d3d93029f39d554dd6b4a36d2eaec9",
+    "inputs/window_2020.json": "a47ae6e1b2bac5e356585d8ac3c47ad74a8ee3129fe45c9eb56437fb4bd29e2c",
+    "inputs/window_2021.json": "90836ba60ee3eddcd61b80b9e2403b2dc24afa4e056e33360b558d7e81c4e6a0",
+    "inputs/window_2022.json": "25fcfb9579e298a7f497d5a76ff92a48a667da7e224e2e8aec140db3d1301e74",
+    "protocol.json": "71449494a7e03c0eec26ef2599c2c24c013c9e034621c026346bdcdeb7b8e071",
+    "reference.json": "7cb4411a46bfe7270e57ab88bed7d6246ff5aef16b754a1964662104ae3b7e7e",
+    "sources/USA-2019-Imports-8703.html": "31c76c04c797eab2faad9133ab19723bdf4402f62e475017edf6847a111d5e17",
+    "sources/USA-2020-Imports-8703.html": "a5b083d9835a7de5fac8f5476f775a68a2403e3d7a4a34b2bc81e1fe3df986d6",
+    "sources/USA-2021-Imports-8703.html": "d7df3cc8f2f3fad14f07161e49d086fdaf4723f89b68324f905cbcc0839526fe",
+    "sources/USA-2022-Imports-8703.html": "a4575eb0aa8f4a7ad5c2415bd85929421c9013c3319240f2a31f9dcfa7bf1a00",
+    "sources/USA-2023-Imports-8703.html": "54158b8ffd435c76fb3993c16dc82922ebb7cfdd3da76467d304202bbc2fa7ef",
+    "tasks.json": "13c00c7e7d3debf19048bc3e2974dbe741efd593e31521cf1b3356e9fcea20e8"
+  }
+}

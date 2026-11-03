@@ -1,0 +1,37 @@
+{
+  "run_id": "20261019T032012322609Z",
+  "app_version": "0.5.3",
+  "categories": {
+    "numeric_fields": {
+      "cases": 2,
+      "mechanical_pass": 2,
+      "requests": 2
+    },
+    "scope_rules": {
+      "cases": 6,
+      "mechanical_pass": 6,
+      "requests": 0
+    },
+    "bilateral_pipeline": {
+      "cases": 4,
+      "mechanical_pass": 4,
+      "requests": 8
+    },
+    "multi_country_windows": {
+      "cases": 1,
+      "mechanical_pass": 1,
+      "requests": 1
+    }
+  },
+  "totals": {
+    "cases": 13,
+    "mechanical_pass": 13,
+    "rule_answers": 6,
+    "live_model_answers": 7,
+    "required_numeric_items": 17,
+    "numeric_items_present_and_correct": 17
+  },
+  "semantic_review": "pending",
+  "independent_human_reviews_completed": 0,
+  "note": "定向已见问题回归；6份规则答复不属于模型成功，数值命中与覆盖不代表自然语言正确。"
+}

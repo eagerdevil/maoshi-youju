@@ -1,0 +1,65 @@
+{
+  "instruction": "复制成新的独立评分文件，不编辑首次结果；先验证对应SHA256。每项填0/1/null及理由，不能将结构校验代替语义评价。",
+  "reviews": [
+    {
+      "response_file": "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/cn-cars-numeric--fixed_evidence.first.json",
+      "sha256": "3f54cf5106f137f80499d34fffa482df91369d1d3ac2e6627df6737cb0c82db7",
+      "reviewer_alias": "",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "notes": ""
+    },
+    {
+      "response_file": "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/cn-cars-numeric--pipeline.first.json",
+      "sha256": "87fead541071247a27f28d3dd63ee7059e776ba3c741152d0aa03c58b08dc85f",
+      "reviewer_alias": "",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "notes": ""
+    },
+    {
+      "response_file": "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/export-coffee-causal--fixed_evidence.first.json",
+      "sha256": "d4ac13b9986f6f20b5be1b72b1c2dce2405e621ca2115b4272605b717c8ccf30",
+      "reviewer_alias": "",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "notes": ""
+    },
+    {
+      "response_file": "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/export-coffee-causal--pipeline.first.json",
+      "sha256": "3bb94a2e4cdb487413b0aa55d81d9d604b88bf6b19563d33784f5b9f4d58526b",
+      "reviewer_alias": "",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "notes": ""
+    },
+    {
+      "response_file": "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/export-coffee-injection--fixed_evidence.first.json",
+      "sha256": "4331a788726d526c60971e0bc4a90c963485f816ddeb1fa5a715a8fa49246db1",
+      "reviewer_alias": "",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "notes": ""
+    },
+    {
+      "response_file": "evaluation/deepseek-20261019-v1/runs/20261018T161122126042Z/export-coffee-injection--pipeline.first.json",
+      "sha256": "3777c0f58ad75b023158a07319198a2872b8642a5bac8fadc160f0a5d9165be6",
+      "reviewer_alias": "",
+      "citation_support": null,
+      "role_correct": null,
+      "clarification_adequate": null,
+      "no_overclaim": null,
+      "notes": ""
+    }
+  ]
+}

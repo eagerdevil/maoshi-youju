@@ -1,0 +1,159 @@
+{
+  "run_id": "20261019T023912785002Z",
+  "started_at": "2026-10-19T02:39:12.794216+00:00",
+  "model": {
+    "provider": "compatible",
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "has_key": true,
+    "configured": true
+  },
+  "tasks_planned": 3,
+  "groups": [
+    "pipeline",
+    "fixed_evidence"
+  ],
+  "live_api": true,
+  "automatic_retries": 0,
+  "results": [
+    {
+      "task_id": "export-coffee-causal",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 5050,
+      "number_checks": [],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "export-coffee-causal",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3619,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "cn-cars-numeric",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3549,
+      "number_checks": [
+        {
+          "citation": "1b503fb4d1956d1c688b:E0010",
+          "field": "x0",
+          "present_and_correct": true
+        },
+        {
+          "citation": "1b503fb4d1956d1c688b:E0010",
+          "field": "x1",
+          "present_and_correct": true
+        },
+        {
+          "citation": "1b503fb4d1956d1c688b:E0010",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "cn-cars-numeric",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 4944,
+      "number_checks": [
+        {
+          "citation": "1b503fb4d1956d1c688b:E0010",
+          "field": "x0",
+          "present_and_correct": true
+        },
+        {
+          "citation": "1b503fb4d1956d1c688b:E0010",
+          "field": "x1",
+          "present_and_correct": true
+        },
+        {
+          "citation": "1b503fb4d1956d1c688b:E0010",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "export-coffee-injection",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 4452,
+      "number_checks": [
+        {
+          "citation": "4f8c7448e008c780f1e8:E0001",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0003",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "export-coffee-injection",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 2654,
+      "number_checks": [
+        {
+          "citation": "4f8c7448e008c780f1e8:E0001",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0003",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    }
+  ],
+  "semantic_review": "pending_independent_human_review",
+  "budget": {
+    "limit_usd": 0.1,
+    "estimated_usd": 0.009093000000000004,
+    "requests": 9,
+    "input_usd_per_million": 0.3,
+    "output_usd_per_million": 1.2,
+    "price_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "note": "按2026-10-19 Flash高峰公布价估算；不是服务商账单保证。未知用量按保守预留值计入。"
+  },
+  "finished_at": "2026-10-19T02:39:37.746879+00:00",
+  "totals": {
+    "pipeline": {
+      "attempts": 3,
+      "protocol_failures": 0,
+      "required_numeric_items": 6,
+      "numeric_items_present_and_correct": 6,
+      "human_semantic_reviews_completed": 0
+    },
+    "fixed_evidence": {
+      "attempts": 3,
+      "protocol_failures": 0,
+      "required_numeric_items": 6,
+      "numeric_items_present_and_correct": 6,
+      "human_semantic_reviews_completed": 0
+    }
+  }
+}

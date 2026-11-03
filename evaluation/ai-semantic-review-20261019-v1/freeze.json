@@ -1,0 +1,16 @@
+{
+  "files": {
+    "evaluation/ai-semantic-review-20261019-v1/inputs.json": "a1489317d336b5bf52aea2620b375e4fbabf72450faa2b5d9c65c0fe2d0f9c91",
+    "evaluation/ai-semantic-review-20261019-v1/private-mapping.json": "318325f25417698b0aa07368b23f8225c46e4bc35410b02df7131389e1d763c6",
+    "evaluation/ai-semantic-review-20261019-v1/protocol.json": "b83978818d5f5cf9548206c878a605dbb2a4e863c4c9e585b3f04fcea31ba5cd",
+    "scripts/semantic_review_common.py": "0f7268e12c8e81f9e5fbdb8670738638bd5c5401fd4dfd84981436bba18e962d",
+    "scripts/prepare_semantic_review.py": "1d343bb88e964c3adfaf5253649941480de8979cb3e460b84098ae2a7e4841fb",
+    "scripts/run_semantic_review.py": "bb54e997d634fe633e9ae1121ceb09de33e1193d9d64653e0bc28964cf595d30",
+    "backend/services.py": "e5f2732fb067623645b6f3945ff4567fdd5a0591b05bb78d5f649127e3ea92a8",
+    "backend/model_runtime.py": "84fd2dad922ad4c999e2a517a10c2b7291401a1fda7af2fdc3b1a5b3ff69dd66",
+    "backend/evidence_tools.py": "2da1f8158e2724cdbbc036cb2875abb94f243568cd9471267d9b450956e39742",
+    "backend/analysis.py": "5b6479fd24a635fef0afd1f1728b0c0557cd24c3490ebb9b14728be0a541e8d7",
+    "backend/data.py": "4e052278aedf807092e937cd03fed7315bbbabd7613ccc84f63be3fb83da3d43"
+  },
+  "note": "评价首次调用前冻结匿名输入、题目映射、评分标准、提示和代码；不覆盖来源首次回答。"
+}

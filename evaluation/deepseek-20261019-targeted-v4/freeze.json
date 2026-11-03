@@ -1,0 +1,20 @@
+{
+  "files": {
+    "evaluation/deepseek-20261019-targeted-v4/cases.json": "54b5d9d75279690cd620f2ace9fa6f3b63d509cd930f1e0079809e5851ea6272",
+    "evaluation/deepseek-20261019-targeted-v4/reference.json": "ff546864148bd7fa5e8f206582e53b7cfc6b1c09a0fb8bda56cfbe5092b3aa9d",
+    "evaluation/deepseek-20261019-targeted-v4/protocol.json": "cd36d03e7e188fb16b02edddac27c7dc453633e311f3b1ed44004895e29a4c91",
+    "scripts/prepare_targeted_retest.py": "f1e350943c69bc116d54b630f51d0ab8455814f9e32917b481f69d4141e795ce",
+    "scripts/run_targeted_retest.py": "59b8c4ffdffc0391587082261bc58b2078204ac8e6efdf6d9a2720d0fda6fa9c",
+    "scripts/run_model_evaluation.py": "fd2a79c38750a3a1ec50aecc1fca3395d205210c841527eb87d6ce41ce595b0f",
+    "backend/services.py": "5656870090ed232261e963018eb9fbe9690149d4fcaea5c361700ada13dc8067",
+    "backend/evidence_tools.py": "13b45b4692927f27d98f8f7849d7f7fafcb6f24677aa9fc1090bdf3dde50eb37",
+    "backend/answer_contract.py": "a87e5a07276760dddc17185df9d2b523d3079ce732c00e8143db248516922a68",
+    "backend/model_runtime.py": "84fd2dad922ad4c999e2a517a10c2b7291401a1fda7af2fdc3b1a5b3ff69dd66",
+    "backend/analysis.py": "5b6479fd24a635fef0afd1f1728b0c0557cd24c3490ebb9b14728be0a541e8d7",
+    "backend/data.py": "4e052278aedf807092e937cd03fed7315bbbabd7613ccc84f63be3fb83da3d43",
+    "backend/__init__.py": "6f35196d874dc47455759727d3f131a755265e658240efb6779960723e34a205",
+    "data/processed/wits-core.csv": "ea43cb7434ed214df6443682975026e5c0c44b999c9f286475e06419c8d57d93",
+    "data/processed/wits-canada-cocoa.csv": "2ae0866070cdba80e523fb1774b8ba68fd23f288a47e2dc2294e6f240d3072cc"
+  },
+  "note": "首次调用前冻结；不覆盖旧首次回答，运行期间不改变代码、提示和题目。"
+}

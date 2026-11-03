@@ -1,0 +1,157 @@
+{
+  "dataset_id": "wits-canada-cocoa",
+  "name": "加拿大可可食品扩展数据包",
+  "source": "World Bank WITS / UN Comtrade",
+  "collected_at": "2026-10-18T14:29:52.958851+00:00",
+  "records": 990,
+  "sources": [
+    {
+      "id": "CAN-2019-Exports-1806",
+      "url": "https://wits.worldbank.org/trade/comtrade/en/country/CAN/year/2019/tradeflow/Exports/partner/ALL/product/1806",
+      "raw_file": "data/raw/CAN-2019-Exports-1806.html",
+      "sha256": "176be51604746e0e309d5b105576b85547fc8edd432906b86c61a25aa446e464",
+      "retrieved_at": "2026-10-18T14:29:45.817846+00:00",
+      "rows": 76,
+      "classification": "H0",
+      "unit": "USD",
+      "original_unit": "1000 USD; displayed to 0.01 thousand USD",
+      "note": "WITS public table, underlying UN Comtrade; rounded published values. No absent partner imputed as zero."
+    },
+    {
+      "id": "CAN-2019-Imports-1806",
+      "url": "https://wits.worldbank.org/trade/comtrade/en/country/CAN/year/2019/tradeflow/Imports/partner/ALL/product/1806",
+      "raw_file": "data/raw/CAN-2019-Imports-1806.html",
+      "sha256": "7bf1f1ea66a9d9595841d388ee40143eb27621a04d6a6faf4f7e14ca7c5275d4",
+      "retrieved_at": "2026-10-18T14:29:46.604027+00:00",
+      "rows": 111,
+      "classification": "H0",
+      "unit": "USD",
+      "original_unit": "1000 USD; displayed to 0.01 thousand USD",
+      "note": "WITS public table, underlying UN Comtrade; rounded published values. No absent partner imputed as zero."
+    },
+    {
+      "id": "CAN-2020-Exports-1806",
+      "url": "https://wits.worldbank.org/trade/comtrade/en/country/CAN/year/2020/tradeflow/Exports/partner/ALL/product/1806",
+      "raw_file": "data/raw/CAN-2020-Exports-1806.html",
+      "sha256": "ddbe9654d70cb47676007dc83fca9645711954b076ae376afd9050d3b6e3d8bf",
+      "retrieved_at": "2026-10-18T14:29:47.991490+00:00",
+      "rows": 85,
+      "classification": "H0",
+      "unit": "USD",
+      "original_unit": "1000 USD; displayed to 0.01 thousand USD",
+      "note": "WITS public table, underlying UN Comtrade; rounded published values. No absent partner imputed as zero."
+    },
+    {
+      "id": "CAN-2020-Imports-1806",
+      "url": "https://wits.worldbank.org/trade/comtrade/en/country/CAN/year/2020/tradeflow/Imports/partner/ALL/product/1806",
+      "raw_file": "data/raw/CAN-2020-Imports-1806.html",
+      "sha256": "c97cc240e5c69a1cc5a2c4d429cd7cccd39b73b683551cac9a54c0bc66264348",
+      "retrieved_at": "2026-10-18T14:29:47.112181+00:00",
+      "rows": 108,
+      "classification": "H0",
+      "unit": "USD",
+      "original_unit": "1000 USD; displayed to 0.01 thousand USD",
+      "note": "WITS public table, underlying UN Comtrade; rounded published values. No absent partner imputed as zero."
+    },
+    {
+      "id": "CAN-2021-Exports-1806",
+      "url": "https://wits.worldbank.org/trade/comtrade/en/country/CAN/year/2021/tradeflow/Exports/partner/ALL/product/1806",
+      "raw_file": "data/raw/CAN-2021-Exports-1806.html",
+      "sha256": "06d692399ab6eab1e1b8ff105a0b1bfe62bf940b2eab2ad82a6bf04c2f70c3dd",
+      "retrieved_at": "2026-10-18T14:29:49.371067+00:00",
+      "rows": 84,
+      "classification": "H0",
+      "unit": "USD",
+      "original_unit": "1000 USD; displayed to 0.01 thousand USD",
+      "note": "WITS public table, underlying UN Comtrade; rounded published values. No absent partner imputed as zero."
+    },
+    {
+      "id": "CAN-2021-Imports-1806",
+      "url": "https://wits.worldbank.org/trade/comtrade/en/country/CAN/year/2021/tradeflow/Imports/partner/ALL/product/1806",
+      "raw_file": "data/raw/CAN-2021-Imports-1806.html",
+      "sha256": "da8bef2d7b69b5b73318e5ebb45bd8806bc78ecf93b1a94432ec27a314793fb4",
+      "retrieved_at": "2026-10-18T14:29:49.254360+00:00",
+      "rows": 127,
+      "classification": "H0",
+      "unit": "USD",
+      "original_unit": "1000 USD; displayed to 0.01 thousand USD",
+      "note": "WITS public table, underlying UN Comtrade; rounded published values. No absent partner imputed as zero."
+    },
+    {
+      "id": "CAN-2022-Exports-1806",
+      "url": "https://wits.worldbank.org/trade/comtrade/en/country/CAN/year/2022/tradeflow/Exports/partner/ALL/product/1806",
+      "raw_file": "data/raw/CAN-2022-Exports-1806.html",
+      "sha256": "79f06dd285a771d967bc4aa04c8ca4c4a7d00d3b71915815ba282a6d56e13f7b",
+      "retrieved_at": "2026-10-18T14:29:51.492755+00:00",
+      "rows": 77,
+      "classification": "H0",
+      "unit": "USD",
+      "original_unit": "1000 USD; displayed to 0.01 thousand USD",
+      "note": "WITS public table, underlying UN Comtrade; rounded published values. No absent partner imputed as zero."
+    },
+    {
+      "id": "CAN-2022-Imports-1806",
+      "url": "https://wits.worldbank.org/trade/comtrade/en/country/CAN/year/2022/tradeflow/Imports/partner/ALL/product/1806",
+      "raw_file": "data/raw/CAN-2022-Imports-1806.html",
+      "sha256": "7eb58fd33905851700dbf8638a2ae17ee0547c4a3aefd09bf157822ec15a9b49",
+      "retrieved_at": "2026-10-18T14:29:50.806408+00:00",
+      "rows": 117,
+      "classification": "H0",
+      "unit": "USD",
+      "original_unit": "1000 USD; displayed to 0.01 thousand USD",
+      "note": "WITS public table, underlying UN Comtrade; rounded published values. No absent partner imputed as zero."
+    },
+    {
+      "id": "CAN-2023-Exports-1806",
+      "url": "https://wits.worldbank.org/trade/comtrade/en/country/CAN/year/2023/tradeflow/Exports/partner/ALL/product/1806",
+      "raw_file": "data/raw/CAN-2023-Exports-1806.html",
+      "sha256": "6e99db33337b000a8c9eef93e58d8789b32b12d874c7794b6d55a4c74714c72c",
+      "retrieved_at": "2026-10-18T14:29:52.923780+00:00",
+      "rows": 77,
+      "classification": "H0",
+      "unit": "USD",
+      "original_unit": "1000 USD; displayed to 0.01 thousand USD",
+      "note": "WITS public table, underlying UN Comtrade; rounded published values. No absent partner imputed as zero."
+    },
+    {
+      "id": "CAN-2023-Imports-1806",
+      "url": "https://wits.worldbank.org/trade/comtrade/en/country/CAN/year/2023/tradeflow/Imports/partner/ALL/product/1806",
+      "raw_file": "data/raw/CAN-2023-Imports-1806.html",
+      "sha256": "1a272fc3b46aee621fed662415ecad17f65997efd20dc541eace537e5fb7af44",
+      "retrieved_at": "2026-10-18T14:29:52.946725+00:00",
+      "rows": 128,
+      "classification": "H0",
+      "unit": "USD",
+      "original_unit": "1000 USD; displayed to 0.01 thousand USD",
+      "note": "WITS public table, underlying UN Comtrade; rounded published values. No absent partner imputed as zero."
+    }
+  ],
+  "errors": [],
+  "scope": {
+    "reporters": [
+      "CAN"
+    ],
+    "years": "2019,2020,2021,2022,2023",
+    "products": [
+      "1806"
+    ]
+  },
+  "license_url": "https://wits.worldbank.org/terms-of-use.html",
+  "partner_code_repairs": {
+    "reason": "Four named partner hyperlinks incorrectly point to WLD in WITS HTML; corrected by partner name, not by hyperlink.",
+    "mapping": {
+      "Cote d'Ivoire": "CIV",
+      "Saint Barthélemy": "BLM",
+      "Saint Maarten (Dutch part)": "SXM",
+      "Bonaire": "BES"
+    },
+    "reference_url": "https://comtradeapi.un.org/files/v1/app/reference/partnerAreas.json"
+  },
+  "unallocated_policy": "Unspecified rows are preserved with source-row identities; never interpreted as comparable countries across years.",
+  "limitations": [
+    "发布表按千美元保留两位小数，计算存在展示精度边界。",
+    "未列示伙伴不等于零。",
+    "以页面注明的商品分类版本为准。",
+    "最新可用年份不等于完整年份；本包只代表已下载范围。"
+  ]
+}

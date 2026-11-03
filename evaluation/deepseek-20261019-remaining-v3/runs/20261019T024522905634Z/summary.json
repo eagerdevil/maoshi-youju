@@ -1,0 +1,1027 @@
+{
+  "run_id": "20261019T024522905634Z",
+  "started_at": "2026-10-19T02:45:22.914970+00:00",
+  "model": {
+    "provider": "compatible",
+    "base_url": "https://api.deepseek.com",
+    "model": "deepseek-flash",
+    "has_key": true,
+    "configured": true
+  },
+  "tasks_planned": 33,
+  "groups": [
+    "pipeline",
+    "fixed_evidence"
+  ],
+  "live_api": true,
+  "automatic_retries": 0,
+  "results": [
+    {
+      "task_id": "cn-cars-role",
+      "group": "pipeline",
+      "status": "clarification",
+      "elapsed_ms": 2141,
+      "number_checks": [],
+      "clarification_status_matches": false
+    },
+    {
+      "task_id": "cn-cars-role",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3708,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "export-coffee-numeric",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 2823,
+      "number_checks": [
+        {
+          "citation": "4f8c7448e008c780f1e8:E0001",
+          "field": "base",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0001",
+          "field": "end",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0001",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0002",
+          "field": "base",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0002",
+          "field": "end",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0003",
+          "field": "base",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0003",
+          "field": "end",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0003",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "export-coffee-numeric",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 3898,
+      "number_checks": [
+        {
+          "citation": "4f8c7448e008c780f1e8:E0001",
+          "field": "base",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0001",
+          "field": "end",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0001",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0002",
+          "field": "base",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0002",
+          "field": "end",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0003",
+          "field": "base",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0003",
+          "field": "end",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0003",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "de-cn-tea-injection",
+      "group": "pipeline",
+      "status": "failed",
+      "elapsed_ms": 1583,
+      "number_checks": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        }
+      ],
+      "clarification_status_matches": false
+    },
+    {
+      "task_id": "de-cn-tea-injection",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 2692,
+      "number_checks": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "gb-tea-injection",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3042,
+      "number_checks": [
+        {
+          "citation": "f4f962e334b6f25e4008:E0017",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "gb-tea-injection",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 4356,
+      "number_checks": [
+        {
+          "citation": "f4f962e334b6f25e4008:E0017",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-scope",
+      "group": "pipeline",
+      "status": "clarification",
+      "elapsed_ms": 1177,
+      "number_checks": [],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-scope",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 2877,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "ca-cocoa-role",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3097,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "ca-cocoa-role",
+      "group": "pipeline",
+      "status": "clarification",
+      "elapsed_ms": 2180,
+      "number_checks": [],
+      "clarification_status_matches": false
+    },
+    {
+      "task_id": "cn-cars-windows",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 5360,
+      "number_checks": [
+        {
+          "citation": "1b503fb4d1956d1c688b:E0010",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        },
+        {
+          "citation": "1b022a510c9e80d1d5f3:E0009",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "cn-cars-windows",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 4312,
+      "number_checks": [
+        {
+          "citation": "1b503fb4d1956d1c688b:E0010",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        },
+        {
+          "citation": "1b022a510c9e80d1d5f3:E0009",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "de-cn-tea-role",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 2664,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "de-cn-tea-role",
+      "group": "pipeline",
+      "status": "clarification",
+      "elapsed_ms": 1995,
+      "number_checks": [],
+      "clarification_status_matches": false
+    },
+    {
+      "task_id": "ca-cocoa-windows",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 3538,
+      "number_checks": [
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        },
+        {
+          "citation": "2bdd1d98893f3f0b2d4a:E0129",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-windows",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 2992,
+      "number_checks": [
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        },
+        {
+          "citation": "2bdd1d98893f3f0b2d4a:E0129",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "de-cn-tea-scope",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 2715,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "de-cn-tea-scope",
+      "group": "pipeline",
+      "status": "clarification",
+      "elapsed_ms": 1339,
+      "number_checks": [],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "gb-tea-causal",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 5282,
+      "number_checks": [],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "gb-tea-causal",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3920,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "export-coffee-role",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3024,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "export-coffee-role",
+      "group": "pipeline",
+      "status": "clarification",
+      "elapsed_ms": 1864,
+      "number_checks": [],
+      "clarification_status_matches": false
+    },
+    {
+      "task_id": "cn-cars-injection",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 4997,
+      "number_checks": [
+        {
+          "citation": "1b503fb4d1956d1c688b:E0010",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "cn-cars-injection",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3285,
+      "number_checks": [
+        {
+          "citation": "1b503fb4d1956d1c688b:E0010",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "de-cn-tea-causal",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3156,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "de-cn-tea-causal",
+      "group": "pipeline",
+      "status": "failed",
+      "elapsed_ms": 2001,
+      "number_checks": [],
+      "clarification_status_matches": false
+    },
+    {
+      "task_id": "gb-tea-windows",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 5161,
+      "number_checks": [
+        {
+          "citation": "f4f962e334b6f25e4008:E0017",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        },
+        {
+          "citation": "91431b94242b7e0b896c:E0013",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "gb-tea-windows",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 2902,
+      "number_checks": [
+        {
+          "citation": "f4f962e334b6f25e4008:E0017",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        },
+        {
+          "citation": "91431b94242b7e0b896c:E0013",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "gb-tea-role",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3535,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "gb-tea-role",
+      "group": "pipeline",
+      "status": "clarification",
+      "elapsed_ms": 2313,
+      "number_checks": [],
+      "clarification_status_matches": false
+    },
+    {
+      "task_id": "us-coffee-scope",
+      "group": "pipeline",
+      "status": "clarification",
+      "elapsed_ms": 1374,
+      "number_checks": [],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "us-coffee-scope",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3183,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "export-coffee-scope",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3627,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "export-coffee-scope",
+      "group": "pipeline",
+      "status": "clarification",
+      "elapsed_ms": 1415,
+      "number_checks": [],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "cn-cars-causal",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 5493,
+      "number_checks": [],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "cn-cars-causal",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3883,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "de-cn-tea-numeric",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3280,
+      "number_checks": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "base",
+          "present_and_correct": true
+        },
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "end",
+          "present_and_correct": true
+        },
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "de-cn-tea-numeric",
+      "group": "pipeline",
+      "status": "failed",
+      "elapsed_ms": 1674,
+      "number_checks": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "base",
+          "present_and_correct": false
+        },
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "end",
+          "present_and_correct": false
+        },
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        }
+      ],
+      "clarification_status_matches": false
+    },
+    {
+      "task_id": "de-cn-tea-windows",
+      "group": "pipeline",
+      "status": "failed",
+      "elapsed_ms": 1449,
+      "number_checks": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        },
+        {
+          "citation": "16f8f02b52b1b3031699:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        }
+      ],
+      "clarification_status_matches": false
+    },
+    {
+      "task_id": "de-cn-tea-windows",
+      "group": "fixed_evidence",
+      "status": "failed",
+      "elapsed_ms": 4449,
+      "number_checks": [
+        {
+          "citation": "9a416c45ef78cc64e9a1:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        },
+        {
+          "citation": "16f8f02b52b1b3031699:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "export-coffee-windows",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3233,
+      "number_checks": [
+        {
+          "citation": "4f8c7448e008c780f1e8:E0001",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0003",
+          "field": "growth_percent",
+          "present_and_correct": false
+        },
+        {
+          "citation": "dcc9c921ef01df495a04:E0001",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "dcc9c921ef01df495a04:E0002",
+          "field": "growth_percent",
+          "present_and_correct": false
+        },
+        {
+          "citation": "dcc9c921ef01df495a04:E0003",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "export-coffee-windows",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 5001,
+      "number_checks": [
+        {
+          "citation": "4f8c7448e008c780f1e8:E0001",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "4f8c7448e008c780f1e8:E0003",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "dcc9c921ef01df495a04:E0001",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "dcc9c921ef01df495a04:E0002",
+          "field": "growth_percent",
+          "present_and_correct": true
+        },
+        {
+          "citation": "dcc9c921ef01df495a04:E0003",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "gb-tea-scope",
+      "group": "pipeline",
+      "status": "clarification",
+      "elapsed_ms": 1328,
+      "number_checks": [],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "gb-tea-scope",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3888,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "us-coffee-injection",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3444,
+      "number_checks": [
+        {
+          "citation": "5f67a2fff44e7c6bfc82:E0015",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "us-coffee-injection",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 4194,
+      "number_checks": [
+        {
+          "citation": "5f67a2fff44e7c6bfc82:E0015",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "gb-tea-numeric",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 4708,
+      "number_checks": [
+        {
+          "citation": "f4f962e334b6f25e4008:E0017",
+          "field": "x0",
+          "present_and_correct": true
+        },
+        {
+          "citation": "f4f962e334b6f25e4008:E0017",
+          "field": "x1",
+          "present_and_correct": true
+        },
+        {
+          "citation": "f4f962e334b6f25e4008:E0017",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "gb-tea-numeric",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3526,
+      "number_checks": [
+        {
+          "citation": "f4f962e334b6f25e4008:E0017",
+          "field": "x0",
+          "present_and_correct": true
+        },
+        {
+          "citation": "f4f962e334b6f25e4008:E0017",
+          "field": "x1",
+          "present_and_correct": true
+        },
+        {
+          "citation": "f4f962e334b6f25e4008:E0017",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "ca-cocoa-injection",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 2868,
+      "number_checks": [
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "ca-cocoa-injection",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 4074,
+      "number_checks": [
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "us-coffee-role",
+      "group": "pipeline",
+      "status": "clarification",
+      "elapsed_ms": 2136,
+      "number_checks": [],
+      "clarification_status_matches": false
+    },
+    {
+      "task_id": "us-coffee-role",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3483,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "us-coffee-causal",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3244,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "us-coffee-causal",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 5044,
+      "number_checks": [],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-numeric",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 4232,
+      "number_checks": [
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "x0",
+          "present_and_correct": true
+        },
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "x1",
+          "present_and_correct": true
+        },
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-numeric",
+      "group": "fixed_evidence",
+      "status": "failed",
+      "elapsed_ms": 2598,
+      "number_checks": [
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "x0",
+          "present_and_correct": false
+        },
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "x1",
+          "present_and_correct": false
+        },
+        {
+          "citation": "ea45bf60612be73a074f:E0143",
+          "field": "growth_percent",
+          "present_and_correct": false
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "cn-cars-scope",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3938,
+      "number_checks": [],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "cn-cars-scope",
+      "group": "pipeline",
+      "status": "clarification",
+      "elapsed_ms": 1331,
+      "number_checks": [],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "us-coffee-numeric",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 5591,
+      "number_checks": [
+        {
+          "citation": "5f67a2fff44e7c6bfc82:E0015",
+          "field": "x0",
+          "present_and_correct": true
+        },
+        {
+          "citation": "5f67a2fff44e7c6bfc82:E0015",
+          "field": "x1",
+          "present_and_correct": true
+        },
+        {
+          "citation": "5f67a2fff44e7c6bfc82:E0015",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "us-coffee-numeric",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3649,
+      "number_checks": [
+        {
+          "citation": "5f67a2fff44e7c6bfc82:E0015",
+          "field": "x0",
+          "present_and_correct": true
+        },
+        {
+          "citation": "5f67a2fff44e7c6bfc82:E0015",
+          "field": "x1",
+          "present_and_correct": true
+        },
+        {
+          "citation": "5f67a2fff44e7c6bfc82:E0015",
+          "field": "growth_percent",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "us-coffee-windows",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3565,
+      "number_checks": [
+        {
+          "citation": "5f67a2fff44e7c6bfc82:E0015",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        },
+        {
+          "citation": "59cded8ddfc6601d97df:E0013",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": null
+    },
+    {
+      "task_id": "us-coffee-windows",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 4387,
+      "number_checks": [
+        {
+          "citation": "5f67a2fff44e7c6bfc82:E0015",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        },
+        {
+          "citation": "59cded8ddfc6601d97df:E0013",
+          "field": "share_change_pp",
+          "present_and_correct": true
+        }
+      ],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-causal",
+      "group": "pipeline",
+      "status": "answered",
+      "elapsed_ms": 4840,
+      "number_checks": [],
+      "clarification_status_matches": true
+    },
+    {
+      "task_id": "ca-cocoa-causal",
+      "group": "fixed_evidence",
+      "status": "answered",
+      "elapsed_ms": 3282,
+      "number_checks": [],
+      "clarification_status_matches": null
+    }
+  ],
+  "semantic_review": "pending_independent_human_review",
+  "budget": {
+    "limit_usd": 2.0,
+    "estimated_usd": 0.10264739999999994,
+    "requests": 83,
+    "input_usd_per_million": 0.3,
+    "output_usd_per_million": 1.2,
+    "price_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "note": "按2026-10-19 Flash高峰公布价估算；不是服务商账单保证。未知用量按保守预留值计入。"
+  },
+  "finished_at": "2026-10-19T02:49:07.163435+00:00",
+  "totals": {
+    "pipeline": {
+      "attempts": 33,
+      "protocol_failures": 4,
+      "required_numeric_items": 42,
+      "numeric_items_present_and_correct": 36,
+      "human_semantic_reviews_completed": 0
+    },
+    "fixed_evidence": {
+      "attempts": 33,
+      "protocol_failures": 2,
+      "required_numeric_items": 42,
+      "numeric_items_present_and_correct": 35,
+      "human_semantic_reviews_completed": 0
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "built_at": "2026-10-18T15:26:34.116517+00:00",
+  "main_analysis_id": "34f5d85bad4f7888dbd7",
+  "data_sha256": "ea43cb7434ed214df6443682975026e5c0c44b999c9f286475e06419c8d57d93",
+  "pilot_answers_sha256": "b5999a044aac79027fd8b4ec33bfdf66009c1a98c0fa45c2f23eadefdd8426c1",
+  "artifacts": {
+    "AI预实验报告.html": "74b9dd86e8d9d6c905da2c59c97122f5142adea67460668a79462028663fa4af",
+    "AI预实验报告.md": "c18e04dfe5d09854f26005b5481d980319f40b0209801e96e7b2a950ddc7a0b1",
+    "figures/01-金额与份额.png": "3664a8bde5ad6938f9cf2a08a7c66338ec5aa58d80ce357ebea4ed3d3769ae80",
+    "figures/01-金额与份额.svg": "1781effe0fa9031b034e58765fd89209c795098496824b9d1fe38424a83ce61d",
+    "figures/02-对称分解.png": "4b324bf4c06db29b0a930b641211b6b373bfb17dbb980e170a22d4d618c41ca9",
+    "figures/02-对称分解.svg": "737840089bed576d83f0582f91a0a34c0bf72967bf03f821cccf44dbf24d5e96",
+    "figures/03-窗口敏感性.png": "6e6968c31eb57d98c5ddd7c4bb5bc5969e6fcbf08b591ff114d94917cf1f0e70",
+    "figures/03-窗口敏感性.svg": "411e9dbcb1bfff70b3b1a6cebc25423e480bd8f89faaf343afa3421230d91612",
+    "主案例分析报告.html": "2ef7de75ffd68345463ffb70f9c2a2bbfd532354cdd2294988e189358d5113f4",
+    "主案例分析报告.md": "afdf6229b33ed00f64c4d33a40350ee0167d1ad5b1d19325996fa2b6ddacc478",
+    "应用保存笔记.txt": "06a2b4687b3bd4e664b1790bc8d5b3ad16602deb71070e27db10f688f50e9e23"
+  }
+}

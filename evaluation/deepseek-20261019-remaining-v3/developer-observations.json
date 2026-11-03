@@ -1,0 +1,48 @@
+{
+  "review_type": "developer_self_review_not_independent",
+  "independent_reviews_completed": 0,
+  "live_requests": 0,
+  "findings": [
+    {
+      "kind": "unnecessary_clarification",
+      "task_ids": [
+        "gb-tea-role",
+        "us-coffee-role",
+        "cn-cars-role",
+        "ca-cocoa-role",
+        "export-coffee-role",
+        "de-cn-tea-role"
+      ],
+      "group": "pipeline",
+      "issue": "六道说明当前角色的问题均被要求澄清。原问题只要求说明已有范围，模型把未选择具体伙伴当成必须补充条件。原文保留，不能计为任务完成。"
+    },
+    {
+      "kind": "inapplicable_parameters",
+      "task_ids": [
+        "de-cn-tea-injection",
+        "de-cn-tea-numeric",
+        "de-cn-tea-windows",
+        "de-cn-tea-causal"
+      ],
+      "group": "pipeline",
+      "issue": "双边模式已固定报告国和伙伴，模型仍传入只允许在目标市场模式使用的partners或partner工具，四次被确定性校验阻止。"
+    },
+    {
+      "kind": "invalid_numeric_field",
+      "task_ids": [
+        "ca-cocoa-numeric",
+        "de-cn-tea-windows"
+      ],
+      "group": "fixed_evidence",
+      "issue": "分别使用share0/share1替代实际证据操作数s0/s1，以及使用operands.base等带路径字段而非base，整份回答被拒绝；首次原文保留。"
+    },
+    {
+      "kind": "incomplete_answer",
+      "task_ids": [
+        "export-coffee-windows"
+      ],
+      "group": "fixed_evidence",
+      "issue": "三国乘两个窗口应覆盖六组增长率，实际四条论断只覆盖四组，漏掉2019基期英国与2022基期德国。四条论断上限允许同一论断绑定多组数值，但模型未组合，结构校验也未核验所需覆盖。"
+    }
+  ]
+}

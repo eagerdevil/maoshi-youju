@@ -1,0 +1,16 @@
+{
+  "files": {
+    "evaluation/deepseek-20261019-v1/tasks.json": "50b4531718c521d395f4a5a8e3286ae3fe8fd7fd9d928248644d0c31c27f6af9",
+    "evaluation/deepseek-20261019-v1/reference.json": "a5c1755b4a822583db703e68bd460614cc75a3cd6dc4a0f3b702d05310c421ce",
+    "evaluation/deepseek-20261019-v1/protocol.json": "db70c8c7327f248e48a9f9e229126fcf3d10057a9a09ef6fede2549854c0d0ed",
+    "backend/services.py": "8ee2aeb44a16cf24bc16b0cf2e1eb4267ee5574f0fda63a759a08449137fd2a1",
+    "backend/evidence_tools.py": "e22faea6c607b8cd7cea7c0e04128874e974398f8a809e2c8c99241ddb800b24",
+    "backend/model_runtime.py": "84fd2dad922ad4c999e2a517a10c2b7291401a1fda7af2fdc3b1a5b3ff69dd66",
+    "backend/analysis.py": "5b6479fd24a635fef0afd1f1728b0c0557cd24c3490ebb9b14728be0a541e8d7",
+    "backend/data.py": "4e052278aedf807092e937cd03fed7315bbbabd7613ccc84f63be3fb83da3d43",
+    "backend/__init__.py": "9ac303edd026f402fe18c8f7036706425f34080ad228c05b306055736470d2d1",
+    "data/processed/wits-core.csv": "ea43cb7434ed214df6443682975026e5c0c44b999c9f286475e06419c8d57d93",
+    "data/processed/wits-canada-cocoa.csv": "2ae0866070cdba80e523fb1774b8ba68fd23f288a47e2dc2294e6f240d3072cc"
+  },
+  "note": "冻结后修改提示或题目须新建版本；原首次结果保留。"
+}
